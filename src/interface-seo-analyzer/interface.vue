@@ -295,10 +295,10 @@ function onChangeKeywords() {
 watch([settings, keywords], function([newSettings, newKeywords]) {
 	let data = merge({...item.value}, newSettings, {meta_keywords: newKeywords})
 
-	if( !!isSEOAdvanced.value ) {
-		emit('input', data);
-		return
-	}
+	// if( !!isSEOAdvanced.value ) {
+	// 	emit('input', data);
+	// 	return
+	// }
 
 	const {
 		id,
