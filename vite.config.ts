@@ -50,7 +50,10 @@ export default defineConfig(({command, mode}) => {
             vue(),
             UnoCSS(),
             cssInjectedByJsPlugin(),
-        ]
+        ],
+        define: {
+            "process.env.NODE_ENV": `"${process.env.NODE_ENV}"`,
+        },
     }
 })
 

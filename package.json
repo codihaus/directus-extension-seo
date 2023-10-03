@@ -1,6 +1,6 @@
 {
 	"name": "directus-extension-seo",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"type": "module",
 	"directus:extension": {
 		"host": "^10.1.9",
@@ -57,7 +57,11 @@
 			}
 		]
 	},
-	"description": "Please enter a description for your extension",
+	"description": "Directus SEO Extension enhance Directus with powerful SEO scoring and validator and AI SEO from ChatGPT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/codihaus/directus-extension-seo"
+	},
 	"icon": "extension",
 	"keywords": [
 		"directus",
