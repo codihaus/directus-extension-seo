@@ -1,52 +1,43 @@
 <template>
 	<div>
-
-		<!-- <template v-if="isSEOAdvanced">
-			<pre>item: {{ item }}</pre>
-			<pre>settings:{{ settings }}</pre>
-			<pre>values: {{ values }}</pre>
-			<v-form v-model="settings" :fields="SEOAdvancedFields" :primary-key="0" :initial-values="item" class="seo-setting-form"></v-form>
-		</template> -->
-		<!-- <template v-else> -->
-			<v-tabs v-model="currentTab" class="analyzer">
-				<v-tab :value="0" v-if="!isSEOAdvanced" class="px-0"><v-button :secondary="! currentTab.includes(0)">{{ `Readability` }}</v-button></v-tab>
-				<v-tab :value="1" class="px-0"><v-button :secondary="! currentTab.includes(1)">{{ `General` }}</v-button></v-tab>
-				<v-tab :value="2" class="px-0"><v-button :secondary="! currentTab.includes(2)">{{ `Social` }}</v-button></v-tab>
-			</v-tabs>
-			<v-tabs-items v-model="currentTab" class="mt-5">
-				<v-tab-item v-if="!isSEOAdvanced" :value="0">
-					<content-analyzer v-model="keywords" @update:model-value="onChangeKeywords" :result-manager="seoStore.resultManager"/>
-				</v-tab-item>
-				<v-tab-item :value="1">
-					<v-form v-model="settings" :initial-values="item" :primary-key="value" :fields="generalFields"></v-form>
-				</v-tab-item>
-				<v-tab-item :value="2">
-					<v-tabs v-model="socialTabs">
-						<v-tab><v-icon name="facebook"></v-icon> Facebook</v-tab>
-						<v-tab><v-icon name="twitter"></v-icon> Twitter</v-tab>
-					</v-tabs>
-					<v-tabs-items v-model="socialTabs">
-						<v-tab-item>
-							<social-preview
-								:title="settings?.facebook_title || values?.[map_title]"
-								:description="settings?.facebook_description"
-								:image="settings?.facebook_image || values?.[map_thumnail]"
-							/>
-							<v-form v-model="settings" :initial-values="item" :primary-key="value" :fields="facebookFields"></v-form>
-						</v-tab-item>
-						<v-tab-item>
-							<social-preview
-								:title="settings?.twitter_title || values?.[map_title]"
-								:description="settings?.twitter_description"
-								:image="settings?.twitter_image || values?.[map_thumnail]"
-								type="twitter"
-							/>
-							<v-form v-model="settings" :initial-values="item" :primary-key="value" :fields="twitterFields"></v-form>
-						</v-tab-item>
-					</v-tabs-items>
-				</v-tab-item>
-			</v-tabs-items>
-		<!-- </template> -->
+		<v-tabs v-model="currentTab" class="analyzer">
+			<v-tab :value="0" v-if="!isSEOAdvanced" class="px-0"><v-button :secondary="! currentTab.includes(0)">{{ `Readability` }}</v-button></v-tab>
+			<v-tab :value="1" class="px-0"><v-button :secondary="! currentTab.includes(1)">{{ `General` }}</v-button></v-tab>
+			<v-tab :value="2" class="px-0"><v-button :secondary="! currentTab.includes(2)">{{ `Social` }}</v-button></v-tab>
+		</v-tabs>
+		<v-tabs-items v-model="currentTab" class="mt-5">
+			<v-tab-item v-if="!isSEOAdvanced" :value="0">
+				<content-analyzer v-model="keywords" @update:model-value="onChangeKeywords" :result-manager="seoStore.resultManager"/>
+			</v-tab-item>
+			<v-tab-item :value="1">
+				<v-form v-model="settings" :initial-values="item" :primary-key="value" :fields="generalFields"></v-form>
+			</v-tab-item>
+			<v-tab-item :value="2">
+				<v-tabs v-model="socialTabs">
+					<v-tab><v-icon name="facebook"></v-icon> Facebook</v-tab>
+					<v-tab><v-icon name="twitter"></v-icon> Twitter</v-tab>
+				</v-tabs>
+				<v-tabs-items v-model="socialTabs">
+					<v-tab-item>
+						<social-preview
+							:title="settings?.facebook_title || values?.[map_title]"
+							:description="settings?.facebook_description"
+							:image="settings?.facebook_image || values?.[map_thumnail]"
+						/>
+						<v-form v-model="settings" :initial-values="item" :primary-key="value" :fields="facebookFields"></v-form>
+					</v-tab-item>
+					<v-tab-item>
+						<social-preview
+							:title="settings?.twitter_title || values?.[map_title]"
+							:description="settings?.twitter_description"
+							:image="settings?.twitter_image || values?.[map_thumnail]"
+							type="twitter"
+						/>
+						<v-form v-model="settings" :initial-values="item" :primary-key="value" :fields="twitterFields"></v-form>
+					</v-tab-item>
+				</v-tabs-items>
+			</v-tab-item>
+		</v-tabs-items>
 	</div>
 </template>
 
@@ -350,10 +341,10 @@ const getSettingData = async(id) => {
 			let data = res?.data?.data
 			console.log(data);
 
-			if( !!isSEOAdvanced.value ) {
-				item.value = data
-				return
-			}
+			// if( !!isSEOAdvanced.value ) {
+			// 	item.value = data
+			// 	return
+			// }
 			
 			const {
 				id,
@@ -374,6 +365,9 @@ const getSettingData = async(id) => {
 				twitter_image,
 				meta_keywords,
 				...meta_social
+			}
+			if( !!isSEOAdvanced.value ) {
+				return
 			}
 			keywords.value = meta_keywords
 			seoStore.setSelectedKeyword(meta_keywords?.[0])
