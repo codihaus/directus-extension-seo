@@ -18,6 +18,7 @@ export const navigatorItems = [
                 icon: 'public',
                 name: "Local SEO",
                 to: `/seo-settings/local-seo`,
+                hidden: true,
             },
         ]
     },
@@ -25,6 +26,7 @@ export const navigatorItems = [
         icon: 'manage_accounts',
         name: "Advanced",
         to: `/seo-settings/advanced`,
+        hidden: true,
         childrens: [
             {
                 icon: 'public',
@@ -43,5 +45,6 @@ export const navigatorItems = [
         icon: 'start',
         name: "Redirection",
         to: `/seo-settings/redirection`,
+        hidden: true
     }
 ]

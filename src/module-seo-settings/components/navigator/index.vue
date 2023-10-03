@@ -3,6 +3,7 @@
         <v-list v-model="openDetail">
             <v-list-group
                 v-for="item, index in items"
+                :class="{'hidden': item?.hidden }"
             >
                 <template #activator>
                     <div class="flex items-center text-slate-700 mr-auto">
@@ -18,6 +19,7 @@
                     v-for="child, childIndex in item?.childrens"
                     :active="route.fullPath === child.to"
                     :key="child.to" :to="child.to"
+                    :class="{'hidden': child?.hidden }"
                 >
                     <v-list-item-icon>
                         <v-icon :name="child?.icon" />
