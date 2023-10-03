@@ -1,6 +1,6 @@
 {
 	"name": "directus-extension-seo",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"type": "module",
 	"directus:extension": {
 		"host": "^10.1.9",
