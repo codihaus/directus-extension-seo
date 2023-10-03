@@ -1,0 +1,10 @@
+:deep() {
+    #main-content {
+        background-color: var(--bg-main-content, #F8FAFC);
+        @media (min-width: 600px) {
+            .header-bar {
+                margin-top: 0;
+            }
+        }
+    }
+}
