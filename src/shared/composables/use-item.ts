@@ -1,10 +1,13 @@
 import { Ref, computed, onMounted, ref } from "vue"
-import { useApi } from "@directus/composables"
+import { useApi, useStores } from "@directus/composables"
 import merge from 'lodash/merge'
 import useLanguage from "./use-languages"
 import { COLLECTION } from "../constants"
 
 export default function useItem(collection: string = '', key: string = '', isMultilang: boolean = true, defaultValue: any = {}) {
+    const { useNotificationsStore } = useStores()
+    const notify = useNotificationsStore()
+    
     const settings = ref(defaultValue)
     const item = ref(defaultValue)
     const isNew = ref(false)
@@ -65,11 +68,20 @@ export default function useItem(collection: string = '', key: string = '', isMul
 			} else {
 				response = await api.patch(`${endPoint}/${key}`, {...saveData.value, ...data});
 			}
+            notify.add({
+                type: 'success',
+                title: 'Saved Successfully!'
+            })
 
 			settings.value = defaultValue;
 			return response.data.data;
 		} catch (err: any) {
 			// saveErrorHandler(err);
+            console.log(error)
+            notify.add({
+                type: 'error',
+                title: 'Save Error'
+            })
 		} finally {
 			saving.value = false;
 		}
