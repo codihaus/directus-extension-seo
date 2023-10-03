@@ -53,17 +53,17 @@ export default function useItem(collection: string = '', key: string = '', isMul
 		}
     }
 
-    async function save() {
+    async function save(data: any = {}) {
         saving.value = true;
 
         try {
 			let response;
 
 			if (isNew.value === true) {
-				response = await api.post(endPoint, {key, ...saveData.value});
+				response = await api.post(endPoint, {key, ...saveData.value, ...data});
 
 			} else {
-				response = await api.patch(`${endPoint}/${key}`, saveData.value);
+				response = await api.patch(`${endPoint}/${key}`, {...saveData.value, ...data});
 			}
 
 			settings.value = defaultValue;

@@ -202,8 +202,9 @@ const setup = async() => {
             if( ! res.data.data ) {
             }
         })
-
-        await api.post(`/relations`, relationsSeoDetails)
+        for await (const relation of relationsSeoDetails) {
+            await api.post('/relations', relation)
+        }
     }
     loading.value = false
     buttonText.value = 'Next step'

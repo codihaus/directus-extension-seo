@@ -111,7 +111,7 @@ onMounted(async () => {
 })
 
 const onSave = async() => {
-    save()
+    save({collection: collection.value})
     const field = await api.get(`/fields/${collection.value}/seo_detail`)
     .then(({data}) => data?.data)
     .catch(async() => {
