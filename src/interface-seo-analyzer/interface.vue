@@ -49,6 +49,7 @@ import { useSEOStore } from './stores/useSEOStore'
 import debounce from 'lodash/debounce';
 import isNumber from 'lodash/isNumber';
 import { storeToRefs } from 'pinia';
+import { useRoute } from 'vue-router';
 import SidebarSEO from './components/sidebar-seo.vue'
 import ContentAnalyzer from './components/content-analyzer.vue'
 import SocialPreview from './components/social-preview.vue'
@@ -84,8 +85,9 @@ const props = withDefaults(
 const emit = defineEmits(['input']);
 const values = inject('values', ref<Record<string, any>>({}));
 const stores = useStores();
-const { collection, field, isSEOAdvanced } = toRefs(props);
+const { collection, field, isSEOAdvanced, primaryKey } = toRefs(props);
 const api = useApi()
+const route = useRoute()
 
 const currentTab = ref()
 
@@ -107,6 +109,11 @@ const settings = ref<seoSetting>({})
 const item = ref<seoSetting>({})
 
 // const SEOAdvancedFields = SEOAdvancedField(collection.value)
+const metaTemplateCollection = isSEOAdvanced.value ?
+	(route.params?.primaryKey || route.params?.collection) :
+	(values?.seo_advanced_setting_collection ||
+	values?.collection ||
+	collection.value)
 
 
 const socialTabs = ref()
@@ -153,13 +160,13 @@ const generalFields = ref([
 			width: "full",
 			interface: "meta-template",
 			options: {
-				collectionName: collection.value,
+				collectionName: metaTemplateCollection,
 				inject: {
 					fields: [
 						{
 							field: "sep",
 							name: "Seperator",
-							collection: collection.value,
+							collection: metaTemplateCollection,
 							type: "string",
 						},
 					],
@@ -175,13 +182,13 @@ const generalFields = ref([
 			width: "full",
 			interface: "meta-template",
 			options: {
-				collectionName: collection.value,
+				collectionName: metaTemplateCollection,
 				inject: {
 					fields: [
 						{
 							field: "sep",
 							name: "Seperator",
-							collection: collection.value,
+							collection: metaTemplateCollection,
 							type: "string",
 						},
 					],
@@ -211,9 +218,19 @@ const facebookFields = ref([
 		type: "string",
 		meta: {
 			width: "full",
-			interface: "input",
+			interface: "meta-template",
 			options: {
-				placeholder: ""
+				collectionName: metaTemplateCollection,
+				inject: {
+					fields: [
+						{
+							field: "sep",
+							name: "Seperator",
+							collection: metaTemplateCollection,
+							type: "string",
+						},
+					],
+				},
 			},
 		}
 	},
@@ -223,9 +240,19 @@ const facebookFields = ref([
 		type: "string",
 		meta: {
 			width: "full",
-			interface: "input",
+			interface: "meta-template",
 			options: {
-				placeholder: ""
+				collectionName: metaTemplateCollection,
+				inject: {
+					fields: [
+						{
+							field: "sep",
+							name: "Seperator",
+							collection: metaTemplateCollection,
+							type: "string",
+						},
+					],
+				},
 			},
 		}
 	},
@@ -251,9 +278,19 @@ const twitterFields = ref([
 		type: "string",
 		meta: {
 			width: "full",
-			interface: "input",
+			interface: "meta-template",
 			options: {
-				placeholder: ""
+				collectionName: metaTemplateCollection,
+				inject: {
+					fields: [
+						{
+							field: "sep",
+							name: "Seperator",
+							collection: metaTemplateCollection,
+							type: "string",
+						},
+					],
+				},
 			},
 		}
 	},
@@ -263,9 +300,19 @@ const twitterFields = ref([
 		type: "string",
 		meta: {
 			width: "full",
-			interface: "input",
+			interface: "meta-template",
 			options: {
-				placeholder: ""
+				collectionName: metaTemplateCollection,
+				inject: {
+					fields: [
+						{
+							field: "sep",
+							name: "Seperator",
+							collection: metaTemplateCollection,
+							type: "string",
+						},
+					],
+				},
 			},
 		}
 	},
