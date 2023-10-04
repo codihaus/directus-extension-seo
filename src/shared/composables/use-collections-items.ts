@@ -15,7 +15,6 @@ export function useCollectionsItems() {
                 return ! hasTranslation
                 && collection.collection.startsWith('directus_') === false
                 && collection.collection.startsWith('seo_') === false
-                && collection.collection.startsWith('module_seo_') === false
                 && collection.collection.startsWith('menu') === false
                 && collection.collection !== 'languages'
             })

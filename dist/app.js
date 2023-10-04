@@ -18180,7 +18180,7 @@ function Za(e = "", n = "", i = !0, a = {}) {
     _.value = !0;
     try {
       let E;
-      return h.value === !0 ? E = await C.post(L, { key: n, ...T.value, ...b }) : E = await C.patch(`${L}/${n}`, { ...T.value, ...b }), u.add({
+      return h.value === !0 ? E = await C.post(L, { key: n, ...T.value, ...b }) : (E = await C.patch(`${L}/${n}`, { ...T.value, ...b }), h.value = !1), u.add({
         type: "success",
         title: "Saved Successfully!"
       }), c.value = a, E.data.data;
@@ -21836,7 +21836,7 @@ const rje = /* @__PURE__ */ ut(ije, [["__scopeId", "data-v-8e0c4a8a"]]), d1 = ()
 };
 function aje() {
   const e = An(), { useCollectionsStore: n, useFieldsStore: i } = e, a = n(), o = i(), u = Le(() => [
-    ...a.collections.filter((h) => !(o.getFieldsForCollection(h.collection).filter((_) => _.meta.interface === "translations").length > 0) && h.collection.startsWith("directus_") === !1 && h.collection.startsWith("seo_") === !1 && h.collection.startsWith("module_seo_") === !1 && h.collection.startsWith("menu") === !1 && h.collection !== "languages")
+    ...a.collections.filter((h) => !(o.getFieldsForCollection(h.collection).filter((_) => _.meta.interface === "translations").length > 0) && h.collection.startsWith("directus_") === !1 && h.collection.startsWith("seo_") === !1 && h.collection.startsWith("menu") === !1 && h.collection !== "languages")
   ]), c = Le(() => u.value.map((d) => ({
     text: d.name,
     value: d.collection,

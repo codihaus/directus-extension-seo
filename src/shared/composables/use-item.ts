@@ -67,6 +67,7 @@ export default function useItem(collection: string = '', key: string = '', isMul
 
 			} else {
 				response = await api.patch(`${endPoint}/${key}`, {...saveData.value, ...data});
+                isNew.value = false
 			}
             notify.add({
                 type: 'success',
