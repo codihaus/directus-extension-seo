@@ -84,7 +84,10 @@ const props = withDefaults(
 
 const emit = defineEmits(['input']);
 const values = inject('values', ref<Record<string, any>>({}));
-const stores = useStores();
+const { useCollectionsStore } = useStores();
+const collectionsStore = useCollectionsStore();
+const isCollectionExist = (collection: string) => collectionsStore.getCollection(collection)
+
 const { collection, field, isSEOAdvanced, primaryKey } = toRefs(props);
 const api = useApi()
 const route = useRoute()
@@ -114,6 +117,8 @@ const metaTemplateCollection = isSEOAdvanced.value ?
 	(values?.seo_advanced_setting_collection ||
 	values?.collection ||
 	collection.value)
+
+const interfaceTemplate = isCollectionExist(metaTemplateCollection) ? 'meta-template' : 'input'
 
 
 const socialTabs = ref()
@@ -158,7 +163,7 @@ const generalFields = ref([
 		type: "string",
 		meta: {
 			width: "full",
-			interface: "meta-template",
+			interface: interfaceTemplate,
 			options: {
 				collectionName: metaTemplateCollection,
 				inject: {
@@ -180,7 +185,7 @@ const generalFields = ref([
 		type: "string",
 		meta: {
 			width: "full",
-			interface: "meta-template",
+			interface: interfaceTemplate,
 			options: {
 				collectionName: metaTemplateCollection,
 				inject: {
@@ -218,7 +223,7 @@ const facebookFields = ref([
 		type: "string",
 		meta: {
 			width: "full",
-			interface: "meta-template",
+			interface: interfaceTemplate,
 			options: {
 				collectionName: metaTemplateCollection,
 				inject: {
@@ -240,7 +245,7 @@ const facebookFields = ref([
 		type: "string",
 		meta: {
 			width: "full",
-			interface: "meta-template",
+			interface: interfaceTemplate,
 			options: {
 				collectionName: metaTemplateCollection,
 				inject: {
@@ -278,7 +283,7 @@ const twitterFields = ref([
 		type: "string",
 		meta: {
 			width: "full",
-			interface: "meta-template",
+			interface: interfaceTemplate,
 			options: {
 				collectionName: metaTemplateCollection,
 				inject: {
@@ -300,7 +305,7 @@ const twitterFields = ref([
 		type: "string",
 		meta: {
 			width: "full",
-			interface: "meta-template",
+			interface: interfaceTemplate,
 			options: {
 				collectionName: metaTemplateCollection,
 				inject: {
