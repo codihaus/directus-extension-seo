@@ -17,9 +17,19 @@ export const collectionSeoAdvanced = {
             },
             schema: {
                 is_primary_key: true,
-                length: 255,
                 has_auto_increment: false,
             },
+        },
+        {
+            field: "is_custom",
+            type: "boolean",
+            schema: {},
+            meta: {
+                interface: "boolean",
+                special: ["cast-boolean"],
+                hidden: true,
+            },
+            collection: COLLECTION.seo_advanced,
         },
     ],
     schema: {},

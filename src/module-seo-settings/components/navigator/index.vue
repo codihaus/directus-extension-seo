@@ -17,7 +17,6 @@
                 </template>
                 <v-list-item
                     v-for="child, childIndex in item?.childrens"
-                    :active="route.fullPath === child.to"
                     :key="child.to" :to="child.to"
                     :class="{'hidden': child?.hidden }"
                 >

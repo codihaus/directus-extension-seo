@@ -1,4 +1,5 @@
 import { defineModule } from '@directus/extensions-sdk';
+import RoutePass from '../shared/utils/router-passthrough'
 import SiteBasic from './routes/general/site-basic.vue';
 import LocalSEO from './routes/general/local-seo.vue';
 import TitleMeta from './routes/general/title-meta.vue';
@@ -14,13 +15,20 @@ export default defineModule({
 	routes: [
         {
             name: 'seo-title-meta',
-            path: '',
-            component: TitleMeta,
-        },
-		{
-            name: 'seo-title-meta-detail',
-            path: '/seo-settings/title-meta/:collection',
-            component: TitleMetaDetail,
+            path: '/seo-settings',
+            component: RoutePass,
+            children: [
+                {
+                    name: 'seo-title-meta',
+                    path: '',
+                    component: TitleMeta,
+                },
+                {
+                    name: 'seo-title-meta-detail',
+                    path: 'title-meta/:collection',
+                    component: TitleMetaDetail,
+                },
+            ]
         },
 		{
             name: 'seo-site-basic',

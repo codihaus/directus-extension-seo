@@ -1,9 +1,13 @@
 :deep() {
-    #main-content {
-        background-color: var(--bg-main-content, #F8FAFC);
-        @media (min-width: 600px) {
-            .header-bar {
+    #main-content.content {
+        .header-bar {
+            padding-left: 30px;
+            @media (min-width: 600px) {
                 margin-top: 0;
+                padding-right: 30px;
+                .title-container {
+                    margin-left: 0;
+                }
             }
         }
     }

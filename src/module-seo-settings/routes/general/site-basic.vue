@@ -24,7 +24,7 @@
             <navigator/>
         </template>
         <template #sidebar>
-            <sidebar-detail icon="info_outline" :title="'Information'" close>
+            <sidebar-detail icon="info" :title="'Information'" close>
                 <div class="page-description px-3">
                     <!-- Information -->
                 </div>

@@ -1,28 +1,31 @@
 <template>
-<div class="rounded-t rounded-b border-px border-solid border-slate-300">
+<div class="flex flex-col rounded-t rounded-b border-px border-solid border-slate-300">
     <div class="flex gap-5 px-5 py-6">
         <div class="icon self-center">
-            <v-icon large :name="item.icon" />
+            <v-icon large :name="item?.icon || 'label'" />
         </div>
         <div class="text-slate-900">
             <div class="text-md font-semibold text-slate-900">
-                {{ item.name }}
+                {{ item?.name }}
             </div>
-            <div class="text-sm text-slate-500 mt-1">
-                {{ item.meta.note || '...' }}
+            <div class="text-sm text-slate-500 mt-1 line-clamp-1" :title="item?.meta?.note || '...'">
+                {{ item?.meta?.note || '...' }}
+            </div>
+            <div v-if="item?.translation_collection" class="text-xs text-slate-500 mt-1">
+                Translation collection: {{ item?.translation_collection }}
             </div>
         </div>
     </div>
-    <div class="flex gap-5 px-5 py-4 justify-between bg-slate-100 rounded-b">
+    <div class="flex gap-5 px-5 py-4 justify-between bg-slate-100 rounded-b mt-auto">
         <v-switch
-            :value="item.collection"
+            :value="item?.collection"
             :model-value="modelValue || []"
-            @update:model-value="updateValue($event, item.collection)"
+            @update:model-value="updateValue($event, item?.collection)"
         />
         <v-button
             class="button-setting"
-            :to="`/seo-settings/title-meta/${item.collection}`"
-            :disabled="!modelValue?.includes(item.collection)"
+            :to="`/seo-settings/title-meta/${item?.collection}`"
+            :disabled="!modelValue?.includes(item?.collection)"
             :style="{
                 '--v-button-background-color': '#fff',
                 '--v-button-color': '#070A13',

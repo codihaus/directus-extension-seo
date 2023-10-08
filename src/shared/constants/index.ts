@@ -5,3 +5,7 @@ export const COLLECTION = {
     seo_redirection: 'seo_redirection',
     language: 'languages',
 }
+
+export const FIELDS = {
+    seo_detail: 'seo_detail'
+}

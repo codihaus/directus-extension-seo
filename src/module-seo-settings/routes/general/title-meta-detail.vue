@@ -1,9 +1,9 @@
 <template>
-    <private-view smallHeader title="Title & Meta">
+    <private-view smallHeader>
         <template #title>
             <div>
-                <h1 class="font-semibold text-lg text-slate-900">{{ 'Title & Meta' }}</h1>
-                <div class="text-sm">Choose a collection to setup.</div>
+                <h1 class="font-semibold text-lg text-slate-900">{{ title }}</h1>
+                <div class="text-sm">Setting per collection.</div>
             </div>
         </template>
         <template #actions>
@@ -19,8 +19,9 @@
                 @click="onSave"
                 rounded
 				icon
+                :loading="loading"
 				:secondary="false"
-				:disabled="false"
+				:disabled="loading"
             >
                 <v-icon name="check"></v-icon>
             </v-button>
@@ -29,7 +30,7 @@
             <navigator/>
         </template>
         <template #sidebar>
-            <sidebar-detail icon="info_outline" :title="'Information'" close>
+            <sidebar-detail icon="info" :title="'Information'" close>
                 <div class="page-description px-3">
                     <!-- Information -->
                 </div>
@@ -39,7 +40,8 @@
             <div class="flex gap-4 items-center justify-between mb-5">
                 <v-breadcrumb :items="breadcrumbs"></v-breadcrumb>
             </div>
-            <v-form v-model="mapFieldsSettings" :fields="mapFields" :primary-key="0" :initial-values="field?.meta?.options" class="seo-setting-form"></v-form>
+            <v-form v-if="collection !== '+'" v-model="mapFieldsSettings" :fields="mapFields" :primary-key="0" :initial-values="field?.meta?.options" class="seo-setting-form"></v-form>
+            <v-form v-else v-model="settings" :fields="customSettingFields" :primary-key="0" :initial-values="item" class="seo-setting-form"></v-form>
             <v-form
                 v-model="settings"
                 :collection="COLLECTION.seo_advanced"
@@ -54,12 +56,12 @@
 <script setup lang="ts">
 import { ref, onMounted, computed } from 'vue';
 import { useI18n } from 'vue-i18n';
-import { useRoute } from 'vue-router';
+import { useRoute, useRouter } from 'vue-router';
 import { useApi, useStores } from '@directus/extensions-sdk';
 import { useResetStyle } from '../../../shared/composables/use-reset-style';
 import { useCollectionsItems } from '../../../shared/composables/use-collections-items';
 import useItem from '../../../shared/composables/use-item';
-import { COLLECTION } from '../../../shared/constants';
+import { COLLECTION, FIELDS } from '../../../shared/constants';
 import { getSeoDetailsField, getSeoDetailRelation } from '../setup/fields/seo-detail'
 import useMapFields from '../../composables/use-map-fields'
 import Navigator from '../../components/navigator/index.vue'
@@ -72,7 +74,10 @@ useResetStyle()
 const { t } = useI18n()
 const api = useApi()
 const route = useRoute()
+const router = useRouter()
 const collection = ref(route.params.collection)
+const isNew = computed(() => collection.value === '+')
+const title = computed(() => isNew.value ? 'Add custom settings' : `Title & Meta settings for: ${collection.value}`)
 
 const breadcrumbs = ref([
     {
@@ -94,6 +99,16 @@ const mapFieldsSettings = ref({})
 const { mapFields } = useMapFields(collection.value)
 
 const fields = ref(getFields(collection.value))
+const customSettingFields = ref([
+    {
+        name: "Collection",
+        field: "collection",
+        type: "string",
+        meta: {
+            interface: "input",
+        },
+    },
+])
 
 const {
     settings,
@@ -105,20 +120,35 @@ const {
     save
 } = useItem(COLLECTION.seo_advanced, collection.value, false)
 
-const field = ref()
-onMounted(async () => {
-    field.value = await api.get(`/fields/${collection.value}/${COLLECTION.seo_detail}`).then(({data}) => data?.data)
-})
+const saveAdvancedData = async() => {
+    let customData = {
+        is_custom: isNew.value
+    }
+
+    if( !isNew.value ) {
+        customData.collection = collection.value
+    }
+
+    await save(customData).then((data) => {
+        if( isNew.value ) {
+            router.push(`/seo-settings/title-meta/${data.collection}`)
+        }
+    })
+}
 
 const onSave = async() => {
-    save({collection: collection.value})
-    const field = await api.get(`/fields/${collection.value}/seo_detail`)
+    const saved = await saveAdvancedData()
+    if( isNew.value ) {
+        return
+    }
+
+    const field = await api.get(`/fields/${collection.value}/${FIELDS.seo_detail}`)
     .then(({data}) => data?.data)
     .catch(async() => {
         await api.post(`/fields/${collection.value}`, getSeoDetailsField(collection.value))
         await api.post(`/relations/`, getSeoDetailRelation(collection.value))
     })
-    await api.patch(`/fields/${collection.value}/seo_detail`, merge(field, {meta: {options: mapFieldsSettings.value}}))
+    await api.patch(`/fields/${collection.value}/${FIELDS.seo_detail}`, merge(field, {meta: {options: mapFieldsSettings.value}}))
 }
 
 const onSelectLanguage = (lang) => {
@@ -139,6 +169,21 @@ onMounted(() =>setTimeout(() =>  onSelectLanguage(currentLanguage.value), 500))
 
 <style lang="scss" scoped>
 @import '../../../styles/form.scss';
+:deep() {
+    #main-content.content {
+        .header-bar {
+            padding-left: 30px;
+            @media (min-width: 600px) {
+                margin-top: 0;
+                padding-right: 30px;
+                .title-container {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+
 .language-switcher {
     --v-input-background-color: var(--primary-25);
     --background-input: var(--primary-25);
