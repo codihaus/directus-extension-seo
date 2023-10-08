@@ -135,7 +135,6 @@ const {
     save: saveCustomSettings
 } = useItem(COLLECTION.seo_setting, 'enabled_custom_settings', false, [])
 
-
 const customSettingsCollections = computed(() => customSettings.value.map((collection) => ({collection, name: collection})))
 
 const enableColllection = async(collection, is_custom: boolean = false) => await api.post(`/items/${COLLECTION.seo_advanced}/`, {collection, is_custom})

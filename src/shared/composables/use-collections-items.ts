@@ -61,11 +61,27 @@ export function useCollectionsItems() {
         return collection?.startsWith(startStr) === false
     }
 
+    function getTranslationCollection(collection: string = '') {
+        const relations = relationsStore.getRelationsForCollection(collection)
+        const translationField = fieldsStore.getFieldsForCollection(collection).find((field: any) => field.meta.interface === 'translations')
+
+        if( ! translationField ) {
+            return collection
+        }
+        
+        const relationTranslation = relations.find((relation: any) => relation.meta.one_field === translationField.field)
+        if( !relationTranslation ) {
+            return collection
+        }
+        return relationTranslation.collection
+    }
+
     return {
         collections,
         listTranslationCollections,
         translationCollections,
         collectionsWithoutTranslation,
-        items
+        items,
+        getTranslationCollection
     }
 }

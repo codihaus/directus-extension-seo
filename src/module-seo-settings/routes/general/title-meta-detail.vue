@@ -6,6 +6,19 @@
                 <div class="text-sm">Setting per collection.</div>
             </div>
         </template>
+        <template #title-outer:prepend>
+            <v-button
+                v-tooltip.bottom="t('back')"
+                class="header-icon"
+                rounded
+                icon
+                secondary
+                exact
+                :to="`/seo-settings/`"
+            >
+                <v-icon name="arrow_back" />
+            </v-button>
+        </template>
         <template #actions>
             <language-select
                 v-if="languages"
@@ -40,8 +53,12 @@
             <div class="flex gap-4 items-center justify-between mb-5">
                 <v-breadcrumb :items="breadcrumbs"></v-breadcrumb>
             </div>
-            <v-form v-if="collection !== '+'" v-model="mapFieldsSettings" :fields="mapFields" :primary-key="0" :initial-values="field?.meta?.options" class="seo-setting-form"></v-form>
-            <v-form v-else v-model="settings" :fields="customSettingFields" :primary-key="0" :initial-values="item" class="seo-setting-form"></v-form>
+            <template v-if="(isNew || customSettings?.includes(collection))">
+                <v-form v-model="customSettingsModel" :fields="customSettingFields" :primary-key="0" :initial-values="item" class="seo-setting-form"></v-form>
+            </template>
+            <template v-else>
+                <v-form v-model="mapFieldsSettings" :fields="mapFields" :primary-key="0" :initial-values="field?.meta?.options" class="seo-setting-form"></v-form>
+            </template>
             <v-form
                 v-model="settings"
                 :collection="COLLECTION.seo_advanced"
@@ -94,9 +111,15 @@ const breadcrumbs = ref([
     },
 ])
 
+const { getTranslationCollection } = useCollectionsItems()
+const targetCollection = ref(getTranslationCollection(collection.value))
 
 const mapFieldsSettings = ref({})
 const { mapFields } = useMapFields(collection.value)
+const field = ref()
+onMounted(async () => {
+    field.value = await api.get(`/fields/${targetCollection.value}/${COLLECTION.seo_detail}`).then(({data}) => data?.data)
+})
 
 const fields = ref(getFields(collection.value))
 const customSettingFields = ref([
@@ -110,6 +133,10 @@ const customSettingFields = ref([
     },
 ])
 
+const customSettingsModel = ref({
+    collection: collection.value
+})
+
 const {
     settings,
     item,
@@ -120,6 +147,15 @@ const {
     save
 } = useItem(COLLECTION.seo_advanced, collection.value, false)
 
+
+const {
+    item: customSettings,
+    loading: loadingCustomSettings,
+    saving: savingCustomSettings,
+    save: saveCustomSettings
+} = useItem(COLLECTION.seo_setting, 'enabled_custom_settings', false, [])
+
+
 const saveAdvancedData = async() => {
     let customData = {
         is_custom: isNew.value
@@ -129,8 +165,16 @@ const saveAdvancedData = async() => {
         customData.collection = collection.value
     }
 
-    await save(customData).then((data) => {
+    await save(customData).then(async (data) => {
+        
         if( isNew.value ) {
+            customSettings.value = [
+                ...customSettings.value,
+                data.collection
+            ]
+
+            await saveCustomSettings()
+
             router.push(`/seo-settings/title-meta/${data.collection}`)
         }
     })
@@ -142,13 +186,13 @@ const onSave = async() => {
         return
     }
 
-    const field = await api.get(`/fields/${collection.value}/${FIELDS.seo_detail}`)
+    const field = await api.get(`/fields/${targetCollection.value}/${FIELDS.seo_detail}`)
     .then(({data}) => data?.data)
     .catch(async() => {
-        await api.post(`/fields/${collection.value}`, getSeoDetailsField(collection.value))
-        await api.post(`/relations/`, getSeoDetailRelation(collection.value))
+        await api.post(`/fields/${targetCollection.value}`, getSeoDetailsField(targetCollection.value))
+        await api.post(`/relations/`, getSeoDetailRelation(targetCollection.value))
     })
-    await api.patch(`/fields/${collection.value}/${FIELDS.seo_detail}`, merge(field, {meta: {options: mapFieldsSettings.value}}))
+    await api.patch(`/fields/${targetCollection.value}/${FIELDS.seo_detail}`, merge(field, {meta: {options: mapFieldsSettings.value}}))
 }
 
 const onSelectLanguage = (lang) => {
@@ -177,7 +221,7 @@ onMounted(() =>setTimeout(() =>  onSelectLanguage(currentLanguage.value), 500))
                 margin-top: 0;
                 padding-right: 30px;
                 .title-container {
-                    margin-left: 0;
+                    // margin-left: 0;
                 }
             }
         }
