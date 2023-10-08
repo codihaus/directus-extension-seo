@@ -1,5 +1,5 @@
 <template>
-    <div class="navigator">
+    <div class="navigator h-full flex flex-col">
         <v-list v-model="openDetail">
             <v-list-group
                 v-for="item, index in items"
@@ -29,6 +29,7 @@
                 </v-list-item>
             </v-list-group>
         </v-list>
+        <div class="text-xs mt-auto py-1 px-3">Directus SEO Extensions v1.1.4</div>
     </div>
 </template>
 
