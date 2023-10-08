@@ -124,17 +124,18 @@ onMounted(async () => {
 const fields = ref(getFields(collection.value))
 const customSettingFields = ref([
     {
-        name: "Collection",
+        name: "Custom Collection Name",
         field: "collection",
         type: "string",
         meta: {
             interface: "input",
+            note: 'Using when setting is not belong to any collection!'
         },
     },
 ])
 
 const customSettingsModel = ref({
-    collection: collection.value
+    collection: isNew.value ? '' : collection.value
 })
 
 const {
@@ -158,7 +159,8 @@ const {
 
 const saveAdvancedData = async() => {
     let customData = {
-        is_custom: isNew.value
+        is_custom: isNew.value,
+        collection: customSettingsModel.value.collection
     }
 
     if( !isNew.value ) {
@@ -168,14 +170,14 @@ const saveAdvancedData = async() => {
     await save(customData).then(async (data) => {
         
         if( isNew.value ) {
-            customSettings.value = [
-                ...customSettings.value,
-                data.collection
-            ]
 
+            if( data?.collection ) {
+                customSettings.value.push(data?.collection)
+            }
+            
             await saveCustomSettings()
 
-            router.push(`/seo-settings/title-meta/${data.collection}`)
+            router.push(`/seo-settings/title-meta/${data?.collection}`)
         }
     })
 }

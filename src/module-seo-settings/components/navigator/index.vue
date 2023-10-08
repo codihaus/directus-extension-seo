@@ -29,7 +29,7 @@
                 </v-list-item>
             </v-list-group>
         </v-list>
-        <div class="text-xs mt-auto py-1 px-3">Directus SEO Extensions v1.1.4</div>
+        <div class="text-xs mt-auto py-1 px-3">Directus SEO Extensions v1.1.5</div>
     </div>
 </template>
 
