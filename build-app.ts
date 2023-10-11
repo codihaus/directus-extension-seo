@@ -6,6 +6,7 @@ import interfaceInfo from './src/interface-info'
 import interfaceMetaTemplate from './src/interface-meta-template'
 import interfaceRadioButton from './src/interface-radio-button'
 import interfaceSEOAnalyzer from './src/interface-seo-analyzer'
+import interfaceSocialPreview from './src/interface-social-preview'
 import moduleSEOSettings from './src/module-seo-settings'
 
 const interfaces = [
@@ -16,6 +17,7 @@ const interfaces = [
     interfaceMetaTemplate,
     interfaceRadioButton,
     interfaceSEOAnalyzer,
+    interfaceSocialPreview
 ]
 const displays = [];
 const layouts = [];
