@@ -2,7 +2,9 @@ import { defineConfig, loadEnv } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import { resolve } from 'path'
 import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js';
+import { replaceCodePlugin } from "vite-plugin-replace";
 import UnoCSS from 'unocss/vite';
+import packageInfo from './package.json'
 
 
 export default defineConfig(({command, mode}) => {
@@ -50,6 +52,14 @@ export default defineConfig(({command, mode}) => {
             vue(),
             UnoCSS(),
             cssInjectedByJsPlugin(),
+            replaceCodePlugin({
+                replacements: [
+                    {
+                        from: "%%version%%",
+                        to: packageInfo.version,
+                    },
+                ],
+            }),
         ],
         define: {
             "process.env.NODE_ENV": `"${process.env.NODE_ENV}"`,
