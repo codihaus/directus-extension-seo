@@ -54,7 +54,7 @@
                 <v-breadcrumb :items="breadcrumbs"></v-breadcrumb>
             </div>
             <template v-if="(isNew || customSettings?.includes(collection))">
-                <v-form v-model="customSettingsModel" :fields="customSettingFields" :primary-key="0" :initial-values="item" class="seo-setting-form"></v-form>
+                <v-form v-model="customSettingsModel" :fields="customSettingFields" :primary-key="0" :initial-values="item" :disabled="!isNew" class="seo-setting-form"></v-form>
             </template>
             <template v-else>
                 <v-form v-model="mapFieldsSettings" :fields="mapFields" :primary-key="0" :initial-values="field?.meta?.options" class="seo-setting-form"></v-form>
@@ -78,6 +78,7 @@ import { useApi, useStores } from '@directus/extensions-sdk';
 import { useResetStyle } from '../../../shared/composables/use-reset-style';
 import { useCollectionsItems } from '../../../shared/composables/use-collections-items';
 import useItem from '../../../shared/composables/use-item';
+import { getSectionField } from "../../../shared/utils";
 import { COLLECTION, FIELDS } from '../../../shared/constants';
 import { getSeoDetailsField, getSeoDetailRelation } from '../setup/fields/seo-detail'
 import useMapFields from '../../composables/use-map-fields'
@@ -86,6 +87,7 @@ import CollectionItem from '../../components/collection-item.vue'
 import getFields from './fields/title-meta-detail'
 import LanguageSelect from '../../../shared/components/language-select.vue';
 import merge from 'lodash/merge'
+import formatTitle from '@directus/format-title';
 
 useResetStyle()
 const { t } = useI18n()
@@ -94,7 +96,7 @@ const route = useRoute()
 const router = useRouter()
 const collection = ref(route.params.collection)
 const isNew = computed(() => collection.value === '+')
-const title = computed(() => isNew.value ? 'Add custom settings' : `Title & Meta settings for: ${collection.value}`)
+const title = computed(() => isNew.value ? 'Add static page title & meta' : `Title & Meta settings for: ${formatTitle(collection.value)}`)
 
 const breadcrumbs = ref([
     {
@@ -123,15 +125,23 @@ onMounted(async () => {
 
 const fields = ref(getFields(collection.value))
 const customSettingFields = ref([
-    {
-        name: "Custom Collection Name",
-        field: "collection",
-        type: "string",
-        meta: {
-            interface: "input",
-            note: 'Using when setting is not belong to any collection!'
+    ...getSectionField(
+        {
+            field: 'collection',
+            title: 'Static page',
         },
-    },
+        [
+            {
+                name: "",
+                field: "collection",
+                type: "string",
+                meta: {
+                    interface: "input",
+                    note: 'Using when setting is not belong to any collection!'
+                },
+            },
+        ]
+    ),
 ])
 
 const customSettingsModel = ref({
@@ -251,6 +261,9 @@ onMounted(() =>setTimeout(() =>  onSelectLanguage(currentLanguage.value), 500))
     }
     .v-menu.language-select {
         display: none;
+    }
+    .language-select {
+        min-width: 270px;
     }
 }
 

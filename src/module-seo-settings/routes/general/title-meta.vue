@@ -10,7 +10,7 @@
             <v-checkbox v-model="showTranslationColelctions" label="Show Translation Collections" />
             <div class="w-px h-9 my-auto !ml-2 !mr-4 bg-slate-200"></div>
             <v-button
-                v-tooltip.bottom="`Add Custom Setting`"
+                v-tooltip.bottom="`Add Static Page Setting`"
                 rounded
 				icon
 				:disabled="false"
@@ -33,7 +33,18 @@
             <div class="flex gap-4 items-center justify-between mb-5">
                 <v-breadcrumb :items="breadcrumbs"></v-breadcrumb>
             </div>
-            <div class="">
+            <div class="mt-10">
+                <h2 class="text-lg mb-6">Static page</h2>
+                <div class="grid grid-cols-1 gap-x6 gap-y-8 lg:grid-cols-3 2xl:grid-cols-4">
+                    <collection-item
+                        v-for="(collection, index) in customSettingsCollections" :key="collection.collection"
+                        :item="collection"
+                        v-model="customSettings"
+                        @change="onSelectCustomCollection"
+                    />
+                </div>
+            </div>
+            <div class="mt-10">
                 <h2 class="text-lg mb-6">Collections</h2>
                 <div class="grid grid-cols-1 gap-x6 gap-y-8 lg:grid-cols-3 2xl:grid-cols-4">
                     <collection-item
@@ -57,17 +68,7 @@
                     </div>
                 </div>
             </template>
-            <div class="mt-10">
-                <h2 class="text-lg mb-6">Custom settings</h2>
-                <div class="grid grid-cols-1 gap-x6 gap-y-8 lg:grid-cols-3 2xl:grid-cols-4">
-                    <collection-item
-                        v-for="(collection, index) in customSettingsCollections" :key="collection.collection"
-                        :item="collection"
-                        v-model="customSettings"
-                        @change="onSelectCustomCollection"
-                    />
-                </div>
-            </div>
+            
         </div>
     </private-view>
 </template>
@@ -77,6 +78,7 @@ import { ref, onMounted, computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useRoute } from 'vue-router';
 import { useStores, useApi } from '@directus/extensions-sdk';
+import formatTitle from '@directus/format-title';
 import { useResetStyle } from '../../../shared/composables/use-reset-style';
 import { useCollectionsItems } from '../../../shared/composables/use-collections-items';
 import useLanguage from '../../../shared/composables/use-languages';
@@ -135,7 +137,7 @@ const {
     save: saveCustomSettings
 } = useItem(COLLECTION.seo_setting, 'enabled_custom_settings', false, [])
 
-const customSettingsCollections = computed(() => customSettings.value.map((collection) => ({collection, name: collection})))
+const customSettingsCollections = computed(() => customSettings.value.map((collection) => ({collection, name: formatTitle(collection)})))
 
 const enableColllection = async(collection, is_custom: boolean = false) => await api.post(`/items/${COLLECTION.seo_advanced}/`, {collection, is_custom})
 const createSEODetail = async(collection) => await api.post(`/fields/${collection}`, getSeoDetailsField(collection))
