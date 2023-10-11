@@ -81,6 +81,7 @@
 		"setup-directus": "git submodule update --init directus && pnpm --filter cdh install",
 		"link-extension-directus": "tsx scripts/link.ts",
 		"setup-dev": "pnpm setup-directus && pnpm link-extension-directus",
+		"release": "npm publish --tag=latest",
 		"add": "directus-extension add"
 	},
 	"devDependencies": {
