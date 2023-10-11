@@ -53,6 +53,11 @@
 			},
 			{
 				"type": "interface",
+				"name": "interface-social-preview",
+				"source": "src/interface-social-preview/index.ts"
+			},
+			{
+				"type": "interface",
 				"name": "interface-meta-template",
 				"source": "src/interface-meta-template/index.ts"
 			}

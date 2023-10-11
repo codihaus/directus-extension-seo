@@ -14,26 +14,29 @@
 			</v-tab-item>
 			<v-tab-item :value="2">
 				<v-tabs v-model="socialTabs">
-					<v-tab><v-icon name="facebook"></v-icon> Facebook</v-tab>
-					<v-tab><v-icon name="twitter"></v-icon> Twitter</v-tab>
+					<v-tab @click="settings.social_sharing_tab = 'facebook'"><v-icon name="facebook" class="mr-2"></v-icon> Facebook</v-tab>
+					<v-tab @click="settings.social_sharing_tab = 'twitter'"><v-icon name="twitter" class="mr-2"></v-icon> Twitter</v-tab>
 				</v-tabs>
+				<v-form v-model="settings" :initial-values="item" :primary-key="value" :fields="socialFields"></v-form>
 				<v-tabs-items v-model="socialTabs">
 					<v-tab-item>
-						<social-preview
-							:title="settings?.facebook_title || values?.[map_title]"
-							:description="settings?.facebook_description"
-							:image="settings?.facebook_image || values?.[map_thumnail]"
-						/>
-						<v-form v-model="settings" :initial-values="item" :primary-key="value" :fields="facebookFields"></v-form>
+						<!-- {{ item.meta_title }}
+						<interface-social-preview
+							:title="facebookTitle"
+							:description="settings?.facebook_description || item.facebook_description"
+							:value="settings?.facebook_image || values?.[map_thumnail] || item.facebook_image"
+							@input="onSelectImage($event, 'facebook')"
+						/> -->
 					</v-tab-item>
 					<v-tab-item>
-						<social-preview
-							:title="settings?.twitter_title || values?.[map_title]"
+						<!-- <interface-social-preview
+							:title="twitterTitle"
 							:description="settings?.twitter_description"
-							:image="settings?.twitter_image || values?.[map_thumnail]"
+							:value="settings?.twitter_image || values?.[map_thumnail]"
 							type="twitter"
+							@input="onSelectImage($event, 'twitter')"
 						/>
-						<v-form v-model="settings" :initial-values="item" :primary-key="value" :fields="twitterFields"></v-form>
+						<v-form v-model="settings" :initial-values="item" :primary-key="value" :fields="twitterFields"></v-form> -->
 					</v-tab-item>
 				</v-tabs-items>
 			</v-tab-item>
@@ -202,21 +205,98 @@ const generalFields = ref([
 		}
 	},
 ])
-const facebookFields = ref([
+const socialFields = computed(() => [
+	// {
+	// 	collection: COLLECTION.seo_detail,
+	// 	field: "facebook_image",
+	// 	name: "Add image",
+	// 	type: "uuid",
+	// 	meta: {
+	// 		collection: COLLECTION.seo_detail,
+	// 		interface: "file-image",
+	// 		special: [
+	// 			"file"
+	// 		],
+	// 		note: "Field notes ... ?"
+	// 	},
+	// },
 	{
-		collection: COLLECTION.seo_detail,
-		field: "facebook_image",
-		name: "Add image",
-		type: "uuid",
-		meta: {
-			collection: COLLECTION.seo_detail,
-			interface: "file-image",
-			special: [
-				"file"
-			],
-			note: "Field notes ... ?"
-		},
-	},
+        field: "social_sharing_tab",
+        type: "string",
+        schema: {
+            name: "social_sharing_tab",
+            data_type: "varchar",
+            default_value: "facebook",
+            max_length: 255,
+            numeric_precision: null,
+            numeric_scale: null,
+            is_generated: false,
+            generation_expression: null,
+            is_nullable: true,
+            is_unique: false,
+            is_primary_key: false,
+            has_auto_increment: false,
+            foreign_key_column: null,
+            foreign_key_table: null,
+        },
+        meta: {
+            field: "social_sharing_tab",
+            special: null,
+            interface: "radio-button",
+            options: {
+                choices: [
+                    {
+                        text: "Facebook",
+                        value: "facebook",
+                    },
+                    {
+                        text: "Twitter",
+                        value: "twitter",
+                    },
+                ],
+            },
+            sort: 1,
+			hidden: true,
+            width: "full",
+        },
+        name: "",
+    },
+	{
+        field: "facebook_image",
+        type: "uuid",
+        meta: {
+            special: null,
+            interface: "social-preview",
+            options: null,
+            sort: 1,
+            width: "full",
+            note: null,
+            conditions: [
+                {
+                    name: "social_facebook",
+                    rule: {
+                        _and: [
+                            {
+                                social_sharing_tab: {
+                                    _neq: "facebook",
+                                },
+                            },
+                        ],
+                    },
+                    hidden: true,
+                    options: {
+                        font: "sans-serif",
+                        trim: false,
+                        masked: false,
+                        clear: false,
+                        slug: false,
+                    },
+                },
+            ],
+            required: false,
+        },
+        name: "",
+    },
 	{
 		field: "facebook_title",
 		name: "Facebook title",
@@ -237,6 +317,28 @@ const facebookFields = ref([
 					],
 				},
 			},
+			conditions: [
+                {
+                    name: "social_facebook",
+                    rule: {
+                        _and: [
+                            {
+                                social_sharing_tab: {
+                                    _neq: "facebook",
+                                },
+                            },
+                        ],
+                    },
+                    hidden: true,
+                    options: {
+                        font: "sans-serif",
+                        trim: false,
+                        masked: false,
+                        clear: false,
+                        slug: false,
+                    },
+                },
+            ],
 		}
 	},
 	{
@@ -259,24 +361,172 @@ const facebookFields = ref([
 					],
 				},
 			},
+			conditions: [
+                {
+                    name: "social_facebook",
+                    rule: {
+                        _and: [
+                            {
+                                social_sharing_tab: {
+                                    _neq: "facebook",
+                                },
+                            },
+                        ],
+                    },
+                    hidden: true,
+                    options: {
+                        font: "sans-serif",
+                        trim: false,
+                        masked: false,
+                        clear: false,
+                        slug: false,
+                    },
+                },
+            ],
+		}
+	},
+	{
+        field: "twitter_image",
+        type: "uuid",
+        meta: {
+            special: null,
+            interface: "social-preview",
+            options: {
+                provider: 'twitter'
+            },
+            sort: 8,
+            width: "full",
+            note: null,
+            conditions: [
+                {
+                    name: "social_twitter",
+                    rule: {
+                        _and: [
+                            {
+                                social_sharing_tab: {
+                                    _neq: "twitter",
+                                },
+                            },
+                        ],
+                    },
+                    hidden: true,
+                    options: {
+                        font: "sans-serif",
+                        trim: false,
+                        masked: false,
+                        clear: false,
+                        slug: false,
+                    },
+                },
+            ],
+            required: false,
+        },
+        name: "",
+    },
+	{
+		field: "twitter_title",
+		name: "Twitter title",
+		type: "string",
+		meta: {
+			width: "full",
+			interface: interfaceTemplate,
+			options: {
+				collectionName: metaTemplateCollection,
+				inject: {
+					fields: [
+						{
+							field: "sep",
+							name: "Seperator",
+							collection: metaTemplateCollection,
+							type: "string",
+						},
+					],
+				},
+			},
+			conditions: [
+                {
+                    name: "social_twitter",
+                    rule: {
+                        _and: [
+                            {
+                                social_sharing_tab: {
+                                    _neq: "twitter",
+                                },
+                            },
+                        ],
+                    },
+                    hidden: true,
+                    options: {
+                        font: "sans-serif",
+                        trim: false,
+                        masked: false,
+                        clear: false,
+                        slug: false,
+                    },
+                },
+            ],
+		}
+	},
+	{
+		field: "twitter_description",
+		name: "Twitter description",
+		type: "string",
+		meta: {
+			width: "full",
+			interface: interfaceTemplate,
+			options: {
+				collectionName: metaTemplateCollection,
+				inject: {
+					fields: [
+						{
+							field: "sep",
+							name: "Seperator",
+							collection: metaTemplateCollection,
+							type: "string",
+						},
+					],
+				},
+			},
+			conditions: [
+                {
+                    name: "social_twitter",
+                    rule: {
+                        _and: [
+                            {
+                                social_sharing_tab: {
+                                    _neq: "twitter",
+                                },
+                            },
+                        ],
+                    },
+                    hidden: true,
+                    options: {
+                        font: "sans-serif",
+                        trim: false,
+                        masked: false,
+                        clear: false,
+                        slug: false,
+                    },
+                },
+            ],
 		}
 	},
 ])
 const twitterFields = ref([
-	{
-		collection: COLLECTION.seo_detail,
-		field: "twitter_image",
-		name: "Add image",
-		type: "uuid",
-		meta: {
-			collection: COLLECTION.seo_detail,
-			interface: "file-image",
-			special: [
-				"file"
-			],
-			note: "Field notes ... ?"
-		},
-	},
+	// {
+	// 	collection: COLLECTION.seo_detail,
+	// 	field: "twitter_image",
+	// 	name: "Add image",
+	// 	type: "uuid",
+	// 	meta: {
+	// 		collection: COLLECTION.seo_detail,
+	// 		interface: "file-image",
+	// 		special: [
+	// 			"file"
+	// 		],
+	// 		note: "Field notes ... ?"
+	// 	},
+	// },
 	{
 		field: "twitter_title",
 		name: "Twitter title",
@@ -322,6 +572,18 @@ const twitterFields = ref([
 		}
 	},
 ])
+
+const facebookTitle = computed(() => settings.value?.facebook_title || values.value?.[props.map_title] || item.value.meta_title)
+const twitterTitle = computed(() => settings.value?.twitter_title || values.value?.[props.map_title] || item.value.meta_title)
+
+const onSelectImage = ($event, provider) => {
+	if( provider === 'facebook' ) {
+		settings.value.facebook_image = $event
+	}
+	if( provider === 'twitter' ) {
+		settings.value.twitter_image = $event
+	}
+}
 
 
 const keywords = ref([''])
@@ -386,6 +648,7 @@ watch([settings, keywords], function([newSettings, newKeywords]) {
 	emit('input', data);
 
 })
+
 
 const getSettingData = async(id) => {
 	try {
