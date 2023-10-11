@@ -19315,7 +19315,7 @@ const _Ie = [
     to: "/seo-settings/redirection",
     hidden: !0
   }
-], DIe = (e) => (Fn("data-v-59e0db05"), e = e(), En(), e), kIe = { class: "navigator h-full flex flex-col" }, xIe = { class: "flex items-center text-slate-700 mr-auto" }, CIe = /* @__PURE__ */ DIe(() => /* @__PURE__ */ V("div", { class: "text-xs mt-auto py-1 px-3" }, "Directus SEO Extensions v1.1.7", -1)), AIe = /* @__PURE__ */ Ve({
+], DIe = (e) => (Fn("data-v-59e0db05"), e = e(), En(), e), kIe = { class: "navigator h-full flex flex-col" }, xIe = { class: "flex items-center text-slate-700 mr-auto" }, CIe = /* @__PURE__ */ DIe(() => /* @__PURE__ */ V("div", { class: "text-xs mt-auto py-1 px-3" }, "Directus SEO Extensions v1.1.8", -1)), AIe = /* @__PURE__ */ Ve({
   __name: "index",
   props: {
     // items: {
