@@ -1,6 +1,6 @@
 // import api from '@/api';
 import { useStores } from '@directus/extensions-sdk';
-import { getEndpoint } from '@directus/shared/utils';
+import { getEndpoint } from '@directus/utils';
 // import { unexpectedError } from '@/utils/unexpected-error';
 import merge from 'lodash/merge';
 import { ref, Ref, watch, inject } from 'vue';
@@ -23,7 +23,7 @@ export function useRelationSingle(
 	const stores = useStores()
 	const { useNotificationsStore } = stores
 	const notify = useNotificationsStore();
-	const i18n = useI18n()
+	const { t } = useI18n()
 
 	watch([value, previewQuery, relation], getDisplayItems, { immediate: true });
 
@@ -39,7 +39,7 @@ export function useRelationSingle(
 		console.warn(error);
 
 		notify.add({
-			title: i18n.global.t(`errors.${code}`),
+			title: t(`errors.${code}`),
 			type: 'error',
 			code,
 			dialog: true,

@@ -117,10 +117,10 @@ const { getTranslationCollection } = useCollectionsItems()
 const targetCollection = ref(getTranslationCollection(collection.value))
 
 const mapFieldsSettings = ref({})
-const { mapFields } = useMapFields(collection.value)
+const { mapFields } = useMapFields(targetCollection.value)
 const field = ref()
 onMounted(async () => {
-    field.value = await api.get(`/fields/${targetCollection.value}/${COLLECTION.seo_detail}`).then(({data}) => data?.data)
+    field.value = await api.get(`/fields/${targetCollection.value}/${FIELDS.seo_detail}`).then(({data}) => data?.data)
 })
 
 const fields = ref(getFields(collection.value))

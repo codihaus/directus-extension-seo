@@ -1,4 +1,6 @@
 <template>
+	<div>{{ values }}</div>
+	<div>{{ values?.post_id }}</div>
 	<div>
 		<v-tabs v-model="currentTab" class="analyzer">
 			<v-tab :value="0" v-if="!isSEOAdvanced" class="px-0"><v-button :secondary="! currentTab.includes(0)">{{ `Readability` }}</v-button></v-tab>
@@ -649,10 +651,20 @@ watch([settings, keywords], function([newSettings, newKeywords]) {
 
 })
 
+watch(values, (newVal) =>{
+	if( ! settings.value?.facebook_image ) {
+		settings.value.facebook_image = values.value?.[props.map_thumnail]
+	}
+	if( ! settings.value?.twitter_image ) {
+		settings.value.twitter_image = values.value?.[props.map_thumnail]
+	}
+} )
+
 
 const getSettingData = async(id) => {
+	console.log('id', id)
 	try {
-		await api.get(`/items/${COLLECTION.seo_detail}/${id}`).then((res) => {
+		await api.get(`/items/${COLLECTION.seo_detail}/${id}/?fields=['*.*']`).then((res) => {
 			let data = res?.data?.data
 			console.log(data);
 
@@ -715,7 +727,9 @@ onMounted(() => {
 })
 
 onMounted(async() => {
+	console.log('props.value', props);
 	if( props.value ) {
+		
 		await getSettingData(props.value);
 	}
 })

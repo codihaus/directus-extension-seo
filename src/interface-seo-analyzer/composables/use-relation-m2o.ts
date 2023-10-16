@@ -1,4 +1,4 @@
-import { Field, Relation, Collection } from '@directus/shared/types';
+import { Field, Relation, Collection } from '@directus/types';
 import { useStores } from '@directus/extensions-sdk';
 import { computed, Ref } from 'vue';
 

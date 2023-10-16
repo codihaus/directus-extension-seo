@@ -18,7 +18,7 @@ export const navigatorItems = [
                 icon: 'public',
                 name: "Local SEO",
                 to: `/seo-settings/local-seo`,
-                hidden: true,
+                // hidden: true,
             },
         ]
     },
@@ -26,17 +26,17 @@ export const navigatorItems = [
         icon: 'manage_accounts',
         name: "Advanced",
         to: `/seo-settings/advanced`,
-        hidden: true,
         childrens: [
             {
                 icon: 'public',
                 name: "Sitemap",
                 to: `/seo-settings/advanced/sitemap`,
+                hidden: true,
             },
             {
                 icon: 'public',
-                name: "Robots",
-                to: `/seo-settings/advanced/robots`,
+                name: "Scripts",
+                to: `/seo-settings/advanced/scripts`,
             },
 
         ]

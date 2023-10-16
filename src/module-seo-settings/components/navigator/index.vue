@@ -18,7 +18,7 @@
                 <v-list-item
                     v-for="child, childIndex in item?.childrens"
                     :key="child.to" :to="child.to"
-                    :class="{'hidden': child?.hidden }"
+                    :class="{'!hidden': child?.hidden }"
                 >
                     <v-list-item-icon>
                         <v-icon :name="child?.icon" />
