@@ -1,6 +1,4 @@
 <template>
-	<div>{{ values }}</div>
-	<div>{{ values?.post_id }}</div>
 	<div>
 		<v-tabs v-model="currentTab" class="analyzer">
 			<v-tab :value="0" v-if="!isSEOAdvanced" class="px-0"><v-button :secondary="! currentTab.includes(0)">{{ `Readability` }}</v-button></v-tab>
