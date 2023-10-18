@@ -662,7 +662,11 @@ watch(values, (newVal) =>{
 const getSettingData = async(id) => {
 	console.log('id', id)
 	try {
-		await api.get(`/items/${COLLECTION.seo_detail}/${id}/?fields=['*.*']`).then((res) => {
+		await api.get(`/items/${COLLECTION.seo_detail}/${id}`, {
+			params: {
+				field: ['*.*']
+			}
+		}).then((res) => {
 			let data = res?.data?.data
 			console.log(data);
 
