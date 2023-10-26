@@ -12,7 +12,7 @@ export const navigatorItems = [
             {
                 icon: 'public',
                 name: "Title & Meta",
-                to: `/seo-settings`,
+                to: `/seo-settings/title-meta`,
             },
             {
                 icon: 'public',
