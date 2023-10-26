@@ -103,6 +103,7 @@ interface seoSetting {
 	meta_robots?: string
 	meta_keywords?: string[] | string
 	meta_description?: string
+	image_share?: string
 	facebook_image?: string
 	twitter_image?: string
 	facebook_title?: string
@@ -623,6 +624,7 @@ watch([settings, keywords], function([newSettings, newKeywords]) {
 		twitter_title,
 		twitter_description,
 		meta_robots,
+		image_share,
 		facebook_image,
 		twitter_image,
 		meta_keywords
@@ -632,6 +634,7 @@ watch([settings, keywords], function([newSettings, newKeywords]) {
 		meta_title,
 		meta_description,
 		meta_robots,
+		image_share,
 		facebook_image,
 		twitter_image,
 		meta_social: {
@@ -656,6 +659,9 @@ watch(values, (newVal) =>{
 	if( ! settings.value?.twitter_image ) {
 		settings.value.twitter_image = values.value?.[props.map_thumnail]
 	}
+	if( ! settings.value?.image_share ) {
+		settings.value.image_share = values.value?.[props.map_thumnail]
+	}
 } )
 
 
@@ -679,6 +685,7 @@ const getSettingData = async(id) => {
 				id,
 				meta_title,
 				meta_description,
+				image_share,
 				facebook_image,
 				twitter_image,
 				meta_robots,
@@ -690,6 +697,7 @@ const getSettingData = async(id) => {
 				meta_title,
 				meta_description,
 				meta_robots: JSON.parse(meta_robots || '{}'),
+				image_share,
 				facebook_image,
 				twitter_image,
 				meta_keywords,

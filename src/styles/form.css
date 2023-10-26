@@ -1,0 +1,31 @@
+:deep() .v-form.seo-setting-form {
+  @apply grid-cols-1 block;
+  @apply xl:max-w-5xl;
+}
+
+:deep() .v-form.seo-setting-form .group-section .v-form {
+  -ms-grid-columns: [start] minmax(0, 1fr) [half] minmax(0, 1fr) [full] 1fr [fill] !important;
+      grid-template-columns: [start] minmax(0, 1fr) [half] minmax(0, 1fr) [full] 1fr [fill] !important;
+}
+
+:deep() .v-form.seo-setting-form .group-section .v-form .group-column {
+  --form-vertical-gap: 32px;
+}
+
+:deep() .v-form.seo-setting-form .group-section .v-form .group-column:last-child {
+  --at-apply: "!col-span-2";
+}
+
+:deep() .v-form.seo-setting-form .group-section .v-form .group-column .v-form:has(.v-text-overflow:empty) {
+  grid-gap: 16px !important;
+  gap: 16px !important;
+}
+
+:deep() .v-form.seo-setting-form .type-note {
+  @apply max-w-initial mt-2;
+}
+
+:deep() .v-form.seo-setting-form .field-label .field-name:has(.v-text-overflow:empty) {
+  display: none;
+}
+/*# sourceMappingURL=form.css.map */

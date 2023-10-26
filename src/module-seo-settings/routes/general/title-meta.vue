@@ -33,13 +33,13 @@
             <div class="flex gap-4 items-center justify-between mb-5">
                 <v-breadcrumb :items="breadcrumbs"></v-breadcrumb>
             </div>
+            <pre>{{ customSettings }}</pre>
             <div class="mt-10">
-                <h2 class="text-lg mb-6">Static page</h2>
+                <h2 class="text-lg mb-6">Static pages</h2>
                 <div class="grid grid-cols-1 gap-x6 gap-y-8 lg:grid-cols-3 2xl:grid-cols-4">
                     <collection-item
                         v-for="(collection, index) in customSettingsCollections" :key="collection.collection"
                         :item="collection"
-                        v-model="customSettings"
                         @change="onSelectCustomCollection"
                     />
                 </div>
@@ -78,6 +78,7 @@ import { ref, onMounted, computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useRoute } from 'vue-router';
 import { useStores, useApi } from '@directus/extensions-sdk';
+import { useItems } from '@directus/composables';
 import formatTitle from '@directus/format-title';
 import { useResetStyle } from '../../../shared/composables/use-reset-style';
 import { useCollectionsItems } from '../../../shared/composables/use-collections-items';
@@ -122,22 +123,27 @@ const {
 } = useCollectionsItems()
 
 const {
-    item,
-    currentLanguage,
-    languages,
-    loading,
-    saving,
-    save
-} = useItem(COLLECTION.seo_setting, 'enabled_collections', false, [])
-
-const {
     item: customSettings,
     loading: loadingCustomSettings,
     saving: savingCustomSettings,
     save: saveCustomSettings
-} = useItem(COLLECTION.seo_setting, 'enabled_custom_settings', false, [])
+} = useItem(ref(COLLECTION.seo_advanced), ref('hello'))
 
-const customSettingsCollections = computed(() => customSettings.value.map((collection) => ({collection, name: formatTitle(collection)})))
+const {
+    items: advancedSettings,
+    loading: loadingAdvancedSettings,
+    saving: savingAdvancedSettings,
+    save: saveAdvancedSettings
+} = useItems(ref(COLLECTION.seo_advanced), {
+    sort: ref(null),
+    limit: ref(-1),
+    page: ref(1),
+    fields: ref(['*']),
+    filter: ref({}),
+    search: ref(null),
+})
+
+const customSettingsCollections = computed(() => advancedSettings.value.map((collection) => ({...collection, name: formatTitle(collection.collection)})))
 
 const enableColllection = async(collection, is_custom: boolean = false) => await api.post(`/items/${COLLECTION.seo_advanced}/`, {collection, is_custom})
 const createSEODetail = async(collection) => await api.post(`/fields/${collection}`, getSeoDetailsField(collection))

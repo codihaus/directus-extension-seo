@@ -8,10 +8,10 @@
             <div class="text-md font-semibold text-slate-900">
                 {{ item?.name }}
             </div>
-            <div class="text-sm text-slate-500 mt-1 line-clamp-1" :title="item?.meta?.note || '...'">
+            <div class="text-sm text-slate-500 mt-1 line-clamp-1 line-clamp-2 break-all" :title="item?.meta?.note || '...'">
                 {{ item?.meta?.note || '...' }}
             </div>
-            <div v-if="item?.translation_collection" class="text-xs text-slate-500 mt-1">
+            <div v-if="item?.translation_collection" class="text-xs text-slate-500 mt-1 line-clamp-2 break-all" :title="`Translation collection: ${(item?.translation_collection || '...')}`">
                 Translation collection: {{ item?.translation_collection }}
             </div>
         </div>

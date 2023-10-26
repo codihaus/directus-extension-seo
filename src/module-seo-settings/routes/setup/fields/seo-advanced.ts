@@ -31,6 +31,17 @@ export const collectionSeoAdvanced = {
             },
             collection: COLLECTION.seo_advanced,
         },
+        {
+            field: "enabled",
+            type: "boolean",
+            schema: {},
+            meta: {
+                interface: "boolean",
+                special: ["cast-boolean"],
+                hidden: true,
+            },
+            collection: COLLECTION.seo_advanced,
+        },
     ],
     schema: {},
     meta: {

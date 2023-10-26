@@ -1,0 +1,14 @@
+:deep() #main-content.content .header-bar {
+  padding-left: 30px;
+}
+
+@media (min-width: 600px) {
+  :deep() #main-content.content .header-bar {
+    margin-top: 0;
+    padding-right: 30px;
+  }
+  :deep() #main-content.content .header-bar .title-container {
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

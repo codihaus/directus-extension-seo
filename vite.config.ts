@@ -1,5 +1,6 @@
 import { defineConfig, loadEnv } from 'vite';
 import vue from '@vitejs/plugin-vue';
+import yaml from '@rollup/plugin-yaml';
 import { resolve } from 'path'
 import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js';
 import { replaceCodePlugin } from "vite-plugin-replace";
@@ -23,8 +24,7 @@ export default defineConfig(({command, mode}) => {
         resolve: {
             alias: [
                 { find: '~/', replacement: resolve(__dirname, '/') },
-                { find: '@', replacement: resolve(__dirname, './src') },
-                // {find: '@', replacement: resolve(__dirname, './../directus-origin/app/src')},
+                // { find: '@', replacement: resolve(__dirname, 'directus', 'src',) },
             ],
         },
         build: {
@@ -50,6 +50,11 @@ export default defineConfig(({command, mode}) => {
         },
         plugins: [
             vue(),
+            yaml({
+                transform(data) {
+                    return data === null ? {} : undefined;
+                },
+            }),
             UnoCSS(),
             cssInjectedByJsPlugin(),
             replaceCodePlugin({
