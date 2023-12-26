@@ -1,6 +1,4 @@
 <template>
-	<div>{{ values }}</div>
-	<div>{{ values?.post_id }}</div>
 	<div>
 		<v-tabs v-model="currentTab" class="analyzer">
 			<v-tab :value="0" v-if="!isSEOAdvanced" class="px-0"><v-button :secondary="! currentTab.includes(0)">{{ `Readability` }}</v-button></v-tab>
@@ -125,9 +123,15 @@ const metaTemplateCollection = isSEOAdvanced.value ?
 
 const interfaceTemplate = isCollectionExist(metaTemplateCollection) ? 'meta-template' : 'input'
 
+const facebookTitle = computed(() => settings.value?.facebook_title || values.value?.[props.map_title] || item.value.meta_title)
+const twitterTitle = computed(() => settings.value?.twitter_title || values.value?.[props.map_title] || item.value.meta_title)
+
+const facebookDescription = computed(() => settings.value?.facebook_description || values.value?.[props.map_content] || item.value.meta_description)
+const twitterDescription = computed(() => settings.value?.twitter_description || values.value?.[props.map_content] || item.value.meta_description)
+
 
 const socialTabs = ref()
-const generalFields = ref([
+const generalFields = computed(() => [
 	{
 		field: "meta_robots",
 		name: "Robots Meta",
@@ -170,6 +174,7 @@ const generalFields = ref([
 			width: "full",
 			interface: interfaceTemplate,
 			options: {
+				placeholder: settings.value?.meta_title || item.value?.meta_title || values.value?.[props.map_title] || '',
 				collectionName: metaTemplateCollection,
 				inject: {
 					fields: [
@@ -192,6 +197,7 @@ const generalFields = ref([
 			width: "full",
 			interface: interfaceTemplate,
 			options: {
+				placeholder: settings.value?.meta_description || item.value?.meta_description || values.value?.[props.map_content] || '',
 				collectionName: metaTemplateCollection,
 				inject: {
 					fields: [
@@ -307,6 +313,7 @@ const socialFields = computed(() => [
 			width: "full",
 			interface: interfaceTemplate,
 			options: {
+				placeholder: facebookTitle.value,
 				collectionName: metaTemplateCollection,
 				inject: {
 					fields: [
@@ -351,6 +358,7 @@ const socialFields = computed(() => [
 			width: "full",
 			interface: interfaceTemplate,
 			options: {
+				placeholder: facebookDescription.value,
 				collectionName: metaTemplateCollection,
 				inject: {
 					fields: [
@@ -433,6 +441,7 @@ const socialFields = computed(() => [
 			width: "full",
 			interface: interfaceTemplate,
 			options: {
+				placeholder: twitterTitle.value,
 				collectionName: metaTemplateCollection,
 				inject: {
 					fields: [
@@ -477,6 +486,7 @@ const socialFields = computed(() => [
 			width: "full",
 			interface: interfaceTemplate,
 			options: {
+				placeholder: twitterDescription.value,
 				collectionName: metaTemplateCollection,
 				inject: {
 					fields: [
@@ -574,9 +584,6 @@ const twitterFields = ref([
 		}
 	},
 ])
-
-const facebookTitle = computed(() => settings.value?.facebook_title || values.value?.[props.map_title] || item.value.meta_title)
-const twitterTitle = computed(() => settings.value?.twitter_title || values.value?.[props.map_title] || item.value.meta_title)
 
 const onSelectImage = ($event, provider) => {
 	if( provider === 'facebook' ) {
@@ -721,6 +728,7 @@ onMounted(() => {
 	const renderSidebarSEO = h(SidebarSEO, {modelValue: keywords} )
 	// @ts-ignore
 	const sidebar = parent.slots.sidebar()
+	
 	sidebar.push( renderSidebarSEO )
 	// @ts-ignore
 	parent.slots.sidebar = () => sidebar

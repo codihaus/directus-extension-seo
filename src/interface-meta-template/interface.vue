@@ -10,6 +10,7 @@
 			:model-value="value"
 			:disabled="disabled"
 			:inject="props.inject"
+			:placeholder="placeholder"
 			@update:model-value="$emit('input', $event)"
 		/>
 	</div>
@@ -27,6 +28,7 @@ const props = withDefaults(defineProps<{
 	disabled?: boolean;
 	collectionField?: string;
 	collectionName?: string;
+	placeholder?: string;
 	inject?: {
 		fields: Field[];
 		relations: Relation[];
