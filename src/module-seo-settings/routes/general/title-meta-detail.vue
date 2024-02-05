@@ -14,7 +14,7 @@
                 icon
                 secondary
                 exact
-                :to="`/seo-settings/`"
+                :to="`/seo-settings/title-meta`"
             >
                 <v-icon name="arrow_back" />
             </v-button>
@@ -88,12 +88,16 @@ import getFields from './fields/title-meta-detail'
 import LanguageSelect from '../../../shared/components/language-select.vue';
 import merge from 'lodash/merge'
 import formatTitle from '@directus/format-title';
+import { notify } from '../../../interface-seo-analyzer/utils';
 
 useResetStyle()
 const { t } = useI18n()
 const api = useApi()
 const route = useRoute()
 const router = useRouter()
+const { useNotificationsStore } = useStores()
+const notify = useNotificationsStore()
+
 const collection = ref(route.params.collection)
 const isNew = computed(() => collection.value === '+')
 const title = computed(() => isNew.value ? 'Add static page title & meta' : `Title & Meta settings for: ${formatTitle(collection.value)}`)
@@ -176,20 +180,27 @@ const saveAdvancedData = async() => {
     if( !isNew.value ) {
         customData.collection = collection.value
     }
-
-    await save(customData).then(async (data) => {
-        
+    try {
+        const savedData = await save(customData).then(({data}) => data?.data)
         if( isNew.value ) {
-
-            if( data?.collection ) {
+    
+            if( savedData?.collection ) {
                 customSettings.value.push(data?.collection)
             }
             
             await saveCustomSettings()
-
+    
             router.push(`/seo-settings/title-meta/${data?.collection}`)
         }
-    })
+        
+    } catch (error) {
+        notify.add({
+            title: 'Failed',
+            text: 'The static page already exists!',
+            type: 'error',
+            dialog: true,
+        })
+    }
 }
 
 const onSave = async() => {

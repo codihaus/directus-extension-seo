@@ -623,17 +623,19 @@ function onChangeKeywords() {
 }
 
 watch([settings, keywords], function([newSettings, newKeywords],[oldSettings]) {
-	
+	if( ! oldSettings?.meta_robots ) {
+		oldSettings.meta_robots = ['index']
+	}
 	let newIndex = indexOf(newSettings.meta_robots, 'index')
 	let newNoIndex = indexOf(newSettings.meta_robots, 'noindex')
 	let oldIndex = indexOf(oldSettings.meta_robots, 'index')
 	let oldNoIndex = indexOf(oldSettings.meta_robots, 'noindex')
 	console.log('index', newIndex, newNoIndex, oldIndex, oldNoIndex)
 	if(  newIndex >= 0 &&  oldNoIndex >=0 ) {
-		newSettings.meta_robots?.splice(oldNoIndex, 1)
+		newSettings.meta_robots = newSettings.meta_robots?.filter((item) => item !== 'noindex')
 	}
 	if(  newNoIndex >=0 &&  oldIndex >=0 ) {
-		newSettings.meta_robots?.splice(oldIndex, 1)
+		newSettings.meta_robots = newSettings.meta_robots?.filter((item) => item !== 'index')
 	}
 	let data = merge({...item.value}, newSettings, {meta_keywords: newKeywords})
 	console.log(newSettings, oldSettings, data)
@@ -668,7 +670,7 @@ watch([settings, keywords], function([newSettings, newKeywords],[oldSettings]) {
 			twitter_title,
 			twitter_description
 		},
-		meta_keywords: join(meta_keywords, ',')
+		meta_keywords: join((meta_keywords), ',')
 	}
 	
 	console.log('data', data);
