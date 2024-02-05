@@ -32,8 +32,6 @@
         </template>
         <div class="py-6 px-7.5">
             <v-breadcrumb :items="breadcrumbs"></v-breadcrumb>
-            <pre>{{ settings }}</pre>
-            <pre>{{ saveData }}</pre>
             <v-form
                 v-model="editData"
                 :fields="fields"
@@ -47,7 +45,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue';
+import { ref, onMounted, computed, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useStores, useApi } from '@directus/extensions-sdk';
 import { useResetStyle } from '../../composables/use-reset-style';
@@ -57,6 +55,7 @@ import { COLLECTION } from "../../../shared/constants"
 import rawFields from './fields/site-basic';
 import Navigator from '../../components/navigator/index.vue'
 import LanguageSelect from '../../../shared/components/language-select.vue';
+import { indexOf } from 'lodash'
 
 useResetStyle()
 const { t } = useI18n()
@@ -92,11 +91,31 @@ const {
 
 const item = computed(() => {
     let data = itemLang.value
-    if( data.meta_robots.length < 1 ) {
+    if( data?.meta_robots?.length < 1 ) {
         data.meta_robots = ['index']
     }
     console.log('item data', data)
     return data
+})
+
+watch(editData, (newSettings, oldSettings) => {
+    console.log('sett', newSettings, oldSettings, itemLang)
+
+    if( !oldSettings ) {
+        oldSettings = itemLang.value
+    }
+
+    let newIndex = indexOf(newSettings.meta_robots, 'index')
+	let newNoIndex = indexOf(newSettings.meta_robots, 'noindex')
+	let oldIndex = indexOf(oldSettings.meta_robots, 'index')
+	let oldNoIndex = indexOf(oldSettings.meta_robots, 'noindex')
+	console.log('index', newIndex, newNoIndex, oldIndex, oldNoIndex)
+	if(  newIndex >= 0 &&  oldNoIndex >=0 ) {
+		newSettings.meta_robots?.splice(oldNoIndex, 1)
+	}
+	if(  newNoIndex >=0 &&  oldIndex >=0 ) {
+		newSettings.meta_robots?.splice(oldIndex, 1)
+	}
 })
 </script>
 <style lang="scss" scoped>
