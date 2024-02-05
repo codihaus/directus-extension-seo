@@ -208,7 +208,7 @@ const onSave = async() => {
 }
 
 const onSelectLanguage = (lang) => {
-    document.querySelector('.advanced-form .language-select .toggle').click()
+    document.querySelector('.advanced-form .language-select .toggle')?.click()
     setTimeout(() => {
         for (const listItem of document.querySelectorAll('#menu-outlet .v-list-item')) {
             console.log('a.textContent',listItem.textContent);
@@ -220,7 +220,7 @@ const onSelectLanguage = (lang) => {
     }, 300);
 }
 
-onMounted(() =>setTimeout(() =>  onSelectLanguage(currentLanguage.value), 500))
+onMounted(() =>setTimeout(() =>  onSelectLanguage(currentLanguage.value), 1000))
 </script>
 
 <style lang="scss" scoped>
