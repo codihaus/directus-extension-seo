@@ -7,6 +7,7 @@ import TitleMetaDetail from './routes/general/title-meta-detail.vue';
 import Scripts from './routes/advanced/scripts.vue';
 import Setup from './routes/setup/setup.vue';
 import SetupWizard from './routes/setup/setup-wizard.vue';
+import Empty from './routes/empty.vue';
 import '../styles/form.scss'
 
 export default defineModule({
@@ -15,13 +16,28 @@ export default defineModule({
     icon: 'area_chart',
 	routes: [
         {
-            name: 'seo-title-meta',
+            name: 'seo-settings',
             path: '/seo-settings',
             component: RoutePass,
+            beforeEnter(to) {
+                if( to.name === 'seo-settings' ) {
+
+                    console.log(to)
+                    return {
+                        name: 'seo-title-meta',
+                        path: 'title-meta',
+                    }
+                }
+            },
             children: [
                 {
-                    name: 'seo-title-meta',
+                    name: 'seo-settings',
                     path: '',
+                    component: Empty,
+                },
+                {
+                    name: 'seo-title-meta',
+                    path: 'title-meta',
                     component: TitleMeta,
                 },
                 {
