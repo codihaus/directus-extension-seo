@@ -32,12 +32,14 @@
         </template>
         <div class="py-6 px-7.5">
             <v-breadcrumb :items="breadcrumbs"></v-breadcrumb>
+            <pre>{{ settings }}</pre>
+            <pre>{{ saveData }}</pre>
             <v-form
                 v-model="editData"
                 :fields="fields"
                 :primary-key="0"
                 :loading="loading"
-                :initial-values="itemLang"
+                :initial-values="item"
                 class="seo-setting-form"
             />
         </div>
@@ -87,6 +89,15 @@ const {
     saving,
     save
 } = useItem(COLLECTION.seo_setting, 'general')
+
+const item = computed(() => {
+    let data = itemLang.value
+    if( data.meta_robots.length < 1 ) {
+        data.meta_robots = ['index']
+    }
+    console.log('item data', data)
+    return data
+})
 </script>
 <style lang="scss" scoped>
 @import '../../../styles/form.scss';

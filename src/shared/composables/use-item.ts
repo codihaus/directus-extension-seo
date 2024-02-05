@@ -3,6 +3,8 @@ import { useApi, useStores } from "@directus/composables"
 import merge from 'lodash/merge'
 import useLanguage from "./use-languages"
 import { COLLECTION } from "../constants"
+import { defu } from "defu";
+import { get, mergeWith } from "lodash"
 
 export default function useItem(collection: string = '', key: string = '', isMultilang: boolean = true, defaultValue: any = {}) {
     const { useNotificationsStore } = useStores()
@@ -37,9 +39,32 @@ export default function useItem(collection: string = '', key: string = '', isMul
     const api = useApi()
     const endPoint = `/items/${collection}`
 
+    function getSaveValue() {
+        let value = {}
+        if(isMultilang) {
+            languages.value.map(({value: lang}) => {
+                let itemValue = get(item.value, lang) || {}
+                let settingsValue = get(settings.value, lang) || {}
+                if(Object.keys(itemValue) || Object.keys(settingsValue)) {
+                    value[lang] =  mergeWith({}, itemValue, settingsValue, function (_from: any, to: any) {
+                        if (typeof to !== 'undefined') {
+                            return to;
+                        }
+                    },)
+                }
+            })
+        }
+
+        return value
+    }
+
     const saveData = computed(() => (collection === COLLECTION.seo_setting ? {
-        value: merge(item.value, settings.value)
-    } : merge(item.value, settings.value)))
+        value: getSaveValue()
+    } : mergeWith({}, item.value, settings.value, function (_from: any, to: any) {
+        if (typeof to !== 'undefined') {
+            return to;
+        }
+    },)))
 
     async function getItem() {
         loading.value = true;

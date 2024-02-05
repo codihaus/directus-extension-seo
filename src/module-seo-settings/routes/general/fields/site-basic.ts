@@ -97,6 +97,10 @@ export default [
                     options: {
                         "choices": [
                             {
+                                "text": "Index",
+                                "value": "index"
+                            },
+                            {
                                 "text": "No Index",
                                 "value": "noindex"
                             },

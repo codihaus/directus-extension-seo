@@ -59,7 +59,7 @@ import SocialPreview from './components/social-preview.vue'
 import useImage from './composables/use-image';
 import SEOAdvancedField from './fields/seo-advanced'
 import { COLLECTION } from '../shared/constants';
-import { join, merge } from 'lodash';
+import { indexOf, join, merge } from 'lodash';
 
 
 const props = withDefaults(
@@ -142,6 +142,10 @@ const generalFields = computed(() => [
 			options: {
 				"choices": [
 					{
+						"text": "Index",
+						"value": "index"
+					},
+					{
 						"text": "No Index",
 						"value": "noindex"
 					},
@@ -164,6 +168,9 @@ const generalFields = computed(() => [
 				],
 				"itemsShown": 6
 			}
+		},
+		schema: {
+			default_value: ['index']
 		}
 	},
 	{
@@ -615,9 +622,21 @@ function onChangeKeywords() {
 	seoStore.setContent(values.value?.[props.map_content])
 }
 
-watch([settings, keywords], function([newSettings, newKeywords]) {
+watch([settings, keywords], function([newSettings, newKeywords],[oldSettings]) {
+	
+	let newIndex = indexOf(newSettings.meta_robots, 'index')
+	let newNoIndex = indexOf(newSettings.meta_robots, 'noindex')
+	let oldIndex = indexOf(oldSettings.meta_robots, 'index')
+	let oldNoIndex = indexOf(oldSettings.meta_robots, 'noindex')
+	console.log('index', newIndex, newNoIndex, oldIndex, oldNoIndex)
+	if(  newIndex >= 0 &&  oldNoIndex >=0 ) {
+		newSettings.meta_robots?.splice(oldNoIndex, 1)
+	}
+	if(  newNoIndex >=0 &&  oldIndex >=0 ) {
+		newSettings.meta_robots?.splice(oldIndex, 1)
+	}
 	let data = merge({...item.value}, newSettings, {meta_keywords: newKeywords})
-
+	console.log(newSettings, oldSettings, data)
 	// if( !!isSEOAdvanced.value ) {
 	// 	emit('input', data);
 	// 	return
@@ -673,7 +692,7 @@ const getSettingData = async(id) => {
 	try {
 		await api.get(`/items/${COLLECTION.seo_detail}/${id}/?fields=['*.*']`).then((res) => {
 			let data = res?.data?.data
-			console.log(data);
+			console.log("data", data);
 
 			// if( !!isSEOAdvanced.value ) {
 			// 	item.value = data
@@ -686,20 +705,27 @@ const getSettingData = async(id) => {
 				meta_description,
 				facebook_image,
 				twitter_image,
-				meta_robots,
 			} = data
 			let meta_keywords = data?.meta_keywords?.split(',') || ['']
 			const meta_social = JSON.parse(data.meta_social || '{}')
+			let meta_robots = JSON.parse(data?.meta_robots || '[]')
 			item.value = {
 				id,
 				meta_title,
 				meta_description,
-				meta_robots: JSON.parse(meta_robots || '{}'),
+				meta_robots: meta_robots,
 				facebook_image,
 				twitter_image,
 				meta_keywords,
 				...meta_social
 			}
+
+			if( meta_robots.length < 1 ) {
+				settings.value.meta_robots = ['index']
+			}
+
+			console.log('item.value', item.value)
+
 			if( !!isSEOAdvanced.value ) {
 				return
 			}
@@ -737,6 +763,7 @@ onMounted(() => {
 onMounted(async() => {
 	console.log('props.value', props);
 	if( props.value ) {
+		console.log('props.valueprops.value', props);
 		
 		await getSettingData(props.value);
 	}
