@@ -13,7 +13,7 @@
 					>
 						<span class="text" />
 					</span>
-					<span v-if="placeholder && !modelValue" class="placeholder">{{ placeholder }}</span>
+					<span v-if="placeholder && !modelValue" class="placeholder" v-html="placeholder"></span>
 				</template>
 
 				<template #append>
@@ -339,10 +339,14 @@ function setContent() {
 	position: absolute;
 	top: 50%;
 	left: 14px;
-	color: var(--foreground-subdued);
+	color: var(--foreground-subdued, var(--theme--foreground-subdued));
 	transform: translateY(-50%);
 	user-select: none;
 	pointer-events: none;
+	white-space: nowrap;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .content > :deep(*) {
