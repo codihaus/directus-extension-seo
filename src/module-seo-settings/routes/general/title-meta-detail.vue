@@ -165,6 +165,7 @@ const {
 
 const {
     item: customSettings,
+    saveData,
     loading: loadingCustomSettings,
     saving: savingCustomSettings,
     save: saveCustomSettings
@@ -181,19 +182,20 @@ const saveAdvancedData = async() => {
         customData.collection = collection.value
     }
     try {
-        const savedData = await save(customData).then(({data}) => data?.data)
+        const savedData = await save(customData)
         if( isNew.value ) {
-    
             if( savedData?.collection ) {
-                customSettings.value.push(data?.collection)
+                customSettings.value?.push(savedData?.collection)
+                console.log('savedData', customSettings.value)
             }
             
             await saveCustomSettings()
     
-            router.push(`/seo-settings/title-meta/${data?.collection}`)
+            router.push(`/seo-settings/title-meta/${savedData?.collection}`)
         }
         
     } catch (error) {
+        console.log(error)
         notify.add({
             title: 'Failed',
             text: 'The static page already exists!',

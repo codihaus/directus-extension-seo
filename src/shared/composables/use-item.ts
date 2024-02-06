@@ -16,6 +16,7 @@ export default function useItem(collection: string = '', key: string = '', isMul
     const loading = ref(false)
     const saving = ref(false)
     const error = ref()
+    console.log('defaultValue', defaultValue, item.value)
     
     const { currentLanguage, languages } = useLanguage()
     
@@ -40,27 +41,35 @@ export default function useItem(collection: string = '', key: string = '', isMul
     const endPoint = `/items/${collection}`
 
     function getSaveValue() {
-        let value = {}
+        let value = defaultValue
         if(isMultilang) {
             languages.value.map(({value: lang}) => {
-                let itemValue = get(item.value, lang) || {}
-                let settingsValue = get(settings.value, lang) || {}
-                if(Object.keys(itemValue) || Object.keys(settingsValue)) {
-                    value[lang] =  mergeWith({}, itemValue, settingsValue, function (_from: any, to: any) {
-                        if (typeof to !== 'undefined') {
-                            return to;
-                        }
-                    },)
-                }
+                let itemValue = get(item.value, lang) || defaultValue
+                let settingsValue = get(settings.value, lang) || defaultValue
+                value[lang] =  mergeWith(itemValue, settingsValue, function (_from: any, to: any) {
+                    if (typeof to !== 'undefined') {
+                        return to;
+                    }
+                })
+                // if(Object.keys(itemValue) || Object.keys(settingsValue)) {
+                // }
             })
+        } else {
+            value = mergeWith(defaultValue, item.value, settings.value, function (_from: any, to: any) {
+                if (typeof to !== 'undefined') {
+                    return to;
+                }
+            },)
         }
+
+
 
         return value
     }
 
     const saveData = computed(() => (collection === COLLECTION.seo_setting ? {
         value: getSaveValue()
-    } : mergeWith({}, item.value, settings.value, function (_from: any, to: any) {
+    } : mergeWith(defaultValue, item.value, settings.value, function (_from: any, to: any) {
         if (typeof to !== 'undefined') {
             return to;
         }
@@ -72,7 +81,10 @@ export default function useItem(collection: string = '', key: string = '', isMul
 
 		try {
 			const response = await api.get(`${endPoint}/${key}`, {params: {fields: ['*.*']}});
-            item.value = response?.data?.data?.value;
+
+            if(response?.data?.data?.value) {
+                item.value = response?.data?.data?.value;
+            }
 		} catch (err: any) {
 			error.value = err;
             isNew.value = true
