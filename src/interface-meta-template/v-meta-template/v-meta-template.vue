@@ -295,6 +295,9 @@ function setContent() {
 </script>
 
 <style scoped lang="scss">
+.input {
+	overflow-y: auto;
+}
 .content {
 	display: block;
 	flex-grow: 1;

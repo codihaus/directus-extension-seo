@@ -126,8 +126,8 @@ const interfaceTemplate = isCollectionExist(metaTemplateCollection) ? 'meta-temp
 const facebookTitle = computed(() => settings.value?.facebook_title || values.value?.[props.map_title] || item.value.meta_title)
 const twitterTitle = computed(() => settings.value?.twitter_title || values.value?.[props.map_title] || item.value.meta_title)
 
-const facebookDescription = computed(() => settings.value?.facebook_description || values.value?.[props.map_content] || item.value.meta_description)
-const twitterDescription = computed(() => settings.value?.twitter_description || values.value?.[props.map_content] || item.value.meta_description)
+const facebookDescription = computed(() => settings.value?.facebook_description || stripDescription(values.value?.[props.map_content]) || item.value.meta_description)
+const twitterDescription = computed(() => settings.value?.twitter_description || stripDescription(values.value?.[props.map_content]) || item.value.meta_description)
 
 
 const socialTabs = ref()
@@ -204,7 +204,7 @@ const generalFields = computed(() => [
 			width: "full",
 			interface: interfaceTemplate,
 			options: {
-				placeholder: settings.value?.meta_description || item.value?.meta_description || values.value?.[props.map_content] || '',
+				placeholder: settings.value?.meta_description || item.value?.meta_description || stripDescription(values.value?.[props.map_content]) || '',
 				collectionName: metaTemplateCollection,
 				inject: {
 					fields: [
@@ -780,6 +780,10 @@ watch(() => props.value , async(newValue, oldValue) => {
 		getSettingData(newValue);
 	}
 })
+
+function stripDescription(str: string = '') {
+	return str?.replace(/(<([^>]+)>)/gi, "").replaceAll("\n", " ")?.substring(0, 255)
+}
 
 </script>
 <style lang="scss" scoped>
