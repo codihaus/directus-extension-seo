@@ -36,22 +36,24 @@
             <div class="mt-10">
                 <h2 class="text-lg mb-6">Static page</h2>
                 <div class="grid grid-cols-1 gap-x6 gap-y-8 lg:grid-cols-3 2xl:grid-cols-4">
-                    <collection-item
-                        v-for="(collection, index) in customSettingsCollections" :key="collection.collection"
-                        :item="collection"
-                        v-model="customSettings"
-                        @change="onSelectCustomCollection"
-                    />
+                    <template v-for="(collection, index) in settings" :key="collection.collection">
+                        <collection-item
+                            v-if="collection.is_static"
+                            :item="collection"
+                            v-model="collection.enabled"
+                            @update:model-value="onChangeCustomSetting"
+                        />
+                    </template>
                 </div>
             </div>
             <div class="mt-10">
                 <h2 class="text-lg mb-6">Collections</h2>
                 <div class="grid grid-cols-1 gap-x6 gap-y-8 lg:grid-cols-3 2xl:grid-cols-4">
                     <collection-item
-                        v-for="(collection, index) in collectionsWithoutTranslation" :key="collection.collection"
+                        v-for="(collection, index) in collections" :key="collection.collection"
                         :item="collection"
-                        v-model="item"
-                        @change="onSelectCollection"
+                        v-model="collectionsSettings[index].enabled"
+                        @update:model-value="onSelectCollection($event, collection)"
                     />
                 </div>
             </div>
@@ -60,9 +62,9 @@
                     <h2 class="text-lg mb-6">Translation Collections</h2>
                     <div class="grid grid-cols-1 gap-x6 gap-y-8 lg:grid-cols-3 2xl:grid-cols-4">
                         <collection-item
-                            v-for="(collection, index) in translationCollections" :key="collection.collection"
+                            v-for="(collection, index) in translations" :key="collection.collection"
                             :item="collection"
-                            v-model="item"
+                            v-model="translationsSettings[index].enabled"
                             @change="onSelectCollection"
                         />
                     </div>
@@ -77,18 +79,21 @@
 import { ref, onMounted, computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useRoute } from 'vue-router';
-import { useStores, useApi } from '@directus/extensions-sdk';
+import { useStores, useApi, useItems} from '@directus/extensions-sdk';
 import formatTitle from '@directus/format-title';
 import { useResetStyle } from '../../../shared/composables/use-reset-style';
 import { useCollectionsItems } from '../../../shared/composables/use-collections-items';
 import useLanguage from '../../../shared/composables/use-languages';
 import useItem from '../../../shared/composables/use-item';
+import useSetting from '../../../shared/composables/use-setting';
 import { COLLECTION } from '../../../shared/constants';
 import { getSeoDetailsField, getSeoDetailRelation } from '../setup/fields/seo-detail'
 import Navigator from '../../components/navigator/index.vue'
 import CollectionItem from '../../components/collection-item.vue'
 import LanguageSelect from '../../../shared/components/language-select.vue';
+import useCheckSetup from '../../../shared/composables/use-check-setup';
 
+useCheckSetup()
 useResetStyle()
 const { t } = useI18n()
 const route = useRoute()
@@ -115,60 +120,91 @@ const showTranslationColelctions = ref(false)
 
 const {
     items,
-    collections,
+    // collections,
     listTranslationCollections,
     translationCollections,
     collectionsWithoutTranslation,
 } = useCollectionsItems()
 
 const {
-    item,
-    currentLanguage,
-    languages,
-    loading,
-    saving,
-    save
-} = useItem(COLLECTION.seo_setting, 'enabled_collections', false, [])
-
-const {
-    item: customSettings,
-    loading: loadingCustomSettings,
-    saving: savingCustomSettings,
-    save: saveCustomSettings
-} = useItem(COLLECTION.seo_setting, 'enabled_custom_settings', false, [])
-
-const customSettingsCollections = computed(() => {
-    let settings = customSettings.value?.length ? customSettings.value : []
-    return settings?.map((collection) => ({collection, name: formatTitle(collection)}))
+    items: settings,
+    loading: loadingSettings,
+    getItems,
+} = useItems(ref(COLLECTION.seo_advanced), {
+    limit: ref(-1),
+    fields: ref(['collection', 'enabled', 'is_static'])
 })
 
-const enableColllection = async(collection, is_custom: boolean = false) => await api.post(`/items/${COLLECTION.seo_advanced}/`, {collection, is_custom})
-const createSEODetail = async(collection) => await api.post(`/fields/${collection}`, getSeoDetailsField(collection))
-const createSEODetailRelation = async(collection) => await api.post(`/relations/`, getSeoDetailRelation(collection))
+const collectionsSettings = ref()
+
+const collections = computed(() => {
+    collectionsSettings.value = collectionsWithoutTranslation.value?.map((collection) => {
+        let setting = settings.value?.find((setting) => !setting.is_static && collection.collection === setting.collection)
+        return {
+            ...collection,
+            ...setting,
+            is_new: !setting
+        }
+    })
+    return collectionsSettings.value
+})
+
+const translationsSettings = ref()
+
+const translations = computed(() => {
+    translationsSettings.value = translationCollections.value?.map((collection) => {
+        let setting = settings.value?.find((setting) => !setting.is_static && collection.collection === setting.collection)
+        return {
+            ...collection,
+            ...setting,
+            is_new: !setting
+        }
+    })
+    return translationsSettings.value
+})
+
+const createColllectionSetting = async(collection: string) => await api.post(`/items/${COLLECTION.seo_advanced}/`, {collection, enabled: true, is_static: false})
+const createSEODetail = async(collection: string) => await api.post(`/fields/${collection}`, getSeoDetailsField(collection))
+const createSEODetailRelation = async(collection: string) => await api.post(`/relations/`, getSeoDetailRelation(collection))
 
 
-async function onSelectCollection(collection) {
+async function onSelectCollection(enabled: boolean, collection:any) {
     console.log('collection', collection)
-    await enableColllection()
-    .then(() => {
+    if( collection?.is_new ) {
+        await createColllectionSetting(collection?.collection)
+        .then(() => {
+            notify.add({
+                title: 'Saved!'
+            })
+        })
+        .finally(async () => {
+    
+            await createSEODetail(collection?.collection)
+            // console.log('run seo');
+            await createSEODetailRelation(collection?.collection)
+        })
+    } else {
+        await save(collection?.collection, enabled, false)
+    }
+    
+    await getItems()
+}
+
+async function onChangeCustomSetting(enabled: boolean, collection:string) {
+    await save(collection, enabled)
+}
+
+async function save(collection:string, enabled: boolean = true, is_static: boolean = true) {
+    await api.patch(`/items/${COLLECTION.seo_advanced}/${collection}`, {enabled, is_static}).then(() => {
         notify.add({
             title: 'Saved!'
         })
+    }).catch(() => {
+        notify.add({
+            title: 'Error!',
+            type: 'error'
+        })
     })
-    .finally(async () => {
-
-        await save()
-        console.log('run save');
-        
-        // await createSEODetail(collection)
-        // console.log('run seo');
-        // await createSEODetailRelation(collection)
-    })
-
-}
-
-async function onSelectCustomCollection(collection:string) {
-    await saveCustomSettings()
 }
 
 </script>

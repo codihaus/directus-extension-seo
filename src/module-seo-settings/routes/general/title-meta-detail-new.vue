@@ -1,5 +1,28 @@
 <template>
-    <private-view smallHeader>
+    <private-view v-if="error && ! isNew" smallHeader :title="t('page_not_found')">
+        <template #title-outer:prepend>
+            <v-button
+                v-tooltip.bottom="t('back')"
+                class="header-icon"
+                rounded
+                icon
+                secondary
+                exact
+                :to="`/seo-settings/`"
+            >
+                <v-icon name="arrow_back" />
+            </v-button>
+        </template>
+        <template #navigation>
+            <navigator/>
+        </template>
+		<div class="not-found py-20vh">
+			<v-info :title="t('page_not_found')" icon="not_interested">
+				{{ t('page_not_found_body') }}
+			</v-info>
+		</div>
+	</private-view>
+    <private-view v-else smallHeader>
         <template #title>
             <div>
                 <h1 class="font-semibold text-lg text-slate-900">{{ title }}</h1>
@@ -53,10 +76,8 @@
             <div class="flex gap-4 items-center justify-between mb-5">
                 <v-breadcrumb :items="breadcrumbs"></v-breadcrumb>
             </div>
-            <pre>{{ settings }}</pre>
-            <pre>{{ item }}</pre>
-            <template v-if="(isNew || customSettings?.includes(collection))">
-                <v-form v-model="customSettingsModel" :fields="customSettingFields" :primary-key="0" :initial-values="item" class="seo-setting-form"></v-form>
+            <template v-if="(isNew || item?.is_static)">
+                <v-form v-model="customSettingsModel" :fields="customSettingFields" :primary-key="0" :initial-values="item" :validation-errors="validationErrors" class="seo-setting-form"></v-form>
             </template>
             <template v-else>
                 <v-form v-model="mapFieldsSettings" :fields="mapFields" :primary-key="0" :initial-values="field?.meta?.options" class="seo-setting-form"></v-form>
@@ -88,9 +109,15 @@ import CollectionItem from '../../components/collection-item.vue'
 import getFields from './fields/title-meta-detail'
 import LanguageSelect from '../../../shared/components/language-select.vue';
 import merge from 'lodash/merge'
+import { unexpectedError } from '../../../shared/utils/unexpected-error';
+import { getSectionField } from '../../../shared/utils';
 
 useResetStyle()
-const { t } = useI18n()
+const i18n = useI18n()
+const { t } = i18n
+const { useNotificationsStore } = useStores()
+const notify = useNotificationsStore()
+
 const api = useApi()
 const route = useRoute()
 const router = useRouter()
@@ -120,20 +147,28 @@ const mapFieldsSettings = ref({})
 const { mapFields } = useMapFields(collection.value)
 const field = ref()
 onMounted(async () => {
-    field.value = await api.get(`/fields/${targetCollection.value}/${COLLECTION.seo_detail}`).then(({data}) => data?.data)
+    // field.value = await api.get(`/fields/${targetCollection.value}/${COLLECTION.seo_detail}`).then(({data}) => data?.data)
 })
 
 const fields = ref(getFields(collection.value))
 const customSettingFields = ref([
-    {
-        name: "Custom Collection Name",
-        field: "collection",
-        type: "string",
-        meta: {
-            interface: "input",
-            note: 'Using when setting is not belong to any collection!'
+    ...getSectionField(
+        {
+            field: 'collection',
+            title: 'Static page',
         },
-    },
+        [
+            {
+                name: "",
+                field: "collection",
+                type: "string",
+                meta: {
+                    interface: "input",
+                    note: 'Using when setting is not belong to any collection!'
+                },
+            },
+        ]
+    ),
 ])
 
 const customSettingsModel = ref({
@@ -147,21 +182,16 @@ const {
     languages,
     loading,
     saving,
+    error,
     save
 } = useItem(COLLECTION.seo_advanced, collection.value, false)
 
-
-const {
-    item: customSettings,
-    loading: loadingCustomSettings,
-    saving: savingCustomSettings,
-    save: saveCustomSettings
-} = useItem(COLLECTION.seo_setting, 'enabled_custom_settings', false, [])
+const validationErrors = ref()
 
 
 const saveAdvancedData = async() => {
     let customData = {
-        is_custom: isNew.value,
+        is_static: isNew.value,
         collection: customSettingsModel.value.collection
     }
 
@@ -169,19 +199,46 @@ const saveAdvancedData = async() => {
         customData.collection = collection.value
     }
 
-    await save(customData).then(async (data) => {
-        
-        if( isNew.value ) {
+    saving.value = true
 
-            if( data?.collection ) {
-                customSettings.value.push(data?.collection)
+    if( isNew.value ) {
+        await api.post(`/items/${COLLECTION.seo_advanced}`, customData)
+        .then((response) => {
+            if( response?.data?.data ) {
+                item.value = response?.data?.data
             }
-            
-            await saveCustomSettings()
+            router.push(`/seo-settings/title-meta/${customData?.collection}`)
+        })
+        .catch((err) => {
+            if (err?.response?.data?.errors) {
+                validationErrors.value = err.response.data.errors
+                .filter((err) => ['FAILED_VALIDATION', 'RECORD_NOT_UNIQUE'].includes(err?.extensions?.code))
+                .map((err) => {
+                    return err.extensions;
+                });
+                const otherErrors = err.response.data.errors.filter(
+                    (err) => ['FAILED_VALIDATION', 'RECORD_NOT_UNIQUE'].includes(err?.extensions?.code) === false
+                );
 
-            router.push(`/seo-settings/title-meta/${data?.collection}`)
-        }
-    })
+                if (otherErrors.length > 0) {
+                    otherErrors.forEach((err) => unexpectedError(err, notify, i18n));
+                }
+            } else {
+                unexpectedError(err, notify, i18n);
+            }
+            saving.value = false
+        })
+    } else {
+        await api.patch(`/items/${COLLECTION.seo_advanced}`, customData)
+        .then((response) => {
+            if( response?.data?.data ) {
+                item.value = response?.data?.data
+            }
+            router.push(`/seo-settings/title-meta/${customData?.collection}`)
+        }).catch(() => {
+            saving.value = false
+        })
+    }
 }
 
 const onSave = async() => {
@@ -200,13 +257,13 @@ const onSave = async() => {
 }
 
 const onSelectLanguage = (lang) => {
-    document.querySelector('.advanced-form .language-select .toggle').click()
+    document.querySelector('.advanced-form .language-select .toggle')?.click()
     setTimeout(() => {
         for (const listItem of document.querySelectorAll('#menu-outlet .v-list-item')) {
             console.log('a.textContent',listItem.textContent);
             if (listItem.textContent.includes(lang)) {
                 
-                listItem.click()
+                listItem?.click()
             }
         }
     }, 300);

@@ -749,21 +749,21 @@ onMounted(() => {
 		return
 	}
 
-	const instance = getCurrentInstance()
+	// const instance = getCurrentInstance()
 
-	let parent = instance?.parent
-	while (parent && parent.type.__name !== 'private-view') {
-		parent = parent.parent;
-	}
+	// let parent = instance?.parent
+	// while (parent && parent?.type?.__name !== 'private-view') {
+	// 	parent = parent?.parent;
+	// }
 
-	// @ts-ignore
-	const renderSidebarSEO = h(SidebarSEO, {modelValue: keywords} )
-	// @ts-ignore
-	const sidebar = parent.slots.sidebar()
+	// // @ts-ignore
+	// const renderSidebarSEO = h(SidebarSEO, {modelValue: keywords} )
+	// // @ts-ignore
+	// const sidebar = parent?.slots?.sidebar()
 	
-	sidebar.push( renderSidebarSEO )
-	// @ts-ignore
-	parent.slots.sidebar = () => sidebar
+	// sidebar.push( renderSidebarSEO )
+	// // @ts-ignore
+	// parent.slots.sidebar = () => sidebar
 })
 
 onMounted(async() => {

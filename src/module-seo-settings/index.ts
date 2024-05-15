@@ -3,7 +3,7 @@ import RoutePass from '../shared/utils/router-passthrough'
 import SiteBasic from './routes/general/site-basic.vue';
 import LocalSEO from './routes/general/local-seo.vue';
 import TitleMeta from './routes/general/title-meta.vue';
-import TitleMetaDetail from './routes/general/title-meta-detail.vue';
+import TitleMetaDetail from './routes/general/title-meta-detail-new.vue';
 import Scripts from './routes/advanced/scripts.vue';
 import Setup from './routes/setup/setup.vue';
 import SetupWizard from './routes/setup/setup-wizard.vue';

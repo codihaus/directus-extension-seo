@@ -6,7 +6,7 @@ import { COLLECTION } from "../constants"
 import { defu } from "defu";
 import { get, mergeWith } from "lodash"
 
-export default function useItem(collection: string = '', key: string = '', isMultilang: boolean = true, defaultValue: any = {}) {
+export default function useSetting(collection: string = '', key: string = '', isMultilang: boolean = true, defaultValue: any = {}) {
     const { useNotificationsStore } = useStores()
     const notify = useNotificationsStore()
     
@@ -76,9 +76,6 @@ export default function useItem(collection: string = '', key: string = '', isMul
     },)))
 
     async function getItem() {
-        if( key === '+' ) {
-            return
-        }
         loading.value = true;
 		error.value = null;
 
@@ -105,7 +102,7 @@ export default function useItem(collection: string = '', key: string = '', isMul
 			let response;
 
 			if (isNew.value === true) {
-				response = await api.post(endPoint, {...saveData.value, ...data});
+				response = await api.post(endPoint, {key, ...saveData.value, ...data});
 
 			} else {
 				response = await api.patch(`${endPoint}/${key}`, {...saveData.value, ...data});

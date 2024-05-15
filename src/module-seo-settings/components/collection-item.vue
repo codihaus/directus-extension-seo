@@ -6,7 +6,7 @@
         </div>
         <div class="text-slate-900">
             <div class="text-md font-semibold text-slate-900">
-                {{ item?.name }}
+                {{ item?.name || formatTitle(item?.collection) }}
             </div>
             <div class="text-sm text-slate-500 mt-1 line-clamp-1" :title="item?.meta?.note || '...'">
                 {{ item?.meta?.note || '...' }}
@@ -18,18 +18,18 @@
     </div>
     <div class="flex gap-5 px-5 py-4 justify-between bg-slate-100 rounded-b mt-auto">
         <v-switch
-            :value="item?.collection"
-            :model-value="modelValue || []"
+            :model-value="modelValue"
             @update:model-value="updateValue($event, item?.collection)"
         />
         <v-button
             class="button-setting"
             :to="`/seo-settings/title-meta/${item?.collection}`"
-            :disabled="!modelValue?.includes(item?.collection)"
+            :disabled="!modelValue"
             :style="{
                 '--v-button-background-color': '#fff',
                 '--v-button-color': '#070A13',
                 '--border-width': '1px',
+                '--v-button-min-width': '0',
             }"
         >Setting</v-button>
     </div>
@@ -39,6 +39,7 @@
 <script setup lang="ts">
 import { PropType } from 'vue';
 import VSwitch from './v-switch.vue'
+import formatTitle from '@directus/format-title';
 
 const props = defineProps({
     item: {
@@ -46,19 +47,18 @@ const props = defineProps({
         default: null
     },
     value: {
-        type: Array as PropType<string[]>,
+        type: Boolean,
         default: null,
     },
     modelValue: {
-        type: Array as PropType<string[]>,
+        type: Boolean,
         default: null
     }
 })
-const emit = defineEmits(['change', 'update:modelValue'])
+const emit = defineEmits(['update:modelValue'])
 
 const updateValue = ($event, collection) => {
-    emit('update:modelValue', $event);
-    emit('change', collection)
+    emit('update:modelValue', $event, collection);
 }
 </script>
 

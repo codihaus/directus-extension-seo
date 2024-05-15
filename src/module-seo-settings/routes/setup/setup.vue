@@ -62,6 +62,7 @@
 import { useApi, useStores } from '@directus/extensions-sdk'
 import { computed, onMounted, ref } from 'vue'
 import { useI18n } from 'vue-i18n';
+import { useRouter } from 'vue-router';
 import { useStepper } from '@vueuse/core'
 import {
     collectionModuleSettings,
@@ -80,6 +81,7 @@ const api = useApi()
 const { useCollectionsStore } = useStores();
 const collectionsStore = useCollectionsStore();
 const { t } = useI18n()
+const router = useRouter()
 
 const loading = ref(false)
 // const currentStep = ref()
@@ -174,12 +176,17 @@ onMounted(() => {
 })
 
 const setup = async() => {
-    if( isCollectionExist(COLLECTION.seo_setting) && isCollectionExist(COLLECTION.seo_redirection && isCollectionExist(COLLECTION.seo_detail)) ) {
+    loading.value = true
+    await collectionsStore.hydrate()
+    if( isCollectionExist(COLLECTION.seo_setting) && isCollectionExist(COLLECTION.seo_redirection) && isCollectionExist(COLLECTION.seo_detail) ) {
         goToNext()
+        loading.value = false
         return
     }
+    
+    console.log('exist', isCollectionExist(COLLECTION.seo_setting) && isCollectionExist(COLLECTION.seo_redirection) && isCollectionExist(COLLECTION.seo_detail))
+    console.log('after check')
 
-    loading.value = true
     if( ! isCollectionExist(COLLECTION.seo_setting) ) {
         currentStepTitle.value = 'Create settings'
         currentStepText.value = 'Creating collections for saving settings...'
@@ -189,6 +196,7 @@ const setup = async() => {
                 // currentStepText.value = res.data.errors.
             }
         })
+        await collectionsStore.hydrate()
     }
     if( ! isCollectionExist(COLLECTION.seo_redirection) ) {
         
@@ -196,12 +204,14 @@ const setup = async() => {
             if( ! res.data.data ) {
             }
         })
+        await collectionsStore.hydrate()
     }
     if( ! isCollectionExist(COLLECTION.seo_detail) ) {
         await api.post('/collections', collectionSeoDetails).then((res) => {
             if( ! res.data.data ) {
             }
         })
+        await collectionsStore.hydrate()
         for await (const relation of relationsSeoDetails) {
             await api.post('/relations', relation)
         }
@@ -213,18 +223,22 @@ const setup = async() => {
 const createMultiLanguage = async() => {
 
     loading.value = true
+    await collectionsStore.hydrate()
 
     if( ! isCollectionExist(COLLECTION.seo_advanced) ) {
         await api.post('/collections', getCollectionSeoAdvanced(useLanguage.value > 0))
+        await collectionsStore.hydrate()
     }
 
     if( ! isCollectionExist(`${COLLECTION.seo_advanced}_translations`) && useLanguage.value > 0 ) {
         await api.post('/collections', collectionSeoAdvancedTrans)
+        await collectionsStore.hydrate()
     }
 
 
     if( ! isCollectionExist(COLLECTION.language) && useLanguage.value === 1 ) {
         await api.post('/collections', collectionLanguages)
+        await collectionsStore.hydrate()
     }
 
     if( useLanguage.value > 0 ) {
@@ -246,6 +260,7 @@ const complete = async() => {
     // }
     
     api.post(`/items/${COLLECTION.seo_setting}`, {key: 'setup', value: 1})
+    router.push('/seo-settings/title-meta')
     // await api.post(`/items/${COLLECTION.seo_setting}`, generalData)
 
 }
