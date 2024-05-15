@@ -217,6 +217,7 @@ const setup = async() => {
         }
     }
     loading.value = false
+    goToNext()
     buttonText.value = 'Next step'
 }
 
