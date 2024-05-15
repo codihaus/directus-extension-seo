@@ -12,6 +12,8 @@ export default async function useCheckSetup() {
             if( response?.data?.data?.value !== 1 ) {
                 router.push('/seo-settings/setup')
             }
+        }).catch(() => {
+            router.push('/seo-settings/setup')
         })
     }
     onMounted(async () => await check())
