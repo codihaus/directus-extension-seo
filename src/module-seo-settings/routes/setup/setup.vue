@@ -260,7 +260,9 @@ const complete = async() => {
     //     value: {}
     // }
     
-    api.post(`/items/${COLLECTION.seo_setting}`, {key: 'setup', value: 1})
+    api.post(`/items/${COLLECTION.seo_setting}`, {key: 'setup', value: {
+        enabled: true
+    }})
     router.push('/seo-settings/title-meta')
     // await api.post(`/items/${COLLECTION.seo_setting}`, generalData)
 

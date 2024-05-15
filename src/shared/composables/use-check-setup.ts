@@ -9,7 +9,7 @@ export default async function useCheckSetup() {
     const api = useApi()
     async function check() {
         await api.get(`/items/${COLLECTION.seo_setting}/setup`).then((response) => {
-            if( response?.data?.data?.value !== 1 ) {
+            if( response?.data?.data?.value?.enabled !== true ) {
                 router.push('/seo-settings/setup')
             }
         }).catch(() => {
