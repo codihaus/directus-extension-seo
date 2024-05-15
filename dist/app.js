@@ -18419,7 +18419,7 @@ const rt = (e = { title: "", field: "" }, n = []) => {
     to: "/seo-settings/redirection",
     hidden: !0
   }
-], w6e = (e) => (sn("data-v-1f1c036c"), e = e(), on(), e), D6e = { class: "navigator h-full flex flex-col" }, x6e = { class: "flex items-center text-slate-700 mr-auto" }, k6e = /* @__PURE__ */ w6e(() => /* @__PURE__ */ W("div", { class: "text-xs mt-auto py-1 px-3" }, "Directus SEO Extensions v1.3.4", -1)), C6e = /* @__PURE__ */ Ye({
+], w6e = (e) => (sn("data-v-1f1c036c"), e = e(), on(), e), D6e = { class: "navigator h-full flex flex-col" }, x6e = { class: "flex items-center text-slate-700 mr-auto" }, k6e = /* @__PURE__ */ w6e(() => /* @__PURE__ */ W("div", { class: "text-xs mt-auto py-1 px-3" }, "Directus SEO Extensions v1.3.5", -1)), C6e = /* @__PURE__ */ Ye({
   __name: "index",
   props: {
     // items: {
@@ -21802,7 +21802,7 @@ const uMe = /* @__PURE__ */ dt(oMe, [["__scopeId", "data-v-cc9bce1a"]]), lMe = {
         for await (const V of K6e)
           await n.post("/relations", V);
       }
-      l.value = !1, m.value = "Next step";
+      l.value = !1, A(), m.value = "Next step";
     }, Be = async () => {
       if (l.value = !0, await a.hydrate(), ae(re.seo_advanced) || (await n.post("/collections", hMe(h.value > 0)), await a.hydrate()), !ae(`${re.seo_advanced}_translations`) && h.value > 0 && (await n.post("/collections", pMe), await a.hydrate()), !ae(re.language) && h.value === 1 && (await n.post("/collections", cMe), await a.hydrate()), h.value > 0) {
         const V = fMe(y.value.collection || "languages", y.value.field || "code");
