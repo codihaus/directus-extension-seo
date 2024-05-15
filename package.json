@@ -1,7 +1,7 @@
 {
 	"name": "directus-extension-seo",
 	"author": "CodiHaus",
-	"version": "1.3.5",
+	"version": "1.3.6",
 	"type": "module",
 	"directus:extension": {
 		"host": "^10.1.9",

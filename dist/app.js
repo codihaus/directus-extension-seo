@@ -18419,7 +18419,7 @@ const rt = (e = { title: "", field: "" }, n = []) => {
     to: "/seo-settings/redirection",
     hidden: !0
   }
-], w6e = (e) => (sn("data-v-1f1c036c"), e = e(), on(), e), D6e = { class: "navigator h-full flex flex-col" }, x6e = { class: "flex items-center text-slate-700 mr-auto" }, k6e = /* @__PURE__ */ w6e(() => /* @__PURE__ */ W("div", { class: "text-xs mt-auto py-1 px-3" }, "Directus SEO Extensions v1.3.5", -1)), C6e = /* @__PURE__ */ Ye({
+], w6e = (e) => (sn("data-v-1f1c036c"), e = e(), on(), e), D6e = { class: "navigator h-full flex flex-col" }, x6e = { class: "flex items-center text-slate-700 mr-auto" }, k6e = /* @__PURE__ */ w6e(() => /* @__PURE__ */ W("div", { class: "text-xs mt-auto py-1 px-3" }, "Directus SEO Extensions v1.3.6", -1)), C6e = /* @__PURE__ */ Ye({
   __name: "index",
   props: {
     // items: {
@@ -20167,8 +20167,8 @@ async function c7e() {
   const e = vr(), n = Pa();
   async function i() {
     await n.get(`/items/${re.seo_setting}/setup`).then((a) => {
-      var o, l;
-      ((l = (o = a == null ? void 0 : a.data) == null ? void 0 : o.data) == null ? void 0 : l.value) !== 1 && e.push("/seo-settings/setup");
+      var o, l, c;
+      ((c = (l = (o = a == null ? void 0 : a.data) == null ? void 0 : o.data) == null ? void 0 : l.value) == null ? void 0 : c.enabled) !== !0 && e.push("/seo-settings/setup");
     }).catch(() => {
       e.push("/seo-settings/setup");
     });
@@ -21811,7 +21811,9 @@ const uMe = /* @__PURE__ */ dt(oMe, [["__scopeId", "data-v-cc9bce1a"]]), lMe = {
       }
       l.value = !1, A();
     }, ne = async () => {
-      n.post(`/items/${re.seo_setting}`, { key: "setup", value: 1 }), o.push("/seo-settings/title-meta");
+      n.post(`/items/${re.seo_setting}`, { key: "setup", value: {
+        enabled: !0
+      } }), o.push("/seo-settings/title-meta");
     }, ae = (V) => a.getCollection(V);
     return (V, J) => {
       const j = H("v-icon"), G = H("v-tab"), se = H("v-tabs"), pe = H("v-progress-circular"), xe = H("v-button"), ge = H("v-info"), be = H("v-tab-item"), _e = H("v-notice"), Te = H("v-radio"), Ke = H("v-form"), ut = H("v-tabs-items"), je = H("private-view");
