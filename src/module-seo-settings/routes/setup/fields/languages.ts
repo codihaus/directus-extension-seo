@@ -35,6 +35,28 @@ export const collectionLanguages = {
                 special: ["cast-boolean"],
             },
         },
+        {
+            field: "direction",
+            type: "string",
+            meta: {
+                interface: "select-dropdown",
+                options: {
+                    choices: [
+                        {
+                            text: "LTR",
+                            value: "ltr"
+                        },
+                        {
+                            text: "RTL",
+                            value: "rtl"
+                        }
+                    ]
+                },
+            },
+            schema: {
+                default_value: "ltr",
+            }
+        }
     ],
 };
 

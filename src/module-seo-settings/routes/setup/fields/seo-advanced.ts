@@ -21,7 +21,18 @@ export const collectionSeoAdvanced = {
             },
         },
         {
-            field: "is_custom",
+            field: "enabled",
+            type: "boolean",
+            schema: {},
+            meta: {
+                interface: "boolean",
+                special: ["cast-boolean"],
+                hidden: true,
+            },
+            collection: COLLECTION.seo_advanced,
+        },
+        {
+            field: "is_static",
             type: "boolean",
             schema: {},
             meta: {
