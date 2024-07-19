@@ -131,7 +131,11 @@ export default function useItem(collection: string = '', key: string = '', isMul
                 title: 'Saved Successfully!'
             })
 
-			settings.value = defaultValue;
+			if(response?.data?.data?.value) {
+                item.value = response?.data?.data?.value;
+            } else if(response?.data?.data) {
+                item.value = response?.data?.data;
+            }
 			return response.data.data;
 		} catch (err: any) {
 			// saveErrorHandler(err);

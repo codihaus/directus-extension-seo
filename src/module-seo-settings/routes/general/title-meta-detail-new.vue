@@ -189,6 +189,11 @@ const {
 
 const validationErrors = ref()
 
+const merged = computed(()=> mergeWith({}, item.value, settings.value, function (_from: any, to: any) {
+    if (typeof to !== 'undefined') {
+        return to;
+    }
+},))
 
 const saveAdvancedData = async() => {
     let customData = {
@@ -213,6 +218,7 @@ const saveAdvancedData = async() => {
             if( response?.data?.data ) {
                 item.value = response?.data?.data
             }
+            settings.value = {}
             notify.add({
                 title: 'Saved!'
             })
@@ -243,6 +249,7 @@ const saveAdvancedData = async() => {
             if( response?.data?.data ) {
                 item.value = response?.data?.data
             }
+            settings.value = {}
             notify.add({
                 title: 'Saved!'
             })

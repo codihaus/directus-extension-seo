@@ -90,7 +90,7 @@ const {
 
 
 async function onSave() {
-    await save({key: 'general'})
+    await save({key: 'advanced'})
 }
 </script>
 <style lang="scss" scoped>
