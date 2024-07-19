@@ -113,7 +113,10 @@ export default function useItem(collection: string = '', key: string = '', isMul
 			let response;
 
             let requestData = isMultilang ? {
-                value: settings.value
+                value: {
+                    ...item.value,
+                    ...settings.value
+                }
             } : settings.value
             
 			if (isNew.value === true) {
