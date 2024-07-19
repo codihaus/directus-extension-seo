@@ -11,7 +11,7 @@
             <div class="w-px h-9 my-auto bg-slate-200"></div>
             <v-button
                 v-tooltip.bottom="saving ? 'Saving' :`Save`"
-                @click="save"
+                @click="onSave"
                 rounded
 				icon
 				:disabled="saving || loading || !Object.keys(settings).length"
@@ -79,7 +79,7 @@ const fields = ref(rawFields)
 const {
     settings,
     editData,
-    saveData,
+    // saveData,
     itemLang,
     currentLanguage,
     languages,
@@ -87,6 +87,11 @@ const {
     saving,
     save
 } = useItem(COLLECTION.seo_setting, 'advanced')
+
+
+async function onSave() {
+    await save({key: 'general'})
+}
 </script>
 <style lang="scss" scoped>
 @import '../../../styles/form.scss';
