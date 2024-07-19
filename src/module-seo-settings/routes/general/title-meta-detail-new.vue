@@ -8,7 +8,7 @@
                 icon
                 secondary
                 exact
-                :to="`/seo-settings/`"
+                :to="`/seo-settings/title-meta`"
             >
                 <v-icon name="arrow_back" />
             </v-button>
