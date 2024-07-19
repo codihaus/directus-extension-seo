@@ -32,7 +32,6 @@
         </template>
         <div class="py-6 px-7.5">
             <v-breadcrumb :items="breadcrumbs"></v-breadcrumb>
-            <pre>{{ editData }}</pre>
             <v-form
                 v-model="editData"
                 :fields="fields"
@@ -81,7 +80,7 @@ const fields = ref(rawFields)
 const {
     settings,
     editData,
-    saveData,
+    // saveData,
     itemLang,
     currentLanguage,
     languages,
