@@ -17861,7 +17861,10 @@ function Za(e = "", n = "", i = !0, a = {}) {
     b.value = !0;
     try {
       let x, R = i ? {
-        value: c.value
+        value: {
+          ...d.value,
+          ...c.value
+        }
       } : c.value;
       return m.value === !0 ? x = await k.post($, { ...R, ...D }) : (x = await k.patch(`${$}/${n}`, { ...R, ...D }), m.value = !1), l.add({
         type: "success",
@@ -18408,7 +18411,7 @@ const rt = (e = { title: "", field: "" }, n = []) => {
     to: "/seo-settings/redirection",
     hidden: !0
   }
-], x6e = (e) => (en("data-v-1f1c036c"), e = e(), tn(), e), k6e = { class: "navigator h-full flex flex-col" }, C6e = { class: "flex items-center text-slate-700 mr-auto" }, A6e = /* @__PURE__ */ x6e(() => /* @__PURE__ */ W("div", { class: "text-xs mt-auto py-1 px-3" }, "Directus SEO Extensions v1.3.9", -1)), F6e = /* @__PURE__ */ Ye({
+], x6e = (e) => (en("data-v-1f1c036c"), e = e(), tn(), e), k6e = { class: "navigator h-full flex flex-col" }, C6e = { class: "flex items-center text-slate-700 mr-auto" }, A6e = /* @__PURE__ */ x6e(() => /* @__PURE__ */ W("div", { class: "text-xs mt-auto py-1 px-3" }, "Directus SEO Extensions v1.4.0", -1)), F6e = /* @__PURE__ */ Ye({
   __name: "index",
   props: {
     // items: {
