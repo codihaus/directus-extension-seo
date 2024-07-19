@@ -8,6 +8,7 @@ import Scripts from './routes/advanced/scripts.vue';
 import Setup from './routes/setup/setup.vue';
 import SetupWizard from './routes/setup/setup-wizard.vue';
 import Empty from './routes/empty.vue';
+import '../styles/base.scss'
 import '../styles/form.scss'
 
 export default defineModule({

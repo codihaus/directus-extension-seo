@@ -11,7 +11,7 @@
             <div class="w-px h-9 my-auto bg-slate-200"></div>
             <v-button
                 v-tooltip.bottom="saving ? 'Saving' :`Save`"
-                @click="save"
+                @click="onSave"
                 rounded
 				icon
 				:disabled="saving || loading || !Object.keys(settings).length"
@@ -32,12 +32,13 @@
         </template>
         <div class="py-6 px-7.5">
             <v-breadcrumb :items="breadcrumbs"></v-breadcrumb>
+            <pre>{{ editData }}</pre>
             <v-form
                 v-model="editData"
                 :fields="fields"
                 :primary-key="0"
                 :loading="loading"
-                :initial-values="item"
+                :initial-values="itemLang"
                 class="seo-setting-form"
             />
         </div>
@@ -117,6 +118,11 @@ watch(editData, (newSettings, oldSettings) => {
 		newSettings.meta_robots?.splice(oldIndex, 1)
 	}
 })
+
+
+async function onSave() {
+    await save({key: 'general'})
+}
 </script>
 <style lang="scss" scoped>
 @import '../../../styles/form.scss';

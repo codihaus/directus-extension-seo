@@ -11,7 +11,7 @@
             <div class="w-px h-9 my-auto bg-slate-200"></div>
             <v-button
                 v-tooltip.bottom="`Save`"
-                @click="save"
+                @click="onSave"
                 rounded
 				icon
 				:secondary="false"
@@ -78,6 +78,11 @@ const {
     saving,
     save
 } = useItem(COLLECTION.seo_setting, 'local_seo')
+
+
+async function onSave() {
+    await save({key: 'local_seo'})
+}
 </script>
 
 <style lang="scss" scoped>

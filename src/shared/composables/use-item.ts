@@ -29,11 +29,19 @@ export default function useItem(collection: string = '', key: string = '', isMul
         set: (newValue) => {
             if (isMultilang) {
                 
-                settings.value[currentLanguage.value] = newValue
+                settings.value[currentLanguage.value] = mergeWith({}, itemLang.value, newValue, function (_from: any, to: any) {
+                    if (typeof to !== 'undefined') {
+                        return to;
+                    }
+                })
                 return
             }
 
-            settings.value = newValue
+            settings.value = mergeWith({}, item.value, newValue, function (_from: any, to: any) {
+                if (typeof to !== 'undefined') {
+                    return to;
+                }
+            })
         },
     })
 
@@ -67,13 +75,13 @@ export default function useItem(collection: string = '', key: string = '', isMul
         return value
     }
 
-    const saveData = computed(() => (collection === COLLECTION.seo_setting ? {
-        value: getSaveValue()
-    } : mergeWith(defaultValue, item.value, settings.value, function (_from: any, to: any) {
-        if (typeof to !== 'undefined') {
-            return to;
-        }
-    },)))
+    // const saveData = computed(() => (collection === COLLECTION.seo_setting ? {
+    //     value: getSaveValue()
+    // } : mergeWith(defaultValue, item.value, settings.value, function (_from: any, to: any) {
+    //     if (typeof to !== 'undefined') {
+    //         return to;
+    //     }
+    // },)))
 
     async function getItem() {
         if( key === '+' ) {
@@ -104,11 +112,15 @@ export default function useItem(collection: string = '', key: string = '', isMul
         try {
 			let response;
 
+            let requestData = isMultilang ? {
+                value: settings.value
+            } : settings.value
+            
 			if (isNew.value === true) {
-				response = await api.post(endPoint, {...saveData.value, ...data});
-
+                response = await api.post(endPoint, {...requestData, ...data});
+                
 			} else {
-				response = await api.patch(`${endPoint}/${key}`, {...saveData.value, ...data});
+                response = await api.patch(`${endPoint}/${key}`, {...requestData, ...data});
                 isNew.value = false
 			}
             notify.add({
@@ -120,7 +132,7 @@ export default function useItem(collection: string = '', key: string = '', isMul
 			return response.data.data;
 		} catch (err: any) {
 			// saveErrorHandler(err);
-            console.log(error)
+            console.log(err)
             notify.add({
                 type: 'error',
                 title: 'Save Error'
@@ -139,7 +151,7 @@ export default function useItem(collection: string = '', key: string = '', isMul
         item,
         itemLang,
         editData,
-        saveData,
+        // saveData,
         currentLanguage,
         languages,
         saving,

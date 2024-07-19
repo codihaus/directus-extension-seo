@@ -111,6 +111,7 @@ import LanguageSelect from '../../../shared/components/language-select.vue';
 import merge from 'lodash/merge'
 import { unexpectedError } from '../../../shared/utils/unexpected-error';
 import { getSectionField } from '../../../shared/utils';
+import mergeWith from 'lodash/mergeWith';
 
 useResetStyle()
 const i18n = useI18n()
@@ -191,8 +192,13 @@ const validationErrors = ref()
 
 const saveAdvancedData = async() => {
     let customData = {
-        is_static: isNew.value,
-        collection: customSettingsModel.value.collection
+        is_static: isNew.value || item.value.is_static,
+        collection: customSettingsModel.value.collection,
+        ...mergeWith({}, item.value, settings.value, function (_from: any, to: any) {
+            if (typeof to !== 'undefined') {
+                return to;
+            }
+        },)
     }
 
     if( !isNew.value ) {
@@ -207,6 +213,9 @@ const saveAdvancedData = async() => {
             if( response?.data?.data ) {
                 item.value = response?.data?.data
             }
+            notify.add({
+                title: 'Saved!'
+            })
             router.push(`/seo-settings/title-meta/${customData?.collection}`)
         })
         .catch((err) => {
@@ -229,11 +238,14 @@ const saveAdvancedData = async() => {
             saving.value = false
         })
     } else {
-        await api.patch(`/items/${COLLECTION.seo_advanced}`, customData)
+        await api.patch(`/items/${COLLECTION.seo_advanced}/${customData.collection}`, customData)
         .then((response) => {
             if( response?.data?.data ) {
                 item.value = response?.data?.data
             }
+            notify.add({
+                title: 'Saved!'
+            })
             router.push(`/seo-settings/title-meta/${customData?.collection}`)
         }).catch(() => {
             saving.value = false
@@ -243,7 +255,7 @@ const saveAdvancedData = async() => {
 
 const onSave = async() => {
     const saved = await saveAdvancedData()
-    if( isNew.value ) {
+    if( isNew.value || item.value.is_static ) {
         return
     }
 

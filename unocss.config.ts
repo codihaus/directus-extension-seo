@@ -23,7 +23,6 @@ export default defineConfig({
     transformers: [transformerDirectives(), transformerVariantGroup()],
     theme: {
         colors: {
-            
         },
         container: {
             center: true,
