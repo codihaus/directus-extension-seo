@@ -249,7 +249,8 @@ const saveAdvancedData = async() => {
             if( response?.data?.data ) {
                 item.value = response?.data?.data
             }
-            settings.value = {}
+            console.log('settings.value', settings.value)
+            // settings.value = {}
             notify.add({
                 title: 'Saved!'
             })
