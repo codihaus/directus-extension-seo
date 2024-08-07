@@ -3,49 +3,62 @@ import { useStores } from '@directus/extensions-sdk';
 import { getEndpoint } from '@directus/utils';
 // import { unexpectedError } from '@/utils/unexpected-error';
 import merge from 'lodash/merge';
-import { ref, Ref, watch, inject } from 'vue';
+import { computed, ref, Ref, watch, inject, toValue, MaybeRefOrGetter } from 'vue';
 import { RelationM2O } from './use-relation-m2o';
 import { useI18n } from 'vue-i18n';
+import { unexpectedError } from '../../shared/utils/unexpected-error';
 
 export type RelationQuerySingle = {
 	fields: string[];
 };
 
+export type UseRelationSingleOptions = {
+	enabled?: MaybeRefOrGetter<boolean>;
+};
+
 export function useRelationSingle(
 	value: Ref<number | string | Record<string, any> | null>,
 	previewQuery: Ref<RelationQuerySingle>,
-	relation: Ref<RelationM2O | undefined>
+	relation: Ref<RelationM2O | undefined>,
+	options?: UseRelationSingleOptions,
 ) {
 	const displayItem = ref<Record<string, any> | null>(null);
 	const loading = ref(false);
+	const enabled = computed(() => (options?.enabled === undefined ? true : toValue(options?.enabled)));
 
 	const api = inject('api')
 	const stores = useStores()
 	const { useNotificationsStore } = stores
 	const notify = useNotificationsStore();
-	const { t } = useI18n()
+	const i18n = useI18n()
 
-	watch([value, previewQuery, relation], getDisplayItems, { immediate: true });
+	watch(
+		[value, previewQuery, relation, enabled],
+		() => {
+			if (enabled.value) getDisplayItem();
+		},
+		{ immediate: true },
+	);
 
 	return { update, remove, refresh, displayItem, loading };
 
-	function unexpectedError(error: any): void {
-		const code =
-		error?.response?.data?.errors?.[0]?.extensions?.code ||
-		error?.extensions?.code ||
-		'UNKNOWN';
+	// function unexpectedError(error: any): void {
+	// 	const code =
+	// 	error?.response?.data?.errors?.[0]?.extensions?.code ||
+	// 	error?.extensions?.code ||
+	// 	'UNKNOWN';
 
-		// eslint-disable-next-line no-console
-		console.warn(error);
+	// 	// eslint-disable-next-line no-console
+	// 	console.warn(error);
 
-		notify.add({
-			title: t(`errors.${code}`),
-			type: 'error',
-			code,
-			dialog: true,
-			error,
-		});
-	}
+	// 	notify.add({
+	// 		title: t(`errors.${code}`),
+	// 		type: 'error',
+	// 		code,
+	// 		dialog: true,
+	// 		error,
+	// 	});
+	// }
 
 	function update(item: Record<string, any> | string | number) {
 		if (!relation.value) return;
@@ -67,10 +80,10 @@ export function useRelationSingle(
 	}
 
 	async function refresh() {
-		await getDisplayItems();
+		await getDisplayItem();
 	}
 
-	async function getDisplayItems() {
+	async function getDisplayItem() {
 		const val = value.value;
 
 		if (!val) {
@@ -86,7 +99,7 @@ export function useRelationSingle(
 		const id = typeof val === 'object' ? val[relation.value.relatedPrimaryKeyField.field] : val;
 
 		if (!id) {
-			displayItem.value = val as Record<string, any>;
+			displayItem.value = val as T;
 			return;
 		}
 
@@ -107,12 +120,12 @@ export function useRelationSingle(
 			} else {
 				displayItem.value = response.data.data;
 			}
-		} catch (err: any) {
+		} catch (error: any) {
 			// if the item has a manually entered primary key, we can ignore the error
-			if (typeof val === 'object' && err.response && err.response.status === 403) {
-				displayItem.value = val;
+			if (typeof val === 'object' && error.response && error.response.status === 403) {
+				displayItem.value = val as T;
 			} else {
-				unexpectedError(err);
+				unexpectedError(error, notify, i18n);
 			}
 		} finally {
 			loading.value = false;

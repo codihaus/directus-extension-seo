@@ -1,5 +1,5 @@
 import { defineInterface, useStores } from '@directus/extensions-sdk';
-import InterfaceComponent from './interface.vue';
+import InterfaceComponent from './interface-seo-analyzer.vue';
 import { computed } from 'vue';
 import { Field } from '@directus/types';
 

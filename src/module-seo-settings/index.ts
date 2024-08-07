@@ -34,7 +34,7 @@ export default defineModule({
                 {
                     name: 'seo-settings',
                     path: '',
-                    component: Empty,
+                    component: TitleMeta,
                 },
                 {
                     name: 'seo-title-meta',

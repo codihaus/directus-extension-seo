@@ -97,29 +97,29 @@ const values = inject('values', ref<Record<string, any>>({}));
 
 
 const title = computed(() => {
-	let title = props.title
+	let title = props.title ?? ''
 	if( props.provider === 'facebook' ) {
-		title = values?.value?.['facebook_title'] || values?.value?.['seo_detail']?.['meta_social']?.['facebook_title']
+		title = values?.value?.['facebook_title'] || values?.value?.['seo_detail']?.['meta_social']?.['facebook_title'] || title
 	}
 	if( props.provider === 'twitter' ) {
-		title = values?.value?.['twitter_title'] || values?.value?.['seo_detail']?.['meta_social']?.['twitter_title']
+		title = values?.value?.['twitter_title'] || values?.value?.['seo_detail']?.['meta_social']?.['twitter_title'] || title
 	}
 
-	title = title || values?.value?.['meta_title'] || values?.value?.['seo_detail']?.['meta_title']
+	title = values?.value?.['meta_title'] || values?.value?.['seo_detail']?.['meta_title'] || title
 
 	return title
 })
 
 const description = computed(() => {
-	let description = props.description
+	let description = props.description ?? ''
 	if( props.provider === 'facebook' ) {
-		description = values?.value?.['facebook_description'] || values?.value?.['seo_detail']?.['meta_social']?.['facebook_description']
+		description = values?.value?.['facebook_description'] || values?.value?.['seo_detail']?.['meta_social']?.['facebook_description'] || title
 	}
 	if( props.provider === 'twitter' ) {
-		description = values?.value?.['twitter_description'] || values?.value?.['seo_detail']?.['meta_social']?.['twitter_description']
+		description = values?.value?.['twitter_description'] || values?.value?.['seo_detail']?.['meta_social']?.['twitter_description'] || title
 	}
 
-	description = description || values?.value?.['meta_description'] || values?.value?.['seo_detail']?.['meta_description']
+	description = values?.value?.['meta_description'] || values?.value?.['seo_detail']?.['meta_description'] || description
 
 	return description
 })

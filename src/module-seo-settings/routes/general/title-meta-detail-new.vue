@@ -8,7 +8,7 @@
                 icon
                 secondary
                 exact
-                :to="`/seo-settings/title-meta`"
+                :to="`/seo-settings/title-meta/`"
             >
                 <v-icon name="arrow_back" />
             </v-button>
@@ -37,7 +37,7 @@
                 icon
                 secondary
                 exact
-                :to="`/seo-settings/`"
+                :to="`/seo-settings/title-meta/`"
             >
                 <v-icon name="arrow_back" />
             </v-button>
@@ -279,7 +279,7 @@ const onSelectLanguage = (lang) => {
     document.querySelector('.advanced-form .language-select .toggle')?.click()
     setTimeout(() => {
         for (const listItem of document.querySelectorAll('#menu-outlet .v-list-item')) {
-            console.log('a.textContent',listItem.textContent);
+            console.log('a.textContent',listItem.textContent, lang);
             if (listItem.textContent.includes(lang)) {
                 
                 listItem?.click()
@@ -288,7 +288,7 @@ const onSelectLanguage = (lang) => {
     }, 300);
 }
 
-onMounted(() =>setTimeout(() =>  onSelectLanguage(currentLanguage.value), 500))
+onMounted(() =>setTimeout(() =>  onSelectLanguage(currentLanguage.value), 1000))
 </script>
 
 <style lang="scss" scoped>
