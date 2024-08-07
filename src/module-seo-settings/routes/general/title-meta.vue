@@ -65,7 +65,7 @@
                             v-for="(collection, index) in translations" :key="collection.collection"
                             :item="collection"
                             v-model="translationsSettings[index].enabled"
-                            @change="onSelectCollection"
+                            @update:model-value="onSelectCollection($event, collection)"
                         />
                     </div>
                 </div>
@@ -139,6 +139,7 @@ const collectionsSettings = ref()
 
 const collections = computed(() => {
     collectionsSettings.value = collectionsWithoutTranslation.value?.map((collection) => {
+        console.log('collection::', collection)
         let setting = settings.value?.find((setting) => !setting.is_static && collection.collection === setting.collection)
         return {
             ...collection,
