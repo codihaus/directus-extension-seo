@@ -1,6 +1,24 @@
 # Changelog
 
 
+## v1.5.2
+
+[compare changes](https://github.com/codihaus/directus-extension-seo/compare/v1.5.0...v1.5.2)
+
+### 🩹 Fixes
+
+- Detail save ([1ffb6a0](https://github.com/codihaus/directus-extension-seo/commit/1ffb6a0))
+- Active translation collection ([eea1ff1](https://github.com/codihaus/directus-extension-seo/commit/eea1ff1))
+
+### 🏡 Chore
+
+- New release 1.5.0 ([2f73af9](https://github.com/codihaus/directus-extension-seo/commit/2f73af9))
+- Bump 1.5.1 ([d48b4c1](https://github.com/codihaus/directus-extension-seo/commit/d48b4c1))
+
+### ❤️ Contributors
+
+- CodiHaus <contact@codihaus.com>
+
 ## v1.5.1
 
 [compare changes](https://github.com/codihaus/directus-extension-seo/compare/v1.5.0...v1.5.1)
