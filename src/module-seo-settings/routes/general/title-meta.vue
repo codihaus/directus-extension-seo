@@ -98,8 +98,9 @@ useResetStyle()
 const { t } = useI18n()
 const route = useRoute()
 const api = useApi()
-const { useNotificationsStore } = useStores()
+const { useNotificationsStore, useFieldsStore } = useStores()
 const notify = useNotificationsStore()
+const fieldsStore = useFieldsStore()
 
 const breadcrumbs = ref([
     {
@@ -164,9 +165,26 @@ const translations = computed(() => {
     return translationsSettings.value
 })
 
-const createColllectionSetting = async(collection: string) => await api.post(`/items/${COLLECTION.seo_advanced}/`, {collection, enabled: true, is_static: false})
-const createSEODetail = async(collection: string) => await api.post(`/fields/${collection}`, getSeoDetailsField(collection))
-const createSEODetailRelation = async(collection: string) => await api.post(`/relations/`, getSeoDetailRelation(collection))
+async function createColllectionSetting(collection: string) {
+    return await api.post(`/items/${COLLECTION.seo_advanced}/`, {collection, enabled: true, is_static: false})
+}
+async function createSEODetail(collection: string) {
+    return await api.post(`/fields/${collection}`, getSeoDetailsField(collection))
+}
+async function toggleSEODetailInterface(collection: string, enabled: boolean) {
+    const existing = fieldsStore.getField(collection, COLLECTION.seo_detail)
+    let rawField = {
+        ...existing,
+        meta: {
+            ...existing?.meta,
+            hidden: !enabled
+        }
+    }
+    return await fieldsStore.updateField(collection, COLLECTION.seo_detail, rawField)
+}
+async function createSEODetailRelation(collection: string) {
+    return await api.post(`/relations/`, getSeoDetailRelation(collection))
+}
 
 
 async function onSelectCollection(enabled: boolean, collection:any) {
@@ -206,6 +224,10 @@ async function save(collection:string, enabled: boolean = true, is_static: boole
             type: 'error'
         })
     })
+
+    if( !is_static ) {
+        await toggleSEODetailInterface(collection, enabled)
+    }
 }
 
 </script>
