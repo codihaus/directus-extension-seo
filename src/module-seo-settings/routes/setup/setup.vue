@@ -91,7 +91,7 @@
             <v-tab-item :value="stepNames[2]">
                 <v-info icon="check" :title="current.title" type="success">
                     {{ current.description }}
-                    <v-button class="mt-5" :disabled="loading" :loading="loading" @click="complete" to="/seo-settings/title-meta">
+                    <v-button class="mt-5" :disabled="loading" :loading="loading" @click="complete">
                         {{  'Go to Setting' }}
                     </v-button>
                 </v-info>
@@ -311,11 +311,19 @@ const complete = async() => {
     //     key: 'general',
     //     value: {}
     // }
-    
-    api.post(`/items/${COLLECTION.seo_setting}`, {key: 'setup', value: {
-        enabled: true,
-        currentVersion: '%%version%%'
-    }})
+    loading.value = true
+    try {
+        await api.post(`/items/${COLLECTION.seo_setting}`, {key: 'setup', value: {
+            enabled: true,
+            currentVersion: '%%version%%'
+        }})
+    } catch {
+        await api.patch(`/items/${COLLECTION.seo_setting}/setup`, { value: {
+            enabled: true,
+            currentVersion: '%%version%%'
+        }})
+    }
+    loading.value = false
     router.push('/seo-settings/title-meta')
     // await api.post(`/items/${COLLECTION.seo_setting}`, generalData)
 
