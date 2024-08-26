@@ -30,7 +30,7 @@ import { Field, PrimaryKey, Relation } from '@directus/types';
 import { getEndpoint } from '@directus/utils';
 import { isSystemCollection } from '@directus/system-data';
 import { isEmpty, merge, set } from 'lodash';
-import { Ref, computed, inject, ref, toRefs, watch } from 'vue';
+import { Ref, computed, getCurrentInstance, inject, ref, toRefs, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { unexpectedError } from '../../shared/utils/unexpected-error';
 import { getDefaultValuesFromFields } from '../../shared/utils/get-default-values-from-fields';
@@ -549,6 +549,7 @@ function onChangeKeywords() {
 		url: get(values.value, props.map_url) || '',
 	})
 	seoStore.setContent(values.value?.[props.map_content])
+	save()
 }
 
 function getDisplayValue(data) {
