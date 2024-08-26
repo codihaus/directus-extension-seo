@@ -1,21 +1,22 @@
 <template>
 <private-view smallHeader title="Setup">
     <template #navigation>
-        <!-- <ol class="list-step list-none p-3 overflow-hidden space-y-8">
-            <li v-for="(step, id, index) in steps" :key="id" :value="id" class="active" @click="currentStep = [id]">
+        <ol class="list-step list-none p-3 overflow-hidden space-y-8">
+            <li v-for="(step, id, index) in steps" :key="id" :value="id" class="active" >
+                <!-- @click="currentStep = [id]" -->
                 <div class="flex items-center font-medium w-full  ">
                     <span :class="currentStep.includes(id) ? 'bg-primary text-white border-transparent' : 'bg-[var(--background-normal-alt)] text-primary'" class="w-8 h-8 border-2 rounded-full flex justify-center items-center mr-3 text-sm lg:w-10 lg:h-10">
                         <svg v-if="currentStep.includes(id)" class="w-5 h-5 stroke-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7" stroke="stroke-current" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="my-path"></path>
                         </svg>
-                        <span v-else>{{ index }}</span>
+                        <span v-else>{{ index + 1 }}</span>
                     </span>
                     <div class="block">
                         <h4 class="text-lg text-primary">{{ step.label }}</h4>
                     </div>
                 </div>
             </li>
-            <li>
+            <!-- <li>
                 <div class="flex items-center font-medium w-full">
                     <span class=" w-8 h-8 border-2 border-primary rounded-full flex justify-center items-center mr-3 text-sm text-primary lg:w-10 lg:h-10">2</span>
                     <div class="block">
@@ -32,11 +33,11 @@
                         <span class="text-sm">Summary</span>
                     </div>
                 </div>
-            </li>
-        </ol> -->
-        <v-tabs v-model="currentStep" vertical>
+            </li> -->
+        </ol>
+        <!-- <v-tabs v-model="currentStep" vertical>
             <v-tab v-for="(step, id) in steps" :key="id" :value="id"><v-icon :name="currentStep.includes(id) ? `radio_button_checked` : `radio_button_unchecked`" />{{ step.label }}</v-tab>
-        </v-tabs>
+        </v-tabs> -->
     </template>
     <div class="px-5 pt-10 pb-3">
         <v-tabs-items v-model="currentStep">
@@ -65,15 +66,26 @@
                     <v-radio v-model="useLanguage" :value="2" label="Choose from existing collection" />
                 </div>
                 <v-form v-if="useLanguage === 2" v-model="languageCollection" :fields="languageFields"></v-form>
-                <v-button class="mt-5" :disabled="loading" :loading="loading" @click="createMultiLanguage">
-                    {{ loading ? 'Setting up...' : 'Next step' }}
-                    <template #loading>
-                        <div class="flex gap-2 items-center">
-                            <div class="inline-block"><v-progress-circular indeterminate /></div>
-                            <span>{{ 'Setting up...' }}</span>
-                        </div>
-                    </template>
-                </v-button>
+                <div class="flex items-center justify-between gap-3">
+
+                    <v-button class="mt-5" :disabled="loading" :loading="loading" @click="goToPrevious">
+                        {{ 'Back' }}
+                        <template #loading>
+                            <div class="flex gap-2 items-center">
+                                <div class="inline-block"><v-progress-circular indeterminate /></div>
+                            </div>
+                        </template>
+                    </v-button>
+                    <v-button class="mt-5" :disabled="loading" :loading="loading" @click="createMultiLanguage">
+                        {{ loading ? 'Setting up...' : 'Next step' }}
+                        <template #loading>
+                            <div class="flex gap-2 items-center">
+                                <div class="inline-block"><v-progress-circular indeterminate /></div>
+                                <span>{{ 'Setting up...' }}</span>
+                            </div>
+                        </template>
+                    </v-button>
+                </div>
                 
             </v-tab-item>
             <v-tab-item :value="stepNames[2]">
@@ -111,8 +123,10 @@ collectionSeoAdvancedTrans,
 import { COLLECTION } from '../../../shared/constants';
 
 const api = useApi()
-const { useCollectionsStore } = useStores();
+const { useCollectionsStore, useFieldsStore } = useStores();
 const collectionsStore = useCollectionsStore();
+const fieldsStore = useFieldsStore()
+
 const { t } = useI18n()
 const router = useRouter()
 
@@ -208,14 +222,14 @@ onMounted(() => {
     }
 })
 
-const setup = async() => {
+async function setup() {
     loading.value = true
     await collectionsStore.hydrate()
-    if( isCollectionExist(COLLECTION.seo_setting) && isCollectionExist(COLLECTION.seo_redirection) && isCollectionExist(COLLECTION.seo_detail) ) {
-        goToNext()
-        loading.value = false
-        return
-    }
+    // if( isCollectionExist(COLLECTION.seo_setting) && isCollectionExist(COLLECTION.seo_redirection) && isCollectionExist(COLLECTION.seo_detail) ) {
+    //     goToNext()
+    //     loading.value = false
+    //     return
+    // }
     
     console.log('exist', isCollectionExist(COLLECTION.seo_setting) && isCollectionExist(COLLECTION.seo_redirection) && isCollectionExist(COLLECTION.seo_detail))
     console.log('after check')
@@ -249,6 +263,11 @@ const setup = async() => {
             await api.post('/relations', relation)
         }
     }
+
+    if (fieldsStore.getField(COLLECTION.seo_advanced, 'is_custom')) {
+        await fieldsStore.deleteField(COLLECTION.seo_advanced, 'is_custom')
+    }
+
     loading.value = false
     goToNext()
     buttonText.value = 'Next step'
@@ -294,7 +313,8 @@ const complete = async() => {
     // }
     
     api.post(`/items/${COLLECTION.seo_setting}`, {key: 'setup', value: {
-        enabled: true
+        enabled: true,
+        currentVersion: '%%version%%'
     }})
     router.push('/seo-settings/title-meta')
     // await api.post(`/items/${COLLECTION.seo_setting}`, generalData)
