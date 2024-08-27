@@ -136,6 +136,7 @@ export default function useItem(collection: string = '', key: string = '', isMul
             } else if(response?.data?.data) {
                 item.value = response?.data?.data;
             }
+            isNew.value = false
 			return response.data.data;
 		} catch (err: any) {
 			// saveErrorHandler(err);
