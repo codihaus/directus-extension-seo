@@ -18551,7 +18551,7 @@ const su = () => {
   i(t), e.afterEach((a, o, l) => {
     i(a);
   });
-}, Bze = "directus-extension-seo", Lze = "CodiHaus", Pze = "1.5.8", jze = "module", Nze = "Directus SEO Extension enhance Directus with powerful SEO scoring and validator and AI SEO from ChatGPT", zze = {
+}, Bze = "directus-extension-seo", Lze = "CodiHaus", Pze = "1.5.9", jze = "module", Nze = "Directus SEO Extension enhance Directus with powerful SEO scoring and validator and AI SEO from ChatGPT", zze = {
   type: "git",
   url: "git+https://github.com/codihaus/directus-extension-seo"
 }, Mze = "extension", Uze = [
@@ -20817,14 +20817,6 @@ const Og = [
       }
     },
     {
-      field: "image_share",
-      type: "string",
-      schema: {},
-      meta: {
-        interface: "input"
-      }
-    },
-    {
       field: "facebook_image",
       type: "uuid",
       schema: {},
@@ -20852,17 +20844,6 @@ const Og = [
     group: ue.seo_setting
   }
 }, bMe = [
-  {
-    collection: ue.seo_detail,
-    field: "image_share",
-    related_collection: "directus_files",
-    meta: {
-      sort_field: null
-    },
-    schema: {
-      on_delete: "SET NULL"
-    }
-  },
   {
     collection: ue.seo_detail,
     field: "facebook_image",
