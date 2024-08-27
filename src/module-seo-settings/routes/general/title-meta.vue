@@ -7,7 +7,7 @@
             </div>
         </template>
         <template #actions>
-            <v-checkbox v-model="showTranslationColelctions" label="Show Translation Collections" />
+            <!-- <v-checkbox v-model="showTranslationColelctions" label="Show Translation Collections" /> -->
             <div class="w-px h-9 my-auto !ml-2 !mr-4 bg-slate-200"></div>
             <v-button
                 v-tooltip.bottom="`Add Static Page Setting`"
@@ -53,11 +53,11 @@
                         v-for="(collection, index) in collections" :key="collection.collection"
                         :item="collection"
                         v-model="collectionsSettings[index].enabled"
-                        @update:model-value="onSelectCollection($event, collection)"
+                        @update:model-value="onSelectCollection"
                     />
                 </div>
             </div>
-            <template v-if="showTranslationColelctions">
+            <!-- <template v-if="showTranslationColelctions">
                 <div class="mt-10">
                     <h2 class="text-lg mb-6">Translation Collections</h2>
                     <div class="grid grid-cols-1 gap-x6 gap-y-8 lg:grid-cols-3 2xl:grid-cols-4">
@@ -69,7 +69,7 @@
                         />
                     </div>
                 </div>
-            </template>
+            </template> -->
             
         </div>
     </private-view>
@@ -156,6 +156,7 @@ const translationsSettings = ref()
 const translations = computed(() => {
     translationsSettings.value = translationCollections.value?.map((collection) => {
         let setting = settings.value?.find((setting) => !setting.is_static && collection.collection === setting.collection)
+
         return {
             ...collection,
             ...setting,
@@ -187,8 +188,15 @@ async function createSEODetailRelation(collection: string) {
 }
 
 
-async function onSelectCollection(enabled: boolean, collection:any) {
+async function onSelectCollection(enabled: boolean, collection:any, save_to_translation: boolean = true) {
     console.log('collection', collection)
+
+    let targetCollection = collection?.collection
+
+    if( save_to_translation && collection?.translation_collection ) {
+        targetCollection = collection?.translation_collection
+    }
+
     if( collection?.is_new ) {
         await createColllectionSetting(collection?.collection)
         .then(() => {
@@ -198,15 +206,15 @@ async function onSelectCollection(enabled: boolean, collection:any) {
         })
         .finally(async () => {
     
-            await createSEODetail(collection?.collection)
+            await createSEODetail(targetCollection)
             // console.log('run seo');
-            await createSEODetailRelation(collection?.collection)
+            await createSEODetailRelation(targetCollection)
         })
     } else {
         await save(collection?.collection, enabled, false)
     }
     
-    await getItems()
+    getItems()
 }
 
 async function onChangeCustomSetting(enabled: boolean, collection:string) {

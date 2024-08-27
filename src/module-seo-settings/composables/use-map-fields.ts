@@ -4,23 +4,39 @@ import { getSectionField } from "../../shared/utils";
 
 export default function useMapFields(collection: Ref | string | null = null) {
     const stores = useStores()
-    const { useFieldsStore } = stores
+    const { useFieldsStore, useCollectionsStore, useRelationsStore } = stores
     const fieldsStore = useFieldsStore();
+    const relationsStore = useRelationsStore()
     const mapCollection = ref(collection?.value ? collection?.value : collection)
     const mapFields = ref<any>([])
+
+    
+    const relations = relationsStore.getRelationsForCollection(mapCollection.value)
+    const translationField = fieldsStore.getFieldsForCollection(mapCollection.value).find((field: any) => field.meta.interface === 'translations')
+    mapCollection.value = translationField ? relations.find((relation: any) => relation.meta.one_field === translationField.field)?.collection : mapCollection.value
+
+    console.log('relations', relations)
 
     const setMapCollection = (collection: string) => mapCollection.value = collection
 
     const selectItems = computed(() =>
         fieldsStore.getFieldsForCollection(mapCollection.value).map((field: any) => {
             let disabled = false;
-
+            console.log(field)
             if ( field?.schema?.is_primary_key === true) disabled = true;
+            if ( field?.meta?.interface === 'seo_analyzer') disabled = true;
             // if ( field?.schema?.foreign_key_table) disabled = true;
+            let text = field.name
+            let value = field.field
 
+            
+
+            if( translationField ) {
+                text = `Translation: ${text}`
+            }
             return {
-                text: field.name,
-                value: field.field,
+                text,
+                value,
                 disabled,
             };
         })
@@ -39,8 +55,10 @@ export default function useMapFields(collection: Ref | string | null = null) {
                     name: 'Title field',
                     meta: {
                         interface: 'select-dropdown',
+                        // interface: 'system-field',
                         options: {
                             choices: selectItems
+                            // collectionName: collection
                         },
                         width: 'half',
                         group: "field_mapping_right",

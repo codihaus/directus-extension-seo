@@ -11,8 +11,11 @@
             <div class="text-sm text-slate-500 mt-1 line-clamp-1" :title="item?.meta?.note || '...'">
                 {{ item?.meta?.note || '...' }}
             </div>
+            <div class="text-xs text-slate-500 mt-1">
+                Collection: {{ item?.collection }}
+            </div>
             <div v-if="item?.translation_collection" class="text-xs text-slate-500 mt-1">
-                Translation collection: {{ item?.translation_collection }}
+                Translation: {{ item?.translation_collection }}
             </div>
         </div>
     </div>
@@ -33,13 +36,32 @@
             }"
         >Setting</v-button>
     </div>
+    <v-dialog v-model="showDialog">
+        <v-card>
+            <v-card-title>Enable SEO for collection</v-card-title>
+            <v-card-text>
+                <div>This collection has translation collection: <span class="font-bold">{{ item?.translation_collection }}</span></div>
+                <div>So, SEO module uses <span class="font-bold">{{ item?.translation_collection }}</span> for saving data</div>
+                <div>If you want to enabled for <span class="font-bold">{{ item?.collection }}</span> only, choose <span class="font-bold">Enabled for {{ item?.collection }} only</span></div>
+            </v-card-text>
+            <v-card-actions>
+                <v-button secondary @click="enabledCollection(false)">
+                    Enabled for {{ item?.collection }} only
+                </v-button>
+                <v-button @click="enabledCollection">
+                    Enable for {{ item?.translation_collection }}
+                </v-button>
+            </v-card-actions>
+        </v-card>
+    </v-dialog>
 </div>
 </template>
 
 <script setup lang="ts">
-import { PropType } from 'vue';
+import { PropType, ref } from 'vue';
 import VSwitch from './v-switch.vue'
 import formatTitle from '@directus/format-title';
+import { toRefs } from '@vueuse/core';
 
 const props = defineProps({
     item: {
@@ -57,8 +79,19 @@ const props = defineProps({
 })
 const emit = defineEmits(['update:modelValue'])
 
+const showDialog = ref(false)
+
 const updateValue = ($event, collection) => {
-    emit('update:modelValue', $event, collection);
+    if( props.item?.is_new && props.item?.translation_collection && $event === true ) {
+        showDialog.value = true
+        return
+    }
+    emit('update:modelValue', $event, props.item);
+}
+
+function enabledCollection(is_translation: boolean = true) {
+    showDialog.value = false
+    emit('update:modelValue', true, props.item, is_translation);
 }
 </script>
 
