@@ -1,6 +1,6 @@
-(function(){"use strict";try{if(typeof document<"u"){var a=document.createElement("style");a.appendChild(document.createTextNode('@charset "UTF-8";*,:before,:after{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: }::backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: }.pointer-events-none{pointer-events:none}.absolute{position:absolute}.relative{position:relative}.inset-0{top:0;right:0;bottom:0;left:0}.-bottom-11{bottom:-2.75rem}.left-4{left:1rem}.left-5{left:1.25rem}.right-4{right:1rem}.top-4{top:1rem}.line-clamp-1{overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-clamp:1}.z-9{z-index:9}.grid{display:grid}.\\!col-auto{grid-column:auto!important}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.my-auto{margin-top:auto;margin-bottom:auto}.\\!ml-2{margin-left:.5rem!important}.\\!mr-4{margin-right:1rem!important}.mb-10{margin-bottom:2.5rem}.mb-2{margin-bottom:.5rem}.mb-5{margin-bottom:1.25rem}.mb-6{margin-bottom:1.5rem}.mr-2{margin-right:.5rem}.mr-3{margin-right:.75rem}.mr-auto{margin-right:auto}.mt-1{margin-top:.25rem}.mt-10{margin-top:2.5rem}.mt-40{margin-top:10rem}.mt-5{margin-top:1.25rem}.mt-6{margin-top:1.5rem}.mt-auto{margin-top:auto}.block,[block=""]{display:block}.inline-block{display:inline-block}.contents{display:contents}.\\!hidden{display:none!important}.hidden{display:none}.display-value{display:value}.h-5{height:1.25rem}.h-8{height:2rem}.h-9{height:2.25rem}.h-full{height:100%}.h1{height:.25rem}.h2{height:.5rem}.h3{height:.75rem}.h4{height:1rem}.w-0\\.5{width:.125rem}.w-5{width:1.25rem}.w-8{width:2rem}.w-full{width:100%}.w-px{width:1px}.\\!flex{display:flex!important}.flex{display:flex}.inline-flex{display:inline-flex}.flex-1{flex:1 1 0%}.flex-shrink{flex-shrink:1}.flex-grow,.grow{flex-grow:1}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.transform{transform:translate(var(--un-translate-x)) translateY(var(--un-translate-y)) translateZ(var(--un-translate-z)) rotate(var(--un-rotate)) rotateX(var(--un-rotate-x)) rotateY(var(--un-rotate-y)) rotate(var(--un-rotate-z)) skew(var(--un-skew-x)) skewY(var(--un-skew-y)) scaleX(var(--un-scale-x)) scaleY(var(--un-scale-y)) scaleZ(var(--un-scale-z))}.list-none{list-style-type:none}.items-center{align-items:center}.self-center{align-self:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-5{gap:1.25rem}.gap-6{gap:1.5rem}.gap-x6{column-gap:1.5rem}.gap-y-8{row-gap:2rem}.space-y-4>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(1rem * var(--un-space-y-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(1.5rem * var(--un-space-y-reverse))}.space-y-8>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(2rem * var(--un-space-y-reverse))}.overflow-hidden{overflow:hidden}.border,.border-px{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-slate-200{--un-border-opacity:1;border-color:rgba(226,232,240,var(--un-border-opacity))}.border-slate-300{--un-border-opacity:1;border-color:rgba(203,213,225,var(--un-border-opacity))}.border-transparent{border-color:transparent}.rounded,[rounded=""]{border-radius:.25rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-b{border-bottom-left-radius:.25rem;border-bottom-right-radius:.25rem}.rounded-t{border-top-left-radius:.25rem;border-top-right-radius:.25rem}.border-solid{border-style:solid}.border-b-solid{border-bottom-style:solid}.bg-\\[var\\(--background-normal-alt\\)\\]{background-color:var(--background-normal-alt)}.bg-gray-300{--un-bg-opacity:1;background-color:rgba(209,213,219,var(--un-bg-opacity))}.bg-slate-100{--un-bg-opacity:1;background-color:rgba(241,245,249,var(--un-bg-opacity))}.bg-slate-200{--un-bg-opacity:1;background-color:rgba(226,232,240,var(--un-bg-opacity))}[stroke-width~="1.6"]{stroke-width:1.6px}.stroke-current{stroke:currentColor}.stroke-white{--un-stroke-opacity:1;stroke:rgba(255,255,255,var(--un-stroke-opacity))}.object-cover{object-fit:cover}.object-center{object-position:center}.p-1{padding:.25rem}.p-3{padding:.75rem}.px{padding-left:1rem;padding-right:1rem}.px-0{padding-left:0;padding-right:0}.px-3{padding-left:.75rem;padding-right:.75rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-7\\.5{padding-left:1.875rem;padding-right:1.875rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-20vh{padding-top:20vh;padding-bottom:20vh}.py-4{padding-top:1rem;padding-bottom:1rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.py-9{padding-top:2.25rem;padding-bottom:2.25rem}.pb-3{padding-bottom:.75rem}.pt-10{padding-top:2.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xs{font-size:.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.capitalize{text-transform:capitalize}.text-slate-500{--un-text-opacity:1;color:rgba(100,116,139,var(--un-text-opacity))}.text-slate-700{--un-text-opacity:1;color:rgba(51,65,85,var(--un-text-opacity))}.text-slate-900{--un-text-opacity:1;color:rgba(15,23,42,var(--un-text-opacity))}.text-white{--un-text-opacity:1;color:rgba(255,255,255,var(--un-text-opacity))}.opacity-0{opacity:0}.group:hover .group-hover\\:opacity-100{opacity:1}.outline,[outline=""]{outline-style:solid}.filter{filter:var(--un-blur) var(--un-brightness) var(--un-contrast) var(--un-drop-shadow) var(--un-grayscale) var(--un-hue-rotate) var(--un-invert) var(--un-saturate) var(--un-sepia)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@media (min-width: 1024px){.\\!lg\\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))!important}.lg\\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.lg\\:h-10{height:2.5rem}.lg\\:w-10{width:2.5rem}}@media (min-width: 1536px){.\\32xl\\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}}.image-preview[data-v-9a923bbe]{position:relative;width:100%;height:var(--input-height-tall);overflow:hidden;background-color:var(--background-normal-alt);border-radius:var(--border-radius)}img[data-v-9a923bbe]{z-index:1;width:100%;height:100%;max-height:inherit;object-fit:contain}.is-svg[data-v-9a923bbe]{padding:32px}.is-svg img[data-v-9a923bbe]{object-fit:contain}.image-error[data-v-9a923bbe]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;color:var(--foreground-subdued);background-color:var(--background-normal);padding:32px}.image-error .v-icon[data-v-9a923bbe]{margin-bottom:6px}.image-error .message[data-v-9a923bbe]{max-width:300px;padding:0 16px;text-align:center}.image-preview .shadow[data-v-9a923bbe]{position:absolute;bottom:0;left:0;z-index:2;width:100%;height:40px;overflow:hidden;line-height:1;white-space:nowrap;text-overflow:ellipsis;background:linear-gradient(180deg,#26323800,#26323840);transition:height var(--fast) var(--transition)}.image-preview .actions[data-v-9a923bbe]{--v-button-color: var(--foreground-subdued);--v-button-background-color: var(--white);--v-button-color-hover: var(--foreground-normal);--v-button-background-color-hover: var(--white);position:absolute;top:calc(50% - 32px);left:0;z-index:3;display:flex;justify-content:center;width:100%}.image-preview .actions .v-button[data-v-9a923bbe]{margin-right:12px;transform:translateY(10px);opacity:0;transition:var(--medium) var(--transition);transition-property:opacity transform}.image-preview .actions .v-button[data-v-9a923bbe]:nth-of-type(1){transition-delay:0ms}.image-preview .actions .v-button[data-v-9a923bbe]:nth-of-type(2){transition-delay:25ms}.image-preview .actions .v-button[data-v-9a923bbe]:nth-of-type(3){transition-delay:50ms}.image-preview .actions .v-button[data-v-9a923bbe]:nth-of-type(4){transition-delay:75ms}.image-preview .actions .v-button[data-v-9a923bbe]:nth-of-type(5){transition-delay:.1s}.image-preview .actions .v-button[data-v-9a923bbe]:last-child{margin-right:0}.image-preview .info[data-v-9a923bbe]{position:absolute;bottom:0;left:0;z-index:3;width:100%;padding:8px 12px;line-height:1.2}.image-preview .title[data-v-9a923bbe]{color:var(--white)}.image-preview .meta[data-v-9a923bbe]{height:17px;max-height:0;overflow:hidden;color:#ffffffbf;transition:max-height var(--fast) var(--transition)}.image-preview:focus-within .shadow[data-v-9a923bbe],.image-preview:hover .shadow[data-v-9a923bbe]{height:100%;background:linear-gradient(180deg,#26323800,#26323880)}.image-preview:focus-within .actions .v-button[data-v-9a923bbe],.image-preview:hover .actions .v-button[data-v-9a923bbe]{transform:translateY(0);opacity:1}.image-preview:focus-within .meta[data-v-9a923bbe],.image-preview:hover .meta[data-v-9a923bbe]{max-height:17px}.image.full .image-preview[data-v-9a923bbe],.image.fill .image-preview[data-v-9a923bbe]{height:auto;max-height:400px}.image.crop .image-preview img[data-v-9a923bbe]{object-fit:cover}.disabled-placeholder[data-v-9a923bbe]{height:var(--input-height-tall)}.fallback[data-v-9a923bbe]{background-color:var(--background-normal);display:flex;align-items:center;justify-content:center;height:var(--input-height-tall);border-radius:var(--border-radius)}.add-margin-top[data-v-9fac3998]{margin-top:40px}.input[data-v-f86bbf15]{overflow-y:auto}.content[data-v-f86bbf15]{display:block;flex-grow:1;height:100%;padding:var(--input-padding) 0;overflow:hidden;font-size:14px;font-family:var(--family-monospace);white-space:nowrap}.content[data-v-f86bbf15] span{min-width:1px;min-height:1em;white-space:pre}[data-v-f86bbf15] br{display:none}[data-v-f86bbf15] button{margin:-1px 4px 0;padding:2px 4px 0;color:var(--primary);background-color:var(--primary-alt);border-radius:var(--border-radius);transition:var(--fast) var(--transition);transition-property:background-color,color;-webkit-user-select:none;user-select:none}[data-v-f86bbf15] button:not(:disabled):hover{color:var(--white);background-color:var(--danger)}.placeholder[data-v-f86bbf15]{position:absolute;top:50%;left:14px;color:var(--foreground-subdued, var(--theme--foreground-subdued));transform:translateY(-50%);-webkit-user-select:none;user-select:none;pointer-events:none;white-space:nowrap;width:90%;overflow:hidden;text-overflow:ellipsis}.content[data-v-f86bbf15]>*{display:inline-block;white-space:nowrap}.radio-buttons[data-v-36efb698]{--columns: 1;display:grid;grid-gap:12px 32px;grid-template-columns:repeat(var(--columns),minmax(0,1fr))}@media (min-width: 600px){.grid-2[data-v-36efb698]{--columns: 2}}@media (min-width: 600px){.grid-3[data-v-36efb698]{--columns: 3}}@media (min-width: 600px){.grid-4[data-v-36efb698]{--columns: 4}}.v-radio.radio-button:not(:disabled).checked.block[data-v-36efb698]{color:#fff}.v-radio.radio-button:not(:disabled).checked.block[data-v-36efb698] .v-icon,.v-radio.radio-button:not(:disabled).checked.block[data-v-36efb698] .label{--v-icon-color: #fff;--v-radio-color: #fff}.v-radio.radio-button:not(:disabled).checked.block[data-v-36efb698]:before{opacity:1}.v-radio.radio-button[data-v-36efb698] .v-icon:has([data-icon=no]){display:none}.v-radio.radio-button[data-v-36efb698] .v-icon:has([data-icon=no])+.label{margin-left:0}.custom[data-v-36efb698]{--v-icon-color: var(--foreground-subdued);display:flex;align-items:center;width:100%;height:var(--input-height);padding:10px;border:2px dashed var(--border-normal);border-radius:var(--border-radius)}.custom input[data-v-36efb698]{display:block;flex-grow:1;width:20px;margin:0 0 0 8px;padding:0;background-color:transparent;border:none;border-radius:0}.custom input[data-v-36efb698]::placeholder{color:var(--foreground-subdued)}.custom.has-value[data-v-36efb698]{background-color:var(--background-subdued);border:2px solid var(--background-subdued)}.custom.active[data-v-36efb698]{--v-icon-color: var(--v-radio-color);position:relative;background-color:transparent;border-color:var(--v-radio-color)}.custom.active[data-v-36efb698]:before{position:absolute;top:0;left:0;width:100%;height:100%;background-color:var(--v-radio-color);content:"";pointer-events:none}.custom.disabled[data-v-36efb698]{background-color:var(--background-subdued);border-color:transparent;cursor:not-allowed}.custom.disabled input[data-v-36efb698]{color:var(--foreground-subdued);cursor:not-allowed}.custom.disabled input[data-v-36efb698]::placeholder{color:var(--foreground-subdued)}body{--sidebar-detail-icon-color: var(--foreground-normal-alt);--sidebar-detail-color: var(--foreground-normal-alt);--sidebar-detail-color-active: var(--primary)}.sidebar-detail[data-v-9b1b7e8a]{--v-badge-offset-x: 3px;--v-badge-offset-y: 4px;--v-badge-border-color: var(--background-normal-alt);--v-badge-background-color: var(--primary);--v-badge-color: var(--background-normal);display:contents}.sidebar-detail[data-v-9b1b7e8a] .type-label{margin-bottom:4px;font-size:1rem}.sidebar-detail .toggle[data-v-9b1b7e8a]{position:relative;display:flex;flex-shrink:0;justify-content:space-between;width:100%;height:60px;color:var(--sidebar-detail-color);background-color:var(--background-highlight)}.sidebar-detail .toggle .icon[data-v-9b1b7e8a]{--v-icon-color: var(--sidebar-detail-icon-color);display:flex;align-items:center;justify-content:center;width:60px;height:100%}.sidebar-detail .toggle.open[data-v-9b1b7e8a],.sidebar-detail .toggle[data-v-9b1b7e8a]:hover{color:var(--sidebar-detail-color-active)}.sidebar-detail .toggle.open .icon[data-v-9b1b7e8a],.sidebar-detail .toggle:hover .icon[data-v-9b1b7e8a]{--v-icon-color: var(--sidebar-detail-color-active)}.sidebar-detail .close[data-v-9b1b7e8a]{position:absolute;top:0;right:0;z-index:50;display:flex;align-items:center;justify-content:center;width:60px;height:60px;color:var(--foreground-normal);cursor:pointer;transition:opacity var(--fast) var(--transition),color var(--fast) var(--transition)}.sidebar-detail .close .v-icon[data-v-9b1b7e8a]{pointer-events:none}.sidebar-detail .close[data-v-9b1b7e8a]:hover{color:var(--sidebar-detail-color-active)}.sidebar-detail.open .toggle .close[data-v-9b1b7e8a]{opacity:1;pointer-events:auto}.sidebar-detail .title[data-v-9b1b7e8a]{position:absolute;top:50%;left:52px;overflow:hidden;white-space:nowrap;transform:translateY(-50%)}.sidebar-detail .scroll-container[data-v-9b1b7e8a]{overflow-x:hidden;overflow-y:auto}.sidebar-detail .content[data-v-9b1b7e8a]{padding:16px}.sidebar-detail .content[data-v-9b1b7e8a] .page-description{margin-bottom:8px;color:var(--foreground-subdued)}.sidebar-detail .content[data-v-9b1b7e8a] .page-description a{color:var(--primary)}.sidebar-detail .expand-icon[data-v-9b1b7e8a]{color:var(--foreground-subdued)}.sidebar-detail .v-chip[data-v-9b1b7e8a]{margin-left:8px}.sidebar-detail .v-chip.error[data-v-9b1b7e8a]{--v-chip-color: var(--danger);--v-chip-background-color: var(--danger-25);--v-chip-color-hover: var(--white);--v-chip-background-color-hover: var(--danger)}.sidebar-detail .v-chip.success[data-v-9b1b7e8a]{--v-chip-color: var(--success);--v-chip-background-color: var(--success-25);--v-chip-color-hover: var(--white);--v-chip-background-color-hover: var(--success)}.v-textarea[data-v-643df86b]{padding:10px;overflow:auto}.keywords-chip[data-v-643df86b]{display:flex;flex-wrap:wrap;gap:4px}.keywords-chip .v-chip[data-v-643df86b]{cursor:pointer}.keywords-chip .v-chip.bad-fk[data-v-643df86b]{--v-chip-color: var(--danger);--v-chip-background-color: var(--danger-25)}.keywords-chip .v-chip.bad-fk.selected[data-v-643df86b],.keywords-chip .v-chip.bad-fk[data-v-643df86b]:hover{--v-chip-background-color: var(--danger-50)}.keywords-chip .v-chip.ok-fk[data-v-643df86b]{--v-chip-color: var(--warning);--v-chip-background-color: var(--warning-25)}.keywords-chip .v-chip.ok-fk.selected[data-v-643df86b],.keywords-chip .v-chip.ok-fk[data-v-643df86b]:hover{--v-chip-background-color: var(--warning-50)}.keywords-chip .v-chip.good-fk[data-v-643df86b]{--v-chip-color: var(--success);--v-chip-background-color: var(--success-25)}.keywords-chip .v-chip.good-fk.selected[data-v-643df86b],.keywords-chip .v-chip.good-fk[data-v-643df86b]:hover{--v-chip-background-color: var(--success-50)}.seo-groups[data-v-643df86b]{margin-top:10px}.sidebar-detail .v-chip[data-v-643df86b]{padding:0 4px}.checklist[data-v-643df86b]{list-style:none;padding-left:0}.checklist li[data-v-643df86b]{margin-bottom:6px;line-height:1.4}.checklist .v-icon[data-v-643df86b]{margin-right:4px}.checklist .v-icon.error[data-v-643df86b]{--v-icon-color: var(--red-50);--v-icon-color-hover: var(--red) }.checklist .v-icon.success[data-v-643df86b]{--v-icon-color: var(--success-50);--v-icon-color-hover: var(--success) }[data-v-15cb8caf] .v-form.seo-setting-form{grid-template-columns:repeat(1,minmax(0,1fr));display:block}@media (min-width: 1280px){[data-v-15cb8caf] .v-form.seo-setting-form{max-width:64rem}}[data-v-15cb8caf] .v-form.seo-setting-form .group-section .v-form{grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full] 1fr [fill]!important}[data-v-15cb8caf] .v-form.seo-setting-form .group-section .v-form .group-column{--form-vertical-gap: 32px}[data-v-15cb8caf] .v-form.seo-setting-form .group-section .v-form .group-column:last-child{grid-column:span 2/span 2!important}[data-v-15cb8caf] .v-form.seo-setting-form .group-section .v-form .group-column .v-form:has(.v-text-overflow:empty){grid-gap:16px!important;gap:16px!important}[data-v-15cb8caf] .v-form.seo-setting-form .type-note{margin-top:.5rem;max-width:initial}[data-v-15cb8caf] .v-form.seo-setting-form .field-label .field-name:has(.v-text-overflow:empty){display:none}.v-tabs.horizontal.analyzer[data-v-15cb8caf]{background-color:#f1f5f9;padding:4px;gap:4px;border-radius:24px}.v-tabs.horizontal.analyzer[data-v-15cb8caf] .v-tab{height:auto;padding:0;--v-tab-background-color: transparent;--v-tab-background-color-active: transparent}.v-tabs.horizontal.analyzer[data-v-15cb8caf] .button{--border-width: 0;--border-radius: 24px;--v-button-height: 40px;--v-button-min-width: 0;padding:0 16px;gap:0}.image-preview[data-v-6f6d1139]{position:relative;width:100%;height:var(--input-height-tall);overflow:hidden;background-color:var(--background-normal-alt);border-radius:var(--border-radius)}img[data-v-6f6d1139]{z-index:1;width:100%;height:100%;max-height:inherit;object-fit:contain}.is-svg[data-v-6f6d1139]{padding:32px}.is-svg img[data-v-6f6d1139]{object-fit:contain}.image-error[data-v-6f6d1139]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;color:var(--foreground-subdued);background-color:var(--background-normal);padding:32px}.image-error .v-icon[data-v-6f6d1139]{margin-bottom:6px}.image-error .message[data-v-6f6d1139]{max-width:300px;padding:0 16px;text-align:center}.image-preview .shadow[data-v-6f6d1139]{position:absolute;bottom:0;left:0;z-index:2;width:100%;height:40px;overflow:hidden;line-height:1;white-space:nowrap;text-overflow:ellipsis;background:linear-gradient(180deg,#26323800,#26323840);transition:height var(--fast) var(--transition)}.image-preview .actions[data-v-6f6d1139]{--v-button-color: var(--foreground-subdued);--v-button-background-color: var(--white);--v-button-color-hover: var(--foreground-normal);--v-button-background-color-hover: var(--white);position:absolute;top:calc(50% - 32px);left:0;z-index:3;display:flex;justify-content:center;width:100%}.image-preview .actions .v-button[data-v-6f6d1139]{margin-right:12px;transform:translateY(10px);opacity:0;transition:var(--medium) var(--transition);transition-property:opacity transform}.image-preview .actions .v-button[data-v-6f6d1139]:nth-of-type(1){transition-delay:0ms}.image-preview .actions .v-button[data-v-6f6d1139]:nth-of-type(2){transition-delay:25ms}.image-preview .actions .v-button[data-v-6f6d1139]:nth-of-type(3){transition-delay:50ms}.image-preview .actions .v-button[data-v-6f6d1139]:nth-of-type(4){transition-delay:75ms}.image-preview .actions .v-button[data-v-6f6d1139]:nth-of-type(5){transition-delay:.1s}.image-preview .actions .v-button[data-v-6f6d1139]:last-child{margin-right:0}.image-preview .info[data-v-6f6d1139]{position:absolute;bottom:0;left:0;z-index:3;width:100%;padding:8px 12px;line-height:1.2}.image-preview .title[data-v-6f6d1139]{color:var(--white)}.image-preview .meta[data-v-6f6d1139]{height:17px;max-height:0;overflow:hidden;color:#ffffffbf;transition:max-height var(--fast) var(--transition)}.image-preview:focus-within .shadow[data-v-6f6d1139],.image-preview:hover .shadow[data-v-6f6d1139]{height:100%;background:linear-gradient(180deg,#26323800,#26323880)}.image-preview:focus-within .actions .v-button[data-v-6f6d1139],.image-preview:hover .actions .v-button[data-v-6f6d1139]{transform:translateY(0);opacity:1}.image-preview:focus-within .meta[data-v-6f6d1139],.image-preview:hover .meta[data-v-6f6d1139]{max-height:17px}.image.full .image-preview[data-v-6f6d1139],.image.fill .image-preview[data-v-6f6d1139]{height:auto;max-height:400px}.image.crop .image-preview img[data-v-6f6d1139]{object-fit:cover}.disabled-placeholder[data-v-6f6d1139]{height:var(--input-height-tall)}.fallback[data-v-6f6d1139]{background-color:var(--background-normal);display:flex;align-items:center;justify-content:center;height:var(--input-height-tall);border-radius:var(--border-radius)}.social-preview-button[data-v-6f6d1139]{font-size:13px;display:inline-block;padding:4px 8px;text-decoration:none;text-transform:uppercase;color:#555;border:0;outline:none;background:#ededee;box-shadow:none!important}.open .social-preview-button[data-v-6f6d1139]{color:#fff;background:#069de3}.social-preview-item[data-v-6f6d1139]{box-sizing:border-box;max-width:500px;margin:0 auto;padding:30px 0}.social-preview-item-wrapper[data-v-6f6d1139]{overflow:hidden;box-sizing:border-box;max-width:100%;margin:auto;border:1px solid #dddfe2;border-radius:0 0 3px 3px;background:#fff}.social-preview-item .error-msg[data-v-6f6d1139]{line-height:1;display:none;width:528px;max-width:100%;margin:auto;padding-top:10px}.social-preview-item .error-msg.show[data-v-6f6d1139]{display:block}.social-preview-image[data-v-6f6d1139]{line-height:0;position:relative;z-index:1}.social-preview-image img[data-v-6f6d1139]{max-width:100%;height:auto;min-height:initial}.social-preview-image .preview-placeholder[data-v-6f6d1139]{width:100%;height:0;padding-bottom:52.5555555556%;background-color:var(--background-normal-alt);color:var(--foreground-normal);position:relative}.social-preview-image .preview-placeholder .placeholder-content[data-v-6f6d1139]{display:flex;align-items:center;justify-content:center;position:absolute;top:0;right:0;bottom:0;left:0;flex-direction:column;gap:8px;line-height:1}.social-preview-image .preview-placeholder h3[data-v-6f6d1139]{font-size:20px;text-transform:uppercase}.social-preview-image .preview-placeholder p[data-v-6f6d1139]{font-size:16px}.social-preview-image-overlay[data-v-6f6d1139]{transform:translate(-50%,-50%) scale(.45);position:absolute;top:50%;left:50%}.social-preview-image .error-msg[data-v-6f6d1139]{line-height:1;display:none}.social-preview .social-preview-caption[data-v-6f6d1139]{font-size:12px;padding:10px 10px 5px;color:#1d2129;background:#f2f3f5}.social-preview .social-preview-title[data-v-6f6d1139]{font-size:16px;font-weight:600;line-height:22px;margin:0 0 3px;padding:0;letter-spacing:normal;word-wrap:break-word}.social-preview .social-preview-title.capitalize[data-v-6f6d1139]{text-transform:capitalize}.social-preview-description[data-v-6f6d1139],.social-preview-publisher[data-v-6f6d1139]{line-height:16px;margin:0}.social-preview-publisher[data-v-6f6d1139]{font-size:12px;font-weight:400;padding-top:3px;padding-bottom:3px;text-transform:uppercase;color:#90949c}.social-preview-publisher.facebook[data-v-6f6d1139]{text-transform:uppercase}.social-preview-meta[data-v-6f6d1139]{position:relative;display:none;display:block;clear:both;margin:0 auto 15px}.social-preview-meta .social-profile-image[data-v-6f6d1139]{position:absolute;left:-58px;float:left;width:46px;height:46px;border-radius:50%;background:#dcc7c7}.social-preview-meta .social-name[data-v-6f6d1139]{font-size:14px;font-weight:700;color:#14171a}.social-preview-meta .social-username[data-v-6f6d1139],.social-preview-meta .social-time[data-v-6f6d1139]{font-size:12px;font-weight:400;line-height:1;margin-left:5px;color:#657786}.social-preview-meta .social-username .v-icon[data-v-6f6d1139],.social-preview-meta .social-time .v-icon[data-v-6f6d1139]{--v-icon-size: 16px}.social-preview-meta .social-time[data-v-6f6d1139]:before{margin-right:5px;content:"·"}.social-preview-meta .social-text[data-v-6f6d1139]{margin-top:5px}.social-preview-facebook .social-preview-button strong[data-v-6f6d1139]:before{content:attr(data-facebook)}.social-preview-facebook .facebook-thumbnail[data-v-6f6d1139]{display:block}.social-preview-facebook .no-facebook-image .facebook-thumbnail[data-v-6f6d1139],.social-preview-facebook .social-preview-meta.twitter-meta[data-v-6f6d1139]{display:none}.social-preview-facebook .social-preview-title[data-v-6f6d1139]{font-size:1.0625rem}.social-preview-facebook .social-preview-description[data-v-6f6d1139]{font-size:.9375rem;overflow:hidden;max-height:1.3em;margin-bottom:5px;white-space:nowrap;text-overflow:ellipsis;color:#606770}.social-preview-facebook .social-preview-meta[data-v-6f6d1139]{display:block;line-height:1.4em;box-sizing:border-box;min-height:66px;margin-bottom:0;padding:12px;border:1px solid #dddfe2;border-bottom:0;border-radius:3px 3px 0 0;background:#fff}.social-preview-facebook .social-preview-meta .social-profile-image[data-v-6f6d1139]{position:relative;left:auto;width:40px;height:40px;margin-right:10px;margin-left:-2px}.social-preview-facebook .social-preview-meta .social-name[data-v-6f6d1139]{margin-bottom:3px;color:#365899}.social-preview-facebook .social-preview-meta .social-time[data-v-6f6d1139]:before{display:none}.social-preview-facebook .social-preview-meta .social-time span[data-v-6f6d1139]{width:auto}.social-preview-facebook .social-preview-meta .social-time span[data-v-6f6d1139]:first-child:after{margin:0 5px;content:"·"}.social-preview-facebook .social-preview-meta .social-time span svg[data-v-6f6d1139]{vertical-align:middle}.social-preview-facebook .social-preview-meta .dashicons.dashicons-admin-site[data-v-6f6d1139]{font-size:12px;line-height:18px}.social-preview-facebook .twitter[data-v-6f6d1139]{display:none}.social-preview-twitter.app[data-v-6f6d1139],.social-preview-twitter.player[data-v-6f6d1139]{display:none!important}.social-preview-twitter .social-preview-item[data-v-6f6d1139]{max-width:582px;padding-left:58px}.social-preview-twitter .social-preview-meta .social-text[data-v-6f6d1139],.social-preview-twitter .social-preview-meta .social-username[data-v-6f6d1139],.social-preview-twitter .social-preview-meta .social-time[data-v-6f6d1139]{font-size:14px}.social-preview-twitter .social-preview-item-wrapper[data-v-6f6d1139]{clear:both;max-width:100%;border:1px solid rgb(204,214,221);border-radius:14px}.social-preview-twitter .social-preview-item-wrapper .twitter-thumbnail[data-v-6f6d1139]{display:block;max-width:100%}.social-preview-twitter .social-preview-item-wrapper .social-preview-caption[data-v-6f6d1139]{background:#fff}.social-preview-twitter .social-preview-item-wrapper[data-v-6f6d1139]:hover,.social-preview-twitter .social-preview-item-wrapper:hover .social-preview-caption[data-v-6f6d1139]{background:#f5f8fa}.social-preview-twitter .social-preview-title[data-v-6f6d1139]{font-weight:400;overflow:hidden;margin-bottom:2px;white-space:nowrap;text-overflow:ellipsis;color:#14171a}.social-preview-twitter .social-preview-description[data-v-6f6d1139]{font-size:15px;line-height:1.3125;overflow:hidden;max-height:2.5em;text-overflow:ellipsis;color:#657786}.social-preview-twitter .social-preview-publisher[data-v-6f6d1139]{font-size:15px;padding-top:5px;text-transform:initial;color:#657786}.social-preview-twitter .social-preview-publisher .dashicon[data-v-6f6d1139]{margin-right:3px;-webkit-text-stroke:1px white}.social-preview-twitter .social-preview-publisher.facebook[data-v-6f6d1139],.social-preview-twitter .no-twitter-image .twitter-thumbnail[data-v-6f6d1139]{display:none}.social-preview-twitter .social-preview-button strong[data-v-6f6d1139]:before{content:attr(data-twitter)}.social-preview-twitter.summary_card .social-preview-image[data-v-6f6d1139]{float:left}.social-preview-twitter.summary_card .social-preview-image img[data-v-6f6d1139]{width:125px;height:125px}.social-preview-twitter.summary_card .social-preview-caption[data-v-6f6d1139]{overflow:hidden;box-sizing:border-box;max-height:125px;padding:5px 0 0 15px}.social-preview-twitter.summary_card .social-preview-description[data-v-6f6d1139]{max-height:4.5rem}.social-preview-twitter .social-preview-meta.facebook-meta[data-v-6f6d1139]{display:none}.social-preview-twitter .social-preview-meta.twitter-meta[data-v-6f6d1139]{display:block}.private-view #navigation .module-nav-content[data-v-57817cee]{background-color:#f8fafc}.navigator[data-v-57817cee]{--v-list-padding: 0;--v-list-item-margin: 0}.navigator[data-v-57817cee] .v-list-group{margin-bottom:0;border-bottom:1px solid;--un-border-opacity:1;border-color:rgba(226,232,240,var(--un-border-opacity))}.navigator[data-v-57817cee] .v-list-group .items .v-list-item{padding:8px 10px 8px 34px}.navigator[data-v-57817cee] .v-list-group .items:not(:empty){padding:8px;border-top:1px solid;--un-border-opacity:1;border-color:rgba(226,232,240,var(--un-border-opacity))}.navigator[data-v-57817cee] .v-list-group .v-list-item-icon{margin-top:0;margin-bottom:0}.navigator[data-v-57817cee] li.v-list-item.activator{padding:20px 16px;background-color:#fff}.navigator[data-v-57817cee] li.v-list-item.activator>a{padding-left:0}.navigator[data-v-57817cee] li.v-list-item.activator>a .v-list-item-icon{margin-right:6px}.toggle[data-v-b025e43d]{--v-icon-color: var(--primary);--v-icon-color-hover: var(--primary-150);display:flex;align-items:center;width:100%;padding:12px 16px;color:var(--primary);text-align:left;background-color:var(--primary-alt);border-radius:var(--border-radius)}.toggle .display-value[data-v-b025e43d]{flex-grow:1;margin-left:8px}.toggle .append-slot[data-v-b025e43d]:not(:empty){margin-left:8px}.v-input .input[data-v-b025e43d]{color:var(--primary);background-color:var(--primary-alt);border:0px}.v-icon[data-v-b025e43d]{margin-left:6px}.secondary .toggle[data-v-b025e43d]{--v-icon-color: var(--secondary);--v-icon-color-hover: var(--secondary-150);color:var(--secondary);background-color:var(--secondary-alt)}.v-list .v-list-item[data-v-b025e43d]{display:flex;gap:10px;align-items:center;justify-content:space-between;white-space:nowrap;cursor:pointer}.v-list .v-list-item .start[data-v-b025e43d]{display:flex;flex:1;align-items:center}.v-list .v-list-item .end[data-v-b025e43d]{display:flex;flex-grow:1;gap:10px;align-items:center;justify-content:flex-end;color:var(--foreground-subdued)}.v-list .v-list-item[data-v-b025e43d]:hover{background-color:var(--background-normal)}.v-list .v-list-item .dot[data-v-b025e43d]{width:8px;height:100%}.v-list .v-list-item .dot.show[data-v-b025e43d]:before{display:block;width:4px;height:4px;background-color:var(--foreground-subdued);border-radius:2px;content:""}.v-list .v-list-item .v-progress-linear[data-v-b025e43d]{max-width:100px}[data-v-600970de] .v-form.seo-setting-form{grid-template-columns:repeat(1,minmax(0,1fr));display:block}@media (min-width: 1280px){[data-v-600970de] .v-form.seo-setting-form{max-width:64rem}}[data-v-600970de] .v-form.seo-setting-form .group-section .v-form{grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full] 1fr [fill]!important}[data-v-600970de] .v-form.seo-setting-form .group-section .v-form .group-column{--form-vertical-gap: 32px}[data-v-600970de] .v-form.seo-setting-form .group-section .v-form .group-column:last-child{grid-column:span 2/span 2!important}[data-v-600970de] .v-form.seo-setting-form .group-section .v-form .group-column .v-form:has(.v-text-overflow:empty){grid-gap:16px!important;gap:16px!important}[data-v-600970de] .v-form.seo-setting-form .type-note{margin-top:.5rem;max-width:initial}[data-v-600970de] .v-form.seo-setting-form .field-label .field-name:has(.v-text-overflow:empty){display:none}.language-switcher[data-v-600970de]{--v-input-background-color: var(--primary-25);--background-input: var(--primary-25);--v-input-color: var(--primary);--arrow-color: var(--primary);--input-height: 48px;--border-width: 0px;--border-radius: 4px;width:270px}[data-v-600970de] .v-breadcrumb a{--v-breadcrumb-color: var(--primary);color:var(--primary)}[data-v-600970de] .language-select{min-width:270px}[data-v-5b37e7f8] .v-form.seo-setting-form{grid-template-columns:repeat(1,minmax(0,1fr));display:block}@media (min-width: 1280px){[data-v-5b37e7f8] .v-form.seo-setting-form{max-width:64rem}}[data-v-5b37e7f8] .v-form.seo-setting-form .group-section .v-form{grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full] 1fr [fill]!important}[data-v-5b37e7f8] .v-form.seo-setting-form .group-section .v-form .group-column{--form-vertical-gap: 32px}[data-v-5b37e7f8] .v-form.seo-setting-form .group-section .v-form .group-column:last-child{grid-column:span 2/span 2!important}[data-v-5b37e7f8] .v-form.seo-setting-form .group-section .v-form .group-column .v-form:has(.v-text-overflow:empty){grid-gap:16px!important;gap:16px!important}[data-v-5b37e7f8] .v-form.seo-setting-form .type-note{margin-top:.5rem;max-width:initial}[data-v-5b37e7f8] .v-form.seo-setting-form .field-label .field-name:has(.v-text-overflow:empty){display:none}.language-switcher[data-v-5b37e7f8]{--v-input-background-color: var(--primary-25);--background-input: var(--primary-25);--v-input-color: var(--primary);--arrow-color: var(--primary);--input-height: 48px;--border-width: 0px;--border-radius: 4px;width:270px}[data-v-5b37e7f8] .v-breadcrumb a{--v-breadcrumb-color: var(--primary);color:var(--primary)}body{--v-switch-color: var(--foreground-normal)}.v-switch[data-v-417da395]{display:flex;align-items:center;font-size:0;background-color:transparent;border:none;border-radius:0;-webkit-appearance:none;-moz-appearance:none;appearance:none}.v-switch .switch[data-v-417da395]{position:relative;display:inline-block;width:44px;height:24px;vertical-align:middle;border:var(--border-width, var(--theme--border-width)) solid var(--v-button-background-color, var(--theme--primary));border-radius:12px;transition:var(--fast) var(--transition);transition-property:background-color border;background-color:#cbd5e1}.v-switch .switch[data-v-417da395]:focus{outline:0}.v-switch .switch[data-v-417da395]:after{position:absolute;top:2px;left:2px;display:block;width:16px;height:16px;background-color:#64748b;border-radius:8px;transition:transform var(--fast) var(--transition);content:""}.v-switch .switch[data-v-417da395]:hover{border-color:var(--border-normal)}.v-switch[aria-pressed=true] .switch[data-v-417da395]{background-color:var(--v-button-background-color, var(--theme--primary));border-color:var(--v-button-background-color, var(--theme--primary))}.v-switch[aria-pressed=true] .switch[data-v-417da395]:after{background-color:var(--background-page);transform:translate(20px)}.v-switch .label[data-v-417da395]:not(:empty){margin-left:8px;vertical-align:middle}.v-switch[data-v-417da395]:disabled{cursor:not-allowed}.v-switch:disabled .switch[data-v-417da395]{background-color:var(--background-normal-alt);border-color:var(--border-normal)}.v-switch:disabled .switch[data-v-417da395]:after{background-color:var(--border-normal)}.v-switch:disabled .switch[data-v-417da395]:hover{border-color:var(--border-normal)}.v-switch:disabled .label[data-v-417da395]{color:var(--foreground-subdued)}.icon[data-v-1a7bb224]{flex-shrink:0;display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:50%;color:var(--foreground-subdued);background-color:var(--background-normal)}.button-setting[data-v-1a7bb224] .button{border-color:#94a3b8!important}[data-v-0e886d12] .v-form.seo-setting-form{grid-template-columns:repeat(1,minmax(0,1fr));display:block}@media (min-width: 1280px){[data-v-0e886d12] .v-form.seo-setting-form{max-width:64rem}}[data-v-0e886d12] .v-form.seo-setting-form .group-section .v-form{grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full] 1fr [fill]!important}[data-v-0e886d12] .v-form.seo-setting-form .group-section .v-form .group-column{--form-vertical-gap: 32px}[data-v-0e886d12] .v-form.seo-setting-form .group-section .v-form .group-column:last-child{grid-column:span 2/span 2!important}[data-v-0e886d12] .v-form.seo-setting-form .group-section .v-form .group-column .v-form:has(.v-text-overflow:empty){grid-gap:16px!important;gap:16px!important}[data-v-0e886d12] .v-form.seo-setting-form .type-note{margin-top:.5rem;max-width:initial}[data-v-0e886d12] .v-form.seo-setting-form .field-label .field-name:has(.v-text-overflow:empty){display:none}[data-v-0e886d12] #main-content.content .header-bar{padding-left:30px}@media (min-width: 600px){[data-v-0e886d12] #main-content.content .header-bar{margin-top:0;padding-right:30px}[data-v-0e886d12] #main-content.content .header-bar .title-container{margin-left:0}}.language-switcher[data-v-0e886d12]{--v-input-background-color: var(--primary-25);--background-input: var(--primary-25);--v-input-color: var(--primary);--arrow-color: var(--primary);--input-height: 48px;--border-width: 0px;--border-radius: 4px;width:270px}[data-v-0e886d12] .v-breadcrumb a{--v-breadcrumb-color: var(--primary);color:var(--primary)}[data-v-0e886d12] .language-select{min-width:270px}[data-v-edeadacc] .v-form.seo-setting-form{grid-template-columns:repeat(1,minmax(0,1fr));display:block}@media (min-width: 1280px){[data-v-edeadacc] .v-form.seo-setting-form{max-width:64rem}}[data-v-edeadacc] .v-form.seo-setting-form .group-section .v-form{grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full] 1fr [fill]!important}[data-v-edeadacc] .v-form.seo-setting-form .group-section .v-form .group-column{--form-vertical-gap: 32px}[data-v-edeadacc] .v-form.seo-setting-form .group-section .v-form .group-column:last-child{grid-column:span 2/span 2!important}[data-v-edeadacc] .v-form.seo-setting-form .group-section .v-form .group-column .v-form:has(.v-text-overflow:empty){grid-gap:16px!important;gap:16px!important}[data-v-edeadacc] .v-form.seo-setting-form .type-note{margin-top:.5rem;max-width:initial}[data-v-edeadacc] .v-form.seo-setting-form .field-label .field-name:has(.v-text-overflow:empty){display:none}[data-v-edeadacc] #main-content.content .header-bar{padding-left:30px}@media (min-width: 600px){[data-v-edeadacc] #main-content.content .header-bar{margin-top:0;padding-right:30px}}.language-switcher[data-v-edeadacc]{--v-input-background-color: var(--primary-25);--background-input: var(--primary-25);--v-input-color: var(--primary);--arrow-color: var(--primary);--input-height: 48px;--border-width: 0px;--border-radius: 4px;width:270px}[data-v-edeadacc] .v-breadcrumb a{--v-breadcrumb-color: var(--primary);color:var(--primary)}[data-v-edeadacc] .v-menu.language-select{display:none}[data-v-edeadacc] .language-select{min-width:270px}.advanced-form[data-v-edeadacc]>.first-visible-field>.v-menu{display:none}.advanced-form[data-v-edeadacc] .language-select+.v-form{grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full] 1fr [fill]!important}.advanced-form[data-v-edeadacc] .language-select+.v-form>.field{grid-column:start/fill}.advanced-form[data-v-edeadacc] .language-select+.v-form+.v-divider{display:none}[data-v-8532e4e1] .v-form.seo-setting-form{grid-template-columns:repeat(1,minmax(0,1fr));display:block}@media (min-width: 1280px){[data-v-8532e4e1] .v-form.seo-setting-form{max-width:64rem}}[data-v-8532e4e1] .v-form.seo-setting-form .group-section .v-form{grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full] 1fr [fill]!important}[data-v-8532e4e1] .v-form.seo-setting-form .group-section .v-form .group-column{--form-vertical-gap: 32px}[data-v-8532e4e1] .v-form.seo-setting-form .group-section .v-form .group-column:last-child{grid-column:span 2/span 2!important}[data-v-8532e4e1] .v-form.seo-setting-form .group-section .v-form .group-column .v-form:has(.v-text-overflow:empty){grid-gap:16px!important;gap:16px!important}[data-v-8532e4e1] .v-form.seo-setting-form .type-note{margin-top:.5rem;max-width:initial}[data-v-8532e4e1] .v-form.seo-setting-form .field-label .field-name:has(.v-text-overflow:empty){display:none}.language-switcher[data-v-8532e4e1]{--v-input-background-color: var(--primary-25);--background-input: var(--primary-25);--v-input-color: var(--primary);--arrow-color: var(--primary);--input-height: 48px;--border-width: 0px;--border-radius: 4px;width:270px}[data-v-8532e4e1] .v-breadcrumb a{--v-breadcrumb-color: var(--primary);color:var(--primary)}[data-v-8532e4e1] .language-select{min-width:270px}.list-step li[data-v-a93e5818]{position:relative;flex:1 1 0%}.list-step li[data-v-a93e5818]:before{content:"";--un-bg-opacity:1;background-color:rgba(209,213,219,var(--un-bg-opacity));bottom:-2.75rem;left:1rem;width:.125rem;height:100%;position:absolute;display:inline-block}@media (min-width: 1024px){.list-step li[data-v-a93e5818]:before{left:1.25rem}}.list-step li.active[data-v-a93e5818]:before{background-color:var(--primary)}.bg-primary{background-color:var(--primary)}.text-primary{color:var(--primary)}:deep() .v-form.seo-setting-form{grid-template-columns:repeat(1,minmax(0,1fr));display:block}@media (min-width: 1280px){:deep() .v-form.seo-setting-form{max-width:64rem}}:deep() .v-form.seo-setting-form .group-section .v-form{grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full] 1fr [fill]!important}:deep() .v-form.seo-setting-form .group-section .v-form .group-column{--form-vertical-gap: 32px}:deep() .v-form.seo-setting-form .group-section .v-form .group-column:last-child{grid-column:span 2/span 2!important}:deep() .v-form.seo-setting-form .group-section .v-form .group-column .v-form:has(.v-text-overflow:empty){grid-gap:16px!important;gap:16px!important}:deep() .v-form.seo-setting-form .type-note{margin-top:.5rem;max-width:initial}:deep() .v-form.seo-setting-form .field-label .field-name:has(.v-text-overflow:empty){display:none}')),document.head.appendChild(a)}}catch(e){console.error("vite-plugin-css-injected-by-js",e)}})();
+(function(){"use strict";try{if(typeof document<"u"){var a=document.createElement("style");a.appendChild(document.createTextNode('@charset "UTF-8";*,:before,:after{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: }::backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: }.pointer-events-none{pointer-events:none}.absolute{position:absolute}.relative{position:relative}.inset-0{top:0;right:0;bottom:0;left:0}.-bottom-11{bottom:-2.75rem}.left-4{left:1rem}.left-5{left:1.25rem}.right-4{right:1rem}.top-4{top:1rem}.line-clamp-1{overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-clamp:1}.z-9{z-index:9}.grid{display:grid}.\\!col-auto{grid-column:auto!important}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.my-auto{margin-top:auto;margin-bottom:auto}.\\!ml-2{margin-left:.5rem!important}.\\!mr-4{margin-right:1rem!important}.mb-10{margin-bottom:2.5rem}.mb-2{margin-bottom:.5rem}.mb-5{margin-bottom:1.25rem}.mb-6{margin-bottom:1.5rem}.mr-2{margin-right:.5rem}.mr-3{margin-right:.75rem}.mr-auto{margin-right:auto}.mt-1{margin-top:.25rem}.mt-10{margin-top:2.5rem}.mt-40{margin-top:10rem}.mt-5{margin-top:1.25rem}.mt-6{margin-top:1.5rem}.mt-auto{margin-top:auto}.block,[block=""]{display:block}.inline-block{display:inline-block}.contents{display:contents}.\\!hidden{display:none!important}.hidden{display:none}.display-value{display:value}.h-5{height:1.25rem}.h-8{height:2rem}.h-9{height:2.25rem}.h-full{height:100%}.h1{height:.25rem}.h2{height:.5rem}.h3{height:.75rem}.h4{height:1rem}.w-0\\.5{width:.125rem}.w-5{width:1.25rem}.w-8{width:2rem}.w-full{width:100%}.w-px{width:1px}.\\!flex{display:flex!important}.flex{display:flex}.inline-flex{display:inline-flex}.flex-1{flex:1 1 0%}.flex-shrink{flex-shrink:1}.flex-grow,.grow{flex-grow:1}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.transform{transform:translate(var(--un-translate-x)) translateY(var(--un-translate-y)) translateZ(var(--un-translate-z)) rotate(var(--un-rotate)) rotateX(var(--un-rotate-x)) rotateY(var(--un-rotate-y)) rotate(var(--un-rotate-z)) skew(var(--un-skew-x)) skewY(var(--un-skew-y)) scaleX(var(--un-scale-x)) scaleY(var(--un-scale-y)) scaleZ(var(--un-scale-z))}.list-none{list-style-type:none}.items-center{align-items:center}.self-center{align-self:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-5{gap:1.25rem}.gap-6{gap:1.5rem}.gap-x6{column-gap:1.5rem}.gap-y-8{row-gap:2rem}.space-y-4>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(1rem * var(--un-space-y-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(1.5rem * var(--un-space-y-reverse))}.space-y-8>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(2rem * var(--un-space-y-reverse))}.overflow-hidden{overflow:hidden}.border,.border-px{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-slate-200{--un-border-opacity:1;border-color:rgba(226,232,240,var(--un-border-opacity))}.border-transparent{border-color:transparent}.rounded,[rounded=""]{border-radius:.25rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-b{border-bottom-left-radius:.25rem;border-bottom-right-radius:.25rem}.rounded-t{border-top-left-radius:.25rem;border-top-right-radius:.25rem}.border-solid{border-style:solid}.border-b-solid{border-bottom-style:solid}.bg-\\[var\\(--background-normal-alt\\)\\]{background-color:var(--background-normal-alt)}.bg-gray-300{--un-bg-opacity:1;background-color:rgba(209,213,219,var(--un-bg-opacity))}.bg-slate-100{--un-bg-opacity:1;background-color:rgba(241,245,249,var(--un-bg-opacity))}.bg-slate-200{--un-bg-opacity:1;background-color:rgba(226,232,240,var(--un-bg-opacity))}[stroke-width~="1.6"]{stroke-width:1.6px}.stroke-current{stroke:currentColor}.stroke-white{--un-stroke-opacity:1;stroke:rgba(255,255,255,var(--un-stroke-opacity))}.object-cover{object-fit:cover}.object-center{object-position:center}.p-1{padding:.25rem}.p-3{padding:.75rem}.px{padding-left:1rem;padding-right:1rem}.px-0{padding-left:0;padding-right:0}.px-3{padding-left:.75rem;padding-right:.75rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-7\\.5{padding-left:1.875rem;padding-right:1.875rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-20vh{padding-top:20vh;padding-bottom:20vh}.py-4{padding-top:1rem;padding-bottom:1rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.py-9{padding-top:2.25rem;padding-bottom:2.25rem}.pb-3{padding-bottom:.75rem}.pt-10{padding-top:2.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xs{font-size:.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.capitalize{text-transform:capitalize}.text-slate-700{--un-text-opacity:1;color:rgba(51,65,85,var(--un-text-opacity))}.text-slate-900{--un-text-opacity:1;color:rgba(15,23,42,var(--un-text-opacity))}.text-white{--un-text-opacity:1;color:rgba(255,255,255,var(--un-text-opacity))}.opacity-0{opacity:0}.group:hover .group-hover\\:opacity-100{opacity:1}.outline,[outline=""]{outline-style:solid}.filter{filter:var(--un-blur) var(--un-brightness) var(--un-contrast) var(--un-drop-shadow) var(--un-grayscale) var(--un-hue-rotate) var(--un-invert) var(--un-saturate) var(--un-sepia)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@media (min-width: 1024px){.\\!lg\\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))!important}.lg\\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.lg\\:h-10{height:2.5rem}.lg\\:w-10{width:2.5rem}}@media (min-width: 1536px){.\\32xl\\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}}.image-preview[data-v-9a923bbe]{position:relative;width:100%;height:var(--input-height-tall);overflow:hidden;background-color:var(--background-normal-alt);border-radius:var(--border-radius)}img[data-v-9a923bbe]{z-index:1;width:100%;height:100%;max-height:inherit;object-fit:contain}.is-svg[data-v-9a923bbe]{padding:32px}.is-svg img[data-v-9a923bbe]{object-fit:contain}.image-error[data-v-9a923bbe]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;color:var(--foreground-subdued);background-color:var(--background-normal);padding:32px}.image-error .v-icon[data-v-9a923bbe]{margin-bottom:6px}.image-error .message[data-v-9a923bbe]{max-width:300px;padding:0 16px;text-align:center}.image-preview .shadow[data-v-9a923bbe]{position:absolute;bottom:0;left:0;z-index:2;width:100%;height:40px;overflow:hidden;line-height:1;white-space:nowrap;text-overflow:ellipsis;background:linear-gradient(180deg,#26323800,#26323840);transition:height var(--fast) var(--transition)}.image-preview .actions[data-v-9a923bbe]{--v-button-color: var(--foreground-subdued);--v-button-background-color: var(--white);--v-button-color-hover: var(--foreground-normal);--v-button-background-color-hover: var(--white);position:absolute;top:calc(50% - 32px);left:0;z-index:3;display:flex;justify-content:center;width:100%}.image-preview .actions .v-button[data-v-9a923bbe]{margin-right:12px;transform:translateY(10px);opacity:0;transition:var(--medium) var(--transition);transition-property:opacity transform}.image-preview .actions .v-button[data-v-9a923bbe]:nth-of-type(1){transition-delay:0ms}.image-preview .actions .v-button[data-v-9a923bbe]:nth-of-type(2){transition-delay:25ms}.image-preview .actions .v-button[data-v-9a923bbe]:nth-of-type(3){transition-delay:50ms}.image-preview .actions .v-button[data-v-9a923bbe]:nth-of-type(4){transition-delay:75ms}.image-preview .actions .v-button[data-v-9a923bbe]:nth-of-type(5){transition-delay:.1s}.image-preview .actions .v-button[data-v-9a923bbe]:last-child{margin-right:0}.image-preview .info[data-v-9a923bbe]{position:absolute;bottom:0;left:0;z-index:3;width:100%;padding:8px 12px;line-height:1.2}.image-preview .title[data-v-9a923bbe]{color:var(--white)}.image-preview .meta[data-v-9a923bbe]{height:17px;max-height:0;overflow:hidden;color:#ffffffbf;transition:max-height var(--fast) var(--transition)}.image-preview:focus-within .shadow[data-v-9a923bbe],.image-preview:hover .shadow[data-v-9a923bbe]{height:100%;background:linear-gradient(180deg,#26323800,#26323880)}.image-preview:focus-within .actions .v-button[data-v-9a923bbe],.image-preview:hover .actions .v-button[data-v-9a923bbe]{transform:translateY(0);opacity:1}.image-preview:focus-within .meta[data-v-9a923bbe],.image-preview:hover .meta[data-v-9a923bbe]{max-height:17px}.image.full .image-preview[data-v-9a923bbe],.image.fill .image-preview[data-v-9a923bbe]{height:auto;max-height:400px}.image.crop .image-preview img[data-v-9a923bbe]{object-fit:cover}.disabled-placeholder[data-v-9a923bbe]{height:var(--input-height-tall)}.fallback[data-v-9a923bbe]{background-color:var(--background-normal);display:flex;align-items:center;justify-content:center;height:var(--input-height-tall);border-radius:var(--border-radius)}.add-margin-top[data-v-9fac3998]{margin-top:40px}.input[data-v-f86bbf15]{overflow-y:auto}.content[data-v-f86bbf15]{display:block;flex-grow:1;height:100%;padding:var(--input-padding) 0;overflow:hidden;font-size:14px;font-family:var(--family-monospace);white-space:nowrap}.content[data-v-f86bbf15] span{min-width:1px;min-height:1em;white-space:pre}[data-v-f86bbf15] br{display:none}[data-v-f86bbf15] button{margin:-1px 4px 0;padding:2px 4px 0;color:var(--primary);background-color:var(--primary-alt);border-radius:var(--border-radius);transition:var(--fast) var(--transition);transition-property:background-color,color;-webkit-user-select:none;user-select:none}[data-v-f86bbf15] button:not(:disabled):hover{color:var(--white);background-color:var(--danger)}.placeholder[data-v-f86bbf15]{position:absolute;top:50%;left:14px;color:var(--foreground-subdued, var(--theme--foreground-subdued));transform:translateY(-50%);-webkit-user-select:none;user-select:none;pointer-events:none;white-space:nowrap;width:90%;overflow:hidden;text-overflow:ellipsis}.content[data-v-f86bbf15]>*{display:inline-block;white-space:nowrap}.radio-buttons[data-v-36efb698]{--columns: 1;display:grid;grid-gap:12px 32px;grid-template-columns:repeat(var(--columns),minmax(0,1fr))}@media (min-width: 600px){.grid-2[data-v-36efb698]{--columns: 2}}@media (min-width: 600px){.grid-3[data-v-36efb698]{--columns: 3}}@media (min-width: 600px){.grid-4[data-v-36efb698]{--columns: 4}}.v-radio.radio-button:not(:disabled).checked.block[data-v-36efb698]{color:#fff}.v-radio.radio-button:not(:disabled).checked.block[data-v-36efb698] .v-icon,.v-radio.radio-button:not(:disabled).checked.block[data-v-36efb698] .label{--v-icon-color: #fff;--v-radio-color: #fff}.v-radio.radio-button:not(:disabled).checked.block[data-v-36efb698]:before{opacity:1}.v-radio.radio-button[data-v-36efb698] .v-icon:has([data-icon=no]){display:none}.v-radio.radio-button[data-v-36efb698] .v-icon:has([data-icon=no])+.label{margin-left:0}.custom[data-v-36efb698]{--v-icon-color: var(--foreground-subdued);display:flex;align-items:center;width:100%;height:var(--input-height);padding:10px;border:2px dashed var(--border-normal);border-radius:var(--border-radius)}.custom input[data-v-36efb698]{display:block;flex-grow:1;width:20px;margin:0 0 0 8px;padding:0;background-color:transparent;border:none;border-radius:0}.custom input[data-v-36efb698]::placeholder{color:var(--foreground-subdued)}.custom.has-value[data-v-36efb698]{background-color:var(--background-subdued);border:2px solid var(--background-subdued)}.custom.active[data-v-36efb698]{--v-icon-color: var(--v-radio-color);position:relative;background-color:transparent;border-color:var(--v-radio-color)}.custom.active[data-v-36efb698]:before{position:absolute;top:0;left:0;width:100%;height:100%;background-color:var(--v-radio-color);content:"";pointer-events:none}.custom.disabled[data-v-36efb698]{background-color:var(--background-subdued);border-color:transparent;cursor:not-allowed}.custom.disabled input[data-v-36efb698]{color:var(--foreground-subdued);cursor:not-allowed}.custom.disabled input[data-v-36efb698]::placeholder{color:var(--foreground-subdued)}body{--sidebar-detail-icon-color: var(--foreground-normal-alt);--sidebar-detail-color: var(--foreground-normal-alt);--sidebar-detail-color-active: var(--primary)}.sidebar-detail[data-v-9b1b7e8a]{--v-badge-offset-x: 3px;--v-badge-offset-y: 4px;--v-badge-border-color: var(--background-normal-alt);--v-badge-background-color: var(--primary);--v-badge-color: var(--background-normal);display:contents}.sidebar-detail[data-v-9b1b7e8a] .type-label{margin-bottom:4px;font-size:1rem}.sidebar-detail .toggle[data-v-9b1b7e8a]{position:relative;display:flex;flex-shrink:0;justify-content:space-between;width:100%;height:60px;color:var(--sidebar-detail-color);background-color:var(--background-highlight)}.sidebar-detail .toggle .icon[data-v-9b1b7e8a]{--v-icon-color: var(--sidebar-detail-icon-color);display:flex;align-items:center;justify-content:center;width:60px;height:100%}.sidebar-detail .toggle.open[data-v-9b1b7e8a],.sidebar-detail .toggle[data-v-9b1b7e8a]:hover{color:var(--sidebar-detail-color-active)}.sidebar-detail .toggle.open .icon[data-v-9b1b7e8a],.sidebar-detail .toggle:hover .icon[data-v-9b1b7e8a]{--v-icon-color: var(--sidebar-detail-color-active)}.sidebar-detail .close[data-v-9b1b7e8a]{position:absolute;top:0;right:0;z-index:50;display:flex;align-items:center;justify-content:center;width:60px;height:60px;color:var(--foreground-normal);cursor:pointer;transition:opacity var(--fast) var(--transition),color var(--fast) var(--transition)}.sidebar-detail .close .v-icon[data-v-9b1b7e8a]{pointer-events:none}.sidebar-detail .close[data-v-9b1b7e8a]:hover{color:var(--sidebar-detail-color-active)}.sidebar-detail.open .toggle .close[data-v-9b1b7e8a]{opacity:1;pointer-events:auto}.sidebar-detail .title[data-v-9b1b7e8a]{position:absolute;top:50%;left:52px;overflow:hidden;white-space:nowrap;transform:translateY(-50%)}.sidebar-detail .scroll-container[data-v-9b1b7e8a]{overflow-x:hidden;overflow-y:auto}.sidebar-detail .content[data-v-9b1b7e8a]{padding:16px}.sidebar-detail .content[data-v-9b1b7e8a] .page-description{margin-bottom:8px;color:var(--foreground-subdued)}.sidebar-detail .content[data-v-9b1b7e8a] .page-description a{color:var(--primary)}.sidebar-detail .expand-icon[data-v-9b1b7e8a]{color:var(--foreground-subdued)}.sidebar-detail .v-chip[data-v-9b1b7e8a]{margin-left:8px}.sidebar-detail .v-chip.error[data-v-9b1b7e8a]{--v-chip-color: var(--danger);--v-chip-background-color: var(--danger-25);--v-chip-color-hover: var(--white);--v-chip-background-color-hover: var(--danger)}.sidebar-detail .v-chip.success[data-v-9b1b7e8a]{--v-chip-color: var(--success);--v-chip-background-color: var(--success-25);--v-chip-color-hover: var(--white);--v-chip-background-color-hover: var(--success)}.v-textarea[data-v-643df86b]{padding:10px;overflow:auto}.keywords-chip[data-v-643df86b]{display:flex;flex-wrap:wrap;gap:4px}.keywords-chip .v-chip[data-v-643df86b]{cursor:pointer}.keywords-chip .v-chip.bad-fk[data-v-643df86b]{--v-chip-color: var(--danger);--v-chip-background-color: var(--danger-25)}.keywords-chip .v-chip.bad-fk.selected[data-v-643df86b],.keywords-chip .v-chip.bad-fk[data-v-643df86b]:hover{--v-chip-background-color: var(--danger-50)}.keywords-chip .v-chip.ok-fk[data-v-643df86b]{--v-chip-color: var(--warning);--v-chip-background-color: var(--warning-25)}.keywords-chip .v-chip.ok-fk.selected[data-v-643df86b],.keywords-chip .v-chip.ok-fk[data-v-643df86b]:hover{--v-chip-background-color: var(--warning-50)}.keywords-chip .v-chip.good-fk[data-v-643df86b]{--v-chip-color: var(--success);--v-chip-background-color: var(--success-25)}.keywords-chip .v-chip.good-fk.selected[data-v-643df86b],.keywords-chip .v-chip.good-fk[data-v-643df86b]:hover{--v-chip-background-color: var(--success-50)}.seo-groups[data-v-643df86b]{margin-top:10px}.sidebar-detail .v-chip[data-v-643df86b]{padding:0 4px}.checklist[data-v-643df86b]{list-style:none;padding-left:0}.checklist li[data-v-643df86b]{margin-bottom:6px;line-height:1.4}.checklist .v-icon[data-v-643df86b]{margin-right:4px}.checklist .v-icon.error[data-v-643df86b]{--v-icon-color: var(--red-50);--v-icon-color-hover: var(--red) }.checklist .v-icon.success[data-v-643df86b]{--v-icon-color: var(--success-50);--v-icon-color-hover: var(--success) }[data-v-15cb8caf] .v-form.seo-setting-form{grid-template-columns:repeat(1,minmax(0,1fr));display:block}@media (min-width: 1280px){[data-v-15cb8caf] .v-form.seo-setting-form{max-width:64rem}}[data-v-15cb8caf] .v-form.seo-setting-form .group-section .v-form{grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full] 1fr [fill]!important}[data-v-15cb8caf] .v-form.seo-setting-form .group-section .v-form .group-column{--form-vertical-gap: 32px}[data-v-15cb8caf] .v-form.seo-setting-form .group-section .v-form .group-column:last-child{grid-column:span 2/span 2!important}[data-v-15cb8caf] .v-form.seo-setting-form .group-section .v-form .group-column .v-form:has(.v-text-overflow:empty){grid-gap:16px!important;gap:16px!important}[data-v-15cb8caf] .v-form.seo-setting-form .type-note{margin-top:.5rem;max-width:initial}[data-v-15cb8caf] .v-form.seo-setting-form .field-label .field-name:has(.v-text-overflow:empty){display:none}.v-tabs.horizontal.analyzer[data-v-15cb8caf]{background-color:#f1f5f9;padding:4px;gap:4px;border-radius:24px}.v-tabs.horizontal.analyzer[data-v-15cb8caf] .v-tab{height:auto;padding:0;--v-tab-background-color: transparent;--v-tab-background-color-active: transparent}.v-tabs.horizontal.analyzer[data-v-15cb8caf] .button{--border-width: 0;--border-radius: 24px;--v-button-height: 40px;--v-button-min-width: 0;padding:0 16px;gap:0}.image-preview[data-v-6f6d1139]{position:relative;width:100%;height:var(--input-height-tall);overflow:hidden;background-color:var(--background-normal-alt);border-radius:var(--border-radius)}img[data-v-6f6d1139]{z-index:1;width:100%;height:100%;max-height:inherit;object-fit:contain}.is-svg[data-v-6f6d1139]{padding:32px}.is-svg img[data-v-6f6d1139]{object-fit:contain}.image-error[data-v-6f6d1139]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;color:var(--foreground-subdued);background-color:var(--background-normal);padding:32px}.image-error .v-icon[data-v-6f6d1139]{margin-bottom:6px}.image-error .message[data-v-6f6d1139]{max-width:300px;padding:0 16px;text-align:center}.image-preview .shadow[data-v-6f6d1139]{position:absolute;bottom:0;left:0;z-index:2;width:100%;height:40px;overflow:hidden;line-height:1;white-space:nowrap;text-overflow:ellipsis;background:linear-gradient(180deg,#26323800,#26323840);transition:height var(--fast) var(--transition)}.image-preview .actions[data-v-6f6d1139]{--v-button-color: var(--foreground-subdued);--v-button-background-color: var(--white);--v-button-color-hover: var(--foreground-normal);--v-button-background-color-hover: var(--white);position:absolute;top:calc(50% - 32px);left:0;z-index:3;display:flex;justify-content:center;width:100%}.image-preview .actions .v-button[data-v-6f6d1139]{margin-right:12px;transform:translateY(10px);opacity:0;transition:var(--medium) var(--transition);transition-property:opacity transform}.image-preview .actions .v-button[data-v-6f6d1139]:nth-of-type(1){transition-delay:0ms}.image-preview .actions .v-button[data-v-6f6d1139]:nth-of-type(2){transition-delay:25ms}.image-preview .actions .v-button[data-v-6f6d1139]:nth-of-type(3){transition-delay:50ms}.image-preview .actions .v-button[data-v-6f6d1139]:nth-of-type(4){transition-delay:75ms}.image-preview .actions .v-button[data-v-6f6d1139]:nth-of-type(5){transition-delay:.1s}.image-preview .actions .v-button[data-v-6f6d1139]:last-child{margin-right:0}.image-preview .info[data-v-6f6d1139]{position:absolute;bottom:0;left:0;z-index:3;width:100%;padding:8px 12px;line-height:1.2}.image-preview .title[data-v-6f6d1139]{color:var(--white)}.image-preview .meta[data-v-6f6d1139]{height:17px;max-height:0;overflow:hidden;color:#ffffffbf;transition:max-height var(--fast) var(--transition)}.image-preview:focus-within .shadow[data-v-6f6d1139],.image-preview:hover .shadow[data-v-6f6d1139]{height:100%;background:linear-gradient(180deg,#26323800,#26323880)}.image-preview:focus-within .actions .v-button[data-v-6f6d1139],.image-preview:hover .actions .v-button[data-v-6f6d1139]{transform:translateY(0);opacity:1}.image-preview:focus-within .meta[data-v-6f6d1139],.image-preview:hover .meta[data-v-6f6d1139]{max-height:17px}.image.full .image-preview[data-v-6f6d1139],.image.fill .image-preview[data-v-6f6d1139]{height:auto;max-height:400px}.image.crop .image-preview img[data-v-6f6d1139]{object-fit:cover}.disabled-placeholder[data-v-6f6d1139]{height:var(--input-height-tall)}.fallback[data-v-6f6d1139]{background-color:var(--background-normal);display:flex;align-items:center;justify-content:center;height:var(--input-height-tall);border-radius:var(--border-radius)}.social-preview-button[data-v-6f6d1139]{font-size:13px;display:inline-block;padding:4px 8px;text-decoration:none;text-transform:uppercase;color:#555;border:0;outline:none;background:#ededee;box-shadow:none!important}.open .social-preview-button[data-v-6f6d1139]{color:#fff;background:#069de3}.social-preview-item[data-v-6f6d1139]{box-sizing:border-box;max-width:500px;margin:0 auto;padding:30px 0}.social-preview-item-wrapper[data-v-6f6d1139]{overflow:hidden;box-sizing:border-box;max-width:100%;margin:auto;border:1px solid #dddfe2;border-radius:0 0 3px 3px;background:#fff}.social-preview-item .error-msg[data-v-6f6d1139]{line-height:1;display:none;width:528px;max-width:100%;margin:auto;padding-top:10px}.social-preview-item .error-msg.show[data-v-6f6d1139]{display:block}.social-preview-image[data-v-6f6d1139]{line-height:0;position:relative;z-index:1}.social-preview-image img[data-v-6f6d1139]{max-width:100%;height:auto;min-height:initial}.social-preview-image .preview-placeholder[data-v-6f6d1139]{width:100%;height:0;padding-bottom:52.5555555556%;background-color:var(--background-normal-alt);color:var(--foreground-normal);position:relative}.social-preview-image .preview-placeholder .placeholder-content[data-v-6f6d1139]{display:flex;align-items:center;justify-content:center;position:absolute;top:0;right:0;bottom:0;left:0;flex-direction:column;gap:8px;line-height:1}.social-preview-image .preview-placeholder h3[data-v-6f6d1139]{font-size:20px;text-transform:uppercase}.social-preview-image .preview-placeholder p[data-v-6f6d1139]{font-size:16px}.social-preview-image-overlay[data-v-6f6d1139]{transform:translate(-50%,-50%) scale(.45);position:absolute;top:50%;left:50%}.social-preview-image .error-msg[data-v-6f6d1139]{line-height:1;display:none}.social-preview .social-preview-caption[data-v-6f6d1139]{font-size:12px;padding:10px 10px 5px;color:#1d2129;background:#f2f3f5}.social-preview .social-preview-title[data-v-6f6d1139]{font-size:16px;font-weight:600;line-height:22px;margin:0 0 3px;padding:0;letter-spacing:normal;word-wrap:break-word}.social-preview .social-preview-title.capitalize[data-v-6f6d1139]{text-transform:capitalize}.social-preview-description[data-v-6f6d1139],.social-preview-publisher[data-v-6f6d1139]{line-height:16px;margin:0}.social-preview-publisher[data-v-6f6d1139]{font-size:12px;font-weight:400;padding-top:3px;padding-bottom:3px;text-transform:uppercase;color:#90949c}.social-preview-publisher.facebook[data-v-6f6d1139]{text-transform:uppercase}.social-preview-meta[data-v-6f6d1139]{position:relative;display:none;display:block;clear:both;margin:0 auto 15px}.social-preview-meta .social-profile-image[data-v-6f6d1139]{position:absolute;left:-58px;float:left;width:46px;height:46px;border-radius:50%;background:#dcc7c7}.social-preview-meta .social-name[data-v-6f6d1139]{font-size:14px;font-weight:700;color:#14171a}.social-preview-meta .social-username[data-v-6f6d1139],.social-preview-meta .social-time[data-v-6f6d1139]{font-size:12px;font-weight:400;line-height:1;margin-left:5px;color:#657786}.social-preview-meta .social-username .v-icon[data-v-6f6d1139],.social-preview-meta .social-time .v-icon[data-v-6f6d1139]{--v-icon-size: 16px}.social-preview-meta .social-time[data-v-6f6d1139]:before{margin-right:5px;content:"·"}.social-preview-meta .social-text[data-v-6f6d1139]{margin-top:5px}.social-preview-facebook .social-preview-button strong[data-v-6f6d1139]:before{content:attr(data-facebook)}.social-preview-facebook .facebook-thumbnail[data-v-6f6d1139]{display:block}.social-preview-facebook .no-facebook-image .facebook-thumbnail[data-v-6f6d1139],.social-preview-facebook .social-preview-meta.twitter-meta[data-v-6f6d1139]{display:none}.social-preview-facebook .social-preview-title[data-v-6f6d1139]{font-size:1.0625rem}.social-preview-facebook .social-preview-description[data-v-6f6d1139]{font-size:.9375rem;overflow:hidden;max-height:1.3em;margin-bottom:5px;white-space:nowrap;text-overflow:ellipsis;color:#606770}.social-preview-facebook .social-preview-meta[data-v-6f6d1139]{display:block;line-height:1.4em;box-sizing:border-box;min-height:66px;margin-bottom:0;padding:12px;border:1px solid #dddfe2;border-bottom:0;border-radius:3px 3px 0 0;background:#fff}.social-preview-facebook .social-preview-meta .social-profile-image[data-v-6f6d1139]{position:relative;left:auto;width:40px;height:40px;margin-right:10px;margin-left:-2px}.social-preview-facebook .social-preview-meta .social-name[data-v-6f6d1139]{margin-bottom:3px;color:#365899}.social-preview-facebook .social-preview-meta .social-time[data-v-6f6d1139]:before{display:none}.social-preview-facebook .social-preview-meta .social-time span[data-v-6f6d1139]{width:auto}.social-preview-facebook .social-preview-meta .social-time span[data-v-6f6d1139]:first-child:after{margin:0 5px;content:"·"}.social-preview-facebook .social-preview-meta .social-time span svg[data-v-6f6d1139]{vertical-align:middle}.social-preview-facebook .social-preview-meta .dashicons.dashicons-admin-site[data-v-6f6d1139]{font-size:12px;line-height:18px}.social-preview-facebook .twitter[data-v-6f6d1139]{display:none}.social-preview-twitter.app[data-v-6f6d1139],.social-preview-twitter.player[data-v-6f6d1139]{display:none!important}.social-preview-twitter .social-preview-item[data-v-6f6d1139]{max-width:582px;padding-left:58px}.social-preview-twitter .social-preview-meta .social-text[data-v-6f6d1139],.social-preview-twitter .social-preview-meta .social-username[data-v-6f6d1139],.social-preview-twitter .social-preview-meta .social-time[data-v-6f6d1139]{font-size:14px}.social-preview-twitter .social-preview-item-wrapper[data-v-6f6d1139]{clear:both;max-width:100%;border:1px solid rgb(204,214,221);border-radius:14px}.social-preview-twitter .social-preview-item-wrapper .twitter-thumbnail[data-v-6f6d1139]{display:block;max-width:100%}.social-preview-twitter .social-preview-item-wrapper .social-preview-caption[data-v-6f6d1139]{background:#fff}.social-preview-twitter .social-preview-item-wrapper[data-v-6f6d1139]:hover,.social-preview-twitter .social-preview-item-wrapper:hover .social-preview-caption[data-v-6f6d1139]{background:#f5f8fa}.social-preview-twitter .social-preview-title[data-v-6f6d1139]{font-weight:400;overflow:hidden;margin-bottom:2px;white-space:nowrap;text-overflow:ellipsis;color:#14171a}.social-preview-twitter .social-preview-description[data-v-6f6d1139]{font-size:15px;line-height:1.3125;overflow:hidden;max-height:2.5em;text-overflow:ellipsis;color:#657786}.social-preview-twitter .social-preview-publisher[data-v-6f6d1139]{font-size:15px;padding-top:5px;text-transform:initial;color:#657786}.social-preview-twitter .social-preview-publisher .dashicon[data-v-6f6d1139]{margin-right:3px;-webkit-text-stroke:1px white}.social-preview-twitter .social-preview-publisher.facebook[data-v-6f6d1139],.social-preview-twitter .no-twitter-image .twitter-thumbnail[data-v-6f6d1139]{display:none}.social-preview-twitter .social-preview-button strong[data-v-6f6d1139]:before{content:attr(data-twitter)}.social-preview-twitter.summary_card .social-preview-image[data-v-6f6d1139]{float:left}.social-preview-twitter.summary_card .social-preview-image img[data-v-6f6d1139]{width:125px;height:125px}.social-preview-twitter.summary_card .social-preview-caption[data-v-6f6d1139]{overflow:hidden;box-sizing:border-box;max-height:125px;padding:5px 0 0 15px}.social-preview-twitter.summary_card .social-preview-description[data-v-6f6d1139]{max-height:4.5rem}.social-preview-twitter .social-preview-meta.facebook-meta[data-v-6f6d1139]{display:none}.social-preview-twitter .social-preview-meta.twitter-meta[data-v-6f6d1139]{display:block}.private-view #navigation .module-nav-content[data-v-57817cee]{background-color:#f8fafc}.navigator[data-v-57817cee]{--v-list-padding: 0;--v-list-item-margin: 0}.navigator[data-v-57817cee] .v-list-group{margin-bottom:0;border-bottom:1px solid;--un-border-opacity:1;border-color:rgba(226,232,240,var(--un-border-opacity))}.navigator[data-v-57817cee] .v-list-group .items .v-list-item{padding:8px 10px 8px 34px}.navigator[data-v-57817cee] .v-list-group .items:not(:empty){padding:8px;border-top:1px solid;--un-border-opacity:1;border-color:rgba(226,232,240,var(--un-border-opacity))}.navigator[data-v-57817cee] .v-list-group .v-list-item-icon{margin-top:0;margin-bottom:0}.navigator[data-v-57817cee] li.v-list-item.activator{padding:20px 16px;background-color:#fff}.navigator[data-v-57817cee] li.v-list-item.activator>a{padding-left:0}.navigator[data-v-57817cee] li.v-list-item.activator>a .v-list-item-icon{margin-right:6px}.toggle[data-v-b025e43d]{--v-icon-color: var(--primary);--v-icon-color-hover: var(--primary-150);display:flex;align-items:center;width:100%;padding:12px 16px;color:var(--primary);text-align:left;background-color:var(--primary-alt);border-radius:var(--border-radius)}.toggle .display-value[data-v-b025e43d]{flex-grow:1;margin-left:8px}.toggle .append-slot[data-v-b025e43d]:not(:empty){margin-left:8px}.v-input .input[data-v-b025e43d]{color:var(--primary);background-color:var(--primary-alt);border:0px}.v-icon[data-v-b025e43d]{margin-left:6px}.secondary .toggle[data-v-b025e43d]{--v-icon-color: var(--secondary);--v-icon-color-hover: var(--secondary-150);color:var(--secondary);background-color:var(--secondary-alt)}.v-list .v-list-item[data-v-b025e43d]{display:flex;gap:10px;align-items:center;justify-content:space-between;white-space:nowrap;cursor:pointer}.v-list .v-list-item .start[data-v-b025e43d]{display:flex;flex:1;align-items:center}.v-list .v-list-item .end[data-v-b025e43d]{display:flex;flex-grow:1;gap:10px;align-items:center;justify-content:flex-end;color:var(--foreground-subdued)}.v-list .v-list-item[data-v-b025e43d]:hover{background-color:var(--background-normal)}.v-list .v-list-item .dot[data-v-b025e43d]{width:8px;height:100%}.v-list .v-list-item .dot.show[data-v-b025e43d]:before{display:block;width:4px;height:4px;background-color:var(--foreground-subdued);border-radius:2px;content:""}.v-list .v-list-item .v-progress-linear[data-v-b025e43d]{max-width:100px}[data-v-600970de] .v-form.seo-setting-form{grid-template-columns:repeat(1,minmax(0,1fr));display:block}@media (min-width: 1280px){[data-v-600970de] .v-form.seo-setting-form{max-width:64rem}}[data-v-600970de] .v-form.seo-setting-form .group-section .v-form{grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full] 1fr [fill]!important}[data-v-600970de] .v-form.seo-setting-form .group-section .v-form .group-column{--form-vertical-gap: 32px}[data-v-600970de] .v-form.seo-setting-form .group-section .v-form .group-column:last-child{grid-column:span 2/span 2!important}[data-v-600970de] .v-form.seo-setting-form .group-section .v-form .group-column .v-form:has(.v-text-overflow:empty){grid-gap:16px!important;gap:16px!important}[data-v-600970de] .v-form.seo-setting-form .type-note{margin-top:.5rem;max-width:initial}[data-v-600970de] .v-form.seo-setting-form .field-label .field-name:has(.v-text-overflow:empty){display:none}.language-switcher[data-v-600970de]{--v-input-background-color: var(--primary-25);--background-input: var(--primary-25);--v-input-color: var(--primary);--arrow-color: var(--primary);--input-height: 48px;--border-width: 0px;--border-radius: 4px;width:270px}[data-v-600970de] .v-breadcrumb a{--v-breadcrumb-color: var(--primary);color:var(--primary)}[data-v-600970de] .language-select{min-width:270px}[data-v-5b37e7f8] .v-form.seo-setting-form{grid-template-columns:repeat(1,minmax(0,1fr));display:block}@media (min-width: 1280px){[data-v-5b37e7f8] .v-form.seo-setting-form{max-width:64rem}}[data-v-5b37e7f8] .v-form.seo-setting-form .group-section .v-form{grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full] 1fr [fill]!important}[data-v-5b37e7f8] .v-form.seo-setting-form .group-section .v-form .group-column{--form-vertical-gap: 32px}[data-v-5b37e7f8] .v-form.seo-setting-form .group-section .v-form .group-column:last-child{grid-column:span 2/span 2!important}[data-v-5b37e7f8] .v-form.seo-setting-form .group-section .v-form .group-column .v-form:has(.v-text-overflow:empty){grid-gap:16px!important;gap:16px!important}[data-v-5b37e7f8] .v-form.seo-setting-form .type-note{margin-top:.5rem;max-width:initial}[data-v-5b37e7f8] .v-form.seo-setting-form .field-label .field-name:has(.v-text-overflow:empty){display:none}.language-switcher[data-v-5b37e7f8]{--v-input-background-color: var(--primary-25);--background-input: var(--primary-25);--v-input-color: var(--primary);--arrow-color: var(--primary);--input-height: 48px;--border-width: 0px;--border-radius: 4px;width:270px}[data-v-5b37e7f8] .v-breadcrumb a{--v-breadcrumb-color: var(--primary);color:var(--primary)}body{--v-switch-color: var(--foreground-normal)}.v-switch[data-v-0d3be914]{display:flex;align-items:center;font-size:0;background-color:transparent;border:none;border-radius:0;-webkit-appearance:none;-moz-appearance:none;appearance:none}.v-switch .switch[data-v-0d3be914]{position:relative;display:inline-block;width:44px;height:24px;vertical-align:middle;border:var(--border-width, var(--theme--border-width)) solid var(--v-button-background-color, var(--theme--primary));border-radius:12px;transition:var(--fast) var(--transition);transition-property:background-color border;background-color:#cbd5e1}.v-switch .switch[data-v-0d3be914]:focus{outline:0}.v-switch .switch[data-v-0d3be914]:after{position:absolute;top:2px;left:2px;display:block;width:16px;height:16px;background-color:#64748b;border-radius:8px;transition:transform var(--fast) var(--transition);content:""}.v-switch .switch[data-v-0d3be914]:hover{border-color:var(--border-normal)}.v-switch[aria-pressed=true] .switch[data-v-0d3be914]{background-color:var(--v-button-background-color, var(--theme--primary));border-color:var(--v-button-background-color, var(--theme--primary))}.v-switch[aria-pressed=true] .switch[data-v-0d3be914]:after{background-color:#fff;transform:translate(20px)}.v-switch .label[data-v-0d3be914]:not(:empty){margin-left:8px;vertical-align:middle}.v-switch[data-v-0d3be914]:disabled{cursor:not-allowed}.v-switch:disabled .switch[data-v-0d3be914]{background-color:var(--background-normal-alt);border-color:var(--border-normal)}.v-switch:disabled .switch[data-v-0d3be914]:after{background-color:var(--border-normal)}.v-switch:disabled .switch[data-v-0d3be914]:hover{border-color:var(--border-normal)}.v-switch:disabled .label[data-v-0d3be914]{color:var(--foreground-subdued)}.icon[data-v-409b3d09]{flex-shrink:0;display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:50%;color:var(--foreground-subdued);background-color:var(--background-normal)}.button-setting[data-v-409b3d09] .button{border-color:#94a3b8!important}.seo-collection-item[data-v-409b3d09]{color:var(--theme--foreground-accent, var(--foreground-normal));border-color:var(--theme--border-color-accent, var(--border-normal))}.action[data-v-409b3d09]{background:var(--theme--background-normal, var(--background-normal))}[data-v-37053cab] .v-form.seo-setting-form{grid-template-columns:repeat(1,minmax(0,1fr));display:block}@media (min-width: 1280px){[data-v-37053cab] .v-form.seo-setting-form{max-width:64rem}}[data-v-37053cab] .v-form.seo-setting-form .group-section .v-form{grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full] 1fr [fill]!important}[data-v-37053cab] .v-form.seo-setting-form .group-section .v-form .group-column{--form-vertical-gap: 32px}[data-v-37053cab] .v-form.seo-setting-form .group-section .v-form .group-column:last-child{grid-column:span 2/span 2!important}[data-v-37053cab] .v-form.seo-setting-form .group-section .v-form .group-column .v-form:has(.v-text-overflow:empty){grid-gap:16px!important;gap:16px!important}[data-v-37053cab] .v-form.seo-setting-form .type-note{margin-top:.5rem;max-width:initial}[data-v-37053cab] .v-form.seo-setting-form .field-label .field-name:has(.v-text-overflow:empty){display:none}[data-v-37053cab] #main-content.content .header-bar{padding-left:30px}@media (min-width: 600px){[data-v-37053cab] #main-content.content .header-bar{margin-top:0;padding-right:30px}[data-v-37053cab] #main-content.content .header-bar .title-container{margin-left:0}}.language-switcher[data-v-37053cab]{--v-input-background-color: var(--primary-25);--background-input: var(--primary-25);--v-input-color: var(--primary);--arrow-color: var(--primary);--input-height: 48px;--border-width: 0px;--border-radius: 4px;width:270px}[data-v-37053cab] .v-breadcrumb a{--v-breadcrumb-color: var(--primary);color:var(--primary)}[data-v-37053cab] .language-select{min-width:270px}[data-v-edeadacc] .v-form.seo-setting-form{grid-template-columns:repeat(1,minmax(0,1fr));display:block}@media (min-width: 1280px){[data-v-edeadacc] .v-form.seo-setting-form{max-width:64rem}}[data-v-edeadacc] .v-form.seo-setting-form .group-section .v-form{grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full] 1fr [fill]!important}[data-v-edeadacc] .v-form.seo-setting-form .group-section .v-form .group-column{--form-vertical-gap: 32px}[data-v-edeadacc] .v-form.seo-setting-form .group-section .v-form .group-column:last-child{grid-column:span 2/span 2!important}[data-v-edeadacc] .v-form.seo-setting-form .group-section .v-form .group-column .v-form:has(.v-text-overflow:empty){grid-gap:16px!important;gap:16px!important}[data-v-edeadacc] .v-form.seo-setting-form .type-note{margin-top:.5rem;max-width:initial}[data-v-edeadacc] .v-form.seo-setting-form .field-label .field-name:has(.v-text-overflow:empty){display:none}[data-v-edeadacc] #main-content.content .header-bar{padding-left:30px}@media (min-width: 600px){[data-v-edeadacc] #main-content.content .header-bar{margin-top:0;padding-right:30px}}.language-switcher[data-v-edeadacc]{--v-input-background-color: var(--primary-25);--background-input: var(--primary-25);--v-input-color: var(--primary);--arrow-color: var(--primary);--input-height: 48px;--border-width: 0px;--border-radius: 4px;width:270px}[data-v-edeadacc] .v-breadcrumb a{--v-breadcrumb-color: var(--primary);color:var(--primary)}[data-v-edeadacc] .v-menu.language-select{display:none}[data-v-edeadacc] .language-select{min-width:270px}.advanced-form[data-v-edeadacc]>.first-visible-field>.v-menu{display:none}.advanced-form[data-v-edeadacc] .language-select+.v-form{grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full] 1fr [fill]!important}.advanced-form[data-v-edeadacc] .language-select+.v-form>.field{grid-column:start/fill}.advanced-form[data-v-edeadacc] .language-select+.v-form+.v-divider{display:none}[data-v-8532e4e1] .v-form.seo-setting-form{grid-template-columns:repeat(1,minmax(0,1fr));display:block}@media (min-width: 1280px){[data-v-8532e4e1] .v-form.seo-setting-form{max-width:64rem}}[data-v-8532e4e1] .v-form.seo-setting-form .group-section .v-form{grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full] 1fr [fill]!important}[data-v-8532e4e1] .v-form.seo-setting-form .group-section .v-form .group-column{--form-vertical-gap: 32px}[data-v-8532e4e1] .v-form.seo-setting-form .group-section .v-form .group-column:last-child{grid-column:span 2/span 2!important}[data-v-8532e4e1] .v-form.seo-setting-form .group-section .v-form .group-column .v-form:has(.v-text-overflow:empty){grid-gap:16px!important;gap:16px!important}[data-v-8532e4e1] .v-form.seo-setting-form .type-note{margin-top:.5rem;max-width:initial}[data-v-8532e4e1] .v-form.seo-setting-form .field-label .field-name:has(.v-text-overflow:empty){display:none}.language-switcher[data-v-8532e4e1]{--v-input-background-color: var(--primary-25);--background-input: var(--primary-25);--v-input-color: var(--primary);--arrow-color: var(--primary);--input-height: 48px;--border-width: 0px;--border-radius: 4px;width:270px}[data-v-8532e4e1] .v-breadcrumb a{--v-breadcrumb-color: var(--primary);color:var(--primary)}[data-v-8532e4e1] .language-select{min-width:270px}.list-step li[data-v-5bae177e]{position:relative;flex:1 1 0%}.list-step li[data-v-5bae177e]:not(:last-child):before{content:"";--un-bg-opacity:1;background-color:rgba(209,213,219,var(--un-bg-opacity));bottom:-2.75rem;left:1rem;width:.125rem;height:100%;position:absolute;display:inline-block}@media (min-width: 1024px){.list-step li[data-v-5bae177e]:not(:last-child):before{left:1.25rem}}.list-step li.active[data-v-5bae177e]:before{background-color:var(--primary)}.bg-primary{background-color:var(--primary)}.text-primary{color:var(--primary)}:deep() .v-form.seo-setting-form{grid-template-columns:repeat(1,minmax(0,1fr));display:block}@media (min-width: 1280px){:deep() .v-form.seo-setting-form{max-width:64rem}}:deep() .v-form.seo-setting-form .group-section .v-form{grid-template-columns:[start] minmax(0,1fr) [half] minmax(0,1fr) [full] 1fr [fill]!important}:deep() .v-form.seo-setting-form .group-section .v-form .group-column{--form-vertical-gap: 32px}:deep() .v-form.seo-setting-form .group-section .v-form .group-column:last-child{grid-column:span 2/span 2!important}:deep() .v-form.seo-setting-form .group-section .v-form .group-column .v-form:has(.v-text-overflow:empty){grid-gap:16px!important;gap:16px!important}:deep() .v-form.seo-setting-form .type-note{margin-top:.5rem;max-width:initial}:deep() .v-form.seo-setting-form .field-label .field-name:has(.v-text-overflow:empty){display:none}')),document.head.appendChild(a)}}catch(e){console.error("vite-plugin-css-injected-by-js",e)}})();
 import { defineInterface as hi, useStores as on, useApi as Hn, useItems as w3, defineModule as D3 } from "@directus/extensions-sdk";
-import { defineComponent as at, resolveComponent as J, openBlock as Q, createElementBlock as Fe, createVNode as K, normalizeClass as Ct, inject as Kn, ref as te, computed as fe, resolveDirective as Bn, createElementVNode as U, unref as Z, createCommentVNode as _t, withDirectives as nn, createBlock as xe, normalizeStyle as Al, withCtx as W, Fragment as Ot, createTextVNode as We, toDisplayString as Ae, watch as Gn, renderList as rn, toRefs as Qa, onMounted as sn, onUnmounted as x3, pushScopeId as Dn, popScopeId as xn, toValue as k3, isRef as hn, renderSlot as Cl, vShow as E3, resolveDynamicComponent as A3, withKeys as C3, getCurrentInstance as Yd, h as F3 } from "vue";
+import { defineComponent as at, resolveComponent as J, openBlock as Q, createElementBlock as Fe, createVNode as K, normalizeClass as kt, inject as Kn, ref as te, computed as fe, resolveDirective as Bn, createElementVNode as q, unref as Z, createCommentVNode as _t, withDirectives as nn, createBlock as xe, normalizeStyle as Al, withCtx as W, Fragment as Ot, createTextVNode as We, toDisplayString as Ae, watch as Gn, renderList as rn, toRefs as Qa, onMounted as sn, onUnmounted as x3, pushScopeId as Dn, popScopeId as xn, toValue as k3, isRef as hn, renderSlot as Cl, vShow as E3, resolveDynamicComponent as A3, withKeys as C3, getCurrentInstance as Yd, h as F3 } from "vue";
 import { useI18n as zt } from "vue-i18n";
 import { useRoute as Wi, RouterView as S3, useRouter as Gi } from "vue-router";
 import { defineStore as $3 } from "pinia";
@@ -121,7 +121,7 @@ const T3 = { class: "group-column !col-auto" }, R3 = /* @__PURE__ */ at({
           "show-no-visible-fields": !1,
           "show-validation-errors": !1,
           "onUpdate:modelValue": i[0] || (i[0] = (l) => t.$emit("apply", l)),
-          class: Ct(["grid-cols-1 !lg:grid-cols-3", [t.gap]])
+          class: kt(["grid-cols-1 !lg:grid-cols-3", [t.gap]])
         }, null, 8, ["initial-values", "fields", "model-value", "primary-key", "group", "validation-errors", "loading", "disabled", "badge", "raw-editor-enabled", "direction", "class"])
       ]);
     };
@@ -249,11 +249,11 @@ const U3 = { class: "field full" }, q3 = { class: "custom-upload" }, V3 = { clas
       var y, A;
       const f = J("v-image"), v = J("v-upload"), _ = J("v-icon"), D = J("v-button"), b = Bn("tooltip");
       return Q(), Fe("div", null, [
-        U("div", U3, [
-          U("div", q3, [
-            U("div", V3, [
-              U("div", W3, [
-                U("div", G3, [
+        q("div", U3, [
+          q("div", q3, [
+            q("div", V3, [
+              q("div", W3, [
+                q("div", G3, [
                   e.value ? (Q(), Fe("div", H3, [
                     K(f, {
                       src: Z(i)(`/assets/${e.value}`),
@@ -263,8 +263,8 @@ const U3 = { class: "field full" }, q3 = { class: "custom-upload" }, V3 = { clas
                       role: "presentation"
                     }, null, 8, ["src", "width", "height"])
                   ])) : _t("", !0),
-                  U("div", {
-                    class: Ct({ "absolute inset-0 opacity-0 group-hover:opacity-100": e.value })
+                  q("div", {
+                    class: kt({ "absolute inset-0 opacity-0 group-hover:opacity-100": e.value })
                   }, [
                     K(v, {
                       "from-library": "",
@@ -399,12 +399,12 @@ function aw(e, t, i = () => !0) {
     var R;
     const $ = (R = t == null ? void 0 : t.value) == null ? void 0 : R.fields.filter((z) => z.collection === x), E = l.getFieldsForCollectionSorted(x).concat($ || []).filter(
       (z) => {
-        var B, V, G, ae, me, Be;
-        return ((V = (B = z.meta) == null ? void 0 : B.special) == null ? void 0 : V.includes("group")) || !((ae = (G = z.meta) == null ? void 0 : G.special) != null && ae.includes("alias")) && !((Be = (me = z.meta) == null ? void 0 : me.special) != null && Be.includes("no-data"));
+        var B, M, G, ae, me, Be;
+        return ((M = (B = z.meta) == null ? void 0 : B.special) == null ? void 0 : M.includes("group")) || !((ae = (G = z.meta) == null ? void 0 : G.special) != null && ae.includes("alias")) && !((Be = (me = z.meta) == null ? void 0 : me.special) != null && Be.includes("no-data"));
       }
     ).filter((z) => i(z, T)).filter((z) => {
-      var B, V;
-      return (T == null ? void 0 : T.group) === !0 ? ((B = z.meta) == null ? void 0 : B.group) === (T == null ? void 0 : T.field) : rw((V = z.meta) == null ? void 0 : V.group);
+      var B, M;
+      return (T == null ? void 0 : T.group) === !0 ? ((B = z.meta) == null ? void 0 : B.group) === (T == null ? void 0 : T.field) : rw((M = z.meta) == null ? void 0 : M.group);
     }).flatMap((z) => _(z, T));
     return E.length ? E : void 0;
   }
@@ -421,15 +421,15 @@ function aw(e, t, i = () => !0) {
         path: C + x.field,
         group: !0,
         type: x.type
-      }, V = v(x.collection, B);
-      if (V)
-        for (const G of V)
+      }, M = v(x.collection, B);
+      if (M)
+        for (const G of M)
           G.relatedCollection && (G.children = [
             { name: "Loading...", field: "", collection: "", key: "", path: "", type: "alias", _loading: !0 }
           ]);
       return {
         ...B,
-        children: V
+        children: M
       };
     }
     return O.length <= 1 && $ !== "m2a" ? {
@@ -770,8 +770,8 @@ const mw = /* @__PURE__ */ at({
         clickable: ""
       }, {
         activator: W(() => [
-          U("div", {
-            class: Ct({ "pointer-events-none": t.field.group })
+          q("div", {
+            class: kt({ "pointer-events-none": t.field.group })
           }, Ae(t.field.name || Z(ol)(t.field.field)), 3)
         ]),
         default: W(() => [
@@ -786,7 +786,7 @@ const mw = /* @__PURE__ */ at({
       }, 8, ["value"]));
     };
   }
-}), vw = (e) => (Dn("data-v-f86bbf15"), e = e(), xn(), e), yw = ["contenteditable"], _w = /* @__PURE__ */ vw(() => /* @__PURE__ */ U("span", { class: "text" }, null, -1)), bw = [
+}), vw = (e) => (Dn("data-v-f86bbf15"), e = e(), xn(), e), yw = ["contenteditable"], _w = /* @__PURE__ */ vw(() => /* @__PURE__ */ q("span", { class: "text" }, null, -1)), bw = [
   _w
 ], ww = ["innerHTML"], Dw = /* @__PURE__ */ at({
   __name: "v-meta-template",
@@ -815,11 +815,11 @@ const mw = /* @__PURE__ */ at({
       t("update:modelValue", C);
     }
     function _(C) {
-      var V, G;
+      var M, G;
       const E = C.target;
       if (E.tagName.toLowerCase() !== "button") return;
       const R = E.dataset.field;
-      t("update:modelValue", (V = i.modelValue) == null ? void 0 : V.replace(`{{${R}}}`, ""));
+      t("update:modelValue", (M = i.modelValue) == null ? void 0 : M.replace(`{{${R}}}`, ""));
       const z = E.previousElementSibling, B = E.nextElementSibling;
       !z || !B || !(z instanceof HTMLElement) || !(B instanceof HTMLElement) || (E.remove(), x(z, B), (G = window.getSelection()) == null || G.removeAllRanges(), v());
     }
@@ -838,21 +838,21 @@ const mw = /* @__PURE__ */ at({
       if (!(R instanceof HTMLElement && R.classList.contains("text")) && !((z = R.parentElement) != null && z.classList.contains("text"))) {
         C.removeAllRanges();
         const B = new Range();
-        let V = null;
-        for (let G = 0; G < a.value.childNodes.length || !V; G++) {
+        let M = null;
+        for (let G = 0; G < a.value.childNodes.length || !M; G++) {
           const ae = a.value.children[G];
-          ae.classList.contains("text") && (V = ae);
+          ae.classList.contains("text") && (M = ae);
         }
-        V || (V = document.createElement("span"), V.classList.add("text"), a.value.appendChild(V)), B.setStart(V, 0), C.addRange(B);
+        M || (M = document.createElement("span"), M.classList.add("text"), a.value.appendChild(M)), B.setStart(M, 0), C.addRange(B);
       }
     }
     function y(C) {
-      var B, V, G, ae;
+      var B, M, G, ae;
       if (!a.value) return;
       const E = document.createElement("button");
       if (E.dataset.field = C.key, E.setAttribute("contenteditable", "false"), E.innerText = String(C.name), ((B = window.getSelection()) == null ? void 0 : B.rangeCount) == 0) {
         const me = document.createRange();
-        me.selectNodeContents(a.value.children[0]), (V = window.getSelection()) == null || V.addRange(me);
+        me.selectNodeContents(a.value.children[0]), (M = window.getSelection()) == null || M.addRange(me);
       }
       const R = (G = window.getSelection()) == null ? void 0 : G.getRangeAt(0);
       if (!R) return;
@@ -884,10 +884,10 @@ const mw = /* @__PURE__ */ at({
       if (E.nodeType !== Node.TEXT_NODE) return;
       const R = E.parentElement;
       if (!R || !(R instanceof HTMLSpanElement) || !R.classList.contains("text")) return;
-      const z = C.startOffset, B = ((me = R.textContent) == null ? void 0 : me.slice(0, z)) || "", V = ((Be = R.textContent) == null ? void 0 : Be.slice(z)) || "";
+      const z = C.startOffset, B = ((me = R.textContent) == null ? void 0 : me.slice(0, z)) || "", M = ((Be = R.textContent) == null ? void 0 : Be.slice(z)) || "";
       R.innerText = B;
       const G = document.createElement("span");
-      return G.classList.add("text"), G.innerText = V, (ee = a.value) == null || ee.insertBefore(G, R.nextSibling), G;
+      return G.classList.add("text"), G.innerText = M, (ee = a.value) == null || ee.insertBefore(G, R.nextSibling), G;
     }
     function $() {
       if (!a.value) return null;
@@ -910,16 +910,16 @@ const mw = /* @__PURE__ */ at({
             const z = R.replace(/({|})/g, "").trim(), B = z.split(".");
             for (let G = 0; G < B.length; G++)
               p(B.slice(0, G).join("."));
-            const V = A(f.value, B);
-            return V ? `<button contenteditable="false" data-field="${z}" ${i.disabled ? "disabled" : ""}>${V.name}</button>` : "";
+            const M = A(f.value, B);
+            return M ? `<button contenteditable="false" data-field="${z}" ${i.disabled ? "disabled" : ""}>${M.name}</button>` : "";
           }).join("");
           a.value.innerHTML = E;
         }
       }
     }
     return (C, E) => {
-      const R = J("v-icon"), z = J("v-input"), B = J("v-list"), V = J("v-menu");
-      return Q(), xe(V, {
+      const R = J("v-icon"), z = J("v-input"), B = J("v-list"), M = J("v-menu");
+      return Q(), xe(M, {
         modelValue: o.value,
         "onUpdate:modelValue": E[1] || (E[1] = (G) => o.value = G),
         attached: ""
@@ -927,7 +927,7 @@ const mw = /* @__PURE__ */ at({
         activator: W(({ toggle: G }) => [
           K(z, { disabled: C.disabled }, {
             input: W(() => [
-              U("span", {
+              q("span", {
                 ref_key: "contentEl",
                 ref: a,
                 class: "content",
@@ -1874,17 +1874,17 @@ var Wa = { exports: {} };
 Wa.exports;
 (function(e, t) {
   (function() {
-    var i, a = "4.17.21", o = 200, l = "Unsupported core-js use. Try https://npms.io/search?q=ponyfill.", c = "Expected a function", d = "Invalid `variable` option passed into `_.template`", p = "__lodash_hash_undefined__", f = 500, v = "__lodash_placeholder__", _ = 1, D = 2, b = 4, y = 1, A = 2, x = 1, T = 2, $ = 4, O = 8, C = 16, E = 32, R = 64, z = 128, B = 256, V = 512, G = 30, ae = "...", me = 800, Be = 16, ee = 1, P = 2, j = 3, Y = 1 / 0, ne = 9007199254740991, oe = 17976931348623157e292, N = NaN, X = 4294967295, ie = X - 1, ce = X >>> 1, ke = [
+    var i, a = "4.17.21", o = 200, l = "Unsupported core-js use. Try https://npms.io/search?q=ponyfill.", c = "Expected a function", d = "Invalid `variable` option passed into `_.template`", p = "__lodash_hash_undefined__", f = 500, v = "__lodash_placeholder__", _ = 1, D = 2, b = 4, y = 1, A = 2, x = 1, T = 2, $ = 4, O = 8, C = 16, E = 32, R = 64, z = 128, B = 256, M = 512, G = 30, ae = "...", me = 800, Be = 16, ee = 1, P = 2, j = 3, Y = 1 / 0, ne = 9007199254740991, oe = 17976931348623157e292, N = NaN, X = 4294967295, ie = X - 1, ce = X >>> 1, ke = [
       ["ary", z],
       ["bind", x],
       ["bindKey", T],
       ["curry", O],
       ["curryRight", C],
-      ["flip", V],
+      ["flip", M],
       ["partial", E],
       ["partialRight", R],
       ["rearg", B]
-    ], ye = "[object Arguments]", Pe = "[object Array]", Ne = "[object AsyncFunction]", Ke = "[object Boolean]", ve = "[object Date]", _e = "[object DOMException]", se = "[object Error]", he = "[object Function]", ze = "[object GeneratorFunction]", Ge = "[object Map]", mt = "[object Number]", ln = "[object Null]", pe = "[object Object]", ge = "[object Promise]", Oe = "[object Proxy]", Te = "[object RegExp]", Ue = "[object Set]", lt = "[object String]", St = "[object Symbol]", Ht = "[object Undefined]", wt = "[object WeakMap]", qe = "[object WeakSet]", ar = "[object ArrayBuffer]", xi = "[object DataView]", Cs = "[object Float32Array]", Fs = "[object Float64Array]", Ss = "[object Int8Array]", $s = "[object Int16Array]", Ts = "[object Int32Array]", Rs = "[object Uint8Array]", Os = "[object Uint8ClampedArray]", Is = "[object Uint16Array]", Bs = "[object Uint32Array]", Ug = /\b__p \+= '';/g, qg = /\b(__p \+=) '' \+/g, Vg = /(__e\(.*?\)|\b__t\)) \+\n'';/g, bu = /&(?:amp|lt|gt|quot|#39);/g, wu = /[&<>"']/g, Wg = RegExp(bu.source), Gg = RegExp(wu.source), Hg = /<%-([\s\S]+?)%>/g, Kg = /<%([\s\S]+?)%>/g, Du = /<%=([\s\S]+?)%>/g, Yg = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/, Xg = /^\w*$/, Zg = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g, Ls = /[\\^$.*+?()[\]{}|]/g, Jg = RegExp(Ls.source), Ps = /^\s+/, Qg = /\s/, em = /\{(?:\n\/\* \[wrapped with .+\] \*\/)?\n?/, tm = /\{\n\/\* \[wrapped with (.+)\] \*/, nm = /,? & /, im = /[^\x00-\x2f\x3a-\x40\x5b-\x60\x7b-\x7f]+/g, rm = /[()=,{}\[\]\/\s]/, am = /\\(\\)?/g, sm = /\$\{([^\\}]*(?:\\.[^\\}]*)*)\}/g, xu = /\w*$/, om = /^[-+]0x[0-9a-f]+$/i, lm = /^0b[01]+$/i, um = /^\[object .+?Constructor\]$/, cm = /^0o[0-7]+$/i, dm = /^(?:0|[1-9]\d*)$/, fm = /[\xc0-\xd6\xd8-\xf6\xf8-\xff\u0100-\u017f]/g, Vr = /($^)/, pm = /['\n\r\u2028\u2029\\]/g, Wr = "\\ud800-\\udfff", hm = "\\u0300-\\u036f", gm = "\\ufe20-\\ufe2f", mm = "\\u20d0-\\u20ff", ku = hm + gm + mm, Eu = "\\u2700-\\u27bf", Au = "a-z\\xdf-\\xf6\\xf8-\\xff", vm = "\\xac\\xb1\\xd7\\xf7", ym = "\\x00-\\x2f\\x3a-\\x40\\x5b-\\x60\\x7b-\\xbf", _m = "\\u2000-\\u206f", bm = " \\t\\x0b\\f\\xa0\\ufeff\\n\\r\\u2028\\u2029\\u1680\\u180e\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200a\\u202f\\u205f\\u3000", Cu = "A-Z\\xc0-\\xd6\\xd8-\\xde", Fu = "\\ufe0e\\ufe0f", Su = vm + ym + _m + bm, js = "['’]", wm = "[" + Wr + "]", $u = "[" + Su + "]", Gr = "[" + ku + "]", Tu = "\\d+", Dm = "[" + Eu + "]", Ru = "[" + Au + "]", Ou = "[^" + Wr + Su + Tu + Eu + Au + Cu + "]", Ns = "\\ud83c[\\udffb-\\udfff]", xm = "(?:" + Gr + "|" + Ns + ")", Iu = "[^" + Wr + "]", zs = "(?:\\ud83c[\\udde6-\\uddff]){2}", Ms = "[\\ud800-\\udbff][\\udc00-\\udfff]", ki = "[" + Cu + "]", Bu = "\\u200d", Lu = "(?:" + Ru + "|" + Ou + ")", km = "(?:" + ki + "|" + Ou + ")", Pu = "(?:" + js + "(?:d|ll|m|re|s|t|ve))?", ju = "(?:" + js + "(?:D|LL|M|RE|S|T|VE))?", Nu = xm + "?", zu = "[" + Fu + "]?", Em = "(?:" + Bu + "(?:" + [Iu, zs, Ms].join("|") + ")" + zu + Nu + ")*", Am = "\\d*(?:1st|2nd|3rd|(?![123])\\dth)(?=\\b|[A-Z_])", Cm = "\\d*(?:1ST|2ND|3RD|(?![123])\\dTH)(?=\\b|[a-z_])", Mu = zu + Nu + Em, Fm = "(?:" + [Dm, zs, Ms].join("|") + ")" + Mu, Sm = "(?:" + [Iu + Gr + "?", Gr, zs, Ms, wm].join("|") + ")", $m = RegExp(js, "g"), Tm = RegExp(Gr, "g"), Us = RegExp(Ns + "(?=" + Ns + ")|" + Sm + Mu, "g"), Rm = RegExp([
+    ], ye = "[object Arguments]", Pe = "[object Array]", Ne = "[object AsyncFunction]", Ke = "[object Boolean]", ve = "[object Date]", _e = "[object DOMException]", se = "[object Error]", he = "[object Function]", ze = "[object GeneratorFunction]", Ge = "[object Map]", mt = "[object Number]", ln = "[object Null]", pe = "[object Object]", ge = "[object Promise]", Oe = "[object Proxy]", Te = "[object RegExp]", Me = "[object Set]", lt = "[object String]", St = "[object Symbol]", Ht = "[object Undefined]", wt = "[object WeakMap]", qe = "[object WeakSet]", ar = "[object ArrayBuffer]", xi = "[object DataView]", Cs = "[object Float32Array]", Fs = "[object Float64Array]", Ss = "[object Int8Array]", $s = "[object Int16Array]", Ts = "[object Int32Array]", Rs = "[object Uint8Array]", Os = "[object Uint8ClampedArray]", Is = "[object Uint16Array]", Bs = "[object Uint32Array]", Ug = /\b__p \+= '';/g, qg = /\b(__p \+=) '' \+/g, Vg = /(__e\(.*?\)|\b__t\)) \+\n'';/g, bu = /&(?:amp|lt|gt|quot|#39);/g, wu = /[&<>"']/g, Wg = RegExp(bu.source), Gg = RegExp(wu.source), Hg = /<%-([\s\S]+?)%>/g, Kg = /<%([\s\S]+?)%>/g, Du = /<%=([\s\S]+?)%>/g, Yg = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/, Xg = /^\w*$/, Zg = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g, Ls = /[\\^$.*+?()[\]{}|]/g, Jg = RegExp(Ls.source), Ps = /^\s+/, Qg = /\s/, em = /\{(?:\n\/\* \[wrapped with .+\] \*\/)?\n?/, tm = /\{\n\/\* \[wrapped with (.+)\] \*/, nm = /,? & /, im = /[^\x00-\x2f\x3a-\x40\x5b-\x60\x7b-\x7f]+/g, rm = /[()=,{}\[\]\/\s]/, am = /\\(\\)?/g, sm = /\$\{([^\\}]*(?:\\.[^\\}]*)*)\}/g, xu = /\w*$/, om = /^[-+]0x[0-9a-f]+$/i, lm = /^0b[01]+$/i, um = /^\[object .+?Constructor\]$/, cm = /^0o[0-7]+$/i, dm = /^(?:0|[1-9]\d*)$/, fm = /[\xc0-\xd6\xd8-\xf6\xf8-\xff\u0100-\u017f]/g, Vr = /($^)/, pm = /['\n\r\u2028\u2029\\]/g, Wr = "\\ud800-\\udfff", hm = "\\u0300-\\u036f", gm = "\\ufe20-\\ufe2f", mm = "\\u20d0-\\u20ff", ku = hm + gm + mm, Eu = "\\u2700-\\u27bf", Au = "a-z\\xdf-\\xf6\\xf8-\\xff", vm = "\\xac\\xb1\\xd7\\xf7", ym = "\\x00-\\x2f\\x3a-\\x40\\x5b-\\x60\\x7b-\\xbf", _m = "\\u2000-\\u206f", bm = " \\t\\x0b\\f\\xa0\\ufeff\\n\\r\\u2028\\u2029\\u1680\\u180e\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200a\\u202f\\u205f\\u3000", Cu = "A-Z\\xc0-\\xd6\\xd8-\\xde", Fu = "\\ufe0e\\ufe0f", Su = vm + ym + _m + bm, js = "['’]", wm = "[" + Wr + "]", $u = "[" + Su + "]", Gr = "[" + ku + "]", Tu = "\\d+", Dm = "[" + Eu + "]", Ru = "[" + Au + "]", Ou = "[^" + Wr + Su + Tu + Eu + Au + Cu + "]", Ns = "\\ud83c[\\udffb-\\udfff]", xm = "(?:" + Gr + "|" + Ns + ")", Iu = "[^" + Wr + "]", zs = "(?:\\ud83c[\\udde6-\\uddff]){2}", Ms = "[\\ud800-\\udbff][\\udc00-\\udfff]", ki = "[" + Cu + "]", Bu = "\\u200d", Lu = "(?:" + Ru + "|" + Ou + ")", km = "(?:" + ki + "|" + Ou + ")", Pu = "(?:" + js + "(?:d|ll|m|re|s|t|ve))?", ju = "(?:" + js + "(?:D|LL|M|RE|S|T|VE))?", Nu = xm + "?", zu = "[" + Fu + "]?", Em = "(?:" + Bu + "(?:" + [Iu, zs, Ms].join("|") + ")" + zu + Nu + ")*", Am = "\\d*(?:1st|2nd|3rd|(?![123])\\dth)(?=\\b|[A-Z_])", Cm = "\\d*(?:1ST|2ND|3RD|(?![123])\\dTH)(?=\\b|[a-z_])", Mu = zu + Nu + Em, Fm = "(?:" + [Dm, zs, Ms].join("|") + ")" + Mu, Sm = "(?:" + [Iu + Gr + "?", Gr, zs, Ms, wm].join("|") + ")", $m = RegExp(js, "g"), Tm = RegExp(Gr, "g"), Us = RegExp(Ns + "(?=" + Ns + ")|" + Sm + Mu, "g"), Rm = RegExp([
       ki + "?" + Ru + "+" + Pu + "(?=" + [$u, ki, "$"].join("|") + ")",
       km + "+" + ju + "(?=" + [$u, ki + Lu, "$"].join("|") + ")",
       ki + "?" + Lu + "+" + Pu,
@@ -1925,9 +1925,9 @@ Wa.exports;
       "parseInt",
       "setTimeout"
     ], Lm = -1, Qe = {};
-    Qe[Cs] = Qe[Fs] = Qe[Ss] = Qe[$s] = Qe[Ts] = Qe[Rs] = Qe[Os] = Qe[Is] = Qe[Bs] = !0, Qe[ye] = Qe[Pe] = Qe[ar] = Qe[Ke] = Qe[xi] = Qe[ve] = Qe[se] = Qe[he] = Qe[Ge] = Qe[mt] = Qe[pe] = Qe[Te] = Qe[Ue] = Qe[lt] = Qe[wt] = !1;
+    Qe[Cs] = Qe[Fs] = Qe[Ss] = Qe[$s] = Qe[Ts] = Qe[Rs] = Qe[Os] = Qe[Is] = Qe[Bs] = !0, Qe[ye] = Qe[Pe] = Qe[ar] = Qe[Ke] = Qe[xi] = Qe[ve] = Qe[se] = Qe[he] = Qe[Ge] = Qe[mt] = Qe[pe] = Qe[Te] = Qe[Me] = Qe[lt] = Qe[wt] = !1;
     var Ze = {};
-    Ze[ye] = Ze[Pe] = Ze[ar] = Ze[xi] = Ze[Ke] = Ze[ve] = Ze[Cs] = Ze[Fs] = Ze[Ss] = Ze[$s] = Ze[Ts] = Ze[Ge] = Ze[mt] = Ze[pe] = Ze[Te] = Ze[Ue] = Ze[lt] = Ze[St] = Ze[Rs] = Ze[Os] = Ze[Is] = Ze[Bs] = !0, Ze[se] = Ze[he] = Ze[wt] = !1;
+    Ze[ye] = Ze[Pe] = Ze[ar] = Ze[xi] = Ze[Ke] = Ze[ve] = Ze[Cs] = Ze[Fs] = Ze[Ss] = Ze[$s] = Ze[Ts] = Ze[Ge] = Ze[mt] = Ze[pe] = Ze[Te] = Ze[Me] = Ze[lt] = Ze[St] = Ze[Rs] = Ze[Os] = Ze[Is] = Ze[Bs] = !0, Ze[se] = Ze[he] = Ze[wt] = !1;
     var Pm = {
       // Latin-1 Supplement block.
       À: "A",
@@ -2161,7 +2161,7 @@ Wa.exports;
       return F.apply(L, I);
     }
     function Vm(F, L, I, le) {
-      for (var Ee = -1, Me = F == null ? 0 : F.length; ++Ee < Me; ) {
+      for (var Ee = -1, Ue = F == null ? 0 : F.length; ++Ee < Ue; ) {
         var ht = F[Ee];
         L(le, ht, I(ht), F);
       }
@@ -2184,11 +2184,11 @@ Wa.exports;
       return !0;
     }
     function Ln(F, L) {
-      for (var I = -1, le = F == null ? 0 : F.length, Ee = 0, Me = []; ++I < le; ) {
+      for (var I = -1, le = F == null ? 0 : F.length, Ee = 0, Ue = []; ++I < le; ) {
         var ht = F[I];
-        L(ht, I, F) && (Me[Ee++] = ht);
+        L(ht, I, F) && (Ue[Ee++] = ht);
       }
-      return Me;
+      return Ue;
     }
     function Hr(F, L) {
       var I = F == null ? 0 : F.length;
@@ -2211,8 +2211,8 @@ Wa.exports;
       return F;
     }
     function Gs(F, L, I, le) {
-      var Ee = -1, Me = F == null ? 0 : F.length;
-      for (le && Me && (I = F[++Ee]); ++Ee < Me; )
+      var Ee = -1, Ue = F == null ? 0 : F.length;
+      for (le && Ue && (I = F[++Ee]); ++Ee < Ue; )
         I = L(I, F[Ee], Ee, F);
       return I;
     }
@@ -2237,22 +2237,22 @@ Wa.exports;
     }
     function Zu(F, L, I) {
       var le;
-      return I(F, function(Ee, Me, ht) {
-        if (L(Ee, Me, ht))
-          return le = Me, !1;
+      return I(F, function(Ee, Ue, ht) {
+        if (L(Ee, Ue, ht))
+          return le = Ue, !1;
       }), le;
     }
     function Kr(F, L, I, le) {
-      for (var Ee = F.length, Me = I + (le ? 1 : -1); le ? Me-- : ++Me < Ee; )
-        if (L(F[Me], Me, F))
-          return Me;
+      for (var Ee = F.length, Ue = I + (le ? 1 : -1); le ? Ue-- : ++Ue < Ee; )
+        if (L(F[Ue], Ue, F))
+          return Ue;
       return -1;
     }
     function Ei(F, L, I) {
       return L === L ? ov(F, L, I) : Kr(F, Ju, I);
     }
     function Xm(F, L, I, le) {
-      for (var Ee = I - 1, Me = F.length; ++Ee < Me; )
+      for (var Ee = I - 1, Ue = F.length; ++Ee < Ue; )
         if (le(F[Ee], L))
           return Ee;
       return -1;
@@ -2275,8 +2275,8 @@ Wa.exports;
       };
     }
     function ec(F, L, I, le, Ee) {
-      return Ee(F, function(Me, ht, Ye) {
-        I = le ? (le = !1, Me) : L(I, Me, ht, Ye);
+      return Ee(F, function(Ue, ht, Ye) {
+        I = le ? (le = !1, Ue) : L(I, Ue, ht, Ye);
       }), I;
     }
     function Zm(F, L) {
@@ -2287,8 +2287,8 @@ Wa.exports;
     }
     function Xs(F, L) {
       for (var I, le = -1, Ee = F.length; ++le < Ee; ) {
-        var Me = L(F[le]);
-        Me !== i && (I = I === i ? Me : I + Me);
+        var Ue = L(F[le]);
+        Ue !== i && (I = I === i ? Ue : I + Ue);
       }
       return I;
     }
@@ -2363,11 +2363,11 @@ Wa.exports;
       };
     }
     function jn(F, L) {
-      for (var I = -1, le = F.length, Ee = 0, Me = []; ++I < le; ) {
+      for (var I = -1, le = F.length, Ee = 0, Ue = []; ++I < le; ) {
         var ht = F[I];
-        (ht === L || ht === v) && (F[I] = v, Me[Ee++] = I);
+        (ht === L || ht === v) && (F[I] = v, Ue[Ee++] = I);
       }
-      return Me;
+      return Ue;
     }
     function Yr(F) {
       var L = -1, I = Array(F.size);
@@ -2418,7 +2418,7 @@ Wa.exports;
     }
     var pv = function F(L) {
       L = L == null ? Dt : Fi.defaults(Dt.Object(), L, Fi.pick(Dt, Bm));
-      var I = L.Array, le = L.Date, Ee = L.Error, Me = L.Function, ht = L.Math, Ye = L.Object, eo = L.RegExp, hv = L.String, Xt = L.TypeError, Xr = I.prototype, gv = Me.prototype, Si = Ye.prototype, Zr = L["__core-js_shared__"], Jr = gv.toString, He = Si.hasOwnProperty, mv = 0, sc = function() {
+      var I = L.Array, le = L.Date, Ee = L.Error, Ue = L.Function, ht = L.Math, Ye = L.Object, eo = L.RegExp, hv = L.String, Xt = L.TypeError, Xr = I.prototype, gv = Ue.prototype, Si = Ye.prototype, Zr = L["__core-js_shared__"], Jr = gv.toString, He = Si.hasOwnProperty, mv = 0, sc = function() {
         var n = /[^.]+$/.exec(Zr && Zr.keys && Zr.keys.IE_PROTO || "");
         return n ? "Symbol(src)_1." + n : "";
       }(), Qr = Si.toString, vv = Jr.call(Ye), yv = Dt._, _v = eo(
@@ -2429,7 +2429,7 @@ Wa.exports;
           return n({}, "", {}), n;
         } catch {
         }
-      }(), bv = L.clearTimeout !== Dt.clearTimeout && L.clearTimeout, wv = le && le.now !== Dt.Date.now && le.now, Dv = L.setTimeout !== Dt.setTimeout && L.setTimeout, aa = ht.ceil, sa = ht.floor, to = Ye.getOwnPropertySymbols, xv = ea ? ea.isBuffer : i, dc = L.isFinite, kv = Xr.join, Ev = rc(Ye.keys, Ye), gt = ht.max, Et = ht.min, Av = le.now, Cv = L.parseInt, fc = ht.random, Fv = Xr.reverse, no = ai(L, "DataView"), lr = ai(L, "Map"), io = ai(L, "Promise"), $i = ai(L, "Set"), ur = ai(L, "WeakMap"), cr = ai(Ye, "create"), oa = ur && new ur(), Ti = {}, Sv = si(no), $v = si(lr), Tv = si(io), Rv = si($i), Ov = si(ur), la = Nn ? Nn.prototype : i, dr = la ? la.valueOf : i, pc = la ? la.toString : i;
+      }(), bv = L.clearTimeout !== Dt.clearTimeout && L.clearTimeout, wv = le && le.now !== Dt.Date.now && le.now, Dv = L.setTimeout !== Dt.setTimeout && L.setTimeout, aa = ht.ceil, sa = ht.floor, to = Ye.getOwnPropertySymbols, xv = ea ? ea.isBuffer : i, dc = L.isFinite, kv = Xr.join, Ev = rc(Ye.keys, Ye), gt = ht.max, At = ht.min, Av = le.now, Cv = L.parseInt, fc = ht.random, Fv = Xr.reverse, no = ai(L, "DataView"), lr = ai(L, "Map"), io = ai(L, "Promise"), $i = ai(L, "Set"), ur = ai(L, "WeakMap"), cr = ai(Ye, "create"), oa = ur && new ur(), Ti = {}, Sv = si(no), $v = si(lr), Tv = si(io), Rv = si($i), Ov = si(ur), la = Nn ? Nn.prototype : i, dr = la ? la.valueOf : i, pc = la ? la.toString : i;
       function g(n) {
         if (ut(n) && !Ce(n) && !(n instanceof Le)) {
           if (n instanceof Zt)
@@ -2518,15 +2518,15 @@ Wa.exports;
         return n;
       }
       function Lv() {
-        var n = this.__wrapped__.value(), r = this.__dir__, s = Ce(n), u = r < 0, h = s ? n.length : 0, m = K2(0, h, this.__views__), w = m.start, k = m.end, S = k - w, M = u ? k : w - 1, q = this.__iteratees__, H = q.length, re = 0, de = Et(S, this.__takeCount__);
+        var n = this.__wrapped__.value(), r = this.__dir__, s = Ce(n), u = r < 0, h = s ? n.length : 0, m = K2(0, h, this.__views__), w = m.start, k = m.end, S = k - w, U = u ? k : w - 1, V = this.__iteratees__, H = V.length, re = 0, de = At(S, this.__takeCount__);
         if (!s || !u && h == S && de == S)
           return Pc(n, this.__actions__);
         var we = [];
         e:
           for (; S-- && re < de; ) {
-            M += r;
-            for (var $e = -1, De = n[M]; ++$e < H; ) {
-              var Ie = q[$e], je = Ie.iteratee, Wt = Ie.type, Rt = je(De);
+            U += r;
+            for (var $e = -1, De = n[U]; ++$e < H; ) {
+              var Ie = V[$e], je = Ie.iteratee, Wt = Ie.type, Rt = je(De);
               if (Wt == P)
                 De = Rt;
               else if (!Rt) {
@@ -2671,12 +2671,12 @@ Wa.exports;
       cn.prototype.clear = e2, cn.prototype.delete = t2, cn.prototype.get = n2, cn.prototype.has = i2, cn.prototype.set = r2;
       function hc(n, r) {
         var s = Ce(n), u = !s && oi(n), h = !s && !u && Vn(n), m = !s && !u && !h && Li(n), w = s || u || h || m, k = w ? Zs(n.length, hv) : [], S = k.length;
-        for (var M in n)
-          (r || He.call(n, M)) && !(w && // Safari 9 has enumerable `arguments.length` in strict mode.
-          (M == "length" || // Node.js 0.10 has enumerable non-index properties on buffers.
-          h && (M == "offset" || M == "parent") || // PhantomJS 2 has enumerable non-index properties on typed arrays.
-          m && (M == "buffer" || M == "byteLength" || M == "byteOffset") || // Skip index properties.
-          $n(M, S))) && k.push(M);
+        for (var U in n)
+          (r || He.call(n, U)) && !(w && // Safari 9 has enumerable `arguments.length` in strict mode.
+          (U == "length" || // Node.js 0.10 has enumerable non-index properties on buffers.
+          h && (U == "offset" || U == "parent") || // PhantomJS 2 has enumerable non-index properties on typed arrays.
+          m && (U == "buffer" || U == "byteLength" || U == "byteOffset") || // Skip index properties.
+          $n(U, S))) && k.push(U);
         return k;
       }
       function gc(n) {
@@ -2730,17 +2730,17 @@ Wa.exports;
         return n === n && (s !== i && (n = n <= s ? n : s), r !== i && (n = n >= r ? n : r)), n;
       }
       function Jt(n, r, s, u, h, m) {
-        var w, k = r & _, S = r & D, M = r & b;
+        var w, k = r & _, S = r & D, U = r & b;
         if (s && (w = h ? s(n, u, h, m) : s(n)), w !== i)
           return w;
         if (!ot(n))
           return n;
-        var q = Ce(n);
-        if (q) {
+        var V = Ce(n);
+        if (V) {
           if (w = X2(n), !k)
             return Lt(n, w);
         } else {
-          var H = At(n), re = H == he || H == ze;
+          var H = Ct(n), re = H == he || H == ze;
           if (Vn(n))
             return zc(n, k);
           if (H == pe || H == ye || re && !h) {
@@ -2761,7 +2761,7 @@ Wa.exports;
         }) : Rd(n) && n.forEach(function(De, Ie) {
           w.set(Ie, Jt(De, r, s, Ie, n, m));
         });
-        var we = M ? S ? Ao : Eo : S ? jt : vt, $e = q ? i : we(n);
+        var we = U ? S ? Ao : Eo : S ? jt : vt, $e = V ? i : we(n);
         return Yt($e || n, function(De, Ie) {
           $e && (Ie = De, De = n[Ie]), fr(w, Ie, Jt(De, r, s, Ie, n, m));
         }), w;
@@ -2791,19 +2791,19 @@ Wa.exports;
         }, r);
       }
       function pr(n, r, s, u) {
-        var h = -1, m = Hr, w = !0, k = n.length, S = [], M = r.length;
+        var h = -1, m = Hr, w = !0, k = n.length, S = [], U = r.length;
         if (!k)
           return S;
         s && (r = rt(r, Ut(s))), u ? (m = Ws, w = !1) : r.length >= o && (m = sr, w = !1, r = new ni(r));
         e:
           for (; ++h < k; ) {
-            var q = n[h], H = s == null ? q : s(q);
-            if (q = u || q !== 0 ? q : 0, w && H === H) {
-              for (var re = M; re--; )
+            var V = n[h], H = s == null ? V : s(V);
+            if (V = u || V !== 0 ? V : 0, w && H === H) {
+              for (var re = U; re--; )
                 if (r[re] === H)
                   continue e;
-              S.push(q);
-            } else m(r, H, u) || S.push(q);
+              S.push(V);
+            } else m(r, H, u) || S.push(V);
           }
         return S;
       }
@@ -2877,28 +2877,28 @@ Wa.exports;
         return n != null && r in Ye(n);
       }
       function h2(n, r, s) {
-        return n >= Et(r, s) && n < gt(r, s);
+        return n >= At(r, s) && n < gt(r, s);
       }
       function uo(n, r, s) {
-        for (var u = s ? Ws : Hr, h = n[0].length, m = n.length, w = m, k = I(m), S = 1 / 0, M = []; w--; ) {
-          var q = n[w];
-          w && r && (q = rt(q, Ut(r))), S = Et(q.length, S), k[w] = !s && (r || h >= 120 && q.length >= 120) ? new ni(w && q) : i;
+        for (var u = s ? Ws : Hr, h = n[0].length, m = n.length, w = m, k = I(m), S = 1 / 0, U = []; w--; ) {
+          var V = n[w];
+          w && r && (V = rt(V, Ut(r))), S = At(V.length, S), k[w] = !s && (r || h >= 120 && V.length >= 120) ? new ni(w && V) : i;
         }
-        q = n[0];
+        V = n[0];
         var H = -1, re = k[0];
         e:
-          for (; ++H < h && M.length < S; ) {
-            var de = q[H], we = r ? r(de) : de;
-            if (de = s || de !== 0 ? de : 0, !(re ? sr(re, we) : u(M, we, s))) {
+          for (; ++H < h && U.length < S; ) {
+            var de = V[H], we = r ? r(de) : de;
+            if (de = s || de !== 0 ? de : 0, !(re ? sr(re, we) : u(U, we, s))) {
               for (w = m; --w; ) {
                 var $e = k[w];
                 if (!($e ? sr($e, we) : u(n[w], we, s)))
                   continue e;
               }
-              re && re.push(we), M.push(de);
+              re && re.push(we), U.push(de);
             }
           }
-        return M;
+        return U;
       }
       function g2(n, r, s, u) {
         return vn(n, function(h, m, w) {
@@ -2923,18 +2923,18 @@ Wa.exports;
         return n === r ? !0 : n == null || r == null || !ut(n) && !ut(r) ? n !== n && r !== r : y2(n, r, s, u, gr, h);
       }
       function y2(n, r, s, u, h, m) {
-        var w = Ce(n), k = Ce(r), S = w ? Pe : At(n), M = k ? Pe : At(r);
-        S = S == ye ? pe : S, M = M == ye ? pe : M;
-        var q = S == pe, H = M == pe, re = S == M;
+        var w = Ce(n), k = Ce(r), S = w ? Pe : Ct(n), U = k ? Pe : Ct(r);
+        S = S == ye ? pe : S, U = U == ye ? pe : U;
+        var V = S == pe, H = U == pe, re = S == U;
         if (re && Vn(n)) {
           if (!Vn(r))
             return !1;
-          w = !0, q = !1;
+          w = !0, V = !1;
         }
-        if (re && !q)
+        if (re && !V)
           return m || (m = new cn()), w || Li(n) ? nd(n, r, s, u, h, m) : W2(n, r, S, s, u, h, m);
         if (!(s & y)) {
-          var de = q && He.call(n, "__wrapped__"), we = H && He.call(r, "__wrapped__");
+          var de = V && He.call(n, "__wrapped__"), we = H && He.call(r, "__wrapped__");
           if (de || we) {
             var $e = de ? n.value() : n, De = we ? r.value() : r;
             return m || (m = new cn()), h($e, De, s, u, m);
@@ -2943,7 +2943,7 @@ Wa.exports;
         return re ? (m || (m = new cn()), G2(n, r, s, u, h, m)) : !1;
       }
       function _2(n) {
-        return ut(n) && At(n) == Ge;
+        return ut(n) && Ct(n) == Ge;
       }
       function co(n, r, s, u) {
         var h = s.length, m = h, w = !u;
@@ -2956,15 +2956,15 @@ Wa.exports;
         }
         for (; ++h < m; ) {
           k = s[h];
-          var S = k[0], M = n[S], q = k[1];
+          var S = k[0], U = n[S], V = k[1];
           if (w && k[2]) {
-            if (M === i && !(S in n))
+            if (U === i && !(S in n))
               return !1;
           } else {
             var H = new cn();
             if (u)
-              var re = u(M, q, S, n, r, H);
-            if (!(re === i ? gr(q, M, y | A, u, H) : re))
+              var re = u(U, V, S, n, r, H);
+            if (!(re === i ? gr(V, U, y | A, u, H) : re))
               return !1;
           }
         }
@@ -2980,7 +2980,7 @@ Wa.exports;
         return ut(n) && $t(n) == Te;
       }
       function w2(n) {
-        return ut(n) && At(n) == Ue;
+        return ut(n) && Ct(n) == Me;
       }
       function D2(n) {
         return ut(n) && Sa(n.length) && !!Qe[$t(n)];
@@ -3036,17 +3036,17 @@ Wa.exports;
         }, jt);
       }
       function k2(n, r, s, u, h, m, w) {
-        var k = Ro(n, s), S = Ro(r, s), M = w.get(S);
-        if (M) {
-          ro(n, s, M);
+        var k = Ro(n, s), S = Ro(r, s), U = w.get(S);
+        if (U) {
+          ro(n, s, U);
           return;
         }
-        var q = m ? m(k, S, s + "", n, r, w) : i, H = q === i;
+        var V = m ? m(k, S, s + "", n, r, w) : i, H = V === i;
         if (H) {
           var re = Ce(S), de = !re && Vn(S), we = !re && !de && Li(S);
-          q = S, re || de || we ? Ce(k) ? q = k : ct(k) ? q = Lt(k) : de ? (H = !1, q = zc(S, !0)) : we ? (H = !1, q = Mc(S, !0)) : q = [] : br(S) || oi(S) ? (q = k, oi(k) ? q = Pd(k) : (!ot(k) || Tn(k)) && (q = ad(S))) : H = !1;
+          V = S, re || de || we ? Ce(k) ? V = k : ct(k) ? V = Lt(k) : de ? (H = !1, V = zc(S, !0)) : we ? (H = !1, V = Mc(S, !0)) : V = [] : br(S) || oi(S) ? (V = k, oi(k) ? V = Pd(k) : (!ot(k) || Tn(k)) && (V = ad(S))) : H = !1;
         }
-        H && (w.set(S, q), h(q, S, u, m, w), w.delete(S)), ro(n, s, q);
+        H && (w.set(S, V), h(V, S, u, m, w), w.delete(S)), ro(n, s, V);
       }
       function Sc(n, r) {
         var s = n.length;
@@ -3062,8 +3062,8 @@ Wa.exports;
         var u = -1;
         r = rt(r, Ut(be()));
         var h = Ac(n, function(m, w, k) {
-          var S = rt(r, function(M) {
-            return M(m);
+          var S = rt(r, function(U) {
+            return U(m);
           });
           return { criteria: S, index: ++u, value: m };
         });
@@ -3091,7 +3091,7 @@ Wa.exports;
       function ho(n, r, s, u) {
         var h = u ? Xm : Ei, m = -1, w = r.length, k = n;
         for (n === r && (r = Lt(r)), s && (k = rt(n, Ut(s))); ++m < w; )
-          for (var S = 0, M = r[m], q = s ? s(M) : M; (S = h(k, q, S, u)) > -1; )
+          for (var S = 0, U = r[m], V = s ? s(U) : U; (S = h(k, V, S, u)) > -1; )
             k !== n && ia.call(k, S, 1), ia.call(n, S, 1);
         return n;
       }
@@ -3137,14 +3137,14 @@ Wa.exports;
           return n;
         r = Un(r, n);
         for (var h = -1, m = r.length, w = m - 1, k = n; k != null && ++h < m; ) {
-          var S = _n(r[h]), M = s;
+          var S = _n(r[h]), U = s;
           if (S === "__proto__" || S === "constructor" || S === "prototype")
             return n;
           if (h != w) {
-            var q = k[S];
-            M = u ? u(q, S, k) : i, M === i && (M = ot(q) ? q : $n(r[h + 1]) ? [] : {});
+            var V = k[S];
+            U = u ? u(V, S, k) : i, U === i && (U = ot(V) ? V : $n(r[h + 1]) ? [] : {});
           }
-          fr(k, S, M), k = k[S];
+          fr(k, S, U), k = k[S];
         }
         return n;
       }
@@ -3190,14 +3190,14 @@ Wa.exports;
         if (m === 0)
           return 0;
         r = s(r);
-        for (var w = r !== r, k = r === null, S = Vt(r), M = r === i; h < m; ) {
-          var q = sa((h + m) / 2), H = s(n[q]), re = H !== i, de = H === null, we = H === H, $e = Vt(H);
+        for (var w = r !== r, k = r === null, S = Vt(r), U = r === i; h < m; ) {
+          var V = sa((h + m) / 2), H = s(n[V]), re = H !== i, de = H === null, we = H === H, $e = Vt(H);
           if (w)
             var De = u || we;
-          else M ? De = we && (u || re) : k ? De = we && re && (u || !de) : S ? De = we && re && !de && (u || !$e) : de || $e ? De = !1 : De = u ? H <= r : H < r;
-          De ? h = q + 1 : m = q;
+          else U ? De = we && (u || re) : k ? De = we && re && (u || !de) : S ? De = we && re && !de && (u || !$e) : de || $e ? De = !1 : De = u ? H <= r : H < r;
+          De ? h = V + 1 : m = V;
         }
-        return Et(m, ie);
+        return At(m, ie);
       }
       function Ic(n, r) {
         for (var s = -1, u = n.length, h = 0, m = []; ++s < u; ) {
@@ -3227,21 +3227,21 @@ Wa.exports;
         if (s)
           w = !1, h = Ws;
         else if (m >= o) {
-          var M = r ? null : q2(n);
-          if (M)
-            return Yr(M);
+          var U = r ? null : q2(n);
+          if (U)
+            return Yr(U);
           w = !1, h = sr, S = new ni();
         } else
           S = r ? [] : k;
         e:
           for (; ++u < m; ) {
-            var q = n[u], H = r ? r(q) : q;
-            if (q = s || q !== 0 ? q : 0, w && H === H) {
+            var V = n[u], H = r ? r(V) : V;
+            if (V = s || V !== 0 ? V : 0, w && H === H) {
               for (var re = S.length; re--; )
                 if (S[re] === H)
                   continue e;
-              r && S.push(H), k.push(q);
-            } else h(S, H, s) || (S !== k && S.push(H), k.push(q));
+              r && S.push(H), k.push(V);
+            } else h(S, H, s) || (S !== k && S.push(H), k.push(V));
           }
         return k;
       }
@@ -3322,10 +3322,10 @@ Wa.exports;
       }
       function Uc(n, r) {
         if (n !== r) {
-          var s = n !== i, u = n === null, h = n === n, m = Vt(n), w = r !== i, k = r === null, S = r === r, M = Vt(r);
-          if (!k && !M && !m && n > r || m && w && S && !k && !M || u && w && S || !s && S || !h)
+          var s = n !== i, u = n === null, h = n === n, m = Vt(n), w = r !== i, k = r === null, S = r === r, U = Vt(r);
+          if (!k && !U && !m && n > r || m && w && S && !k && !U || u && w && S || !s && S || !h)
             return 1;
-          if (!u && !m && !M && n < r || M && s && h && !u && !m || k && s && h || !w && h || !S)
+          if (!u && !m && !U && n < r || U && s && h && !u && !m || k && s && h || !w && h || !S)
             return -1;
         }
         return 0;
@@ -3336,25 +3336,25 @@ Wa.exports;
           if (S) {
             if (u >= k)
               return S;
-            var M = s[u];
-            return S * (M == "desc" ? -1 : 1);
+            var U = s[u];
+            return S * (U == "desc" ? -1 : 1);
           }
         }
         return n.index - r.index;
       }
       function qc(n, r, s, u) {
-        for (var h = -1, m = n.length, w = s.length, k = -1, S = r.length, M = gt(m - w, 0), q = I(S + M), H = !u; ++k < S; )
-          q[k] = r[k];
+        for (var h = -1, m = n.length, w = s.length, k = -1, S = r.length, U = gt(m - w, 0), V = I(S + U), H = !u; ++k < S; )
+          V[k] = r[k];
         for (; ++h < w; )
-          (H || h < m) && (q[s[h]] = n[h]);
-        for (; M--; )
-          q[k++] = n[h++];
-        return q;
+          (H || h < m) && (V[s[h]] = n[h]);
+        for (; U--; )
+          V[k++] = n[h++];
+        return V;
       }
       function Vc(n, r, s, u) {
-        for (var h = -1, m = n.length, w = -1, k = s.length, S = -1, M = r.length, q = gt(m - k, 0), H = I(q + M), re = !u; ++h < q; )
+        for (var h = -1, m = n.length, w = -1, k = s.length, S = -1, U = r.length, V = gt(m - k, 0), H = I(V + U), re = !u; ++h < V; )
           H[h] = n[h];
-        for (var de = h; ++S < M; )
+        for (var de = h; ++S < U; )
           H[de + S] = r[S];
         for (; ++w < k; )
           (re || h < m) && (H[de + s[w]] = n[h++]);
@@ -3468,8 +3468,8 @@ Wa.exports;
         function h() {
           for (var m = arguments.length, w = I(m), k = m, S = Bi(h); k--; )
             w[k] = arguments[k];
-          var M = m < 3 && w[0] !== S && w[m - 1] !== S ? [] : jn(w, S);
-          if (m -= M.length, m < s)
+          var U = m < 3 && w[0] !== S && w[m - 1] !== S ? [] : jn(w, S);
+          if (m -= U.length, m < s)
             return Jc(
               n,
               r,
@@ -3477,13 +3477,13 @@ Wa.exports;
               h.placeholder,
               i,
               w,
-              M,
+              U,
               i,
               i,
               s - m
             );
-          var q = this && this !== Dt && this instanceof h ? u : n;
-          return Mt(q, this, w);
+          var V = this && this !== Dt && this instanceof h ? u : n;
+          return Mt(V, this, w);
         }
         return h;
       }
@@ -3516,23 +3516,23 @@ Wa.exports;
             S && To(S[0]) && S[1] == (z | O | E | B) && !S[4].length && S[9] == 1 ? w = w[wa(S[0])].apply(w, S[3]) : w = m.length == 1 && To(m) ? w[k]() : w.thru(m);
           }
           return function() {
-            var M = arguments, q = M[0];
-            if (w && M.length == 1 && Ce(q))
-              return w.plant(q).value();
-            for (var H = 0, re = s ? r[H].apply(this, M) : q; ++H < s; )
+            var U = arguments, V = U[0];
+            if (w && U.length == 1 && Ce(V))
+              return w.plant(V).value();
+            for (var H = 0, re = s ? r[H].apply(this, U) : V; ++H < s; )
               re = r[H].call(this, re);
             return re;
           };
         });
       }
-      function va(n, r, s, u, h, m, w, k, S, M) {
-        var q = r & z, H = r & x, re = r & T, de = r & (O | C), we = r & V, $e = re ? i : vr(n);
+      function va(n, r, s, u, h, m, w, k, S, U) {
+        var V = r & z, H = r & x, re = r & T, de = r & (O | C), we = r & M, $e = re ? i : vr(n);
         function De() {
           for (var Ie = arguments.length, je = I(Ie), Wt = Ie; Wt--; )
             je[Wt] = arguments[Wt];
           if (de)
             var Rt = Bi(De), Gt = Qm(je, Rt);
-          if (u && (je = qc(je, u, h, de)), m && (je = Vc(je, m, w, de)), Ie -= Gt, de && Ie < M) {
+          if (u && (je = qc(je, u, h, de)), m && (je = Vc(je, m, w, de)), Ie -= Gt, de && Ie < U) {
             var dt = jn(je, Rt);
             return Jc(
               n,
@@ -3544,11 +3544,11 @@ Wa.exports;
               dt,
               k,
               S,
-              M - Ie
+              U - Ie
             );
           }
           var fn = H ? s : this, On = re ? fn[n] : n;
-          return Ie = je.length, k ? je = oy(je, k) : we && Ie > 1 && je.reverse(), q && S < Ie && (je.length = S), this && this !== Dt && this instanceof De && (On = $e || vr(On)), On.apply(fn, je);
+          return Ie = je.length, k ? je = oy(je, k) : we && Ie > 1 && je.reverse(), V && S < Ie && (je.length = S), this && this !== Dt && this instanceof De && (On = $e || vr(On)), On.apply(fn, je);
         }
         return De;
       }
@@ -3591,10 +3591,10 @@ Wa.exports;
       function U2(n, r, s, u) {
         var h = r & x, m = vr(n);
         function w() {
-          for (var k = -1, S = arguments.length, M = -1, q = u.length, H = I(q + S), re = this && this !== Dt && this instanceof w ? m : n; ++M < q; )
-            H[M] = u[M];
+          for (var k = -1, S = arguments.length, U = -1, V = u.length, H = I(V + S), re = this && this !== Dt && this instanceof w ? m : n; ++U < V; )
+            H[U] = u[U];
           for (; S--; )
-            H[M++] = arguments[++k];
+            H[U++] = arguments[++k];
           return Mt(re, h ? s : this, H);
         }
         return w;
@@ -3609,9 +3609,9 @@ Wa.exports;
           return typeof r == "string" && typeof s == "string" || (r = tn(r), s = tn(s)), n(r, s);
         };
       }
-      function Jc(n, r, s, u, h, m, w, k, S, M) {
-        var q = r & O, H = q ? w : i, re = q ? i : w, de = q ? m : i, we = q ? i : m;
-        r |= q ? E : R, r &= ~(q ? R : E), r & $ || (r &= ~(x | T));
+      function Jc(n, r, s, u, h, m, w, k, S, U) {
+        var V = r & O, H = V ? w : i, re = V ? i : w, de = V ? m : i, we = V ? i : m;
+        r |= V ? E : R, r &= ~(V ? R : E), r & $ || (r &= ~(x | T));
         var $e = [
           n,
           r,
@@ -3622,14 +3622,14 @@ Wa.exports;
           re,
           k,
           S,
-          M
+          U
         ], De = s.apply(i, $e);
         return To(n) && cd(De, $e), De.placeholder = u, dd(De, n, r);
       }
       function ko(n) {
         var r = ht[n];
         return function(s, u) {
-          if (s = tn(s), u = u == null ? 0 : Et(Se(u), 292), u && dc(s)) {
+          if (s = tn(s), u = u == null ? 0 : At(Se(u), 292), u && dc(s)) {
             var h = (Ve(s) + "e").split("e"), m = r(h[0] + "e" + (+h[1] + u));
             return h = (Ve(m) + "e").split("e"), +(h[0] + "e" + (+h[1] - u));
           }
@@ -3641,17 +3641,17 @@ Wa.exports;
       } : Go;
       function Qc(n) {
         return function(r) {
-          var s = At(r);
-          return s == Ge ? Qs(r) : s == Ue ? sv(r) : Jm(r, n(r));
+          var s = Ct(r);
+          return s == Ge ? Qs(r) : s == Me ? sv(r) : Jm(r, n(r));
         };
       }
       function Fn(n, r, s, u, h, m, w, k) {
         var S = r & T;
         if (!S && typeof n != "function")
           throw new Xt(c);
-        var M = u ? u.length : 0;
-        if (M || (r &= ~(E | R), u = h = i), w = w === i ? w : gt(Se(w), 0), k = k === i ? k : Se(k), M -= h ? h.length : 0, r & R) {
-          var q = u, H = h;
+        var U = u ? u.length : 0;
+        if (U || (r &= ~(E | R), u = h = i), w = w === i ? w : gt(Se(w), 0), k = k === i ? k : Se(k), U -= h ? h.length : 0, r & R) {
+          var V = u, H = h;
           u = h = i;
         }
         var re = S ? i : Co(n), de = [
@@ -3660,13 +3660,13 @@ Wa.exports;
           s,
           u,
           h,
-          q,
+          V,
           H,
           m,
           w,
           k
         ];
-        if (re && ry(de, re), n = de[0], r = de[1], s = de[2], u = de[3], h = de[4], k = de[9] = de[9] === i ? S ? 0 : n.length : gt(de[9] - M, 0), !k && r & (O | C) && (r &= ~(O | C)), !r || r == x)
+        if (re && ry(de, re), n = de[0], r = de[1], s = de[2], u = de[3], h = de[4], k = de[9] = de[9] === i ? S ? 0 : n.length : gt(de[9] - U, 0), !k && r & (O | C) && (r &= ~(O | C)), !r || r == x)
           var we = z2(n, r, s);
         else r == O || r == C ? we = M2(n, r, k) : (r == E || r == (x | E)) && !h.length ? we = U2(n, r, s, u) : we = va.apply(i, de);
         var $e = re ? Oc : cd;
@@ -3685,9 +3685,9 @@ Wa.exports;
         var w = s & y, k = n.length, S = r.length;
         if (k != S && !(w && S > k))
           return !1;
-        var M = m.get(n), q = m.get(r);
-        if (M && q)
-          return M == r && q == n;
+        var U = m.get(n), V = m.get(r);
+        if (U && V)
+          return U == r && V == n;
         var H = -1, re = !0, de = s & A ? new ni() : i;
         for (m.set(n, r), m.set(r, n); ++H < k; ) {
           var we = n[H], $e = r[H];
@@ -3733,16 +3733,16 @@ Wa.exports;
             return n == r + "";
           case Ge:
             var k = Qs;
-          case Ue:
+          case Me:
             var S = u & y;
             if (k || (k = Yr), n.size != r.size && !S)
               return !1;
-            var M = w.get(n);
-            if (M)
-              return M == r;
+            var U = w.get(n);
+            if (U)
+              return U == r;
             u |= A, w.set(n, r);
-            var q = nd(k(n), k(r), u, h, m, w);
-            return w.delete(n), q;
+            var V = nd(k(n), k(r), u, h, m, w);
+            return w.delete(n), V;
           case St:
             if (dr)
               return dr.call(n) == dr.call(r);
@@ -3750,8 +3750,8 @@ Wa.exports;
         return !1;
       }
       function G2(n, r, s, u, h, m) {
-        var w = s & y, k = Eo(n), S = k.length, M = Eo(r), q = M.length;
-        if (S != q && !w)
+        var w = s & y, k = Eo(n), S = k.length, U = Eo(r), V = U.length;
+        if (S != V && !w)
           return !1;
         for (var H = S; H--; ) {
           var re = k[H];
@@ -3841,8 +3841,8 @@ Wa.exports;
         for (var r = []; n; )
           Pn(r, So(n)), n = na(n);
         return r;
-      } : Ho, At = $t;
-      (no && At(new no(new ArrayBuffer(1))) != xi || lr && At(new lr()) != Ge || io && At(io.resolve()) != ge || $i && At(new $i()) != Ue || ur && At(new ur()) != wt) && (At = function(n) {
+      } : Ho, Ct = $t;
+      (no && Ct(new no(new ArrayBuffer(1))) != xi || lr && Ct(new lr()) != Ge || io && Ct(io.resolve()) != ge || $i && Ct(new $i()) != Me || ur && Ct(new ur()) != wt) && (Ct = function(n) {
         var r = $t(n), s = r == pe ? n.constructor : i, u = s ? si(s) : "";
         if (u)
           switch (u) {
@@ -3853,7 +3853,7 @@ Wa.exports;
             case Tv:
               return ge;
             case Rv:
-              return Ue;
+              return Me;
             case Ov:
               return wt;
           }
@@ -3870,7 +3870,7 @@ Wa.exports;
               r -= w;
               break;
             case "take":
-              r = Et(r, n + w);
+              r = At(r, n + w);
               break;
             case "takeRight":
               n = gt(n, r - w);
@@ -3927,7 +3927,7 @@ Wa.exports;
             return new u(n);
           case Te:
             return B2(n);
-          case Ue:
+          case Me:
             return new u();
           case St:
             return L2(n);
@@ -4006,7 +4006,7 @@ Wa.exports;
           var S = n[3];
           n[3] = S ? qc(S, k, r[4]) : k, n[4] = S ? jn(n[3], v) : r[4];
         }
-        return k = r[5], k && (S = n[5], n[5] = S ? Vc(S, k, r[6]) : k, n[6] = S ? jn(n[5], v) : r[6]), k = r[7], k && (n[7] = k), u & z && (n[8] = n[8] == null ? r[8] : Et(n[8], r[8])), n[9] == null && (n[9] = r[9]), n[0] = r[0], n[1] = h, n;
+        return k = r[5], k && (S = n[5], n[5] = S ? Vc(S, k, r[6]) : k, n[6] = S ? jn(n[5], v) : r[6]), k = r[7], k && (n[7] = k), u & z && (n[8] = n[8] == null ? r[8] : At(n[8], r[8])), n[9] == null && (n[9] = r[9]), n[0] = r[0], n[1] = h, n;
       }
       function ay(n) {
         var r = [];
@@ -4032,7 +4032,7 @@ Wa.exports;
         return r.length < 2 ? n : ri(n, Qt(r, 0, -1));
       }
       function oy(n, r) {
-        for (var s = n.length, u = Et(r.length, s), h = Lt(n); u--; ) {
+        for (var s = n.length, u = At(r.length, s), h = Lt(n); u--; ) {
           var m = r[u];
           n[u] = $n(m, s) ? h[m] : i;
         }
@@ -4169,7 +4169,7 @@ Wa.exports;
         if (!u)
           return -1;
         var h = u - 1;
-        return s !== i && (h = Se(s), h = s < 0 ? gt(u + h, 0) : Et(h, u - 1)), Kr(n, be(r, 3), h, !0);
+        return s !== i && (h = Se(s), h = s < 0 ? gt(u + h, 0) : At(h, u - 1)), Kr(n, be(r, 3), h, !0);
       }
       function vd(n) {
         var r = n == null ? 0 : n.length;
@@ -4226,7 +4226,7 @@ Wa.exports;
         if (!u)
           return -1;
         var h = u;
-        return s !== i && (h = Se(s), h = h < 0 ? gt(u + h, 0) : Et(h, u - 1)), r === r ? lv(n, r, h) : Kr(n, Ju, h, !0);
+        return s !== i && (h = Se(s), h = h < 0 ? gt(u + h, 0) : At(h, u - 1)), r === r ? lv(n, r, h) : Kr(n, Ju, h, !0);
       }
       function $y(n, r) {
         return n && n.length ? Sc(n, Se(r)) : i;
@@ -4523,8 +4523,8 @@ Wa.exports;
           return 0;
         if (Pt(n))
           return $a(n) ? Ci(n) : n.length;
-        var r = At(n);
-        return r == Ge || r == Ue ? n.size : fo(n).length;
+        var r = Ct(n);
+        return r == Ge || r == Me ? n.size : fo(n).length;
       }
       function z_(n, r, s) {
         var u = Ce(n) ? Hs : R2;
@@ -4583,23 +4583,23 @@ Wa.exports;
         return u.placeholder = Fd.placeholder, u;
       }
       function Sd(n, r, s) {
-        var u, h, m, w, k, S, M = 0, q = !1, H = !1, re = !0;
+        var u, h, m, w, k, S, U = 0, V = !1, H = !1, re = !0;
         if (typeof n != "function")
           throw new Xt(c);
-        r = tn(r) || 0, ot(s) && (q = !!s.leading, H = "maxWait" in s, m = H ? gt(tn(s.maxWait) || 0, r) : m, re = "trailing" in s ? !!s.trailing : re);
+        r = tn(r) || 0, ot(s) && (V = !!s.leading, H = "maxWait" in s, m = H ? gt(tn(s.maxWait) || 0, r) : m, re = "trailing" in s ? !!s.trailing : re);
         function de(dt) {
           var fn = u, On = h;
-          return u = h = i, M = dt, w = n.apply(On, fn), w;
+          return u = h = i, U = dt, w = n.apply(On, fn), w;
         }
         function we(dt) {
-          return M = dt, k = _r(Ie, r), q ? de(dt) : w;
+          return U = dt, k = _r(Ie, r), V ? de(dt) : w;
         }
         function $e(dt) {
-          var fn = dt - S, On = dt - M, Kd = r - fn;
-          return H ? Et(Kd, m - On) : Kd;
+          var fn = dt - S, On = dt - U, Kd = r - fn;
+          return H ? At(Kd, m - On) : Kd;
         }
         function De(dt) {
-          var fn = dt - S, On = dt - M;
+          var fn = dt - S, On = dt - U;
           return S === i || fn >= r || fn < 0 || H && On >= m;
         }
         function Ie() {
@@ -4612,7 +4612,7 @@ Wa.exports;
           return k = i, re && u ? de(dt) : (u = h = i, w);
         }
         function Wt() {
-          k !== i && Nc(k), M = 0, u = S = h = k = i;
+          k !== i && Nc(k), U = 0, u = S = h = k = i;
         }
         function Rt() {
           return k === i ? w : je(Aa());
@@ -4635,7 +4635,7 @@ Wa.exports;
         return yc(n, tn(r) || 0, s);
       });
       function W_(n) {
-        return Fn(n, V);
+        return Fn(n, M);
       }
       function Ca(n, r) {
         if (typeof n != "function" || r != null && typeof r != "function")
@@ -4675,7 +4675,7 @@ Wa.exports;
         r = r.length == 1 && Ce(r[0]) ? rt(r[0], Ut(be())) : rt(xt(r, 1), Ut(be()));
         var s = r.length;
         return Re(function(u) {
-          for (var h = -1, m = Et(u.length, s); ++h < m; )
+          for (var h = -1, m = At(u.length, s); ++h < m; )
             u[h] = r[h].call(this, u[h]);
           return Mt(n, this, u);
         });
@@ -4766,8 +4766,8 @@ Wa.exports;
           return !0;
         if (Pt(n) && (Ce(n) || typeof n == "string" || typeof n.splice == "function" || Vn(n) || Li(n) || oi(n)))
           return !n.length;
-        var r = At(n);
-        if (r == Ge || r == Ue)
+        var r = Ct(n);
+        if (r == Ge || r == Me)
           return !n.size;
         if (yr(n))
           return !fo(n).length;
@@ -4861,7 +4861,7 @@ Wa.exports;
         return n === i;
       }
       function kb(n) {
-        return ut(n) && At(n) == wt;
+        return ut(n) && Ct(n) == wt;
       }
       function Eb(n) {
         return ut(n) && $t(n) == qe;
@@ -4876,7 +4876,7 @@ Wa.exports;
           return $a(n) ? un(n) : Lt(n);
         if (or && n[or])
           return av(n[or]());
-        var r = At(n), s = r == Ge ? Qs : r == Ue ? Yr : Pi;
+        var r = Ct(n), s = r == Ge ? Qs : r == Me ? Yr : Pi;
         return s(n);
       }
       function Rn(n) {
@@ -4942,8 +4942,8 @@ Wa.exports;
         var s = -1, u = r.length, h = u > 2 ? r[2] : i;
         for (h && Tt(r[0], r[1], h) && (u = 1); ++s < u; )
           for (var m = r[s], w = jt(m), k = -1, S = w.length; ++k < S; ) {
-            var M = w[k], q = n[M];
-            (q === i || dn(q, Si[M]) && !He.call(n, M)) && (n[M] = m[M]);
+            var U = w[k], V = n[U];
+            (V === i || dn(V, Si[U]) && !He.call(n, U)) && (n[U] = m[U]);
           }
         return n;
       }), Ib = Re(function(n) {
@@ -5092,7 +5092,7 @@ Wa.exports;
         }
         if (s || n % 1 || r % 1) {
           var h = fc();
-          return Et(n + h * (r - n + Mm("1e-" + ((h + "").length - 1))), r);
+          return At(n + h * (r - n + Mm("1e-" + ((h + "").length - 1))), r);
         }
         return go(n, r);
       }
@@ -5166,19 +5166,19 @@ Wa.exports;
       function C0(n, r, s) {
         var u = g.templateSettings;
         s && Tt(n, r, s) && (r = i), n = Ve(n), r = Ta({}, r, u, ed);
-        var h = Ta({}, r.imports, u.imports, ed), m = vt(h), w = Js(h, m), k, S, M = 0, q = r.interpolate || Vr, H = "__p += '", re = eo(
-          (r.escape || Vr).source + "|" + q.source + "|" + (q === Du ? sm : Vr).source + "|" + (r.evaluate || Vr).source + "|$",
+        var h = Ta({}, r.imports, u.imports, ed), m = vt(h), w = Js(h, m), k, S, U = 0, V = r.interpolate || Vr, H = "__p += '", re = eo(
+          (r.escape || Vr).source + "|" + V.source + "|" + (V === Du ? sm : Vr).source + "|" + (r.evaluate || Vr).source + "|$",
           "g"
         ), de = "//# sourceURL=" + (He.call(r, "sourceURL") ? (r.sourceURL + "").replace(/\s/g, " ") : "lodash.templateSources[" + ++Lm + "]") + `
 `;
         n.replace(re, function(De, Ie, je, Wt, Rt, Gt) {
-          return je || (je = Wt), H += n.slice(M, Gt).replace(pm, nv), Ie && (k = !0, H += `' +
+          return je || (je = Wt), H += n.slice(U, Gt).replace(pm, nv), Ie && (k = !0, H += `' +
 __e(` + Ie + `) +
 '`), Rt && (S = !0, H += `';
 ` + Rt + `;
 __p += '`), je && (H += `' +
 ((__t = (` + je + `)) == null ? '' : __t) +
-'`), M = Gt + De.length, De;
+'`), U = Gt + De.length, De;
         }), H += `';
 `;
         var we = He.call(r, "variable") && r.variable;
@@ -5197,7 +5197,7 @@ function print() { __p += __j.call(arguments, '') }
 `) + H + `return __p
 }`;
         var $e = Gd(function() {
-          return Me(m, de + "return " + H).apply(i, w);
+          return Ue(m, de + "return " + H).apply(i, w);
         });
         if ($e.source = H, jo($e))
           throw $e;
@@ -5255,9 +5255,9 @@ function print() { __p += __j.call(arguments, '') }
           return S + u;
         if (w && (k += S.length - k), No(h)) {
           if (n.slice(k).search(h)) {
-            var M, q = S;
-            for (h.global || (h = eo(h.source, Ve(xu.exec(h)) + "g")), h.lastIndex = 0; M = h.exec(q); )
-              var H = M.index;
+            var U, V = S;
+            for (h.global || (h = eo(h.source, Ve(xu.exec(h)) + "g")), h.lastIndex = 0; U = h.exec(V); )
+              var H = U.index;
             S = S.slice(0, H === i ? k : H);
           }
         } else if (n.indexOf(qt(h), k) != k) {
@@ -5340,10 +5340,10 @@ function print() { __p += __j.call(arguments, '') }
         return Yt(h, function(k) {
           var S = r[k];
           n[k] = S, w && (n.prototype[k] = function() {
-            var M = this.__chain__;
-            if (m || M) {
-              var q = n(this.__wrapped__), H = q.__actions__ = Lt(this.__actions__);
-              return H.push({ func: S, args: arguments, thisArg: n }), q.__chain__ = M, q;
+            var U = this.__chain__;
+            if (m || U) {
+              var V = n(this.__wrapped__), H = V.__actions__ = Lt(this.__actions__);
+              return H.push({ func: S, args: arguments, thisArg: n }), V.__chain__ = U, V;
             }
             return S.apply(n, Pn([this.value()], arguments));
           });
@@ -5387,7 +5387,7 @@ function print() { __p += __j.call(arguments, '') }
       function i3(n, r) {
         if (n = Se(n), n < 1 || n > ne)
           return [];
-        var s = X, u = Et(n, X);
+        var s = X, u = At(n, X);
         r = be(r), n -= X;
         for (var h = Zs(u, r); ++s < n; )
           r(s);
@@ -5445,8 +5445,8 @@ function print() { __p += __j.call(arguments, '') }
         Le.prototype[n] = function(s) {
           s = s === i ? 1 : gt(Se(s), 0);
           var u = this.__filtered__ && !r ? new Le(this) : this.clone();
-          return u.__filtered__ ? u.__takeCount__ = Et(s, u.__takeCount__) : u.__views__.push({
-            size: Et(s, X),
+          return u.__filtered__ ? u.__takeCount__ = At(s, u.__takeCount__) : u.__views__.push({
+            size: At(s, X),
             type: n + (u.__dir__ < 0 ? "Right" : "")
           }), u;
         }, Le.prototype[n + "Right"] = function(s) {
@@ -5494,13 +5494,13 @@ function print() { __p += __j.call(arguments, '') }
       }, vn(Le.prototype, function(n, r) {
         var s = /^(?:filter|find|map|reject)|While$/.test(r), u = /^(?:head|last)$/.test(r), h = g[u ? "take" + (r == "last" ? "Right" : "") : r], m = u || /^find/.test(r);
         h && (g.prototype[r] = function() {
-          var w = this.__wrapped__, k = u ? [1] : arguments, S = w instanceof Le, M = k[0], q = S || Ce(w), H = function(Ie) {
+          var w = this.__wrapped__, k = u ? [1] : arguments, S = w instanceof Le, U = k[0], V = S || Ce(w), H = function(Ie) {
             var je = h.apply(g, Pn([Ie], k));
             return u && re ? je[0] : je;
           };
-          q && s && typeof M == "function" && M.length != 1 && (S = q = !1);
+          V && s && typeof U == "function" && U.length != 1 && (S = V = !1);
           var re = this.__chain__, de = !!this.__actions__.length, we = m && !re, $e = S && !de;
-          if (!m && q) {
+          if (!m && V) {
             w = $e ? w : new Le(this);
             var De = n.apply(w, k);
             return De.__actions__.push({ func: ka, args: [H], thisArg: i }), new Zt(De, re);
@@ -6185,16 +6185,16 @@ const _f = {
     /** @type {*} */
     i.applyFilters("i18n.ngettext_" + b(z), B, C, E, R, z)) : B;
   }, T = (C, E, R, z, B) => {
-    let V = D(B, z, C, E, R);
-    return i ? (V = /** @type {string} */
+    let M = D(B, z, C, E, R);
+    return i ? (M = /** @type {string} */
     /** @type {*} */
-    i.applyFilters("i18n.ngettext_with_context", V, C, E, R, z, B), /** @type {string} */
+    i.applyFilters("i18n.ngettext_with_context", M, C, E, R, z, B), /** @type {string} */
     /** @type {*} */
-    i.applyFilters("i18n.ngettext_with_context_" + b(B), V, C, E, R, z, B)) : V;
+    i.applyFilters("i18n.ngettext_with_context_" + b(B), M, C, E, R, z, B)) : M;
   }, $ = () => A("ltr", "text direction") === "rtl", O = (C, E, R) => {
-    var V, G;
+    var M, G;
     const z = E ? E + "" + C : C;
-    let B = !!((G = (V = a.data) == null ? void 0 : V[R ?? "default"]) != null && G[z]);
+    let B = !!((G = (M = a.data) == null ? void 0 : M[R ?? "default"]) != null && G[z]);
     return i && (B = /** @type { boolean } */
     /** @type {*} */
     i.applyFilters("i18n.has_translation", B, C, E, R), B = /** @type { boolean } */
@@ -6402,7 +6402,7 @@ var fi = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
 function R4(e) {
   return e === void 0;
 }
-var kt = R4, O4 = typeof fi == "object" && fi && fi.Object === Object && fi, Kh = O4, I4 = Kh, B4 = typeof self == "object" && self && self.Object === Object && self, L4 = I4 || B4 || Function("return this")(), kn = L4, P4 = kn, j4 = P4.Symbol, Tr = j4, Cf = Tr, Yh = Object.prototype, N4 = Yh.hasOwnProperty, z4 = Yh.toString, Dr = Cf ? Cf.toStringTag : void 0;
+var Et = R4, O4 = typeof fi == "object" && fi && fi.Object === Object && fi, Kh = O4, I4 = Kh, B4 = typeof self == "object" && self && self.Object === Object && self, L4 = I4 || B4 || Function("return this")(), kn = L4, P4 = kn, j4 = P4.Symbol, Tr = j4, Cf = Tr, Yh = Object.prototype, N4 = Yh.hasOwnProperty, z4 = Yh.toString, Dr = Cf ? Cf.toStringTag : void 0;
 function M4(e) {
   var t = N4.call(e, Dr), i = e[Dr];
   try {
@@ -6505,7 +6505,7 @@ class it {
    * @return {AnalysisResult} Class instance for chaining.
    */
   setText(t) {
-    return this.text = kt(t) ? "" : t, this;
+    return this.text = Et(t) ? "" : t, this;
   }
   /**
    * Set the empty for the analysis.
@@ -6515,7 +6515,7 @@ class it {
    * @return {AnalysisResult} Class instance for chaining.
    */
   setEmpty(t) {
-    return this.empty = kt(t) ? "" : t, this;
+    return this.empty = Et(t) ? "" : t, this;
   }
   /**
    * Check if a tooltip is available.
@@ -6541,7 +6541,7 @@ class it {
    * @return {AnalysisResult} Class instance for chaining.
    */
   setTooltip(t) {
-    return this.tooltip = kt(t) ? "" : t, this;
+    return this.tooltip = Et(t) ? "" : t, this;
   }
 }
 var iS = Object.prototype, rS = iS.hasOwnProperty;
@@ -7430,115 +7430,115 @@ var VB = qB, WB = "\\ud800-\\udfff", GB = "\\u0300-\\u036f", HB = "\\ufe20-\\ufe
 function QB(e) {
   return JB.test(e);
 }
-var _1 = QB, b1 = "\\ud800-\\udfff", e8 = "\\u0300-\\u036f", t8 = "\\ufe20-\\ufe2f", n8 = "\\u20d0-\\u20ff", i8 = e8 + t8 + n8, r8 = "\\ufe0e\\ufe0f", a8 = "[" + b1 + "]", gl = "[" + i8 + "]", ml = "\\ud83c[\\udffb-\\udfff]", s8 = "(?:" + gl + "|" + ml + ")", w1 = "[^" + b1 + "]", D1 = "(?:\\ud83c[\\udde6-\\uddff]){2}", x1 = "[\\ud800-\\udbff][\\udc00-\\udfff]", o8 = "\\u200d", k1 = s8 + "?", E1 = "[" + r8 + "]?", l8 = "(?:" + o8 + "(?:" + [w1, D1, x1].join("|") + ")" + E1 + k1 + ")*", u8 = E1 + k1 + l8, c8 = "(?:" + [w1 + gl + "?", gl, D1, x1, a8].join("|") + ")", d8 = RegExp(ml + "(?=" + ml + ")|" + c8 + u8, "g");
-function f8(e) {
-  return e.match(d8) || [];
+var _1 = QB, b1 = "\\ud800-\\udfff", eL = "\\u0300-\\u036f", tL = "\\ufe20-\\ufe2f", nL = "\\u20d0-\\u20ff", iL = eL + tL + nL, rL = "\\ufe0e\\ufe0f", aL = "[" + b1 + "]", gl = "[" + iL + "]", ml = "\\ud83c[\\udffb-\\udfff]", sL = "(?:" + gl + "|" + ml + ")", w1 = "[^" + b1 + "]", D1 = "(?:\\ud83c[\\udde6-\\uddff]){2}", x1 = "[\\ud800-\\udbff][\\udc00-\\udfff]", oL = "\\u200d", k1 = sL + "?", E1 = "[" + rL + "]?", lL = "(?:" + oL + "(?:" + [w1, D1, x1].join("|") + ")" + E1 + k1 + ")*", uL = E1 + k1 + lL, cL = "(?:" + [w1 + gl + "?", gl, D1, x1, aL].join("|") + ")", dL = RegExp(ml + "(?=" + ml + ")|" + cL + uL, "g");
+function fL(e) {
+  return e.match(dL) || [];
 }
-var p8 = f8, h8 = VB, g8 = _1, m8 = p8;
-function v8(e) {
-  return g8(e) ? m8(e) : h8(e);
+var pL = fL, hL = VB, gL = _1, mL = pL;
+function vL(e) {
+  return gL(e) ? mL(e) : hL(e);
 }
-var A1 = v8, y8 = e1, _8 = v1, b8 = y1, w8 = NB, D8 = UB, Jf = A1, x8 = _i;
-function k8(e, t, i) {
-  if (e = x8(e), e && (i || t === void 0))
-    return _8(e);
-  if (!e || !(t = y8(t)))
+var A1 = vL, yL = e1, _L = v1, bL = y1, wL = NB, DL = UB, Jf = A1, xL = _i;
+function kL(e, t, i) {
+  if (e = xL(e), e && (i || t === void 0))
+    return _L(e);
+  if (!e || !(t = yL(t)))
     return e;
-  var a = Jf(e), o = Jf(t), l = D8(a, o), c = w8(a, o) + 1;
-  return b8(a, l, c).join("");
+  var a = Jf(e), o = Jf(t), l = DL(a, o), c = wL(a, o) + 1;
+  return bL(a, l, c).join("");
 }
-var E8 = k8;
-const A8 = (e) => e ? mB(
-  m1(E8(e.replace(/[\s\./_]+/g, "-"), "-"))
+var EL = kL;
+const AL = (e) => e ? mB(
+  m1(EL(e.replace(/[\s\./_]+/g, "-"), "-"))
 ) : "";
-function C8(e, t) {
+function CL(e, t) {
   for (var i = -1, a = e == null ? 0 : e.length, o = 0, l = []; ++i < a; ) {
     var c = e[i];
     t(c, i, e) && (l[o++] = c);
   }
   return l;
 }
-var C1 = C8, F8 = Vl;
-function S8(e, t) {
+var C1 = CL, FL = Vl;
+function SL(e, t) {
   var i = [];
-  return F8(e, function(a, o, l) {
+  return FL(e, function(a, o, l) {
     t(a, o, l) && i.push(a);
   }), i;
 }
-var $8 = S8, T8 = cs;
-function R8() {
-  this.__data__ = new T8(), this.size = 0;
+var $L = SL, TL = cs;
+function RL() {
+  this.__data__ = new TL(), this.size = 0;
 }
-var O8 = R8;
-function I8(e) {
+var OL = RL;
+function IL(e) {
   var t = this.__data__, i = t.delete(e);
   return this.size = t.size, i;
 }
-var B8 = I8;
-function L8(e) {
+var BL = IL;
+function LL(e) {
   return this.__data__.get(e);
 }
-var P8 = L8;
-function j8(e) {
+var PL = LL;
+function jL(e) {
   return this.__data__.has(e);
 }
-var N8 = j8, z8 = cs, M8 = Pl, U8 = jl, q8 = 200;
-function V8(e, t) {
+var NL = jL, zL = cs, ML = Pl, UL = jl, qL = 200;
+function VL(e, t) {
   var i = this.__data__;
-  if (i instanceof z8) {
+  if (i instanceof zL) {
     var a = i.__data__;
-    if (!M8 || a.length < q8 - 1)
+    if (!ML || a.length < qL - 1)
       return a.push([e, t]), this.size = ++i.size, this;
-    i = this.__data__ = new U8(a);
+    i = this.__data__ = new UL(a);
   }
   return i.set(e, t), this.size = i.size, this;
 }
-var W8 = V8, G8 = cs, H8 = O8, K8 = B8, Y8 = P8, X8 = N8, Z8 = W8;
+var WL = VL, GL = cs, HL = OL, KL = BL, YL = PL, XL = NL, ZL = WL;
 function tr(e) {
-  var t = this.__data__ = new G8(e);
+  var t = this.__data__ = new GL(e);
   this.size = t.size;
 }
-tr.prototype.clear = H8;
-tr.prototype.delete = K8;
-tr.prototype.get = Y8;
-tr.prototype.has = X8;
-tr.prototype.set = Z8;
-var F1 = tr, J8 = "__lodash_hash_undefined__";
-function Q8(e) {
-  return this.__data__.set(e, J8), this;
+tr.prototype.clear = HL;
+tr.prototype.delete = KL;
+tr.prototype.get = YL;
+tr.prototype.has = XL;
+tr.prototype.set = ZL;
+var F1 = tr, JL = "__lodash_hash_undefined__";
+function QL(e) {
+  return this.__data__.set(e, JL), this;
 }
-var eL = Q8;
-function tL(e) {
+var e8 = QL;
+function t8(e) {
   return this.__data__.has(e);
 }
-var nL = tL, iL = jl, rL = eL, aL = nL;
+var n8 = t8, i8 = jl, r8 = e8, a8 = n8;
 function Ka(e) {
   var t = -1, i = e == null ? 0 : e.length;
-  for (this.__data__ = new iL(); ++t < i; )
+  for (this.__data__ = new i8(); ++t < i; )
     this.add(e[t]);
 }
-Ka.prototype.add = Ka.prototype.push = rL;
-Ka.prototype.has = aL;
+Ka.prototype.add = Ka.prototype.push = r8;
+Ka.prototype.has = a8;
 var S1 = Ka;
-function sL(e, t) {
+function s8(e, t) {
   for (var i = -1, a = e == null ? 0 : e.length; ++i < a; )
     if (t(e[i], i, e))
       return !0;
   return !1;
 }
-var oL = sL;
-function lL(e, t) {
+var o8 = s8;
+function l8(e, t) {
   return e.has(t);
 }
-var $1 = lL, uL = S1, cL = oL, dL = $1, fL = 1, pL = 2;
-function hL(e, t, i, a, o, l) {
-  var c = i & fL, d = e.length, p = t.length;
+var $1 = l8, u8 = S1, c8 = o8, d8 = $1, f8 = 1, p8 = 2;
+function h8(e, t, i, a, o, l) {
+  var c = i & f8, d = e.length, p = t.length;
   if (d != p && !(c && p > d))
     return !1;
   var f = l.get(e), v = l.get(t);
   if (f && v)
     return f == t && v == e;
-  var _ = -1, D = !0, b = i & pL ? new uL() : void 0;
+  var _ = -1, D = !0, b = i & p8 ? new u8() : void 0;
   for (l.set(e, t), l.set(t, e); ++_ < d; ) {
     var y = e[_], A = t[_];
     if (a)
@@ -7550,8 +7550,8 @@ function hL(e, t, i, a, o, l) {
       break;
     }
     if (b) {
-      if (!cL(t, function(T, $) {
-        if (!dL(b, $) && (y === T || o(y, T, i, a, l)))
+      if (!c8(t, function(T, $) {
+        if (!d8(b, $) && (y === T || o(y, T, i, a, l)))
           return b.push($);
       })) {
         D = !1;
@@ -7564,72 +7564,72 @@ function hL(e, t, i, a, o, l) {
   }
   return l.delete(e), l.delete(t), D;
 }
-var T1 = hL, gL = kn, mL = gL.Uint8Array, vL = mL;
-function yL(e) {
+var T1 = h8, g8 = kn, m8 = g8.Uint8Array, v8 = m8;
+function y8(e) {
   var t = -1, i = Array(e.size);
   return e.forEach(function(a, o) {
     i[++t] = [o, a];
   }), i;
 }
-var _L = yL;
-function bL(e) {
+var _8 = y8;
+function b8(e) {
   var t = -1, i = Array(e.size);
   return e.forEach(function(a) {
     i[++t] = a;
   }), i;
 }
-var Gl = bL, Qf = Tr, ep = vL, wL = Rr, DL = T1, xL = _L, kL = Gl, EL = 1, AL = 2, CL = "[object Boolean]", FL = "[object Date]", SL = "[object Error]", $L = "[object Map]", TL = "[object Number]", RL = "[object RegExp]", OL = "[object Set]", IL = "[object String]", BL = "[object Symbol]", LL = "[object ArrayBuffer]", PL = "[object DataView]", tp = Qf ? Qf.prototype : void 0, Zo = tp ? tp.valueOf : void 0;
-function jL(e, t, i, a, o, l, c) {
+var Gl = b8, Qf = Tr, ep = v8, w8 = Rr, D8 = T1, x8 = _8, k8 = Gl, E8 = 1, A8 = 2, C8 = "[object Boolean]", F8 = "[object Date]", S8 = "[object Error]", $8 = "[object Map]", T8 = "[object Number]", R8 = "[object RegExp]", O8 = "[object Set]", I8 = "[object String]", B8 = "[object Symbol]", L8 = "[object ArrayBuffer]", P8 = "[object DataView]", tp = Qf ? Qf.prototype : void 0, Zo = tp ? tp.valueOf : void 0;
+function j8(e, t, i, a, o, l, c) {
   switch (i) {
-    case PL:
+    case P8:
       if (e.byteLength != t.byteLength || e.byteOffset != t.byteOffset)
         return !1;
       e = e.buffer, t = t.buffer;
-    case LL:
+    case L8:
       return !(e.byteLength != t.byteLength || !l(new ep(e), new ep(t)));
-    case CL:
-    case FL:
-    case TL:
-      return wL(+e, +t);
-    case SL:
+    case C8:
+    case F8:
+    case T8:
+      return w8(+e, +t);
+    case S8:
       return e.name == t.name && e.message == t.message;
-    case RL:
-    case IL:
+    case R8:
+    case I8:
       return e == t + "";
-    case $L:
-      var d = xL;
-    case OL:
-      var p = a & EL;
-      if (d || (d = kL), e.size != t.size && !p)
+    case $8:
+      var d = x8;
+    case O8:
+      var p = a & E8;
+      if (d || (d = k8), e.size != t.size && !p)
         return !1;
       var f = c.get(e);
       if (f)
         return f == t;
-      a |= AL, c.set(e, t);
-      var v = DL(d(e), d(t), a, o, l, c);
+      a |= A8, c.set(e, t);
+      var v = D8(d(e), d(t), a, o, l, c);
       return c.delete(e), v;
-    case BL:
+    case B8:
       if (Zo)
         return Zo.call(e) == Zo.call(t);
   }
   return !1;
 }
-var NL = jL, zL = o1, ML = Ft;
-function UL(e, t, i) {
+var N8 = j8, z8 = o1, M8 = Ft;
+function U8(e, t, i) {
   var a = t(e);
-  return ML(e) ? a : zL(a, i(e));
+  return M8(e) ? a : z8(a, i(e));
 }
-var qL = UL;
-function VL() {
+var q8 = U8;
+function V8() {
   return [];
 }
-var WL = VL, GL = C1, HL = WL, KL = Object.prototype, YL = KL.propertyIsEnumerable, np = Object.getOwnPropertySymbols, XL = np ? function(e) {
-  return e == null ? [] : (e = Object(e), GL(np(e), function(t) {
-    return YL.call(e, t);
+var W8 = V8, G8 = C1, H8 = W8, K8 = Object.prototype, Y8 = K8.propertyIsEnumerable, np = Object.getOwnPropertySymbols, X8 = np ? function(e) {
+  return e == null ? [] : (e = Object(e), G8(np(e), function(t) {
+    return Y8.call(e, t);
   }));
-} : HL, ZL = XL, JL = qL, QL = ZL, eP = gs;
+} : H8, Z8 = X8, J8 = q8, Q8 = Z8, eP = gs;
 function tP(e) {
-  return JL(e, eP, QL);
+  return J8(e, eP, Q8);
 }
 var nP = tP, ip = nP, iP = 1, rP = Object.prototype, aP = rP.hasOwnProperty;
 function sP(e, t, i, a, o, l) {
@@ -7663,7 +7663,7 @@ function sP(e, t, i, a, o, l) {
   }
   return l.delete(e), l.delete(t), A;
 }
-var oP = sP, Jo = F1, lP = T1, uP = NL, cP = oP, rp = g1, ap = Ft, sp = qi, dP = Ul, fP = 1, op = "[object Arguments]", lp = "[object Array]", Oa = "[object Object]", pP = Object.prototype, up = pP.hasOwnProperty;
+var oP = sP, Jo = F1, lP = T1, uP = N8, cP = oP, rp = g1, ap = Ft, sp = qi, dP = Ul, fP = 1, op = "[object Arguments]", lp = "[object Array]", Oa = "[object Object]", pP = Object.prototype, up = pP.hasOwnProperty;
 function hP(e, t, i, a, o, l) {
   var c = ap(e), d = ap(t), p = c ? lp : rp(e), f = d ? lp : rp(t);
   p = p == op ? Oa : p, f = f == op ? Oa : f;
@@ -7771,7 +7771,7 @@ var a9 = r9, s9 = IP, o9 = KP, l9 = Ir, u9 = Ft, c9 = a9;
 function d9(e) {
   return typeof e == "function" ? e : e == null ? l9 : typeof e == "object" ? u9(e) ? o9(e[0], e[1]) : s9(e) : c9(e);
 }
-var L1 = d9, f9 = C1, p9 = $8, h9 = L1, g9 = Ft;
+var L1 = d9, f9 = C1, p9 = $L, h9 = L1, g9 = Ft;
 function m9(e, t) {
   var i = g9(e) ? f9 : p9;
   return i(e, h9(t));
@@ -7843,47 +7843,47 @@ function Y9(e) {
   var t = new H9(e.__wrapped__, e.__chain__);
   return t.__actions__ = K9(e.__actions__), t.__index__ = e.__index__, t.__values__ = e.__values__, t;
 }
-var X9 = Y9, Z9 = Yl, gp = Kl, J9 = Hl, Q9 = Ft, e6 = Yn, t6 = X9, n6 = Object.prototype, i6 = n6.hasOwnProperty;
+var X9 = Y9, Z9 = Yl, gp = Kl, J9 = Hl, Q9 = Ft, e7 = Yn, t7 = X9, n7 = Object.prototype, i7 = n7.hasOwnProperty;
 function Za(e) {
-  if (e6(e) && !Q9(e) && !(e instanceof Z9)) {
+  if (e7(e) && !Q9(e) && !(e instanceof Z9)) {
     if (e instanceof gp)
       return e;
-    if (i6.call(e, "__wrapped__"))
-      return t6(e);
+    if (i7.call(e, "__wrapped__"))
+      return t7(e);
   }
   return new gp(e);
 }
 Za.prototype = J9.prototype;
 Za.prototype.constructor = Za;
-var r6 = Za, a6 = Yl, s6 = N1, o6 = z1, l6 = r6;
-function u6(e) {
-  var t = o6(e), i = l6[t];
-  if (typeof i != "function" || !(t in a6.prototype))
+var r7 = Za, a7 = Yl, s7 = N1, o7 = z1, l7 = r7;
+function u7(e) {
+  var t = o7(e), i = l7[t];
+  if (typeof i != "function" || !(t in a7.prototype))
     return !1;
   if (e === i)
     return !0;
-  var a = s6(i);
+  var a = s7(i);
   return !!a && e === a[0];
 }
-var c6 = u6, mp = Kl, d6 = d1, f6 = N1, Qo = z1, p6 = Ft, vp = c6, h6 = "Expected a function", g6 = 8, m6 = 32, v6 = 128, y6 = 256;
-function _6(e) {
-  return d6(function(t) {
+var c7 = u7, mp = Kl, d7 = d1, f7 = N1, Qo = z1, p7 = Ft, vp = c7, h7 = "Expected a function", g7 = 8, m7 = 32, v7 = 128, y7 = 256;
+function _7(e) {
+  return d7(function(t) {
     var i = t.length, a = i, o = mp.prototype.thru;
     for (e && t.reverse(); a--; ) {
       var l = t[a];
       if (typeof l != "function")
-        throw new TypeError(h6);
+        throw new TypeError(h7);
       if (o && !c && Qo(l) == "wrapper")
         var c = new mp([], !0);
     }
     for (a = c ? a : i; ++a < i; ) {
       l = t[a];
-      var d = Qo(l), p = d == "wrapper" ? f6(l) : void 0;
-      p && vp(p[0]) && p[1] == (v6 | g6 | m6 | y6) && !p[4].length && p[9] == 1 ? c = c[Qo(p[0])].apply(c, p[3]) : c = l.length == 1 && vp(l) ? c[d]() : c.thru(l);
+      var d = Qo(l), p = d == "wrapper" ? f7(l) : void 0;
+      p && vp(p[0]) && p[1] == (v7 | g7 | m7 | y7) && !p[4].length && p[9] == 1 ? c = c[Qo(p[0])].apply(c, p[3]) : c = l.length == 1 && vp(l) ? c[d]() : c.thru(l);
     }
     return function() {
       var f = arguments, v = f[0];
-      if (c && f.length == 1 && p6(v))
+      if (c && f.length == 1 && p7(v))
         return c.plant(v).value();
       for (var _ = 0, D = i ? t[_].apply(this, f) : v; ++_ < i; )
         D = t[_].call(this, D);
@@ -7891,9 +7891,9 @@ function _6(e) {
     };
   });
 }
-var b6 = _6, w6 = b6, D6 = w6(), Zn = D6;
+var b7 = _7, w7 = b7, D7 = w7(), Zn = D7;
 const wi = (e) => e.replace(/<\/?[a-z][^>]*?>/gi, `
-`), jr = (e) => e.replace(/&nbsp;|&#160;/gi, " ").replace(/\s{2,}/g, " ").replace(/\s\./g, ".").replace(/^\s+|\s+$/g, ""), M1 = "[^<>&/\\[\\]\0- =]+?", x6 = new RegExp("\\[" + M1 + "( [^\\]]+?)?\\]", "g"), k6 = new RegExp("\\[/" + M1 + "\\]", "g"), Xl = (e) => e.replace(x6, "").replace(k6, ""), U1 = (e) => e.replace(/--|\u2014/g, " "), E6 = new RegExp([
+`), jr = (e) => e.replace(/&nbsp;|&#160;/gi, " ").replace(/\s{2,}/g, " ").replace(/\s\./g, ".").replace(/^\s+|\s+$/g, ""), M1 = "[^<>&/\\[\\]\0- =]+?", x7 = new RegExp("\\[" + M1 + "( [^\\]]+?)?\\]", "g"), k7 = new RegExp("\\[/" + M1 + "\\]", "g"), Xl = (e) => e.replace(x7, "").replace(k7, ""), U1 = (e) => e.replace(/--|\u2014/g, " "), E7 = new RegExp([
   "[",
   // Latin-1 Supplement (extract)
   "-¿×÷",
@@ -7928,7 +7928,7 @@ const wi = (e) => e.replace(/<\/?[a-z][^>]*?>/gi, `
   // Supplemental Punctuation
   "⸀-⹿",
   "]"
-].join(""), "g"), A6 = (e) => e.replace(E6, ""), Di = (e) => e.replace(/<!--[\s\S]*?-->/g, ""), vs = (e) => e.replace(/&\S+?;/g, ""), q1 = `[\\–\\-\\(\\)_\\[\\]’“”"'.?!:;,¿¡«»‹›—×+&<>]+`, C6 = new RegExp("^" + q1), F6 = new RegExp(q1 + "$"), V1 = (e) => e.replace(C6, "").replace(F6, ""), S6 = (e) => {
+].join(""), "g"), A7 = (e) => e.replace(E7, ""), Di = (e) => e.replace(/<!--[\s\S]*?-->/g, ""), vs = (e) => e.replace(/&\S+?;/g, ""), q1 = `[\\–\\-\\(\\)_\\[\\]’“”"'.?!:;,¿¡«»‹›—×+&<>]+`, C7 = new RegExp("^" + q1), F7 = new RegExp(q1 + "$"), V1 = (e) => e.replace(C7, "").replace(F7, ""), S7 = (e) => {
   if (e = Zn(
     [
       wi,
@@ -7937,16 +7937,16 @@ const wi = (e) => e.replace(/<\/?[a-z][^>]*?>/gi, `
       jr,
       vs,
       U1,
-      A6
+      A7
     ]
   )(e), e === "")
     return [];
   let t = e.split(/\s/g);
   return t = Pr(t, (i) => V1(i)), ms(t, (i) => i.trim() !== "");
 }, W1 = (e, t) => {
-  const i = S6(e);
+  const i = S7(e);
   return t = t || !1, i.length === 0 ? !1 : t === !1 ? i : i.slice(0, t);
-}, $6 = {
+}, $7 = {
   adulthood: !0,
   advice: !0,
   agenda: !0,
@@ -8036,7 +8036,7 @@ const wi = (e) => e.replace(/<\/?[a-z][^>]*?>/gi, `
   wildlife: !0,
   wordpress: !0,
   you: !0
-}, T6 = [
+}, T7 = [
   // Pronouns.
   ["I", "we"],
   ["me", "us"],
@@ -8090,7 +8090,7 @@ const wi = (e) => e.replace(/<\/?[a-z][^>]*?>/gi, `
   ["pickaxe", "pickaxes"],
   ["whiskey", "whiskies"],
   ["thou", "you"]
-], R6 = [
+], R7 = [
   // unCountableRules
   [/[^aeiou]ese$/i, "$0"],
   // "chinese", "japanese"
@@ -8129,12 +8129,12 @@ const wi = (e) => e.replace(/<\/?[a-z][^>]*?>/gi, `
   [/eaux$/i, "$0"],
   [/m[ae]n$/i, "men"]
 ];
-class O6 {
+class O7 {
   /**
    * Class constructor
    */
   constructor() {
-    this.irregularSingles = {}, this.irregularPlurals = {}, this.uncountables = $6, this.pluralizationRules = R6, T6.forEach(function(t) {
+    this.irregularSingles = {}, this.irregularPlurals = {}, this.uncountables = $7, this.pluralizationRules = R7, T7.forEach(function(t) {
       const i = t[0], a = t[1];
       this.irregularSingles[i] = a, this.irregularPlurals[a] = i;
     }, this);
@@ -8190,7 +8190,7 @@ class O6 {
     return t.replace(/\$(\d{1,2})/g, (a, o) => i[o] || "");
   }
 }
-const I6 = {
+const I7 = {
   HTMLRegExp: /<\/?[a-z][^>]*?>/gi,
   HTMLcommentRegExp: /<!--[\s\S]*?-->/g,
   spaceRegExp: /&nbsp;|&#160;/gi,
@@ -8260,16 +8260,16 @@ function G1(e, t) {
   return t.replace(e.HTMLRegExp, `
 `);
 }
-function B6(e, t) {
+function B7(e, t) {
   return t.replace(e.astralRegExp, "a");
 }
-function L6(e, t) {
+function L7(e, t) {
   return t.replace(e.HTMLEntityRegExp, "");
 }
-function P6(e, t) {
+function P7(e, t) {
   return t.replace(e.connectorRegExp, " ");
 }
-function j6(e, t) {
+function j7(e, t) {
   return t.replace(e.removeRegExp, "");
 }
 function H1(e, t) {
@@ -8282,30 +8282,30 @@ function K1(e, t) {
 function Y1(e, t) {
   return t.replace(e.spaceRegExp, " ");
 }
-function N6(e, t) {
+function N7(e, t) {
   return t.replace(e.HTMLEntityRegExp, "a");
 }
-function z6(e, t) {
+function z7(e, t) {
   var i, a;
-  const o = Object.assign({}, I6, t);
+  const o = Object.assign({}, I7, t);
   return o.shortcodes = (i = (a = o.l10n) === null || a === void 0 ? void 0 : a.shortcodes) !== null && i !== void 0 ? i : [], o.shortcodes && o.shortcodes.length && (o.shortcodesRegExp = new RegExp("\\[\\/?(?:" + o.shortcodes.join("|") + ")[^\\]]*?\\]", "g")), o.type = e, o.type !== "characters_excluding_spaces" && o.type !== "characters_including_spaces" && (o.type = "words"), o;
 }
-function M6(e, t, i) {
+function M7(e, t, i) {
   var a, o;
-  return e = [G1.bind(null, i), H1.bind(null, i), K1.bind(null, i), Y1.bind(null, i), L6.bind(null, i), P6.bind(null, i), j6.bind(null, i)].reduce((l, c) => c(l), e), e = e + `
+  return e = [G1.bind(null, i), H1.bind(null, i), K1.bind(null, i), Y1.bind(null, i), L7.bind(null, i), P7.bind(null, i), j7.bind(null, i)].reduce((l, c) => c(l), e), e = e + `
 `, (a = (o = e.match(t)) === null || o === void 0 ? void 0 : o.length) !== null && a !== void 0 ? a : 0;
 }
 function yp(e, t, i) {
   var a, o;
-  return e = [G1.bind(null, i), H1.bind(null, i), K1.bind(null, i), B6.bind(null, i), Y1.bind(null, i), N6.bind(null, i)].reduce((l, c) => c(l), e), e = e + `
+  return e = [G1.bind(null, i), H1.bind(null, i), K1.bind(null, i), B7.bind(null, i), Y1.bind(null, i), N7.bind(null, i)].reduce((l, c) => c(l), e), e = e + `
 `, (a = (o = e.match(t)) === null || o === void 0 ? void 0 : o.length) !== null && a !== void 0 ? a : 0;
 }
-function U6(e, t, i) {
-  const a = z6(t, i);
+function U7(e, t, i) {
+  const a = z7(t, i);
   let o;
   switch (a.type) {
     case "words":
-      return o = a.wordsRegExp, M6(e, o, a);
+      return o = a.wordsRegExp, M7(e, o, a);
     case "characters_including_spaces":
       return o = a.characters_including_spacesRegExp, yp(e, o, a);
     case "characters_excluding_spaces":
@@ -8314,31 +8314,31 @@ function U6(e, t, i) {
       return 0;
   }
 }
-const Zl = (e) => U6(e, "words");
-var q6 = Lr;
-function V6(e, t) {
+const Zl = (e) => U7(e, "words");
+var q7 = Lr;
+function V7(e, t) {
   var i = e == null ? 0 : e.length;
-  return !!i && q6(e, t, 0) > -1;
+  return !!i && q7(e, t, 0) > -1;
 }
-var W6 = V6;
-function G6(e, t, i) {
+var W7 = V7;
+function G7(e, t, i) {
   for (var a = -1, o = e == null ? 0 : e.length; ++a < o; )
     if (i(t, e[a]))
       return !0;
   return !1;
 }
-var H6 = G6, el = f1, K6 = j1, Y6 = Gl, X6 = 1 / 0, Z6 = el && 1 / Y6(new el([, -0]))[1] == X6 ? function(e) {
+var H7 = G7, el = f1, K7 = j1, Y7 = Gl, X7 = 1 / 0, Z7 = el && 1 / Y7(new el([, -0]))[1] == X7 ? function(e) {
   return new el(e);
-} : K6, J6 = Z6, Q6 = S1, e7 = W6, t7 = H6, n7 = $1, i7 = J6, r7 = Gl, a7 = 200;
-function s7(e, t, i) {
-  var a = -1, o = e7, l = e.length, c = !0, d = [], p = d;
+} : K7, J7 = Z7, Q7 = S1, e6 = W7, t6 = H7, n6 = $1, i6 = J7, r6 = Gl, a6 = 200;
+function s6(e, t, i) {
+  var a = -1, o = e6, l = e.length, c = !0, d = [], p = d;
   if (i)
-    c = !1, o = t7;
-  else if (l >= a7) {
-    var f = t ? null : i7(e);
+    c = !1, o = t6;
+  else if (l >= a6) {
+    var f = t ? null : i6(e);
     if (f)
-      return r7(f);
-    c = !1, o = n7, p = new Q6();
+      return r6(f);
+    c = !1, o = n6, p = new Q7();
   } else
     p = t ? [] : d;
   e:
@@ -8354,19 +8354,19 @@ function s7(e, t, i) {
     }
   return d;
 }
-var o7 = s7, l7 = o7;
-function u7(e) {
-  return e && e.length ? l7(e) : [];
+var o6 = s6, l6 = o6;
+function u6(e) {
+  return e && e.length ? l6(e) : [];
 }
-var X1 = u7, c7 = vi, d7 = Ft, f7 = Yn, p7 = "[object String]";
-function h7(e) {
-  return typeof e == "string" || !d7(e) && f7(e) && c7(e) == p7;
+var X1 = u6, c6 = vi, d6 = Ft, f6 = Yn, p6 = "[object String]";
+function h6(e) {
+  return typeof e == "string" || !d6(e) && f6(e) && c6(e) == p6;
 }
-var g7 = h7, m7 = v1, _p = Xn, v7 = os, bp = NaN, y7 = /^[-+]0x[0-9a-f]+$/i, _7 = /^0b[01]+$/i, b7 = /^0o[0-7]+$/i, w7 = parseInt;
-function D7(e) {
+var g6 = h6, m6 = v1, _p = Xn, v6 = os, bp = NaN, y6 = /^[-+]0x[0-9a-f]+$/i, _6 = /^0b[01]+$/i, b6 = /^0o[0-7]+$/i, w6 = parseInt;
+function D6(e) {
   if (typeof e == "number")
     return e;
-  if (v7(e))
+  if (v6(e))
     return bp;
   if (_p(e)) {
     var t = typeof e.valueOf == "function" ? e.valueOf() : e;
@@ -8374,43 +8374,43 @@ function D7(e) {
   }
   if (typeof e != "string")
     return e === 0 ? e : +e;
-  e = m7(e);
-  var i = _7.test(e);
-  return i || b7.test(e) ? w7(e.slice(2), i ? 2 : 8) : y7.test(e) ? bp : +e;
+  e = m6(e);
+  var i = _6.test(e);
+  return i || b6.test(e) ? w6(e.slice(2), i ? 2 : 8) : y6.test(e) ? bp : +e;
 }
-var Jl = D7, x7 = Jl, wp = 1 / 0, k7 = 17976931348623157e292;
-function E7(e) {
+var Jl = D6, x6 = Jl, wp = 1 / 0, k6 = 17976931348623157e292;
+function E6(e) {
   if (!e)
     return e === 0 ? e : 0;
-  if (e = x7(e), e === wp || e === -wp) {
+  if (e = x6(e), e === wp || e === -wp) {
     var t = e < 0 ? -1 : 1;
-    return t * k7;
+    return t * k6;
   }
   return e === e ? e : 0;
 }
-var Z1 = E7, A7 = Z1;
-function C7(e) {
-  var t = A7(e), i = t % 1;
+var Z1 = E6, A6 = Z1;
+function C6(e) {
+  var t = A6(e), i = t % 1;
   return t === t ? i ? t - i : t : 0;
 }
-var Ql = C7, F7 = zl;
-function S7(e, t) {
-  return F7(t, function(i) {
+var Ql = C6, F6 = zl;
+function S6(e, t) {
+  return F6(t, function(i) {
     return e[i];
   });
 }
-var $7 = S7, T7 = $7, R7 = gs;
-function O7(e) {
-  return e == null ? [] : T7(e, R7(e));
+var $6 = S6, T6 = $6, R6 = gs;
+function O6(e) {
+  return e == null ? [] : T6(e, R6(e));
 }
-var I7 = O7, B7 = Lr, L7 = bi, P7 = g7, j7 = Ql, N7 = I7, z7 = Math.max;
-function M7(e, t, i, a) {
-  e = L7(e) ? e : N7(e), i = i && !a ? j7(i) : 0;
+var I6 = O6, B6 = Lr, L6 = bi, P6 = g6, j6 = Ql, N6 = I6, z6 = Math.max;
+function M6(e, t, i, a) {
+  e = L6(e) ? e : N6(e), i = i && !a ? j6(i) : 0;
   var o = e.length;
-  return i < 0 && (i = z7(o + i, 0)), P7(e) ? i <= o && e.indexOf(t, i) > -1 : !!o && B7(e, t, i) > -1;
+  return i < 0 && (i = z6(o + i, 0)), P6(e) ? i <= o && e.indexOf(t, i) > -1 : !!o && B6(e, t, i) > -1;
 }
-var yt = M7;
-const U7 = (e) => {
+var yt = M6;
+const U6 = (e) => {
   const t = [], i = [];
   e.forEach((c) => {
     t.push(c.word), i.push(c.plural);
@@ -8423,10 +8423,10 @@ const U7 = (e) => {
     });
   }
   for (let c = 0; c < a * a; c++)
-    kt(o[c]) || l(o[c].split(" "));
+    Et(o[c]) || l(o[c].split(" "));
   return o.push(i.join(" ")), X1(o);
 };
-var Jn = {}, Ja = {}, q7 = {
+var Jn = {}, Ja = {}, q6 = {
   get exports() {
     return Ja;
   },
@@ -8447,7 +8447,7 @@ var Jn = {}, Ja = {}, q7 = {
     function B(N) {
       throw RangeError(O[N]);
     }
-    function V(N, X) {
+    function M(N, X) {
       for (var ie = N.length, ce = []; ie--; )
         ce[ie] = X(N[ie]);
       return ce;
@@ -8455,7 +8455,7 @@ var Jn = {}, Ja = {}, q7 = {
     function G(N, X) {
       var ie = N.split("@"), ce = "";
       ie.length > 1 && (ce = ie[0] + "@", N = ie[1]), N = N.replace($, ".");
-      var ke = N.split("."), ye = V(ke, X).join(".");
+      var ke = N.split("."), ye = M(ke, X).join(".");
       return ce + ye;
     }
     function ae(N) {
@@ -8464,7 +8464,7 @@ var Jn = {}, Ja = {}, q7 = {
       return X;
     }
     function me(N) {
-      return V(N, function(X) {
+      return M(N, function(X) {
         var ie = "";
         return X > 65535 && (X -= 65536, ie += R(X >>> 10 & 1023 | 55296), X = 56320 | X & 1023), ie += R(X), ie;
       }).join("");
@@ -8552,8 +8552,8 @@ var Jn = {}, Ja = {}, q7 = {
     else
       i.punycode = c;
   })(fi);
-})(q7, Ja);
-var V7 = {
+})(q6, Ja);
+var V6 = {
   isString: function(e) {
     return typeof e == "string";
   },
@@ -8567,10 +8567,10 @@ var V7 = {
     return e == null;
   }
 }, Fr = {};
-function W7(e, t) {
+function W6(e, t) {
   return Object.prototype.hasOwnProperty.call(e, t);
 }
-var G7 = function(e, t, i, a) {
+var G6 = function(e, t, i, a) {
   t = t || "&", i = i || "=";
   var o = {};
   if (typeof e != "string" || e.length === 0)
@@ -8583,7 +8583,7 @@ var G7 = function(e, t, i, a) {
   c > 0 && d > c && (d = c);
   for (var p = 0; p < d; ++p) {
     var f = e[p].replace(l, "%20"), v = f.indexOf(i), _, D, b, y;
-    v >= 0 ? (_ = f.substr(0, v), D = f.substr(v + 1)) : (_ = f, D = ""), b = decodeURIComponent(_), y = decodeURIComponent(D), W7(o, b) ? Array.isArray(o[b]) ? o[b].push(y) : o[b] = [o[b], y] : o[b] = y;
+    v >= 0 ? (_ = f.substr(0, v), D = f.substr(v + 1)) : (_ = f, D = ""), b = decodeURIComponent(_), y = decodeURIComponent(D), W6(o, b) ? Array.isArray(o[b]) ? o[b].push(y) : o[b] = [o[b], y] : o[b] = y;
   }
   return o;
 }, xr = function(e) {
@@ -8597,7 +8597,7 @@ var G7 = function(e, t, i, a) {
     default:
       return "";
   }
-}, H7 = function(e, t, i, a) {
+}, H6 = function(e, t, i, a) {
   return t = t || "&", i = i || "=", e === null && (e = void 0), typeof e == "object" ? Object.keys(e).map(function(o) {
     var l = encodeURIComponent(xr(o)) + i;
     return Array.isArray(e[o]) ? e[o].map(function(c) {
@@ -8605,9 +8605,9 @@ var G7 = function(e, t, i, a) {
     }).join(t) : l + encodeURIComponent(xr(e[o]));
   }).join(t) : a ? encodeURIComponent(xr(a)) + i + encodeURIComponent(xr(e)) : "";
 };
-Fr.decode = Fr.parse = G7;
-Fr.encode = Fr.stringify = H7;
-var K7 = Ja, wn = V7;
+Fr.decode = Fr.parse = G6;
+Fr.encode = Fr.stringify = H6;
+var K6 = Ja, wn = V6;
 Jn.parse = Nr;
 Jn.resolve = rj;
 Jn.resolveObject = aj;
@@ -8616,8 +8616,8 @@ Jn.Url = an;
 function an() {
   this.protocol = null, this.slashes = null, this.auth = null, this.host = null, this.port = null, this.hostname = null, this.hash = null, this.search = null, this.query = null, this.pathname = null, this.path = null, this.href = null;
 }
-var Y7 = /^([a-z0-9.+-]+:)/i, X7 = /:[0-9]*$/, Z7 = /^(\/\/?(?!\/)[^\?\s]*)(\?[^\s]*)?$/, J7 = ["<", ">", '"', "`", " ", "\r", `
-`, "	"], Q7 = ["{", "}", "|", "\\", "^", "`"].concat(J7), vl = ["'"].concat(Q7), Dp = ["%", "/", "?", ";", "#"].concat(vl), xp = ["/", "?", "#"], ej = 255, kp = /^[+a-z0-9A-Z_-]{0,63}$/, tj = /^([+a-z0-9A-Z_-]{0,63})(.*)$/, nj = {
+var Y6 = /^([a-z0-9.+-]+:)/i, X6 = /:[0-9]*$/, Z6 = /^(\/\/?(?!\/)[^\?\s]*)(\?[^\s]*)?$/, J6 = ["<", ">", '"', "`", " ", "\r", `
+`, "	"], Q6 = ["{", "}", "|", "\\", "^", "`"].concat(J6), vl = ["'"].concat(Q6), Dp = ["%", "/", "?", ";", "#"].concat(vl), xp = ["/", "?", "#"], ej = 255, kp = /^[+a-z0-9A-Z_-]{0,63}$/, tj = /^([+a-z0-9A-Z_-]{0,63})(.*)$/, nj = {
   javascript: !0,
   "javascript:": !0
 }, yl = {
@@ -8648,11 +8648,11 @@ an.prototype.parse = function(e, t, i) {
   l[0] = l[0].replace(c, "/"), e = l.join(o);
   var d = e;
   if (d = d.trim(), !i && e.split("#").length === 1) {
-    var p = Z7.exec(d);
+    var p = Z6.exec(d);
     if (p)
       return this.path = d, this.href = d, this.pathname = p[1], p[2] ? (this.search = p[2], t ? this.query = _l.parse(this.search.substr(1)) : this.query = this.search.substr(1)) : t && (this.search = "", this.query = {}), this;
   }
-  var f = Y7.exec(d);
+  var f = Y6.exec(d);
   if (f) {
     f = f[0];
     var v = f.toLowerCase();
@@ -8682,13 +8682,13 @@ an.prototype.parse = function(e, t, i) {
           for (var E = "", R = 0, z = C.length; R < z; R++)
             C.charCodeAt(R) > 127 ? E += "x" : E += C[R];
           if (!E.match(kp)) {
-            var B = $.slice(0, b), V = $.slice(b + 1), G = C.match(tj);
-            G && (B.push(G[1]), V.unshift(G[2])), V.length && (d = "/" + V.join(".") + d), this.hostname = B.join(".");
+            var B = $.slice(0, b), M = $.slice(b + 1), G = C.match(tj);
+            G && (B.push(G[1]), M.unshift(G[2])), M.length && (d = "/" + M.join(".") + d), this.hostname = B.join(".");
             break;
           }
         }
       }
-    this.hostname.length > ej ? this.hostname = "" : this.hostname = this.hostname.toLowerCase(), T || (this.hostname = K7.toASCII(this.hostname));
+    this.hostname.length > ej ? this.hostname = "" : this.hostname = this.hostname.toLowerCase(), T || (this.hostname = K6.toASCII(this.hostname));
     var ae = this.port ? ":" + this.port : "", me = this.hostname || "";
     this.host = me + ae, this.href += this.host, T && (this.hostname = this.hostname.substr(1, this.hostname.length - 2), d[0] !== "/" && (d = "/" + d));
   }
@@ -8784,8 +8784,8 @@ an.prototype.resolveObject = function(e) {
   }
   if (!$.length)
     return i.pathname = null, i.search ? i.path = "/" + i.search : i.path = null, i.href = i.format(), i;
-  for (var R = $.slice(-1)[0], z = (i.host || e.host || $.length > 1) && (R === "." || R === "..") || R === "", B = 0, V = $.length; V >= 0; V--)
-    R = $[V], R === "." ? $.splice(V, 1) : R === ".." ? ($.splice(V, 1), B++) : B && ($.splice(V, 1), B--);
+  for (var R = $.slice(-1)[0], z = (i.host || e.host || $.length > 1) && (R === "." || R === "..") || R === "", B = 0, M = $.length; M >= 0; M--)
+    R = $[M], R === "." ? $.splice(M, 1) : R === ".." ? ($.splice(M, 1), B++) : B && ($.splice(M, 1), B--);
   if (!x && !T)
     for (; B--; B)
       $.unshift("..");
@@ -8799,7 +8799,7 @@ an.prototype.resolveObject = function(e) {
   return x = x || i.host && $.length, x && !G && $.unshift(""), $.length ? i.pathname = $.join("/") : (i.pathname = null, i.path = null), (!wn.isNull(i.pathname) || !wn.isNull(i.search)) && (i.path = (i.pathname ? i.pathname : "") + (i.search ? i.search : "")), i.auth = e.auth || i.auth, i.slashes = i.slashes || e.slashes, i.href = i.format(), i;
 };
 an.prototype.parseHost = function() {
-  var e = this.host, t = X7.exec(e);
+  var e = this.host, t = X6.exec(e);
   t && (t = t[0], t !== ":" && (this.port = t.substr(1)), e = e.substr(0, e.length - t.length)), e && (this.hostname = e);
 };
 function J1(e) {
@@ -9702,7 +9702,7 @@ $1`), e = e.replace(new RegExp("(</" + a + ">)", "g"), `$1
 }
 const zr = (e) => e.replace(/<style[^>]*>([\S\s]*?)<\/style>/gim, ""), Mr = (e) => e.replace(/<script[^>]*>([\S\s]*?)<\/script>/gim, ""), iu = (e) => e.replace(/[‘’‛`]/g, "'").replace(/[“”〝〞〟‟„]/g, '"'), pN = (e) => e.replace(/&nbsp;/g, " ").replace(/\s+/g, " ");
 function ag(e) {
-  return kt(e) ? "" : Zn(
+  return Et(e) ? "" : Zn(
     [
       pN,
       zr,
@@ -9715,7 +9715,7 @@ function ag(e) {
   )(e);
 }
 function _s(e) {
-  return kt(e) ? "" : Zn(
+  return Et(e) ? "" : Zn(
     [
       zr,
       Mr,
@@ -9728,7 +9728,7 @@ function _s(e) {
   )(e);
 }
 function ru(e) {
-  return kt(e) ? "" : Zn(
+  return Et(e) ? "" : Zn(
     [
       wi,
       jr
@@ -9739,7 +9739,7 @@ function hN(e) {
   return e.replace(/&nbsp;|&#160;/gi, " ").replace(/\s{2,}/g, " ").replace(/\s\./g, ".").replace(/(\r\n|\n|\r)/gm, "");
 }
 function gN(e) {
-  return kt(e) ? "" : Zn(
+  return Et(e) ? "" : Zn(
     [
       zr,
       Mr,
@@ -9750,7 +9750,7 @@ function gN(e) {
   )(e);
 }
 function mN(e) {
-  return kt(e) ? "" : Zn(
+  return Et(e) ? "" : Zn(
     [
       zr,
       Mr,
@@ -9792,14 +9792,14 @@ class og {
    */
   constructor(t) {
     this.setPaper(t), this.researches = {
-      combinations: U7,
+      combinations: U6,
       fleschReading: lN,
       getLinkStats: yj,
       getParagraphs: yN,
       getWords: W1,
-      pluralize: new O6(),
+      pluralize: new O7(),
       removePunctuation: V1,
-      slugify: A8,
+      slugify: AL,
       stripTags: wi,
       wordCount: Zl
     };
@@ -9828,7 +9828,7 @@ class og {
    * @return {*} Returns the result of the research or false if research does not exist.
    */
   getResearch(t) {
-    return kt(t) || Cr(t) || !this.hasResearch(t) ? !1 : this.getResearches()[t];
+    return Et(t) || Cr(t) || !this.hasResearch(t) ? !1 : this.getResearches()[t];
   }
   /**
    * Check whether or not the research is known by the Researcher.
@@ -10788,7 +10788,7 @@ class NN extends nt {
    */
   getResult(t, i, a) {
     const o = this.newResult(a), l = t.getLower("keyword").trim();
-    return kt(this.keywordsChecked[l]) ? (this.keywordsChecked[l] = !0, o.setText(a.__("We are searching in database.", "rank-math")), o) : (o.has = this.keywordsChecked[l], o.setText(this.translateScore(l, this.keywordsChecked[l], a)), uj("rankMath_analysis_keywordUsage_updated", l, o), o);
+    return Et(this.keywordsChecked[l]) ? (this.keywordsChecked[l] = !0, o.setText(a.__("We are searching in database.", "rank-math")), o) : (o.has = this.keywordsChecked[l], o.setText(this.translateScore(l, this.keywordsChecked[l], a)), uj("rankMath_analysis_keywordUsage_updated", l, o), o);
   }
   /**
    * Checks whether paper meet analysis requirements.
@@ -12165,7 +12165,7 @@ const ez = {
   "҂": -5,
   "╤": -5,
   "📔": 5
-}, tz = -2, nz = -2, iz = -2, rz = -2, az = -2, sz = -2, oz = -3, lz = -3, uz = -3, cz = -3, dz = 2, fz = 2, pz = 1, hz = -1, gz = -1, mz = -1, vz = -1, yz = 2, _z = 2, bz = 2, wz = 2, Dz = 1, xz = -3, kz = -3, Ez = -3, Az = -3, Cz = -3, Fz = 1, Sz = 1, $z = 1, Tz = 1, Rz = 1, Oz = 1, Iz = 1, Bz = -2, Lz = -2, Pz = -2, jz = -2, Nz = 2, zz = 2, Mz = 2, Uz = 2, qz = 2, Vz = 2, Wz = 2, Gz = 2, Hz = -2, Kz = -2, Yz = -2, Xz = -2, Zz = -2, Jz = -2, Qz = -2, eM = 1, tM = -2, nM = 2, iM = 2, rM = 2, aM = 2, sM = -3, oM = 1, lM = 1, uM = 3, cM = 3, dM = 3, fM = 3, pM = -1, hM = -1, gM = -1, mM = -2, vM = -2, yM = 1, _M = 1, bM = 3, wM = 3, DM = 3, xM = 3, kM = 3, EM = 3, AM = 3, CM = 1, FM = 2, SM = 2, $M = 2, TM = 2, RM = 2, OM = 2, IM = 2, BM = -1, LM = 1, PM = -1, jM = 3, NM = 3, zM = 3, MM = -1, UM = 2, qM = -1, VM = 2, WM = -2, GM = -2, HM = -2, KM = -2, YM = -2, XM = -2, ZM = -2, JM = -2, QM = -2, eU = -2, tU = 2, nU = -3, iU = -3, rU = -3, aU = -3, sU = -3, oU = -3, lU = -3, uU = -3, cU = 1, dU = 2, fU = 1, pU = 1, hU = 1, gU = -2, mU = -2, vU = -2, yU = -2, _U = -1, bU = -1, wU = -2, DU = 1, xU = -2, kU = -2, EU = -2, AU = 1, CU = 2, FU = -2, SU = 2, $U = 2, TU = 2, RU = 2, OU = 4, IU = 2, BU = -1, LU = 2, PU = 3, jU = 3, NU = 3, zU = 3, MU = -3, UU = -3, qU = -3, VU = -3, WU = -3, GU = -3, HU = -2, KU = -2, YU = -2, XU = -2, ZU = -2, JU = -2, QU = -2, eq = -1, tq = 1, nq = -2, iq = -2, rq = -3, aq = -3, sq = -3, oq = -2, lq = -1, uq = -1, cq = -1, dq = -1, fq = -1, pq = -1, hq = -1, gq = -1, mq = -1, vq = -2, yq = -2, _q = 2, bq = 2, wq = 2, Dq = 2, xq = 2, kq = 2, Eq = 2, Aq = 2, Cq = 2, Fq = 2, Sq = 2, $q = 2, Tq = 2, Rq = 2, Oq = 2, Iq = -2, Bq = 2, Lq = 2, Pq = 2, jq = 2, Nq = 2, zq = 1, Mq = -2, Uq = -3, qq = -2, Vq = -2, Wq = -4, Gq = -2, Hq = -2, Kq = -4, Yq = -3, Xq = -3, Zq = -2, Jq = -2, Qq = 2, eV = 2, tV = -4, nV = -4, iV = 2, rV = 3, aV = 3, sV = 3, oV = 3, lV = 3, uV = -3, cV = -3, dV = -1, fV = -1, pV = -1, hV = -1, gV = 1, mV = 1, vV = 2, yV = 2, _V = 2, bV = 2, wV = 2, DV = 2, xV = 1, kV = 3, EV = 1, AV = 1, CV = -2, FV = -2, SV = -2, $V = -2, TV = -2, RV = -2, OV = -1, IV = -1, BV = -1, LV = 2, PV = -1, jV = -1, NV = -1, zV = -1, MV = -1, UV = 3, qV = 3, VV = 3, WV = 4, GV = -3, HV = -2, KV = -1, YV = -1, XV = 1, ZV = 2, JV = 1, QV = -3, eW = -3, tW = -3, nW = -3, iW = -2, rW = 1, aW = -2, sW = -2, oW = -2, lW = -2, uW = -1, cW = -3, dW = -3, fW = -3, pW = -2, hW = -2, gW = -2, mW = -2, vW = 2, yW = -2, _W = -5, bW = -5, wW = -1, DW = -1, xW = -1, kW = -2, EW = -2, AW = 3, CW = -1, FW = 3, SW = 3, $W = 3, TW = 3, RW = 3, OW = 2, IW = 2, BW = -2, LW = -2, PW = 3, jW = 2, NW = 2, zW = 2, MW = 2, UW = 2, qW = 2, VW = 3, WW = -2, GW = -2, HW = -2, KW = -2, YW = 3, XW = -3, ZW = -3, JW = -3, QW = -3, eG = -3, tG = 2, nG = -1, iG = -2, rG = 1, aG = -5, sG = -5, oG = -2, lG = -2, uG = -2, cG = -2, dG = -3, fG = -3, pG = -3, hG = -3, gG = -2, mG = -2, vG = -2, yG = -2, _G = -2, bG = 2, wG = 2, DG = 3, xG = 3, kG = -1, EG = 3, AG = 3, CG = 2, FG = -1, SG = -1, $G = -2, TG = 3, RG = -1, OG = -1, IG = -1, BG = -3, LG = -2, PG = -2, jG = 2, NG = 2, zG = -1, MG = 1, UG = 1, qG = 1, VG = 1, WG = -2, GG = -2, HG = -3, KG = -2, YG = -2, XG = -2, ZG = -2, JG = -2, QG = -2, eH = -2, tH = -2, nH = -3, iH = 2, rH = 2, aH = 2, sH = 3, oH = -2, lH = -2, uH = -2, cH = -2, dH = 3, fH = 5, pH = -3, hH = -3, gH = -3, mH = -3, vH = 1, yH = 2, _H = 1, bH = 4, wH = 3, DH = 3, xH = 2, kH = -1, EH = -1, AH = -2, CH = -3, FH = -3, SH = -2, $H = -4, TH = -2, RH = -2, OH = -2, IH = 2, BH = -2, LH = -2, PH = -2, jH = -2, NH = -2, zH = -2, MH = 2, UH = 2, qH = 2, VH = 2, WH = -1, GH = -1, HH = -1, KH = -1, YH = -1, XH = 1, ZH = 1, JH = 1, QH = 3, eK = 2, tK = 1, nK = 2, iK = 2, rK = 2, aK = -2, sK = 2, oK = 2, lK = -2, uK = -3, cK = -4, dK = -1, fK = 3, pK = 3, hK = 3, gK = 3, mK = 3, vK = 3, yK = -2, _K = -2, bK = -2, wK = 1, DK = -2, xK = -2, kK = -1, EK = 2, AK = 2, CK = 2, FK = 2, SK = 2, $K = -2, TK = -2, RK = -3, OK = -2, IK = 2, BK = 2, LK = 3, PK = 3, jK = 3, NK = -3, zK = -3, MK = -3, UK = -3, qK = -3, VK = -3, WK = -3, GK = -3, HK = -3, KK = -3, YK = -3, XK = 2, ZK = 2, JK = 2, QK = 2, eY = 2, tY = -2, nY = 2, iY = 3, rY = 2, aY = 2, sY = 2, oY = 2, lY = 2, uY = -3, cY = -3, dY = -3, fY = -3, pY = -2, hY = -1, gY = -2, mY = -2, vY = -2, yY = -2, _Y = 2, bY = 2, wY = -2, DY = 3, xY = 2, kY = 2, EY = 1, AY = 1, CY = 1, FY = 1, SY = 2, $Y = -1, TY = -2, RY = -5, OY = -5, IY = -5, BY = -2, LY = -2, PY = -2, jY = -2, NY = -2, zY = -2, MY = -2, UY = -1, qY = -1, VY = -1, WY = -2, GY = -2, HY = -3, KY = -1, YY = -1, XY = 1, ZY = 2, JY = 2, QY = 2, eX = 2, tX = 2, nX = 1, iX = 2, rX = 2, aX = 1, sX = 2, oX = 1, lX = 1, uX = 1, cX = 2, dX = 2, fX = 1, pX = 1, hX = 2, gX = 2, mX = -2, vX = -2, yX = -2, _X = -2, bX = -2, wX = -2, DX = -2, xX = -2, kX = 2, EX = 2, AX = 2, CX = 2, FX = -2, SX = 2, $X = 2, TX = 2, RX = 2, OX = -2, IX = -2, BX = -2, LX = -2, PX = 2, jX = 2, NX = 2, zX = -2, MX = -2, UX = -2, qX = -2, VX = -2, WX = -2, GX = -2, HX = 2, KX = 2, YX = 2, XX = 2, ZX = 2, JX = 2, QX = 2, eZ = -3, tZ = -2, nZ = -2, iZ = -2, rZ = -2, aZ = -1, sZ = -2, oZ = -2, lZ = -2, uZ = -2, cZ = -2, dZ = -2, fZ = -2, pZ = -2, hZ = -2, gZ = -2, mZ = -2, vZ = -2, yZ = -1, _Z = -1, bZ = -1, wZ = -2, DZ = -2, xZ = -2, kZ = -2, EZ = -2, AZ = -2, CZ = -2, FZ = 1, SZ = 1, $Z = 1, TZ = 2, RZ = 1, OZ = -2, IZ = -1, BZ = -3, LZ = -3, PZ = -3, jZ = -3, NZ = -3, zZ = -2, MZ = 2, UZ = 2, qZ = 2, VZ = 2, WZ = 2, GZ = 2, HZ = -2, KZ = -2, YZ = 2, XZ = -1, ZZ = -3, JZ = -3, QZ = -2, eJ = -2, tJ = -2, nJ = -2, iJ = 2, rJ = -2, aJ = -2, sJ = -2, oJ = -3, lJ = -3, uJ = -3, cJ = -3, dJ = -3, fJ = -3, pJ = -3, hJ = -3, gJ = -2, mJ = -2, vJ = -2, yJ = -2, _J = -2, bJ = -2, wJ = -2, DJ = -2, xJ = -2, kJ = -2, EJ = -2, AJ = -2, CJ = -1, FJ = -1, SJ = -3, $J = -3, TJ = -1, RJ = -2, OJ = -1, IJ = -1, BJ = -1, LJ = -2, PJ = 2, jJ = -5, NJ = 1, zJ = -1, MJ = -1, UJ = -2, qJ = -2, VJ = 2, WJ = -1, GJ = -1, HJ = -2, KJ = -2, YJ = -2, XJ = -3, ZJ = -3, JJ = -3, QJ = -3, eQ = -2, tQ = -4, nQ = -4, iQ = -2, rQ = -2, aQ = -2, sQ = 2, oQ = 2, lQ = -2, uQ = -1, cQ = 2, dQ = 3, fQ = -3, pQ = -2, hQ = -2, gQ = -3, mQ = -1, vQ = 2, yQ = 3, _Q = -2, bQ = -2, wQ = 2, DQ = -2, xQ = -3, kQ = -3, EQ = -3, AQ = -3, CQ = -3, FQ = -3, SQ = -3, $Q = -3, TQ = 1, RQ = 2, OQ = 2, IQ = -2, BQ = -2, LQ = -3, PQ = -3, jQ = -3, NQ = 2, zQ = 2, MQ = -2, UQ = -1, qQ = -1, VQ = -1, WQ = -2, GQ = -2, HQ = -2, KQ = -2, YQ = -2, XQ = -2, ZQ = -2, JQ = -3, QQ = -3, eee = 2, tee = -2, nee = -2, iee = -2, ree = -2, aee = -2, see = -2, oee = -2, lee = -2, uee = -2, cee = -2, dee = -2, fee = -2, pee = -1, hee = -1, gee = 3, mee = 3, vee = 3, yee = 3, _ee = 3, bee = 3, wee = 3, Dee = 3, xee = -1, kee = -1, Eee = -1, Aee = -1, Cee = -1, Fee = -2, See = -2, $ee = -2, Tee = -2, Ree = -2, Oee = -2, Iee = -2, Bee = -2, Lee = -2, Pee = -2, jee = -2, Nee = -2, zee = -2, Mee = -2, Uee = -2, qee = -3, Vee = -3, Wee = -3, Gee = -3, Hee = -2, Kee = -2, Yee = -2, Xee = -2, Zee = -2, Jee = -2, Qee = -2, ete = -2, tte = -3, nte = -2, ite = -2, rte = -2, ate = -2, ste = -2, ote = -2, lte = -2, ute = -2, cte = -2, dte = 2, fte = 1, pte = 2, hte = 2, gte = -3, mte = -3, vte = -3, yte = -3, _te = -3, bte = -3, wte = -3, Dte = -3, xte = -3, kte = -3, Ete = -3, Ate = -3, Cte = -1, Fte = -2, Ste = -2, $te = -2, Tte = -2, Rte = -2, Ote = -2, Ite = -2, Bte = 2, Lte = -2, Pte = -1, jte = -1, Nte = -1, zte = -2, Mte = -2, Ute = -2, qte = -2, Vte = -2, Wte = 3, Gte = 2, Hte = 2, Kte = 1, Yte = -4, Xte = -4, Zte = -3, Jte = -3, Qte = -1, ene = -2, tne = 2, nne = -1, ine = 2, rne = -3, ane = -3, sne = -3, one = -2, lne = -2, une = -2, cne = -2, dne = -2, fne = -2, pne = -1, hne = -2, gne = -2, mne = -2, vne = -2, yne = -2, _ne = -1, bne = -1, wne = -1, Dne = -2, xne = -2, kne = -2, Ene = -2, Ane = -2, Cne = -2, Fne = -2, Sne = -2, $ne = -2, Tne = -2, Rne = -2, One = -2, Ine = -2, Bne = -2, Lne = -3, Pne = -2, jne = -1, Nne = -1, zne = -1, Mne = -1, Une = 2, qne = -2, Vne = -2, Wne = -2, Gne = -2, Hne = -2, Kne = -1, Yne = -2, Xne = -2, Zne = -2, Jne = -2, Qne = -2, eie = -2, tie = -2, nie = -2, iie = -1, rie = -1, aie = -2, sie = -2, oie = -1, lie = -1, uie = -1, cie = -1, die = -3, fie = -3, pie = -3, hie = -3, gie = -2, mie = -2, vie = -2, yie = -2, _ie = -2, bie = -2, wie = -2, Die = -2, xie = -2, kie = -2, Eie = -2, Aie = -2, Cie = -2, Fie = -2, Sie = -2, $ie = -2, Tie = -2, Rie = -2, Oie = -2, Iie = -2, Bie = -2, Lie = -2, Pie = -2, jie = -2, Nie = -2, zie = -2, Mie = -2, Uie = -2, qie = -2, Vie = -2, Wie = -2, Gie = -2, Hie = -2, Kie = -2, Yie = -2, Xie = -2, Zie = -2, Jie = -2, Qie = -2, ere = -2, tre = -2, nre = -2, ire = -2, rre = 2, are = -2, sre = -2, ore = -2, lre = -2, ure = -2, cre = -2, dre = -2, fre = -2, pre = -2, hre = -2, gre = -2, mre = -2, vre = -3, yre = -3, _re = -2, bre = -2, wre = -2, Dre = -2, xre = -2, kre = -1, Ere = -1, Are = -2, Cre = -2, Fre = -2, Sre = 2, $re = 2, Tre = 2, Rre = 2, Ore = 2, Ire = -2, Bre = -2, Lre = -1, Pre = -1, jre = -1, Nre = -1, zre = -1, Mre = -3, Ure = -3, qre = -2, Vre = -2, Wre = -2, Gre = -2, Hre = -2, Kre = -1, Yre = -1, Xre = -1, Zre = -2, Jre = -2, Qre = -2, eae = -3, tae = -2, nae = 1, iae = 1, rae = -2, aae = -2, sae = -1, oae = -1, lae = -2, uae = -2, cae = -2, dae = -2, fae = -2, pae = -2, hae = -2, gae = -2, mae = -3, vae = -3, yae = -1, _ae = -2, bae = -1, wae = -2, Dae = -2, xae = -2, kae = 2, Eae = -3, Aae = -2, Cae = 2, Fae = 2, Sae = 2, $ae = 1, Tae = 4, Rae = -2, Oae = -2, Iae = 2, Bae = 2, Lae = 2, Pae = 2, jae = 3, Nae = 3, zae = 2, Mae = 2, Uae = -2, qae = -2, Vae = -2, Wae = -2, Gae = -2, Hae = -3, Kae = -2, Yae = 1, Xae = -2, Zae = 2, Jae = 2, Qae = 2, ese = -1, tse = -1, nse = 2, ise = 2, rse = 2, ase = 2, sse = 2, ose = 2, lse = 2, use = 2, cse = 2, dse = 2, fse = -2, pse = -2, hse = 2, gse = 1, mse = 1, vse = 1, yse = 3, _se = 2, bse = 2, wse = 2, Dse = 2, xse = 2, kse = 2, Ese = 2, Ase = 2, Cse = 2, Fse = -2, Sse = -2, $se = -2, Tse = -2, Rse = -2, Ose = 3, Ise = -2, Bse = -2, Lse = -2, Pse = 1, jse = 1, Nse = 1, zse = 2, Mse = 3, Use = 3, qse = 1, Vse = 2, Wse = -1, Gse = -2, Hse = -1, Kse = -1, Yse = -2, Xse = -2, Zse = -2, Jse = -1, Qse = -1, eoe = 2, toe = 2, noe = 2, ioe = 3, roe = 4, aoe = -1, soe = -1, ooe = -1, loe = -1, uoe = -1, coe = 2, doe = 2, foe = -3, poe = -1, hoe = -3, goe = -2, moe = -2, voe = -2, yoe = -2, _oe = -2, boe = -2, woe = -2, Doe = -2, xoe = -2, koe = -2, Eoe = -2, Aoe = -2, Coe = 3, Foe = 3, Soe = 3, $oe = 3, Toe = 3, Roe = 3, Ooe = -1, Ioe = -2, Boe = -1, Loe = 2, Poe = -1, joe = -1, Noe = -1, zoe = -2, Moe = 3, Uoe = 3, qoe = 3, Voe = 2, Woe = 2, Goe = 2, Hoe = 2, Koe = 1, Yoe = 1, Xoe = -2, Zoe = -2, Joe = -2, Qoe = -2, ele = 2, tle = -2, nle = -2, ile = -2, rle = -2, ale = 1, sle = 1, ole = -1, lle = -1, ule = -1, cle = -1, dle = 3, fle = 1, ple = -2, hle = -2, gle = 4, mle = 3, vle = 3, yle = 4, _le = 4, ble = -2, wle = -3, Dle = -3, xle = -3, kle = -2, Ele = -2, Ale = -2, Cle = -2, Fle = -2, Sle = -2, $le = -2, Tle = 2, Rle = 2, Ole = 1, Ile = 3, Ble = -3, Lle = -3, Ple = -3, jle = -3, Nle = -2, zle = -1, Mle = -2, Ule = -3, qle = -3, Vle = 1, Wle = -2, Gle = 2, Hle = 3, Kle = 4, Yle = -1, Xle = 3, Zle = 3, Jle = 3, Qle = 3, eue = 3, tue = -2, nue = -2, iue = -3, rue = -3, aue = -3, sue = -2, oue = -2, lue = -2, uue = -2, cue = 2, due = 2, fue = 2, pue = 2, hue = 2, gue = 2, mue = 2, vue = 2, yue = 2, _ue = 2, bue = 2, wue = 2, Due = 2, xue = 2, kue = 2, Eue = 2, Aue = -2, Cue = -2, Fue = -2, Sue = -2, $ue = 2, Tue = 2, Rue = -2, Oue = -2, Iue = 1, Bue = -3, Lue = -3, Pue = 2, jue = 2, Nue = 2, zue = 2, Mue = -2, Uue = -3, que = -2, Vue = -1, Wue = -2, Gue = 2, Hue = -2, Kue = 3, Yue = -2, Xue = -2, Zue = -2, Jue = 1, Que = 1, ece = -2, tce = -2, nce = 2, ice = -2, rce = -3, ace = 2, sce = 2, oce = -2, lce = -1, uce = -2, cce = -2, dce = -2, fce = -2, pce = 2, hce = 2, gce = 2, mce = -2, vce = -2, yce = -2, _ce = -1, bce = -2, wce = -2, Dce = -1, xce = -2, kce = -2, Ece = 1, Ace = -1, Cce = -2, Fce = -1, Sce = 1, $ce = 1, Tce = -1, Rce = -1, Oce = 2, Ice = 2, Bce = 2, Lce = -3, Pce = -1, jce = -4, Nce = -4, zce = -4, Mce = -4, Uce = -4, qce = -4, Vce = -2, Wce = 1, Gce = 2, Hce = 2, Kce = -3, Yce = 1, Xce = 1, Zce = 2, Jce = 2, Qce = 2, ede = -2, tde = -2, nde = -3, ide = -2, rde = 2, ade = -1, sde = -2, ode = -2, lde = -2, ude = -2, cde = -2, dde = -2, fde = 3, pde = -4, hde = -4, gde = -4, mde = -4, vde = -4, yde = -4, _de = -4, bde = -4, wde = -4, Dde = -3, xde = -4, kde = -4, Ede = 2, Ade = 2, Cde = 2, Fde = 2, Sde = -2, $de = 4, Tde = -1, Rde = -1, Ode = 2, Ide = 4, Bde = 4, Lde = -3, Pde = -2, jde = -2, Nde = -2, zde = 2, Mde = 2, Ude = 2, qde = 2, Vde = 3, Wde = 3, Gde = 3, Hde = -1, Kde = 3, Yde = 2, Xde = 2, Zde = 3, Jde = -2, Qde = -1, efe = -2, tfe = 2, nfe = 3, ife = 3, rfe = 3, afe = 3, sfe = 3, ofe = -1, lfe = -2, ufe = 2, cfe = 2, dfe = -2, ffe = 1, pfe = -3, hfe = 4, gfe = 2, mfe = 3, vfe = 3, yfe = 1, _fe = 3, bfe = 3, wfe = -2, Dfe = -2, xfe = 1, kfe = 2, Efe = 3, Afe = 3, Cfe = 1, Ffe = 1, Sfe = 1, $fe = 1, Tfe = 3, Rfe = 2, Ofe = -2, Ife = -1, Bfe = -2, Lfe = 3, Pfe = 3, jfe = 3, Nfe = 3, zfe = -3, Mfe = -2, Ufe = -3, qfe = -3, Vfe = -3, Wfe = -3, Gfe = 1, Hfe = 1, Kfe = 1, Yfe = 2, Xfe = 1, Zfe = -1, Jfe = -2, Qfe = -2, epe = -2, tpe = 2, npe = -2, ipe = -2, rpe = -2, ape = -2, spe = -2, ope = 1, lpe = 2, upe = 2, cpe = -3, dpe = 1, fpe = -3, ppe = -3, hpe = -2, gpe = -2, mpe = -1, vpe = 2, ype = -1, _pe = 3, bpe = 3, wpe = 3, Dpe = 2, xpe = 2, kpe = 3, Epe = 1, Ape = 3, Cpe = -2, Fpe = -2, Spe = 3, $pe = 3, Tpe = 3, Rpe = -3, Ope = -3, Ipe = -3, Bpe = -3, Lpe = -3, Ppe = -1, jpe = 2, Npe = -2, zpe = 2, Mpe = -2, Upe = -2, qpe = -2, Vpe = -2, Wpe = 2, Gpe = 2, Hpe = 2, Kpe = -2, Ype = -2, Xpe = -2, Zpe = -2, Jpe = -2, Qpe = -2, ehe = -3, the = -3, nhe = -3, ihe = -3, rhe = -3, ahe = -3, she = -3, ohe = -1, lhe = -2, uhe = 1, che = -1, dhe = -2, fhe = -3, phe = -2, hhe = 2, ghe = -3, mhe = -3, vhe = 3, yhe = -2, _he = 3, bhe = 2, whe = 4, Dhe = -2, xhe = 2, khe = -4, Ehe = -2, Ahe = 2, Che = 2, Fhe = 2, She = -2, $he = 2, The = 2, Rhe = 2, Ohe = 3, Ihe = -2, Bhe = -2, Lhe = -1, Phe = -1, jhe = -3, Nhe = -1, zhe = -1, Mhe = 2, Uhe = 2, qhe = -2, Vhe = -2, Whe = -2, Ghe = -1, Hhe = -2, Khe = -2, Yhe = -2, Xhe = -2, Zhe = 2, Jhe = 2, Qhe = 2, e1e = 2, t1e = 2, n1e = 2, i1e = 2, r1e = -2, a1e = -2, s1e = -2, o1e = 2, l1e = 2, u1e = 2, c1e = -2, d1e = -2, f1e = 2, p1e = 2, h1e = -3, g1e = -3, m1e = -3, v1e = -3, y1e = -3, _1e = -2, b1e = -2, w1e = -2, D1e = 2, x1e = 1, k1e = 2, E1e = 2, A1e = 1, C1e = -2, F1e = 3, S1e = -3, $1e = -3, T1e = 2, R1e = 2, O1e = 2, I1e = 2, B1e = -2, L1e = 5, P1e = -2, j1e = -2, N1e = -2, z1e = -2, M1e = -3, U1e = -3, q1e = -3, V1e = -3, W1e = -3, G1e = -3, H1e = -3, K1e = -2, Y1e = -2, X1e = -1, Z1e = -2, J1e = -1, Q1e = -2, ege = -3, tge = -3, nge = -3, ige = -2, rge = -2, age = -2, sge = -2, oge = 2, lge = -3, uge = -1, cge = 2, dge = 1, fge = -2, pge = -2, hge = -2, gge = -2, mge = -2, vge = -2, yge = -3, _ge = -3, bge = -2, wge = -2, Dge = -2, xge = -2, kge = -2, Ege = -2, Age = 2, Cge = 2, Fge = -1, Sge = -1, $ge = -1, Tge = -1, Rge = -2, Oge = -2, Ige = 3, Bge = 3, Lge = 3, Pge = 3, jge = -2, Nge = -2, zge = -2, Mge = -2, Uge = 2, qge = 2, Vge = 2, Wge = 2, Gge = 2, Hge = -2, Kge = -2, Yge = -2, Xge = -2, Zge = -2, Jge = -2, Qge = -2, eme = -2, tme = -2, nme = -2, ime = -2, rme = -2, ame = -2, sme = -2, ome = -2, lme = -2, ume = -1, cme = -2, dme = -2, fme = -2, pme = -2, hme = 1, gme = 1, mme = -2, vme = 2, yme = -2, _me = -2, bme = -2, wme = -2, Dme = -2, xme = -2, kme = -2, Eme = -2, Ame = -2, Cme = -2, Fme = -3, Sme = -3, $me = -2, Tme = -2, Rme = -2, Ome = -2, Ime = -2, Bme = -2, Lme = -2, Pme = -2, jme = -2, Nme = -2, zme = 2, Mme = 2, Ume = -2, qme = -2, Vme = -2, Wme = -2, Gme = -2, Hme = -2, Kme = -2, Yme = -2, Xme = -2, Zme = -2, Jme = -2, Qme = -2, eve = -2, tve = -2, nve = -2, ive = -2, rve = -2, ave = 2, sve = -2, ove = -2, lve = -2, uve = -2, cve = -2, dve = -2, fve = -2, pve = -2, hve = -2, gve = -1, mve = -2, vve = -2, yve = -2, _ve = -2, bve = -2, wve = 1, Dve = 1, xve = 1, kve = 2, Eve = -2, Ave = -2, Cve = 2, Fve = -2, Sve = -2, $ve = -2, Tve = -2, Rve = -2, Ove = -2, Ive = -2, Bve = -2, Lve = -2, Pve = 2, jve = 2, Nve = 2, zve = 2, Mve = 2, Uve = 3, qve = -2, Vve = -2, Wve = -2, Gve = -2, Hve = -2, Kve = -2, Yve = -2, Xve = 2, Zve = 2, Jve = 2, Qve = 1, e2e = 1, t2e = 2, n2e = 2, i2e = 1, r2e = -2, a2e = -2, s2e = -2, o2e = -2, l2e = -2, u2e = -2, c2e = 2, d2e = -2, f2e = -2, p2e = -2, h2e = -2, g2e = -2, m2e = -2, v2e = -2, y2e = 2, _2e = 1, b2e = -1, w2e = 2, D2e = 1, x2e = 1, k2e = 2, E2e = -3, A2e = -1, C2e = -1, F2e = -1, S2e = -2, $2e = -2, T2e = 2, R2e = 2, O2e = -2, I2e = -2, B2e = -2, L2e = -1, P2e = -1, j2e = -3, N2e = -3, z2e = -3, M2e = -3, U2e = -1, q2e = -2, V2e = -4, W2e = -4, G2e = -2, H2e = 2, K2e = -2, Y2e = -2, X2e = -2, Z2e = -3, J2e = 1, Q2e = 1, eye = 1, tye = 2, nye = 1, iye = 2, rye = 2, aye = 2, sye = 2, oye = 3, lye = 3, uye = 3, cye = -2, dye = 3, fye = 3, pye = -1, hye = 2, gye = 2, mye = 2, vye = 1, yye = -3, _ye = -3, bye = -2, wye = -2, Dye = -2, xye = -2, kye = -2, Eye = -3, Aye = -3, Cye = -3, Fye = -3, Sye = 2, $ye = 2, Tye = 2, Rye = 2, Oye = 3, Iye = -2, Bye = -2, Lye = -1, Pye = -2, jye = -2, Nye = -2, zye = -2, Mye = 2, Uye = -1, qye = -1, Vye = 1, Wye = 1, Gye = 1, Hye = 1, Kye = 1, Yye = 1, Xye = 3, Zye = -2, Jye = -2, Qye = -1, e_e = 1, t_e = 2, n_e = -1, i_e = -1, r_e = -1, a_e = 1, s_e = 1, o_e = 1, l_e = -2, u_e = -2, c_e = -2, d_e = -2, f_e = -3, p_e = -3, h_e = -2, g_e = -2, m_e = -1, v_e = 4, y_e = 1, __e = 2, b_e = 2, w_e = 2, D_e = 2, x_e = 2, k_e = 2, E_e = 2, A_e = -1, C_e = -1, F_e = -1, S_e = -1, $_e = -2, T_e = 2, R_e = -2, O_e = 4, I_e = 4, B_e = -3, L_e = -3, P_e = -3, j_e = -3, N_e = -3, z_e = -2, M_e = -2, U_e = -2, q_e = -2, V_e = -2, W_e = 3, G_e = 4, H_e = 4, K_e = 4, Y_e = -2, X_e = -2, Z_e = -1, J_e = 3, Q_e = -1, ebe = -1, tbe = -1, nbe = -1, ibe = 3, rbe = 3, abe = -3, sbe = -3, obe = -3, lbe = -3, ube = -3, cbe = -3, dbe = -3, fbe = -2, pbe = 3, hbe = 3, gbe = 3, mbe = 3, vbe = 3, ybe = 3, _be = 2, bbe = -1, wbe = 3, Dbe = 3, xbe = 3, kbe = 3, Ebe = 3, Abe = 3, Cbe = -3, Fbe = -2, Sbe = -3, $be = -3, Tbe = -1, Rbe = -1, Obe = -1, Ibe = 2, Bbe = -2, Lbe = -3, Pbe = -3, jbe = -3, Nbe = -3, zbe = 3, Mbe = -2, Ube = -2, qbe = -2, Vbe = -1, Wbe = -1, Gbe = -1, Hbe = -1, Kbe = -3, Ybe = 3, Xbe = 3, Zbe = 3, Jbe = 4, Qbe = 4, e0e = 1, t0e = 1, n0e = 2, i0e = 2, r0e = -2, a0e = 3, s0e = -3, o0e = 1, l0e = -2, u0e = 1, c0e = -2, d0e = -2, f0e = -2, p0e = -2, h0e = 2, g0e = 3, m0e = 3, v0e = -2, y0e = -2, _0e = 2, b0e = 2, w0e = -2, D0e = 4, x0e = 3, k0e = 3, E0e = 3, A0e = -2, C0e = -2, F0e = -2, S0e = -2, $0e = -3, T0e = -2, R0e = -1, O0e = -1, I0e = -2, B0e = -2, L0e = -2, P0e = -2, j0e = -2, N0e = -2, z0e = -2, M0e = -3, U0e = -3, q0e = -2, V0e = -2, W0e = -2, G0e = -2, H0e = -2, K0e = -2, Y0e = -2, X0e = -3, Z0e = -3, J0e = -3, Q0e = -3, e3e = -2, t3e = -2, n3e = -2, i3e = -2, r3e = -3, a3e = -1, s3e = -2, o3e = -2, l3e = -2, u3e = -2, c3e = -2, d3e = -2, f3e = -2, p3e = -2, h3e = -2, g3e = -2, m3e = -2, v3e = -2, y3e = -2, _3e = -2, b3e = -2, w3e = -2, D3e = -2, x3e = -2, k3e = -2, E3e = -2, A3e = -2, C3e = -2, F3e = -2, S3e = -2, $3e = -2, T3e = -2, R3e = -2, O3e = -2, I3e = -2, B3e = -2, L3e = -2, P3e = -2, j3e = -2, N3e = 2, z3e = 2, M3e = 2, U3e = 2, q3e = -2, V3e = -2, W3e = -2, G3e = -2, H3e = -2, K3e = -1, Y3e = -1, X3e = -1, Z3e = -1, J3e = -3, Q3e = -5, ewe = -5, twe = 1, nwe = 2, iwe = 2, rwe = 1, awe = -2, swe = -2, owe = -2, lwe = -2, uwe = -2, cwe = -2, dwe = -2, fwe = -2, pwe = -2, hwe = -3, gwe = -3, mwe = -2, vwe = -2, ywe = -1, _we = -2, bwe = -2, wwe = -2, Dwe = -3, xwe = 1, kwe = -2, Ewe = -2, Awe = -2, Cwe = -2, Fwe = -2, Swe = -2, $we = -2, Twe = -1, Rwe = -2, Owe = -2, Iwe = 3, Bwe = 2, Lwe = -5, Pwe = -5, jwe = -1, Nwe = 2, zwe = 2, Mwe = -1, Uwe = -2, qwe = -2, Vwe = -2, Wwe = 2, Gwe = 2, Hwe = -2, Kwe = 2, Ywe = -1, Xwe = 2, Zwe = -3, Jwe = -2, Qwe = -2, eDe = -3, tDe = -2, nDe = -2, iDe = 2, rDe = -2, aDe = -2, sDe = -2, oDe = -2, lDe = -2, uDe = -2, cDe = -2, dDe = -2, fDe = -2, pDe = -2, hDe = -2, gDe = -2, mDe = -2, vDe = -2, yDe = -2, _De = -2, bDe = -2, wDe = -2, DDe = -2, xDe = -2, kDe = -2, EDe = -1, ADe = 2, CDe = 3, FDe = -2, SDe = 2, $De = 2, TDe = -2, RDe = -2, ODe = -2, IDe = -2, BDe = 2, LDe = 2, PDe = -2, jDe = -2, NDe = -2, zDe = -2, MDe = -2, UDe = -2, qDe = -2, VDe = -2, WDe = -2, GDe = -2, HDe = -2, KDe = -2, YDe = -3, XDe = -3, ZDe = -3, JDe = 2, QDe = 5, exe = 4, txe = -1, nxe = -1, ixe = -2, rxe = -2, axe = -2, sxe = -2, oxe = -2, lxe = -2, uxe = -2, cxe = -2, dxe = -2, fxe = -2, pxe = -1, hxe = -2, gxe = -2, mxe = -2, vxe = -2, yxe = -2, _xe = -2, bxe = -2, wxe = -1, Dxe = -3, xxe = -1, kxe = -2, Exe = -2, Axe = -2, Cxe = -3, Fxe = -3, Sxe = -3, $xe = 3, Txe = -1, Rxe = 2, Oxe = 2, Ixe = 2, Bxe = 2, Lxe = -1, Pxe = 1, jxe = 2, Nxe = -1, zxe = -1, Mxe = -2, Uxe = -1, qxe = 2, Vxe = 2, Wxe = 2, Gxe = -2, Hxe = -2, Kxe = -2, Yxe = -2, Xxe = -2, Zxe = -1, Jxe = 3, Qxe = 2, eke = 3, tke = 3, nke = 2, ike = -2, rke = -3, ake = -2, ske = -2, oke = -2, lke = -2, uke = -2, cke = -2, dke = -2, fke = -2, pke = -2, hke = -3, gke = -2, mke = -2, vke = -2, yke = -2, _ke = 2, bke = -2, wke = 2, Dke = -1, xke = -2, kke = -2, Eke = -2, Ake = -4, Cke = -4, Fke = -3, Ske = -2, $ke = -1, Tke = -2, Rke = -3, Oke = -3, Ike = -3, Bke = -3, Lke = 2, Pke = 3, jke = 1, Nke = 3, zke = 3, Mke = 3, Uke = -2, qke = 2, Vke = -2, Wke = -2, Gke = -2, Hke = -2, Kke = -2, Yke = 2, Xke = 2, Zke = 2, Jke = -2, Qke = -2, eEe = -2, tEe = -2, nEe = -2, iEe = -2, rEe = -2, aEe = -2, sEe = -2, oEe = -2, lEe = -2, uEe = 3, cEe = 3, dEe = 2, fEe = 2, pEe = -2, hEe = -1, gEe = -1, mEe = -1, vEe = -1, yEe = -1, _Ee = 2, bEe = -2, wEe = 3, DEe = 3, xEe = 3, kEe = 3, EEe = 1, AEe = 1, CEe = 1, FEe = -2, SEe = -2, $Ee = -2, TEe = 1, REe = -1, OEe = -2, IEe = -1, BEe = -1, LEe = -1, PEe = 1, jEe = -1, NEe = -1, zEe = -1, MEe = -1, UEe = -5, qEe = -2, VEe = -2, WEe = -2, GEe = 2, HEe = 2, KEe = -2, YEe = -2, XEe = 2, ZEe = 2, JEe = -2, QEe = 2, eAe = 2, tAe = -1, nAe = -1, iAe = 2, rAe = 1, aAe = 1, sAe = 1, oAe = 1, lAe = 1, uAe = 1, cAe = 1, dAe = 1, fAe = -2, pAe = -1, hAe = -2, gAe = -1, mAe = -1, vAe = 1, yAe = 1, _Ae = 3, bAe = 3, wAe = 1, DAe = 1, xAe = -2, kAe = -2, EAe = -2, AAe = -2, CAe = 2, FAe = 2, SAe = -1, $Ae = -1, TAe = -1, RAe = -1, OAe = 2, IAe = -3, BAe = -2, LAe = -2, PAe = -2, jAe = -2, NAe = -2, zAe = -2, MAe = 1, UAe = 1, qAe = 2, VAe = -1, WAe = -2, GAe = -2, HAe = 2, KAe = 2, YAe = -2, XAe = -1, ZAe = -1, JAe = -3, QAe = -3, eCe = -3, tCe = -2, nCe = -2, iCe = -1, rCe = -3, aCe = -3, sCe = -3, oCe = -3, lCe = -4, uCe = -4, cCe = -4, dCe = 2, fCe = 2, pCe = 2, hCe = 4, gCe = -2, mCe = 2, vCe = 1, yCe = 1, _Ce = 1, bCe = 1, wCe = 1, DCe = 1, xCe = 1, kCe = 2, ECe = -2, ACe = -2, CCe = -2, FCe = -2, SCe = -2, $Ce = 2, TCe = 2, RCe = 2, OCe = 2, ICe = 2, BCe = 1, LCe = 1, PCe = 1, jCe = 2, NCe = -2, zCe = -2, MCe = -2, UCe = -2, qCe = -2, VCe = -2, WCe = -2, GCe = -2, HCe = -2, KCe = 1, YCe = -1, XCe = -1, ZCe = -1, JCe = -2, QCe = -1, eFe = 4, tFe = 4, nFe = 4, iFe = 4, rFe = 2, aFe = -1, sFe = 2, oFe = 2, lFe = 2, uFe = 2, cFe = 1, dFe = 2, fFe = 1, pFe = 2, hFe = 2, gFe = 2, mFe = -2, vFe = -2, yFe = -2, _Fe = -2, bFe = -2, wFe = -2, DFe = -2, xFe = -2, kFe = -1, EFe = -2, AFe = -2, CFe = 2, FFe = 2, SFe = 2, $Fe = -2, TFe = -1, RFe = -1, OFe = -1, IFe = -1, BFe = 2, LFe = 2, PFe = 2, jFe = 2, NFe = 2, zFe = 2, MFe = 2, UFe = 2, qFe = 2, VFe = 1, WFe = 2, GFe = 2, HFe = 2, KFe = -2, YFe = 1, XFe = 1, ZFe = 1, JFe = 1, QFe = -2, e4e = -2, t4e = -2, n4e = -2, i4e = -1, r4e = -2, a4e = -1, s4e = -2, o4e = -2, l4e = -1, u4e = -2, c4e = -2, d4e = 2, f4e = 2, p4e = 2, h4e = -2, g4e = 2, m4e = 2, v4e = 2, y4e = 2, _4e = 2, b4e = 2, w4e = -3, D4e = -1, x4e = -1, k4e = 2, E4e = 2, A4e = 2, C4e = 3, F4e = 3, S4e = -2, $4e = -2, T4e = 1, R4e = 1, O4e = -2, I4e = -2, B4e = -2, L4e = 3, P4e = -2, j4e = -2, N4e = -2, z4e = -2, M4e = -2, U4e = 2, q4e = 4, V4e = 4, W4e = 4, G4e = 2, H4e = 2, K4e = 2, Y4e = 1, X4e = 4, Z4e = 4, J4e = 4, Q4e = -3, eSe = -2, tSe = -2, nSe = -2, iSe = -2, rSe = -2, aSe = -2, sSe = -2, oSe = -2, lSe = -2, uSe = -2, cSe = 1, dSe = 1, fSe = 2, pSe = 1, hSe = 1, gSe = 2, mSe = 2, vSe = 2, ySe = 2, _Se = 2, bSe = -1, wSe = -2, DSe = 2, xSe = -2, kSe = -2, ESe = 2, ASe = 2, CSe = 1, FSe = -2, SSe = -2, $Se = -3, TSe = -3, RSe = -3, OSe = -2, ISe = -2, BSe = -2, LSe = -2, PSe = -2, jSe = -2, NSe = -2, zSe = -2, MSe = -2, USe = 3, qSe = -2, VSe = -2, WSe = -2, GSe = -2, HSe = -2, KSe = -2, YSe = -2, XSe = -3, ZSe = -4, JSe = 2, QSe = 2, e5e = 2, t5e = 2, n5e = 2, i5e = -2, r5e = -2, a5e = -1, s5e = -3, o5e = -3, l5e = -2, u5e = -2, c5e = -2, d5e = -2, f5e = 2, p5e = 1, h5e = 1, g5e = -2, m5e = -2, v5e = -2, y5e = -2, _5e = 3, b5e = -2, w5e = -2, D5e = -2, x5e = -2, k5e = 1, E5e = 1, A5e = 1, C5e = -2, F5e = -4, S5e = -4, $5e = -3, T5e = -2, R5e = -2, O5e = -2, I5e = -2, B5e = -2, L5e = -1, P5e = -2, j5e = -2, N5e = -4, z5e = -1, M5e = -2, U5e = -2, q5e = -2, V5e = 1, W5e = 1, G5e = -1, H5e = -1, K5e = 1, Y5e = -2, X5e = 2, Z5e = 2, J5e = 2, Q5e = 2, e$e = -3, t$e = -2, n$e = -2, i$e = -2, r$e = -2, a$e = -2, s$e = -2, o$e = -2, l$e = -2, u$e = -2, c$e = -2, d$e = -2, f$e = -2, p$e = -3, h$e = -3, g$e = -3, m$e = -2, v$e = 2, y$e = 2, _$e = 2, b$e = -1, w$e = -2, D$e = -2, x$e = -1, k$e = -5, E$e = 1, A$e = 2, C$e = 2, F$e = -2, S$e = 2, $$e = 2, T$e = 2, R$e = 2, O$e = -2, I$e = -2, B$e = -2, L$e = -2, P$e = -2, j$e = -1, N$e = -2, z$e = -2, M$e = -2, U$e = -2, q$e = -2, V$e = -2, W$e = -2, G$e = -2, H$e = 1, K$e = -1, Y$e = 2, X$e = 2, Z$e = 2, J$e = 2, Q$e = 2, eTe = 2, tTe = 1, nTe = 1, iTe = 1, rTe = 1, aTe = 1, sTe = 1, oTe = -2, lTe = 3, uTe = 3, cTe = 3, dTe = 2, fTe = -1, pTe = -2, hTe = -2, gTe = -1, mTe = 1, vTe = -2, yTe = -3, _Te = -3, bTe = -2, wTe = 1, DTe = 3, xTe = 3, kTe = 3, ETe = 2, ATe = -2, CTe = 1, FTe = 2, STe = -2, $Te = -2, TTe = 3, RTe = -2, OTe = -2, ITe = 2, BTe = 2, LTe = -2, PTe = -2, jTe = -2, NTe = -2, zTe = -1, MTe = -2, UTe = -2, qTe = 2, VTe = -2, WTe = -2, GTe = -2, HTe = -2, KTe = 2, YTe = -2, XTe = -2, ZTe = -2, JTe = 3, QTe = -2, eRe = -2, tRe = -2, nRe = -2, iRe = 2, rRe = -2, aRe = -2, sRe = -2, oRe = -2, lRe = -2, uRe = -1, cRe = 1, dRe = 1, fRe = 1, pRe = 2, hRe = -2, gRe = -2, mRe = -2, vRe = -2, yRe = -2, _Re = -2, bRe = -2, wRe = -2, DRe = -2, xRe = -1, kRe = -1, ERe = -1, ARe = -1, CRe = 2, FRe = 1, SRe = -1, $Re = -1, TRe = -2, RRe = 2, ORe = 2, IRe = 2, BRe = 2, LRe = 2, PRe = 2, jRe = -1, NRe = -2, zRe = -2, MRe = -2, URe = -2, qRe = -1, VRe = -2, WRe = -1, GRe = 2, HRe = 2, KRe = 2, YRe = -1, XRe = -2, ZRe = -2, JRe = -2, QRe = -2, eOe = -2, tOe = -2, nOe = -2, iOe = 4, rOe = -2, aOe = -3, sOe = -2, oOe = 2, lOe = -2, uOe = 1, cOe = 1, dOe = -2, fOe = 3, pOe = 3, hOe = 3, gOe = 3, mOe = 2, vOe = 3, yOe = 3, _Oe = -3, bOe = -3, wOe = -2, DOe = -2, xOe = -2, kOe = -2, EOe = -2, AOe = -2, COe = -2, FOe = -2, SOe = -2, $Oe = -2, TOe = -2, ROe = -2, OOe = -2, IOe = -2, BOe = 2, LOe = 2, POe = -2, jOe = -2, NOe = -2, zOe = 2, MOe = 5, UOe = 2, qOe = 2, VOe = 2, WOe = 1, GOe = 1, HOe = 1, KOe = 2, YOe = 2, XOe = 4, ZOe = 2, JOe = 2, QOe = 2, eIe = -1, tIe = -1, nIe = -1, iIe = -1, rIe = -1, aIe = -1, sIe = -2, oIe = 1, lIe = 2, uIe = 2, cIe = -2, dIe = -2, fIe = -2, pIe = 2, hIe = 3, gIe = 3, mIe = 2, vIe = 2, yIe = -3, _Ie = -3, bIe = -3, wIe = 2, DIe = 2, xIe = -2, kIe = -2, EIe = 2, AIe = -2, CIe = -2, FIe = -2, SIe = -2, $Ie = -2, TIe = 2, RIe = 2, OIe = -2, IIe = -1, BIe = -3, LIe = -3, PIe = 4, jIe = 4, NIe = -3, zIe = -3, MIe = -2, UIe = -2, qIe = -3, VIe = -3, WIe = -3, GIe = 2, HIe = 2, KIe = 2, YIe = -2, XIe = 2, ZIe = -2, JIe = -2, QIe = -2, eBe = -2, tBe = -2, nBe = -2, iBe = -2, rBe = 5, aBe = -2, sBe = -2, oBe = -2, lBe = -2, uBe = -2, cBe = -2, dBe = -2, fBe = -2, pBe = 2, hBe = 2, gBe = -2, mBe = 2, vBe = 2, yBe = -2, _Be = -4, bBe = -4, wBe = -4, DBe = -4, xBe = -2, kBe = -2, EBe = -2, ABe = -2, CBe = -2, FBe = -2, SBe = -3, $Be = -2, TBe = -2, RBe = -2, OBe = 2, IBe = -2, BBe = -2, LBe = -2, PBe = -2, jBe = -1, NBe = -2, zBe = -1, MBe = -3, UBe = -3, qBe = -2, VBe = -3, WBe = -3, GBe = 2, HBe = 2, KBe = -2, YBe = -2, XBe = -2, ZBe = -2, JBe = -2, QBe = 2, e8e = -2, t8e = -2, n8e = 4, i8e = 4, r8e = -2, a8e = -2, s8e = -2, o8e = -2, l8e = -2, u8e = 1, c8e = 2, d8e = 1, f8e = -2, p8e = -5, h8e = -3, g8e = -3, m8e = -3, v8e = -3, y8e = -3, _8e = 2, b8e = -2, w8e = -3, D8e = -3, x8e = -2, k8e = -2, E8e = -2, A8e = -2, C8e = -2, F8e = -2, S8e = -1, $8e = -2, T8e = -2, R8e = -2, O8e = -1, I8e = -1, B8e = 2, L8e = -1, P8e = -1, j8e = -2, N8e = -2, z8e = -1, M8e = -1, U8e = -1, q8e = -1, V8e = -2, W8e = -1, G8e = -1, H8e = -1, K8e = -1, Y8e = -2, X8e = -2, Z8e = -2, J8e = -2, Q8e = -2, eLe = -2, tLe = -2, nLe = -2, iLe = -2, rLe = -2, aLe = -2, sLe = -1, oLe = -2, lLe = -1, uLe = 2, cLe = -2, dLe = -2, fLe = -2, pLe = -2, hLe = -2, gLe = -2, mLe = -2, vLe = -3, yLe = -2, _Le = -2, bLe = -2, wLe = -2, DLe = -3, xLe = -2, kLe = -2, ELe = -2, ALe = -2, CLe = 1, FLe = -2, SLe = -2, $Le = -2, TLe = -2, RLe = -2, OLe = -2, ILe = 1, BLe = -2, LLe = -1, PLe = -2, jLe = -2, NLe = 1, zLe = -2, MLe = -2, ULe = -2, qLe = -2, VLe = -2, WLe = -2, GLe = 1, HLe = -2, KLe = -2, YLe = -2, XLe = -2, ZLe = -2, JLe = -2, QLe = 2, ePe = -1, tPe = -1, nPe = -2, iPe = -2, rPe = -2, aPe = 2, sPe = -2, oPe = -2, lPe = -2, uPe = -1, cPe = 2, dPe = -2, fPe = -2, pPe = -2, hPe = 2, gPe = -3, mPe = -2, vPe = -2, yPe = -2, _Pe = -2, bPe = -1, wPe = 2, DPe = 2, xPe = -2, kPe = -2, EPe = -2, APe = 1, CPe = 1, FPe = 1, SPe = 1, $Pe = -2, TPe = -1, RPe = -1, OPe = 1, IPe = -2, BPe = -2, LPe = 3, PPe = -2, jPe = -3, NPe = -3, zPe = -3, MPe = -3, UPe = -3, qPe = -3, VPe = -3, WPe = 3, GPe = 3, HPe = 3, KPe = 3, YPe = 3, XPe = 3, ZPe = -3, JPe = 2, QPe = 2, e9e = 2, t9e = 2, n9e = -2, i9e = -2, r9e = -2, a9e = -2, s9e = -2, o9e = -2, l9e = -3, u9e = -3, c9e = -3, d9e = 2, f9e = -2, p9e = 1, h9e = 3, g9e = 1, m9e = 1, v9e = 3, y9e = 1, _9e = -3, b9e = 3, w9e = 2, D9e = -1, x9e = -3, k9e = -3, E9e = -3, A9e = -3, C9e = -2, F9e = -2, S9e = -2, $9e = -2, T9e = -3, R9e = 1, O9e = -2, I9e = -2, B9e = 1, L9e = 2, P9e = 2, j9e = 2, N9e = -2, z9e = -2, M9e = -3, U9e = -3, q9e = -2, V9e = -1, W9e = -2, G9e = -2, H9e = -1, K9e = -2, Y9e = -2, X9e = -2, Z9e = -2, J9e = 3, Q9e = 2, e6e = 2, t6e = -2, n6e = -2, i6e = -2, r6e = -2, a6e = 2, s6e = 2, o6e = 2, l6e = 1, u6e = -3, c6e = -4, d6e = -2, f6e = -1, p6e = 2, h6e = 4, g6e = 4, m6e = 4, v6e = 4, y6e = 3, _6e = 1, b6e = 1, w6e = 1, D6e = 1, x6e = -3, k6e = 2, E6e = -2, A6e = -3, C6e = 3, F6e = 4, S6e = 4, $6e = 3, T6e = 3, R6e = 4, O6e = 4, I6e = -1, B6e = -3, L6e = -3, P6e = -3, j6e = -3, N6e = -3, z6e = -3, M6e = -3, U6e = -3, q6e = -3, V6e = 3, W6e = -3, G6e = 2, H6e = -2, K6e = 2, Y6e = 4, X6e = 4, Z6e = 4, J6e = -3, Q6e = -2, e7e = -2, t7e = -2, n7e = -2, i7e = -2, r7e = -2, a7e = -2, s7e = -2, o7e = -2, l7e = -4, u7e = -4, c7e = -4, d7e = 3, f7e = 3, p7e = 4, h7e = 4, g7e = 1, m7e = 1, v7e = 2, y7e = 1, _7e = 2, b7e = -2, w7e = 3, D7e = -2, x7e = -2, k7e = 2, E7e = {
+}, tz = -2, nz = -2, iz = -2, rz = -2, az = -2, sz = -2, oz = -3, lz = -3, uz = -3, cz = -3, dz = 2, fz = 2, pz = 1, hz = -1, gz = -1, mz = -1, vz = -1, yz = 2, _z = 2, bz = 2, wz = 2, Dz = 1, xz = -3, kz = -3, Ez = -3, Az = -3, Cz = -3, Fz = 1, Sz = 1, $z = 1, Tz = 1, Rz = 1, Oz = 1, Iz = 1, Bz = -2, Lz = -2, Pz = -2, jz = -2, Nz = 2, zz = 2, Mz = 2, Uz = 2, qz = 2, Vz = 2, Wz = 2, Gz = 2, Hz = -2, Kz = -2, Yz = -2, Xz = -2, Zz = -2, Jz = -2, Qz = -2, eM = 1, tM = -2, nM = 2, iM = 2, rM = 2, aM = 2, sM = -3, oM = 1, lM = 1, uM = 3, cM = 3, dM = 3, fM = 3, pM = -1, hM = -1, gM = -1, mM = -2, vM = -2, yM = 1, _M = 1, bM = 3, wM = 3, DM = 3, xM = 3, kM = 3, EM = 3, AM = 3, CM = 1, FM = 2, SM = 2, $M = 2, TM = 2, RM = 2, OM = 2, IM = 2, BM = -1, LM = 1, PM = -1, jM = 3, NM = 3, zM = 3, MM = -1, UM = 2, qM = -1, VM = 2, WM = -2, GM = -2, HM = -2, KM = -2, YM = -2, XM = -2, ZM = -2, JM = -2, QM = -2, eU = -2, tU = 2, nU = -3, iU = -3, rU = -3, aU = -3, sU = -3, oU = -3, lU = -3, uU = -3, cU = 1, dU = 2, fU = 1, pU = 1, hU = 1, gU = -2, mU = -2, vU = -2, yU = -2, _U = -1, bU = -1, wU = -2, DU = 1, xU = -2, kU = -2, EU = -2, AU = 1, CU = 2, FU = -2, SU = 2, $U = 2, TU = 2, RU = 2, OU = 4, IU = 2, BU = -1, LU = 2, PU = 3, jU = 3, NU = 3, zU = 3, MU = -3, UU = -3, qU = -3, VU = -3, WU = -3, GU = -3, HU = -2, KU = -2, YU = -2, XU = -2, ZU = -2, JU = -2, QU = -2, eq = -1, tq = 1, nq = -2, iq = -2, rq = -3, aq = -3, sq = -3, oq = -2, lq = -1, uq = -1, cq = -1, dq = -1, fq = -1, pq = -1, hq = -1, gq = -1, mq = -1, vq = -2, yq = -2, _q = 2, bq = 2, wq = 2, Dq = 2, xq = 2, kq = 2, Eq = 2, Aq = 2, Cq = 2, Fq = 2, Sq = 2, $q = 2, Tq = 2, Rq = 2, Oq = 2, Iq = -2, Bq = 2, Lq = 2, Pq = 2, jq = 2, Nq = 2, zq = 1, Mq = -2, Uq = -3, qq = -2, Vq = -2, Wq = -4, Gq = -2, Hq = -2, Kq = -4, Yq = -3, Xq = -3, Zq = -2, Jq = -2, Qq = 2, eV = 2, tV = -4, nV = -4, iV = 2, rV = 3, aV = 3, sV = 3, oV = 3, lV = 3, uV = -3, cV = -3, dV = -1, fV = -1, pV = -1, hV = -1, gV = 1, mV = 1, vV = 2, yV = 2, _V = 2, bV = 2, wV = 2, DV = 2, xV = 1, kV = 3, EV = 1, AV = 1, CV = -2, FV = -2, SV = -2, $V = -2, TV = -2, RV = -2, OV = -1, IV = -1, BV = -1, LV = 2, PV = -1, jV = -1, NV = -1, zV = -1, MV = -1, UV = 3, qV = 3, VV = 3, WV = 4, GV = -3, HV = -2, KV = -1, YV = -1, XV = 1, ZV = 2, JV = 1, QV = -3, eW = -3, tW = -3, nW = -3, iW = -2, rW = 1, aW = -2, sW = -2, oW = -2, lW = -2, uW = -1, cW = -3, dW = -3, fW = -3, pW = -2, hW = -2, gW = -2, mW = -2, vW = 2, yW = -2, _W = -5, bW = -5, wW = -1, DW = -1, xW = -1, kW = -2, EW = -2, AW = 3, CW = -1, FW = 3, SW = 3, $W = 3, TW = 3, RW = 3, OW = 2, IW = 2, BW = -2, LW = -2, PW = 3, jW = 2, NW = 2, zW = 2, MW = 2, UW = 2, qW = 2, VW = 3, WW = -2, GW = -2, HW = -2, KW = -2, YW = 3, XW = -3, ZW = -3, JW = -3, QW = -3, eG = -3, tG = 2, nG = -1, iG = -2, rG = 1, aG = -5, sG = -5, oG = -2, lG = -2, uG = -2, cG = -2, dG = -3, fG = -3, pG = -3, hG = -3, gG = -2, mG = -2, vG = -2, yG = -2, _G = -2, bG = 2, wG = 2, DG = 3, xG = 3, kG = -1, EG = 3, AG = 3, CG = 2, FG = -1, SG = -1, $G = -2, TG = 3, RG = -1, OG = -1, IG = -1, BG = -3, LG = -2, PG = -2, jG = 2, NG = 2, zG = -1, MG = 1, UG = 1, qG = 1, VG = 1, WG = -2, GG = -2, HG = -3, KG = -2, YG = -2, XG = -2, ZG = -2, JG = -2, QG = -2, eH = -2, tH = -2, nH = -3, iH = 2, rH = 2, aH = 2, sH = 3, oH = -2, lH = -2, uH = -2, cH = -2, dH = 3, fH = 5, pH = -3, hH = -3, gH = -3, mH = -3, vH = 1, yH = 2, _H = 1, bH = 4, wH = 3, DH = 3, xH = 2, kH = -1, EH = -1, AH = -2, CH = -3, FH = -3, SH = -2, $H = -4, TH = -2, RH = -2, OH = -2, IH = 2, BH = -2, LH = -2, PH = -2, jH = -2, NH = -2, zH = -2, MH = 2, UH = 2, qH = 2, VH = 2, WH = -1, GH = -1, HH = -1, KH = -1, YH = -1, XH = 1, ZH = 1, JH = 1, QH = 3, eK = 2, tK = 1, nK = 2, iK = 2, rK = 2, aK = -2, sK = 2, oK = 2, lK = -2, uK = -3, cK = -4, dK = -1, fK = 3, pK = 3, hK = 3, gK = 3, mK = 3, vK = 3, yK = -2, _K = -2, bK = -2, wK = 1, DK = -2, xK = -2, kK = -1, EK = 2, AK = 2, CK = 2, FK = 2, SK = 2, $K = -2, TK = -2, RK = -3, OK = -2, IK = 2, BK = 2, LK = 3, PK = 3, jK = 3, NK = -3, zK = -3, MK = -3, UK = -3, qK = -3, VK = -3, WK = -3, GK = -3, HK = -3, KK = -3, YK = -3, XK = 2, ZK = 2, JK = 2, QK = 2, eY = 2, tY = -2, nY = 2, iY = 3, rY = 2, aY = 2, sY = 2, oY = 2, lY = 2, uY = -3, cY = -3, dY = -3, fY = -3, pY = -2, hY = -1, gY = -2, mY = -2, vY = -2, yY = -2, _Y = 2, bY = 2, wY = -2, DY = 3, xY = 2, kY = 2, EY = 1, AY = 1, CY = 1, FY = 1, SY = 2, $Y = -1, TY = -2, RY = -5, OY = -5, IY = -5, BY = -2, LY = -2, PY = -2, jY = -2, NY = -2, zY = -2, MY = -2, UY = -1, qY = -1, VY = -1, WY = -2, GY = -2, HY = -3, KY = -1, YY = -1, XY = 1, ZY = 2, JY = 2, QY = 2, eX = 2, tX = 2, nX = 1, iX = 2, rX = 2, aX = 1, sX = 2, oX = 1, lX = 1, uX = 1, cX = 2, dX = 2, fX = 1, pX = 1, hX = 2, gX = 2, mX = -2, vX = -2, yX = -2, _X = -2, bX = -2, wX = -2, DX = -2, xX = -2, kX = 2, EX = 2, AX = 2, CX = 2, FX = -2, SX = 2, $X = 2, TX = 2, RX = 2, OX = -2, IX = -2, BX = -2, LX = -2, PX = 2, jX = 2, NX = 2, zX = -2, MX = -2, UX = -2, qX = -2, VX = -2, WX = -2, GX = -2, HX = 2, KX = 2, YX = 2, XX = 2, ZX = 2, JX = 2, QX = 2, eZ = -3, tZ = -2, nZ = -2, iZ = -2, rZ = -2, aZ = -1, sZ = -2, oZ = -2, lZ = -2, uZ = -2, cZ = -2, dZ = -2, fZ = -2, pZ = -2, hZ = -2, gZ = -2, mZ = -2, vZ = -2, yZ = -1, _Z = -1, bZ = -1, wZ = -2, DZ = -2, xZ = -2, kZ = -2, EZ = -2, AZ = -2, CZ = -2, FZ = 1, SZ = 1, $Z = 1, TZ = 2, RZ = 1, OZ = -2, IZ = -1, BZ = -3, LZ = -3, PZ = -3, jZ = -3, NZ = -3, zZ = -2, MZ = 2, UZ = 2, qZ = 2, VZ = 2, WZ = 2, GZ = 2, HZ = -2, KZ = -2, YZ = 2, XZ = -1, ZZ = -3, JZ = -3, QZ = -2, eJ = -2, tJ = -2, nJ = -2, iJ = 2, rJ = -2, aJ = -2, sJ = -2, oJ = -3, lJ = -3, uJ = -3, cJ = -3, dJ = -3, fJ = -3, pJ = -3, hJ = -3, gJ = -2, mJ = -2, vJ = -2, yJ = -2, _J = -2, bJ = -2, wJ = -2, DJ = -2, xJ = -2, kJ = -2, EJ = -2, AJ = -2, CJ = -1, FJ = -1, SJ = -3, $J = -3, TJ = -1, RJ = -2, OJ = -1, IJ = -1, BJ = -1, LJ = -2, PJ = 2, jJ = -5, NJ = 1, zJ = -1, MJ = -1, UJ = -2, qJ = -2, VJ = 2, WJ = -1, GJ = -1, HJ = -2, KJ = -2, YJ = -2, XJ = -3, ZJ = -3, JJ = -3, QJ = -3, eQ = -2, tQ = -4, nQ = -4, iQ = -2, rQ = -2, aQ = -2, sQ = 2, oQ = 2, lQ = -2, uQ = -1, cQ = 2, dQ = 3, fQ = -3, pQ = -2, hQ = -2, gQ = -3, mQ = -1, vQ = 2, yQ = 3, _Q = -2, bQ = -2, wQ = 2, DQ = -2, xQ = -3, kQ = -3, EQ = -3, AQ = -3, CQ = -3, FQ = -3, SQ = -3, $Q = -3, TQ = 1, RQ = 2, OQ = 2, IQ = -2, BQ = -2, LQ = -3, PQ = -3, jQ = -3, NQ = 2, zQ = 2, MQ = -2, UQ = -1, qQ = -1, VQ = -1, WQ = -2, GQ = -2, HQ = -2, KQ = -2, YQ = -2, XQ = -2, ZQ = -2, JQ = -3, QQ = -3, eee = 2, tee = -2, nee = -2, iee = -2, ree = -2, aee = -2, see = -2, oee = -2, lee = -2, uee = -2, cee = -2, dee = -2, fee = -2, pee = -1, hee = -1, gee = 3, mee = 3, vee = 3, yee = 3, _ee = 3, bee = 3, wee = 3, Dee = 3, xee = -1, kee = -1, Eee = -1, Aee = -1, Cee = -1, Fee = -2, See = -2, $ee = -2, Tee = -2, Ree = -2, Oee = -2, Iee = -2, Bee = -2, Lee = -2, Pee = -2, jee = -2, Nee = -2, zee = -2, Mee = -2, Uee = -2, qee = -3, Vee = -3, Wee = -3, Gee = -3, Hee = -2, Kee = -2, Yee = -2, Xee = -2, Zee = -2, Jee = -2, Qee = -2, ete = -2, tte = -3, nte = -2, ite = -2, rte = -2, ate = -2, ste = -2, ote = -2, lte = -2, ute = -2, cte = -2, dte = 2, fte = 1, pte = 2, hte = 2, gte = -3, mte = -3, vte = -3, yte = -3, _te = -3, bte = -3, wte = -3, Dte = -3, xte = -3, kte = -3, Ete = -3, Ate = -3, Cte = -1, Fte = -2, Ste = -2, $te = -2, Tte = -2, Rte = -2, Ote = -2, Ite = -2, Bte = 2, Lte = -2, Pte = -1, jte = -1, Nte = -1, zte = -2, Mte = -2, Ute = -2, qte = -2, Vte = -2, Wte = 3, Gte = 2, Hte = 2, Kte = 1, Yte = -4, Xte = -4, Zte = -3, Jte = -3, Qte = -1, ene = -2, tne = 2, nne = -1, ine = 2, rne = -3, ane = -3, sne = -3, one = -2, lne = -2, une = -2, cne = -2, dne = -2, fne = -2, pne = -1, hne = -2, gne = -2, mne = -2, vne = -2, yne = -2, _ne = -1, bne = -1, wne = -1, Dne = -2, xne = -2, kne = -2, Ene = -2, Ane = -2, Cne = -2, Fne = -2, Sne = -2, $ne = -2, Tne = -2, Rne = -2, One = -2, Ine = -2, Bne = -2, Lne = -3, Pne = -2, jne = -1, Nne = -1, zne = -1, Mne = -1, Une = 2, qne = -2, Vne = -2, Wne = -2, Gne = -2, Hne = -2, Kne = -1, Yne = -2, Xne = -2, Zne = -2, Jne = -2, Qne = -2, eie = -2, tie = -2, nie = -2, iie = -1, rie = -1, aie = -2, sie = -2, oie = -1, lie = -1, uie = -1, cie = -1, die = -3, fie = -3, pie = -3, hie = -3, gie = -2, mie = -2, vie = -2, yie = -2, _ie = -2, bie = -2, wie = -2, Die = -2, xie = -2, kie = -2, Eie = -2, Aie = -2, Cie = -2, Fie = -2, Sie = -2, $ie = -2, Tie = -2, Rie = -2, Oie = -2, Iie = -2, Bie = -2, Lie = -2, Pie = -2, jie = -2, Nie = -2, zie = -2, Mie = -2, Uie = -2, qie = -2, Vie = -2, Wie = -2, Gie = -2, Hie = -2, Kie = -2, Yie = -2, Xie = -2, Zie = -2, Jie = -2, Qie = -2, ere = -2, tre = -2, nre = -2, ire = -2, rre = 2, are = -2, sre = -2, ore = -2, lre = -2, ure = -2, cre = -2, dre = -2, fre = -2, pre = -2, hre = -2, gre = -2, mre = -2, vre = -3, yre = -3, _re = -2, bre = -2, wre = -2, Dre = -2, xre = -2, kre = -1, Ere = -1, Are = -2, Cre = -2, Fre = -2, Sre = 2, $re = 2, Tre = 2, Rre = 2, Ore = 2, Ire = -2, Bre = -2, Lre = -1, Pre = -1, jre = -1, Nre = -1, zre = -1, Mre = -3, Ure = -3, qre = -2, Vre = -2, Wre = -2, Gre = -2, Hre = -2, Kre = -1, Yre = -1, Xre = -1, Zre = -2, Jre = -2, Qre = -2, eae = -3, tae = -2, nae = 1, iae = 1, rae = -2, aae = -2, sae = -1, oae = -1, lae = -2, uae = -2, cae = -2, dae = -2, fae = -2, pae = -2, hae = -2, gae = -2, mae = -3, vae = -3, yae = -1, _ae = -2, bae = -1, wae = -2, Dae = -2, xae = -2, kae = 2, Eae = -3, Aae = -2, Cae = 2, Fae = 2, Sae = 2, $ae = 1, Tae = 4, Rae = -2, Oae = -2, Iae = 2, Bae = 2, Lae = 2, Pae = 2, jae = 3, Nae = 3, zae = 2, Mae = 2, Uae = -2, qae = -2, Vae = -2, Wae = -2, Gae = -2, Hae = -3, Kae = -2, Yae = 1, Xae = -2, Zae = 2, Jae = 2, Qae = 2, ese = -1, tse = -1, nse = 2, ise = 2, rse = 2, ase = 2, sse = 2, ose = 2, lse = 2, use = 2, cse = 2, dse = 2, fse = -2, pse = -2, hse = 2, gse = 1, mse = 1, vse = 1, yse = 3, _se = 2, bse = 2, wse = 2, Dse = 2, xse = 2, kse = 2, Ese = 2, Ase = 2, Cse = 2, Fse = -2, Sse = -2, $se = -2, Tse = -2, Rse = -2, Ose = 3, Ise = -2, Bse = -2, Lse = -2, Pse = 1, jse = 1, Nse = 1, zse = 2, Mse = 3, Use = 3, qse = 1, Vse = 2, Wse = -1, Gse = -2, Hse = -1, Kse = -1, Yse = -2, Xse = -2, Zse = -2, Jse = -1, Qse = -1, eoe = 2, toe = 2, noe = 2, ioe = 3, roe = 4, aoe = -1, soe = -1, ooe = -1, loe = -1, uoe = -1, coe = 2, doe = 2, foe = -3, poe = -1, hoe = -3, goe = -2, moe = -2, voe = -2, yoe = -2, _oe = -2, boe = -2, woe = -2, Doe = -2, xoe = -2, koe = -2, Eoe = -2, Aoe = -2, Coe = 3, Foe = 3, Soe = 3, $oe = 3, Toe = 3, Roe = 3, Ooe = -1, Ioe = -2, Boe = -1, Loe = 2, Poe = -1, joe = -1, Noe = -1, zoe = -2, Moe = 3, Uoe = 3, qoe = 3, Voe = 2, Woe = 2, Goe = 2, Hoe = 2, Koe = 1, Yoe = 1, Xoe = -2, Zoe = -2, Joe = -2, Qoe = -2, ele = 2, tle = -2, nle = -2, ile = -2, rle = -2, ale = 1, sle = 1, ole = -1, lle = -1, ule = -1, cle = -1, dle = 3, fle = 1, ple = -2, hle = -2, gle = 4, mle = 3, vle = 3, yle = 4, _le = 4, ble = -2, wle = -3, Dle = -3, xle = -3, kle = -2, Ele = -2, Ale = -2, Cle = -2, Fle = -2, Sle = -2, $le = -2, Tle = 2, Rle = 2, Ole = 1, Ile = 3, Ble = -3, Lle = -3, Ple = -3, jle = -3, Nle = -2, zle = -1, Mle = -2, Ule = -3, qle = -3, Vle = 1, Wle = -2, Gle = 2, Hle = 3, Kle = 4, Yle = -1, Xle = 3, Zle = 3, Jle = 3, Qle = 3, eue = 3, tue = -2, nue = -2, iue = -3, rue = -3, aue = -3, sue = -2, oue = -2, lue = -2, uue = -2, cue = 2, due = 2, fue = 2, pue = 2, hue = 2, gue = 2, mue = 2, vue = 2, yue = 2, _ue = 2, bue = 2, wue = 2, Due = 2, xue = 2, kue = 2, Eue = 2, Aue = -2, Cue = -2, Fue = -2, Sue = -2, $ue = 2, Tue = 2, Rue = -2, Oue = -2, Iue = 1, Bue = -3, Lue = -3, Pue = 2, jue = 2, Nue = 2, zue = 2, Mue = -2, Uue = -3, que = -2, Vue = -1, Wue = -2, Gue = 2, Hue = -2, Kue = 3, Yue = -2, Xue = -2, Zue = -2, Jue = 1, Que = 1, ece = -2, tce = -2, nce = 2, ice = -2, rce = -3, ace = 2, sce = 2, oce = -2, lce = -1, uce = -2, cce = -2, dce = -2, fce = -2, pce = 2, hce = 2, gce = 2, mce = -2, vce = -2, yce = -2, _ce = -1, bce = -2, wce = -2, Dce = -1, xce = -2, kce = -2, Ece = 1, Ace = -1, Cce = -2, Fce = -1, Sce = 1, $ce = 1, Tce = -1, Rce = -1, Oce = 2, Ice = 2, Bce = 2, Lce = -3, Pce = -1, jce = -4, Nce = -4, zce = -4, Mce = -4, Uce = -4, qce = -4, Vce = -2, Wce = 1, Gce = 2, Hce = 2, Kce = -3, Yce = 1, Xce = 1, Zce = 2, Jce = 2, Qce = 2, ede = -2, tde = -2, nde = -3, ide = -2, rde = 2, ade = -1, sde = -2, ode = -2, lde = -2, ude = -2, cde = -2, dde = -2, fde = 3, pde = -4, hde = -4, gde = -4, mde = -4, vde = -4, yde = -4, _de = -4, bde = -4, wde = -4, Dde = -3, xde = -4, kde = -4, Ede = 2, Ade = 2, Cde = 2, Fde = 2, Sde = -2, $de = 4, Tde = -1, Rde = -1, Ode = 2, Ide = 4, Bde = 4, Lde = -3, Pde = -2, jde = -2, Nde = -2, zde = 2, Mde = 2, Ude = 2, qde = 2, Vde = 3, Wde = 3, Gde = 3, Hde = -1, Kde = 3, Yde = 2, Xde = 2, Zde = 3, Jde = -2, Qde = -1, efe = -2, tfe = 2, nfe = 3, ife = 3, rfe = 3, afe = 3, sfe = 3, ofe = -1, lfe = -2, ufe = 2, cfe = 2, dfe = -2, ffe = 1, pfe = -3, hfe = 4, gfe = 2, mfe = 3, vfe = 3, yfe = 1, _fe = 3, bfe = 3, wfe = -2, Dfe = -2, xfe = 1, kfe = 2, Efe = 3, Afe = 3, Cfe = 1, Ffe = 1, Sfe = 1, $fe = 1, Tfe = 3, Rfe = 2, Ofe = -2, Ife = -1, Bfe = -2, Lfe = 3, Pfe = 3, jfe = 3, Nfe = 3, zfe = -3, Mfe = -2, Ufe = -3, qfe = -3, Vfe = -3, Wfe = -3, Gfe = 1, Hfe = 1, Kfe = 1, Yfe = 2, Xfe = 1, Zfe = -1, Jfe = -2, Qfe = -2, epe = -2, tpe = 2, npe = -2, ipe = -2, rpe = -2, ape = -2, spe = -2, ope = 1, lpe = 2, upe = 2, cpe = -3, dpe = 1, fpe = -3, ppe = -3, hpe = -2, gpe = -2, mpe = -1, vpe = 2, ype = -1, _pe = 3, bpe = 3, wpe = 3, Dpe = 2, xpe = 2, kpe = 3, Epe = 1, Ape = 3, Cpe = -2, Fpe = -2, Spe = 3, $pe = 3, Tpe = 3, Rpe = -3, Ope = -3, Ipe = -3, Bpe = -3, Lpe = -3, Ppe = -1, jpe = 2, Npe = -2, zpe = 2, Mpe = -2, Upe = -2, qpe = -2, Vpe = -2, Wpe = 2, Gpe = 2, Hpe = 2, Kpe = -2, Ype = -2, Xpe = -2, Zpe = -2, Jpe = -2, Qpe = -2, ehe = -3, the = -3, nhe = -3, ihe = -3, rhe = -3, ahe = -3, she = -3, ohe = -1, lhe = -2, uhe = 1, che = -1, dhe = -2, fhe = -3, phe = -2, hhe = 2, ghe = -3, mhe = -3, vhe = 3, yhe = -2, _he = 3, bhe = 2, whe = 4, Dhe = -2, xhe = 2, khe = -4, Ehe = -2, Ahe = 2, Che = 2, Fhe = 2, She = -2, $he = 2, The = 2, Rhe = 2, Ohe = 3, Ihe = -2, Bhe = -2, Lhe = -1, Phe = -1, jhe = -3, Nhe = -1, zhe = -1, Mhe = 2, Uhe = 2, qhe = -2, Vhe = -2, Whe = -2, Ghe = -1, Hhe = -2, Khe = -2, Yhe = -2, Xhe = -2, Zhe = 2, Jhe = 2, Qhe = 2, e1e = 2, t1e = 2, n1e = 2, i1e = 2, r1e = -2, a1e = -2, s1e = -2, o1e = 2, l1e = 2, u1e = 2, c1e = -2, d1e = -2, f1e = 2, p1e = 2, h1e = -3, g1e = -3, m1e = -3, v1e = -3, y1e = -3, _1e = -2, b1e = -2, w1e = -2, D1e = 2, x1e = 1, k1e = 2, E1e = 2, A1e = 1, C1e = -2, F1e = 3, S1e = -3, $1e = -3, T1e = 2, R1e = 2, O1e = 2, I1e = 2, B1e = -2, L1e = 5, P1e = -2, j1e = -2, N1e = -2, z1e = -2, M1e = -3, U1e = -3, q1e = -3, V1e = -3, W1e = -3, G1e = -3, H1e = -3, K1e = -2, Y1e = -2, X1e = -1, Z1e = -2, J1e = -1, Q1e = -2, ege = -3, tge = -3, nge = -3, ige = -2, rge = -2, age = -2, sge = -2, oge = 2, lge = -3, uge = -1, cge = 2, dge = 1, fge = -2, pge = -2, hge = -2, gge = -2, mge = -2, vge = -2, yge = -3, _ge = -3, bge = -2, wge = -2, Dge = -2, xge = -2, kge = -2, Ege = -2, Age = 2, Cge = 2, Fge = -1, Sge = -1, $ge = -1, Tge = -1, Rge = -2, Oge = -2, Ige = 3, Bge = 3, Lge = 3, Pge = 3, jge = -2, Nge = -2, zge = -2, Mge = -2, Uge = 2, qge = 2, Vge = 2, Wge = 2, Gge = 2, Hge = -2, Kge = -2, Yge = -2, Xge = -2, Zge = -2, Jge = -2, Qge = -2, eme = -2, tme = -2, nme = -2, ime = -2, rme = -2, ame = -2, sme = -2, ome = -2, lme = -2, ume = -1, cme = -2, dme = -2, fme = -2, pme = -2, hme = 1, gme = 1, mme = -2, vme = 2, yme = -2, _me = -2, bme = -2, wme = -2, Dme = -2, xme = -2, kme = -2, Eme = -2, Ame = -2, Cme = -2, Fme = -3, Sme = -3, $me = -2, Tme = -2, Rme = -2, Ome = -2, Ime = -2, Bme = -2, Lme = -2, Pme = -2, jme = -2, Nme = -2, zme = 2, Mme = 2, Ume = -2, qme = -2, Vme = -2, Wme = -2, Gme = -2, Hme = -2, Kme = -2, Yme = -2, Xme = -2, Zme = -2, Jme = -2, Qme = -2, eve = -2, tve = -2, nve = -2, ive = -2, rve = -2, ave = 2, sve = -2, ove = -2, lve = -2, uve = -2, cve = -2, dve = -2, fve = -2, pve = -2, hve = -2, gve = -1, mve = -2, vve = -2, yve = -2, _ve = -2, bve = -2, wve = 1, Dve = 1, xve = 1, kve = 2, Eve = -2, Ave = -2, Cve = 2, Fve = -2, Sve = -2, $ve = -2, Tve = -2, Rve = -2, Ove = -2, Ive = -2, Bve = -2, Lve = -2, Pve = 2, jve = 2, Nve = 2, zve = 2, Mve = 2, Uve = 3, qve = -2, Vve = -2, Wve = -2, Gve = -2, Hve = -2, Kve = -2, Yve = -2, Xve = 2, Zve = 2, Jve = 2, Qve = 1, e2e = 1, t2e = 2, n2e = 2, i2e = 1, r2e = -2, a2e = -2, s2e = -2, o2e = -2, l2e = -2, u2e = -2, c2e = 2, d2e = -2, f2e = -2, p2e = -2, h2e = -2, g2e = -2, m2e = -2, v2e = -2, y2e = 2, _2e = 1, b2e = -1, w2e = 2, D2e = 1, x2e = 1, k2e = 2, E2e = -3, A2e = -1, C2e = -1, F2e = -1, S2e = -2, $2e = -2, T2e = 2, R2e = 2, O2e = -2, I2e = -2, B2e = -2, L2e = -1, P2e = -1, j2e = -3, N2e = -3, z2e = -3, M2e = -3, U2e = -1, q2e = -2, V2e = -4, W2e = -4, G2e = -2, H2e = 2, K2e = -2, Y2e = -2, X2e = -2, Z2e = -3, J2e = 1, Q2e = 1, eye = 1, tye = 2, nye = 1, iye = 2, rye = 2, aye = 2, sye = 2, oye = 3, lye = 3, uye = 3, cye = -2, dye = 3, fye = 3, pye = -1, hye = 2, gye = 2, mye = 2, vye = 1, yye = -3, _ye = -3, bye = -2, wye = -2, Dye = -2, xye = -2, kye = -2, Eye = -3, Aye = -3, Cye = -3, Fye = -3, Sye = 2, $ye = 2, Tye = 2, Rye = 2, Oye = 3, Iye = -2, Bye = -2, Lye = -1, Pye = -2, jye = -2, Nye = -2, zye = -2, Mye = 2, Uye = -1, qye = -1, Vye = 1, Wye = 1, Gye = 1, Hye = 1, Kye = 1, Yye = 1, Xye = 3, Zye = -2, Jye = -2, Qye = -1, e_e = 1, t_e = 2, n_e = -1, i_e = -1, r_e = -1, a_e = 1, s_e = 1, o_e = 1, l_e = -2, u_e = -2, c_e = -2, d_e = -2, f_e = -3, p_e = -3, h_e = -2, g_e = -2, m_e = -1, v_e = 4, y_e = 1, __e = 2, b_e = 2, w_e = 2, D_e = 2, x_e = 2, k_e = 2, E_e = 2, A_e = -1, C_e = -1, F_e = -1, S_e = -1, $_e = -2, T_e = 2, R_e = -2, O_e = 4, I_e = 4, B_e = -3, L_e = -3, P_e = -3, j_e = -3, N_e = -3, z_e = -2, M_e = -2, U_e = -2, q_e = -2, V_e = -2, W_e = 3, G_e = 4, H_e = 4, K_e = 4, Y_e = -2, X_e = -2, Z_e = -1, J_e = 3, Q_e = -1, ebe = -1, tbe = -1, nbe = -1, ibe = 3, rbe = 3, abe = -3, sbe = -3, obe = -3, lbe = -3, ube = -3, cbe = -3, dbe = -3, fbe = -2, pbe = 3, hbe = 3, gbe = 3, mbe = 3, vbe = 3, ybe = 3, _be = 2, bbe = -1, wbe = 3, Dbe = 3, xbe = 3, kbe = 3, Ebe = 3, Abe = 3, Cbe = -3, Fbe = -2, Sbe = -3, $be = -3, Tbe = -1, Rbe = -1, Obe = -1, Ibe = 2, Bbe = -2, Lbe = -3, Pbe = -3, jbe = -3, Nbe = -3, zbe = 3, Mbe = -2, Ube = -2, qbe = -2, Vbe = -1, Wbe = -1, Gbe = -1, Hbe = -1, Kbe = -3, Ybe = 3, Xbe = 3, Zbe = 3, Jbe = 4, Qbe = 4, e0e = 1, t0e = 1, n0e = 2, i0e = 2, r0e = -2, a0e = 3, s0e = -3, o0e = 1, l0e = -2, u0e = 1, c0e = -2, d0e = -2, f0e = -2, p0e = -2, h0e = 2, g0e = 3, m0e = 3, v0e = -2, y0e = -2, _0e = 2, b0e = 2, w0e = -2, D0e = 4, x0e = 3, k0e = 3, E0e = 3, A0e = -2, C0e = -2, F0e = -2, S0e = -2, $0e = -3, T0e = -2, R0e = -1, O0e = -1, I0e = -2, B0e = -2, L0e = -2, P0e = -2, j0e = -2, N0e = -2, z0e = -2, M0e = -3, U0e = -3, q0e = -2, V0e = -2, W0e = -2, G0e = -2, H0e = -2, K0e = -2, Y0e = -2, X0e = -3, Z0e = -3, J0e = -3, Q0e = -3, e3e = -2, t3e = -2, n3e = -2, i3e = -2, r3e = -3, a3e = -1, s3e = -2, o3e = -2, l3e = -2, u3e = -2, c3e = -2, d3e = -2, f3e = -2, p3e = -2, h3e = -2, g3e = -2, m3e = -2, v3e = -2, y3e = -2, _3e = -2, b3e = -2, w3e = -2, D3e = -2, x3e = -2, k3e = -2, E3e = -2, A3e = -2, C3e = -2, F3e = -2, S3e = -2, $3e = -2, T3e = -2, R3e = -2, O3e = -2, I3e = -2, B3e = -2, L3e = -2, P3e = -2, j3e = -2, N3e = 2, z3e = 2, M3e = 2, U3e = 2, q3e = -2, V3e = -2, W3e = -2, G3e = -2, H3e = -2, K3e = -1, Y3e = -1, X3e = -1, Z3e = -1, J3e = -3, Q3e = -5, ewe = -5, twe = 1, nwe = 2, iwe = 2, rwe = 1, awe = -2, swe = -2, owe = -2, lwe = -2, uwe = -2, cwe = -2, dwe = -2, fwe = -2, pwe = -2, hwe = -3, gwe = -3, mwe = -2, vwe = -2, ywe = -1, _we = -2, bwe = -2, wwe = -2, Dwe = -3, xwe = 1, kwe = -2, Ewe = -2, Awe = -2, Cwe = -2, Fwe = -2, Swe = -2, $we = -2, Twe = -1, Rwe = -2, Owe = -2, Iwe = 3, Bwe = 2, Lwe = -5, Pwe = -5, jwe = -1, Nwe = 2, zwe = 2, Mwe = -1, Uwe = -2, qwe = -2, Vwe = -2, Wwe = 2, Gwe = 2, Hwe = -2, Kwe = 2, Ywe = -1, Xwe = 2, Zwe = -3, Jwe = -2, Qwe = -2, eDe = -3, tDe = -2, nDe = -2, iDe = 2, rDe = -2, aDe = -2, sDe = -2, oDe = -2, lDe = -2, uDe = -2, cDe = -2, dDe = -2, fDe = -2, pDe = -2, hDe = -2, gDe = -2, mDe = -2, vDe = -2, yDe = -2, _De = -2, bDe = -2, wDe = -2, DDe = -2, xDe = -2, kDe = -2, EDe = -1, ADe = 2, CDe = 3, FDe = -2, SDe = 2, $De = 2, TDe = -2, RDe = -2, ODe = -2, IDe = -2, BDe = 2, LDe = 2, PDe = -2, jDe = -2, NDe = -2, zDe = -2, MDe = -2, UDe = -2, qDe = -2, VDe = -2, WDe = -2, GDe = -2, HDe = -2, KDe = -2, YDe = -3, XDe = -3, ZDe = -3, JDe = 2, QDe = 5, exe = 4, txe = -1, nxe = -1, ixe = -2, rxe = -2, axe = -2, sxe = -2, oxe = -2, lxe = -2, uxe = -2, cxe = -2, dxe = -2, fxe = -2, pxe = -1, hxe = -2, gxe = -2, mxe = -2, vxe = -2, yxe = -2, _xe = -2, bxe = -2, wxe = -1, Dxe = -3, xxe = -1, kxe = -2, Exe = -2, Axe = -2, Cxe = -3, Fxe = -3, Sxe = -3, $xe = 3, Txe = -1, Rxe = 2, Oxe = 2, Ixe = 2, Bxe = 2, Lxe = -1, Pxe = 1, jxe = 2, Nxe = -1, zxe = -1, Mxe = -2, Uxe = -1, qxe = 2, Vxe = 2, Wxe = 2, Gxe = -2, Hxe = -2, Kxe = -2, Yxe = -2, Xxe = -2, Zxe = -1, Jxe = 3, Qxe = 2, eke = 3, tke = 3, nke = 2, ike = -2, rke = -3, ake = -2, ske = -2, oke = -2, lke = -2, uke = -2, cke = -2, dke = -2, fke = -2, pke = -2, hke = -3, gke = -2, mke = -2, vke = -2, yke = -2, _ke = 2, bke = -2, wke = 2, Dke = -1, xke = -2, kke = -2, Eke = -2, Ake = -4, Cke = -4, Fke = -3, Ske = -2, $ke = -1, Tke = -2, Rke = -3, Oke = -3, Ike = -3, Bke = -3, Lke = 2, Pke = 3, jke = 1, Nke = 3, zke = 3, Mke = 3, Uke = -2, qke = 2, Vke = -2, Wke = -2, Gke = -2, Hke = -2, Kke = -2, Yke = 2, Xke = 2, Zke = 2, Jke = -2, Qke = -2, eEe = -2, tEe = -2, nEe = -2, iEe = -2, rEe = -2, aEe = -2, sEe = -2, oEe = -2, lEe = -2, uEe = 3, cEe = 3, dEe = 2, fEe = 2, pEe = -2, hEe = -1, gEe = -1, mEe = -1, vEe = -1, yEe = -1, _Ee = 2, bEe = -2, wEe = 3, DEe = 3, xEe = 3, kEe = 3, EEe = 1, AEe = 1, CEe = 1, FEe = -2, SEe = -2, $Ee = -2, TEe = 1, REe = -1, OEe = -2, IEe = -1, BEe = -1, LEe = -1, PEe = 1, jEe = -1, NEe = -1, zEe = -1, MEe = -1, UEe = -5, qEe = -2, VEe = -2, WEe = -2, GEe = 2, HEe = 2, KEe = -2, YEe = -2, XEe = 2, ZEe = 2, JEe = -2, QEe = 2, eAe = 2, tAe = -1, nAe = -1, iAe = 2, rAe = 1, aAe = 1, sAe = 1, oAe = 1, lAe = 1, uAe = 1, cAe = 1, dAe = 1, fAe = -2, pAe = -1, hAe = -2, gAe = -1, mAe = -1, vAe = 1, yAe = 1, _Ae = 3, bAe = 3, wAe = 1, DAe = 1, xAe = -2, kAe = -2, EAe = -2, AAe = -2, CAe = 2, FAe = 2, SAe = -1, $Ae = -1, TAe = -1, RAe = -1, OAe = 2, IAe = -3, BAe = -2, LAe = -2, PAe = -2, jAe = -2, NAe = -2, zAe = -2, MAe = 1, UAe = 1, qAe = 2, VAe = -1, WAe = -2, GAe = -2, HAe = 2, KAe = 2, YAe = -2, XAe = -1, ZAe = -1, JAe = -3, QAe = -3, eCe = -3, tCe = -2, nCe = -2, iCe = -1, rCe = -3, aCe = -3, sCe = -3, oCe = -3, lCe = -4, uCe = -4, cCe = -4, dCe = 2, fCe = 2, pCe = 2, hCe = 4, gCe = -2, mCe = 2, vCe = 1, yCe = 1, _Ce = 1, bCe = 1, wCe = 1, DCe = 1, xCe = 1, kCe = 2, ECe = -2, ACe = -2, CCe = -2, FCe = -2, SCe = -2, $Ce = 2, TCe = 2, RCe = 2, OCe = 2, ICe = 2, BCe = 1, LCe = 1, PCe = 1, jCe = 2, NCe = -2, zCe = -2, MCe = -2, UCe = -2, qCe = -2, VCe = -2, WCe = -2, GCe = -2, HCe = -2, KCe = 1, YCe = -1, XCe = -1, ZCe = -1, JCe = -2, QCe = -1, eFe = 4, tFe = 4, nFe = 4, iFe = 4, rFe = 2, aFe = -1, sFe = 2, oFe = 2, lFe = 2, uFe = 2, cFe = 1, dFe = 2, fFe = 1, pFe = 2, hFe = 2, gFe = 2, mFe = -2, vFe = -2, yFe = -2, _Fe = -2, bFe = -2, wFe = -2, DFe = -2, xFe = -2, kFe = -1, EFe = -2, AFe = -2, CFe = 2, FFe = 2, SFe = 2, $Fe = -2, TFe = -1, RFe = -1, OFe = -1, IFe = -1, BFe = 2, LFe = 2, PFe = 2, jFe = 2, NFe = 2, zFe = 2, MFe = 2, UFe = 2, qFe = 2, VFe = 1, WFe = 2, GFe = 2, HFe = 2, KFe = -2, YFe = 1, XFe = 1, ZFe = 1, JFe = 1, QFe = -2, e4e = -2, t4e = -2, n4e = -2, i4e = -1, r4e = -2, a4e = -1, s4e = -2, o4e = -2, l4e = -1, u4e = -2, c4e = -2, d4e = 2, f4e = 2, p4e = 2, h4e = -2, g4e = 2, m4e = 2, v4e = 2, y4e = 2, _4e = 2, b4e = 2, w4e = -3, D4e = -1, x4e = -1, k4e = 2, E4e = 2, A4e = 2, C4e = 3, F4e = 3, S4e = -2, $4e = -2, T4e = 1, R4e = 1, O4e = -2, I4e = -2, B4e = -2, L4e = 3, P4e = -2, j4e = -2, N4e = -2, z4e = -2, M4e = -2, U4e = 2, q4e = 4, V4e = 4, W4e = 4, G4e = 2, H4e = 2, K4e = 2, Y4e = 1, X4e = 4, Z4e = 4, J4e = 4, Q4e = -3, eSe = -2, tSe = -2, nSe = -2, iSe = -2, rSe = -2, aSe = -2, sSe = -2, oSe = -2, lSe = -2, uSe = -2, cSe = 1, dSe = 1, fSe = 2, pSe = 1, hSe = 1, gSe = 2, mSe = 2, vSe = 2, ySe = 2, _Se = 2, bSe = -1, wSe = -2, DSe = 2, xSe = -2, kSe = -2, ESe = 2, ASe = 2, CSe = 1, FSe = -2, SSe = -2, $Se = -3, TSe = -3, RSe = -3, OSe = -2, ISe = -2, BSe = -2, LSe = -2, PSe = -2, jSe = -2, NSe = -2, zSe = -2, MSe = -2, USe = 3, qSe = -2, VSe = -2, WSe = -2, GSe = -2, HSe = -2, KSe = -2, YSe = -2, XSe = -3, ZSe = -4, JSe = 2, QSe = 2, e5e = 2, t5e = 2, n5e = 2, i5e = -2, r5e = -2, a5e = -1, s5e = -3, o5e = -3, l5e = -2, u5e = -2, c5e = -2, d5e = -2, f5e = 2, p5e = 1, h5e = 1, g5e = -2, m5e = -2, v5e = -2, y5e = -2, _5e = 3, b5e = -2, w5e = -2, D5e = -2, x5e = -2, k5e = 1, E5e = 1, A5e = 1, C5e = -2, F5e = -4, S5e = -4, $5e = -3, T5e = -2, R5e = -2, O5e = -2, I5e = -2, B5e = -2, L5e = -1, P5e = -2, j5e = -2, N5e = -4, z5e = -1, M5e = -2, U5e = -2, q5e = -2, V5e = 1, W5e = 1, G5e = -1, H5e = -1, K5e = 1, Y5e = -2, X5e = 2, Z5e = 2, J5e = 2, Q5e = 2, e$e = -3, t$e = -2, n$e = -2, i$e = -2, r$e = -2, a$e = -2, s$e = -2, o$e = -2, l$e = -2, u$e = -2, c$e = -2, d$e = -2, f$e = -2, p$e = -3, h$e = -3, g$e = -3, m$e = -2, v$e = 2, y$e = 2, _$e = 2, b$e = -1, w$e = -2, D$e = -2, x$e = -1, k$e = -5, E$e = 1, A$e = 2, C$e = 2, F$e = -2, S$e = 2, $$e = 2, T$e = 2, R$e = 2, O$e = -2, I$e = -2, B$e = -2, L$e = -2, P$e = -2, j$e = -1, N$e = -2, z$e = -2, M$e = -2, U$e = -2, q$e = -2, V$e = -2, W$e = -2, G$e = -2, H$e = 1, K$e = -1, Y$e = 2, X$e = 2, Z$e = 2, J$e = 2, Q$e = 2, eTe = 2, tTe = 1, nTe = 1, iTe = 1, rTe = 1, aTe = 1, sTe = 1, oTe = -2, lTe = 3, uTe = 3, cTe = 3, dTe = 2, fTe = -1, pTe = -2, hTe = -2, gTe = -1, mTe = 1, vTe = -2, yTe = -3, _Te = -3, bTe = -2, wTe = 1, DTe = 3, xTe = 3, kTe = 3, ETe = 2, ATe = -2, CTe = 1, FTe = 2, STe = -2, $Te = -2, TTe = 3, RTe = -2, OTe = -2, ITe = 2, BTe = 2, LTe = -2, PTe = -2, jTe = -2, NTe = -2, zTe = -1, MTe = -2, UTe = -2, qTe = 2, VTe = -2, WTe = -2, GTe = -2, HTe = -2, KTe = 2, YTe = -2, XTe = -2, ZTe = -2, JTe = 3, QTe = -2, eRe = -2, tRe = -2, nRe = -2, iRe = 2, rRe = -2, aRe = -2, sRe = -2, oRe = -2, lRe = -2, uRe = -1, cRe = 1, dRe = 1, fRe = 1, pRe = 2, hRe = -2, gRe = -2, mRe = -2, vRe = -2, yRe = -2, _Re = -2, bRe = -2, wRe = -2, DRe = -2, xRe = -1, kRe = -1, ERe = -1, ARe = -1, CRe = 2, FRe = 1, SRe = -1, $Re = -1, TRe = -2, RRe = 2, ORe = 2, IRe = 2, BRe = 2, LRe = 2, PRe = 2, jRe = -1, NRe = -2, zRe = -2, MRe = -2, URe = -2, qRe = -1, VRe = -2, WRe = -1, GRe = 2, HRe = 2, KRe = 2, YRe = -1, XRe = -2, ZRe = -2, JRe = -2, QRe = -2, eOe = -2, tOe = -2, nOe = -2, iOe = 4, rOe = -2, aOe = -3, sOe = -2, oOe = 2, lOe = -2, uOe = 1, cOe = 1, dOe = -2, fOe = 3, pOe = 3, hOe = 3, gOe = 3, mOe = 2, vOe = 3, yOe = 3, _Oe = -3, bOe = -3, wOe = -2, DOe = -2, xOe = -2, kOe = -2, EOe = -2, AOe = -2, COe = -2, FOe = -2, SOe = -2, $Oe = -2, TOe = -2, ROe = -2, OOe = -2, IOe = -2, BOe = 2, LOe = 2, POe = -2, jOe = -2, NOe = -2, zOe = 2, MOe = 5, UOe = 2, qOe = 2, VOe = 2, WOe = 1, GOe = 1, HOe = 1, KOe = 2, YOe = 2, XOe = 4, ZOe = 2, JOe = 2, QOe = 2, eIe = -1, tIe = -1, nIe = -1, iIe = -1, rIe = -1, aIe = -1, sIe = -2, oIe = 1, lIe = 2, uIe = 2, cIe = -2, dIe = -2, fIe = -2, pIe = 2, hIe = 3, gIe = 3, mIe = 2, vIe = 2, yIe = -3, _Ie = -3, bIe = -3, wIe = 2, DIe = 2, xIe = -2, kIe = -2, EIe = 2, AIe = -2, CIe = -2, FIe = -2, SIe = -2, $Ie = -2, TIe = 2, RIe = 2, OIe = -2, IIe = -1, BIe = -3, LIe = -3, PIe = 4, jIe = 4, NIe = -3, zIe = -3, MIe = -2, UIe = -2, qIe = -3, VIe = -3, WIe = -3, GIe = 2, HIe = 2, KIe = 2, YIe = -2, XIe = 2, ZIe = -2, JIe = -2, QIe = -2, eBe = -2, tBe = -2, nBe = -2, iBe = -2, rBe = 5, aBe = -2, sBe = -2, oBe = -2, lBe = -2, uBe = -2, cBe = -2, dBe = -2, fBe = -2, pBe = 2, hBe = 2, gBe = -2, mBe = 2, vBe = 2, yBe = -2, _Be = -4, bBe = -4, wBe = -4, DBe = -4, xBe = -2, kBe = -2, EBe = -2, ABe = -2, CBe = -2, FBe = -2, SBe = -3, $Be = -2, TBe = -2, RBe = -2, OBe = 2, IBe = -2, BBe = -2, LBe = -2, PBe = -2, jBe = -1, NBe = -2, zBe = -1, MBe = -3, UBe = -3, qBe = -2, VBe = -3, WBe = -3, GBe = 2, HBe = 2, KBe = -2, YBe = -2, XBe = -2, ZBe = -2, JBe = -2, QBe = 2, eLe = -2, tLe = -2, nLe = 4, iLe = 4, rLe = -2, aLe = -2, sLe = -2, oLe = -2, lLe = -2, uLe = 1, cLe = 2, dLe = 1, fLe = -2, pLe = -5, hLe = -3, gLe = -3, mLe = -3, vLe = -3, yLe = -3, _Le = 2, bLe = -2, wLe = -3, DLe = -3, xLe = -2, kLe = -2, ELe = -2, ALe = -2, CLe = -2, FLe = -2, SLe = -1, $Le = -2, TLe = -2, RLe = -2, OLe = -1, ILe = -1, BLe = 2, LLe = -1, PLe = -1, jLe = -2, NLe = -2, zLe = -1, MLe = -1, ULe = -1, qLe = -1, VLe = -2, WLe = -1, GLe = -1, HLe = -1, KLe = -1, YLe = -2, XLe = -2, ZLe = -2, JLe = -2, QLe = -2, e8e = -2, t8e = -2, n8e = -2, i8e = -2, r8e = -2, a8e = -2, s8e = -1, o8e = -2, l8e = -1, u8e = 2, c8e = -2, d8e = -2, f8e = -2, p8e = -2, h8e = -2, g8e = -2, m8e = -2, v8e = -3, y8e = -2, _8e = -2, b8e = -2, w8e = -2, D8e = -3, x8e = -2, k8e = -2, E8e = -2, A8e = -2, C8e = 1, F8e = -2, S8e = -2, $8e = -2, T8e = -2, R8e = -2, O8e = -2, I8e = 1, B8e = -2, L8e = -1, P8e = -2, j8e = -2, N8e = 1, z8e = -2, M8e = -2, U8e = -2, q8e = -2, V8e = -2, W8e = -2, G8e = 1, H8e = -2, K8e = -2, Y8e = -2, X8e = -2, Z8e = -2, J8e = -2, Q8e = 2, ePe = -1, tPe = -1, nPe = -2, iPe = -2, rPe = -2, aPe = 2, sPe = -2, oPe = -2, lPe = -2, uPe = -1, cPe = 2, dPe = -2, fPe = -2, pPe = -2, hPe = 2, gPe = -3, mPe = -2, vPe = -2, yPe = -2, _Pe = -2, bPe = -1, wPe = 2, DPe = 2, xPe = -2, kPe = -2, EPe = -2, APe = 1, CPe = 1, FPe = 1, SPe = 1, $Pe = -2, TPe = -1, RPe = -1, OPe = 1, IPe = -2, BPe = -2, LPe = 3, PPe = -2, jPe = -3, NPe = -3, zPe = -3, MPe = -3, UPe = -3, qPe = -3, VPe = -3, WPe = 3, GPe = 3, HPe = 3, KPe = 3, YPe = 3, XPe = 3, ZPe = -3, JPe = 2, QPe = 2, e9e = 2, t9e = 2, n9e = -2, i9e = -2, r9e = -2, a9e = -2, s9e = -2, o9e = -2, l9e = -3, u9e = -3, c9e = -3, d9e = 2, f9e = -2, p9e = 1, h9e = 3, g9e = 1, m9e = 1, v9e = 3, y9e = 1, _9e = -3, b9e = 3, w9e = 2, D9e = -1, x9e = -3, k9e = -3, E9e = -3, A9e = -3, C9e = -2, F9e = -2, S9e = -2, $9e = -2, T9e = -3, R9e = 1, O9e = -2, I9e = -2, B9e = 1, L9e = 2, P9e = 2, j9e = 2, N9e = -2, z9e = -2, M9e = -3, U9e = -3, q9e = -2, V9e = -1, W9e = -2, G9e = -2, H9e = -1, K9e = -2, Y9e = -2, X9e = -2, Z9e = -2, J9e = 3, Q9e = 2, e7e = 2, t7e = -2, n7e = -2, i7e = -2, r7e = -2, a7e = 2, s7e = 2, o7e = 2, l7e = 1, u7e = -3, c7e = -4, d7e = -2, f7e = -1, p7e = 2, h7e = 4, g7e = 4, m7e = 4, v7e = 4, y7e = 3, _7e = 1, b7e = 1, w7e = 1, D7e = 1, x7e = -3, k7e = 2, E7e = -2, A7e = -3, C7e = 3, F7e = 4, S7e = 4, $7e = 3, T7e = 3, R7e = 4, O7e = 4, I7e = -1, B7e = -3, L7e = -3, P7e = -3, j7e = -3, N7e = -3, z7e = -3, M7e = -3, U7e = -3, q7e = -3, V7e = 3, W7e = -3, G7e = 2, H7e = -2, K7e = 2, Y7e = 4, X7e = 4, Z7e = 4, J7e = -3, Q7e = -2, e6e = -2, t6e = -2, n6e = -2, i6e = -2, r6e = -2, a6e = -2, s6e = -2, o6e = -2, l6e = -4, u6e = -4, c6e = -4, d6e = 3, f6e = 3, p6e = 4, h6e = 4, g6e = 1, m6e = 1, v6e = 2, y6e = 1, _6e = 2, b6e = -2, w6e = 3, D6e = -2, x6e = -2, k6e = 2, E6e = {
   abandon: tz,
   abandoned: nz,
   abandons: iz,
@@ -15244,115 +15244,115 @@ const ez = {
   tremulous: ZBe,
   tribulation: JBe,
   tribute: QBe,
-  tricked: e8e,
-  trickery: t8e,
-  triumph: n8e,
-  triumphant: i8e,
-  troll: r8e,
-  trouble: a8e,
-  troubled: s8e,
-  troubles: o8e,
-  troubling: l8e,
+  tricked: eLe,
+  trickery: tLe,
+  triumph: nLe,
+  triumphant: iLe,
+  troll: rLe,
+  trouble: aLe,
+  troubled: sLe,
+  troubles: oLe,
+  troubling: lLe,
   true: 2,
-  trust: u8e,
-  trusted: c8e,
-  trusts: d8e,
-  tumor: f8e,
-  twat: p8e,
-  tyran: h8e,
-  tyrannic: g8e,
-  tyrannical: m8e,
-  tyrannically: v8e,
-  tyrans: y8e,
-  ubiquitous: _8e,
-  ugh: b8e,
-  ugliness: w8e,
-  ugly: D8e,
-  unable: x8e,
-  unacceptable: k8e,
-  unappeasable: E8e,
-  unappreciated: A8e,
-  unapproved: C8e,
-  unattractive: F8e,
-  unavailable: S8e,
-  unavailing: $8e,
-  unaware: T8e,
-  unbearable: R8e,
-  unbelievable: O8e,
-  unbelieving: I8e,
-  unbiased: B8e,
-  uncertain: L8e,
-  unclear: P8e,
-  uncomfortable: j8e,
-  unconcerned: N8e,
-  unconfirmed: z8e,
-  unconvinced: M8e,
-  uncredited: U8e,
-  undecided: q8e,
-  undercooked: V8e,
-  underestimate: W8e,
-  underestimated: G8e,
-  underestimates: H8e,
-  underestimating: K8e,
-  undermine: Y8e,
-  undermined: X8e,
-  undermines: Z8e,
-  undermining: J8e,
-  underperform: Q8e,
-  underperformed: eLe,
-  underperforming: tLe,
-  underperforms: nLe,
-  undeserving: iLe,
-  undesirable: rLe,
-  uneasy: aLe,
-  unemployed: sLe,
-  unemployment: oLe,
-  unequal: lLe,
-  unequaled: uLe,
-  unethical: cLe,
-  uneventful: dLe,
-  unfair: fLe,
-  unfavorable: pLe,
-  unfit: hLe,
-  unfitted: gLe,
-  unfocused: mLe,
-  unforgivable: vLe,
-  unforgiving: yLe,
-  unfulfilled: _Le,
-  unfunny: bLe,
-  ungenerous: wLe,
-  ungrateful: DLe,
-  unhappy: xLe,
-  unhappiness: kLe,
-  unhealthy: ELe,
-  unhygienic: ALe,
-  unified: CLe,
-  unimaginative: FLe,
-  unimpressed: SLe,
-  uninspired: $Le,
-  unintelligent: TLe,
-  unintentional: RLe,
-  uninvolving: OLe,
-  united: ILe,
-  unjust: BLe,
-  unlikely: LLe,
-  unlovable: PLe,
-  unloved: jLe,
-  unmatched: NLe,
-  unmotivated: zLe,
-  unoriginal: MLe,
-  unparliamentary: ULe,
-  unpleasant: qLe,
-  unpleasantness: VLe,
-  unprofessional: WLe,
-  unravel: GLe,
-  unreleting: HLe,
-  unresearched: KLe,
-  unsafe: YLe,
-  unsatisfied: XLe,
-  unscientific: ZLe,
-  unsecured: JLe,
-  unselfish: QLe,
+  trust: uLe,
+  trusted: cLe,
+  trusts: dLe,
+  tumor: fLe,
+  twat: pLe,
+  tyran: hLe,
+  tyrannic: gLe,
+  tyrannical: mLe,
+  tyrannically: vLe,
+  tyrans: yLe,
+  ubiquitous: _Le,
+  ugh: bLe,
+  ugliness: wLe,
+  ugly: DLe,
+  unable: xLe,
+  unacceptable: kLe,
+  unappeasable: ELe,
+  unappreciated: ALe,
+  unapproved: CLe,
+  unattractive: FLe,
+  unavailable: SLe,
+  unavailing: $Le,
+  unaware: TLe,
+  unbearable: RLe,
+  unbelievable: OLe,
+  unbelieving: ILe,
+  unbiased: BLe,
+  uncertain: LLe,
+  unclear: PLe,
+  uncomfortable: jLe,
+  unconcerned: NLe,
+  unconfirmed: zLe,
+  unconvinced: MLe,
+  uncredited: ULe,
+  undecided: qLe,
+  undercooked: VLe,
+  underestimate: WLe,
+  underestimated: GLe,
+  underestimates: HLe,
+  underestimating: KLe,
+  undermine: YLe,
+  undermined: XLe,
+  undermines: ZLe,
+  undermining: JLe,
+  underperform: QLe,
+  underperformed: e8e,
+  underperforming: t8e,
+  underperforms: n8e,
+  undeserving: i8e,
+  undesirable: r8e,
+  uneasy: a8e,
+  unemployed: s8e,
+  unemployment: o8e,
+  unequal: l8e,
+  unequaled: u8e,
+  unethical: c8e,
+  uneventful: d8e,
+  unfair: f8e,
+  unfavorable: p8e,
+  unfit: h8e,
+  unfitted: g8e,
+  unfocused: m8e,
+  unforgivable: v8e,
+  unforgiving: y8e,
+  unfulfilled: _8e,
+  unfunny: b8e,
+  ungenerous: w8e,
+  ungrateful: D8e,
+  unhappy: x8e,
+  unhappiness: k8e,
+  unhealthy: E8e,
+  unhygienic: A8e,
+  unified: C8e,
+  unimaginative: F8e,
+  unimpressed: S8e,
+  uninspired: $8e,
+  unintelligent: T8e,
+  unintentional: R8e,
+  uninvolving: O8e,
+  united: I8e,
+  unjust: B8e,
+  unlikely: L8e,
+  unlovable: P8e,
+  unloved: j8e,
+  unmatched: N8e,
+  unmotivated: z8e,
+  unoriginal: M8e,
+  unparliamentary: U8e,
+  unpleasant: q8e,
+  unpleasantness: V8e,
+  unprofessional: W8e,
+  unravel: G8e,
+  unreleting: H8e,
+  unresearched: K8e,
+  unsafe: Y8e,
+  unsatisfied: X8e,
+  unscientific: Z8e,
+  unsecured: J8e,
+  unselfish: Q8e,
   unsettled: ePe,
   unsold: tPe,
   unsophisticated: nPe,
@@ -15462,14 +15462,14 @@ const ez = {
   weaknesses: Z9e,
   wealth: J9e,
   wealthier: Q9e,
-  wealthy: e6e,
-  weary: t6e,
-  weep: n6e,
-  weeping: i6e,
-  weird: r6e,
-  welcome: a6e,
-  welcomed: s6e,
-  welcomes: o6e,
+  wealthy: e7e,
+  weary: t7e,
+  weep: n7e,
+  weeping: i7e,
+  weird: r7e,
+  welcome: a7e,
+  welcomed: s7e,
+  welcomes: o7e,
   "well-being": 2,
   "well-championed": 3,
   "well-developed": 2,
@@ -15477,107 +15477,107 @@ const ez = {
   "well-focused": 2,
   "well-groomed": 2,
   "well-proportioned": 2,
-  whimsical: l6e,
-  whitewash: u6e,
-  whore: c6e,
-  wicked: d6e,
-  widowed: f6e,
-  willingness: p6e,
-  win: h6e,
-  winner: g6e,
-  winning: m6e,
-  wins: v6e,
-  winwin: y6e,
-  wisdom: _6e,
-  wish: b6e,
-  wishes: w6e,
-  wishing: D6e,
-  withdrawal: x6e,
-  wits: k6e,
-  woebegone: E6e,
-  woeful: A6e,
-  won: C6e,
-  wonderful: F6e,
-  wonderfully: S6e,
-  woo: $6e,
-  woohoo: T6e,
-  wooo: R6e,
-  woow: O6e,
-  worn: I6e,
-  worried: B6e,
-  worries: L6e,
-  worry: P6e,
-  worrying: j6e,
-  worse: N6e,
-  worsen: z6e,
-  worsened: M6e,
-  worsening: U6e,
-  worsens: q6e,
-  worshiped: V6e,
-  worst: W6e,
-  worth: G6e,
-  worthless: H6e,
-  worthy: K6e,
-  wow: Y6e,
-  wowow: X6e,
-  wowww: Z6e,
-  wrathful: J6e,
-  wreck: Q6e,
-  wrenching: e7e,
-  wrong: t7e,
-  wrongdoing: n7e,
-  wrongdoings: i7e,
-  wronged: r7e,
-  wrongful: a7e,
-  wrongfully: s7e,
-  wrongly: o7e,
-  wtf: l7e,
-  wtff: u7e,
-  wtfff: c7e,
-  xo: d7e,
-  xoxo: f7e,
-  xoxoxo: p7e,
-  xoxoxoxo: h7e,
-  yeah: g7e,
-  yearning: m7e,
-  yeees: v7e,
-  yes: y7e,
-  youthful: _7e,
-  yucky: b7e,
-  yummy: w7e,
-  zealot: D7e,
-  zealots: x7e,
-  zealous: k7e
-}, A7e = 1, C7e = 1, F7e = 1, S7e = 1, $7e = 1, T7e = 1, R7e = 1, O7e = {
-  cant: A7e,
+  whimsical: l7e,
+  whitewash: u7e,
+  whore: c7e,
+  wicked: d7e,
+  widowed: f7e,
+  willingness: p7e,
+  win: h7e,
+  winner: g7e,
+  winning: m7e,
+  wins: v7e,
+  winwin: y7e,
+  wisdom: _7e,
+  wish: b7e,
+  wishes: w7e,
+  wishing: D7e,
+  withdrawal: x7e,
+  wits: k7e,
+  woebegone: E7e,
+  woeful: A7e,
+  won: C7e,
+  wonderful: F7e,
+  wonderfully: S7e,
+  woo: $7e,
+  woohoo: T7e,
+  wooo: R7e,
+  woow: O7e,
+  worn: I7e,
+  worried: B7e,
+  worries: L7e,
+  worry: P7e,
+  worrying: j7e,
+  worse: N7e,
+  worsen: z7e,
+  worsened: M7e,
+  worsening: U7e,
+  worsens: q7e,
+  worshiped: V7e,
+  worst: W7e,
+  worth: G7e,
+  worthless: H7e,
+  worthy: K7e,
+  wow: Y7e,
+  wowow: X7e,
+  wowww: Z7e,
+  wrathful: J7e,
+  wreck: Q7e,
+  wrenching: e6e,
+  wrong: t6e,
+  wrongdoing: n6e,
+  wrongdoings: i6e,
+  wronged: r6e,
+  wrongful: a6e,
+  wrongfully: s6e,
+  wrongly: o6e,
+  wtf: l6e,
+  wtff: u6e,
+  wtfff: c6e,
+  xo: d6e,
+  xoxo: f6e,
+  xoxoxo: p6e,
+  xoxoxoxo: h6e,
+  yeah: g6e,
+  yearning: m6e,
+  yeees: v6e,
+  yes: y6e,
+  youthful: _6e,
+  yucky: b6e,
+  yummy: w6e,
+  zealot: D6e,
+  zealots: x6e,
+  zealous: k6e
+}, A6e = 1, C6e = 1, F6e = 1, S6e = 1, $6e = 1, T6e = 1, R6e = 1, O6e = {
+  cant: A6e,
   "can't": 1,
-  dont: C7e,
+  dont: C6e,
   "don't": 1,
-  doesnt: F7e,
+  doesnt: F6e,
   "doesn't": 1,
-  not: S7e,
-  non: $7e,
-  wont: T7e,
+  not: S6e,
+  non: $6e,
+  wont: T6e,
   "won't": 1,
-  isnt: R7e,
+  isnt: R6e,
   "isn't": 1
 };
-var I7e = O7e, B7e = {
+var I6e = O6e, B6e = {
   apply: function(e, t, i) {
     if (t > 0) {
       var a = e[t - 1];
-      I7e[a] && (i = -i);
+      I6e[a] && (i = -i);
     }
     return i;
   }
-}, L7e = {
-  labels: E7e,
-  scoringStrategy: B7e
-}, ug = ez, cg = L7e;
+}, L6e = {
+  labels: E6e,
+  scoringStrategy: B6e
+}, ug = ez, cg = L6e;
 Object.assign(cg.labels, ug);
 var Ba = {
   en: cg
-}, P7e = {
+}, P6e = {
   /**
    * Registers the specified language
    *
@@ -15628,14 +15628,14 @@ var Ba = {
    * @param {int} tokenScore - The score of the current token being analyzed
    */
   applyScoringStrategy: function(e, t, i, a) {
-    var o = this.getLanguage(e), l = o.scoringStrategy || j7e;
+    var o = this.getLanguage(e), l = o.scoringStrategy || j6e;
     return l.apply(t, i, a);
   }
-}, j7e = {
+}, j6e = {
   apply: function(e, t, i) {
     return i;
   }
-}, N7e = JN, wl = P7e, au = function(e) {
+}, N6e = JN, wl = P6e, au = function(e) {
   this.options = e;
 };
 au.prototype.registerLanguage = function(e, t) {
@@ -15645,7 +15645,7 @@ au.prototype.analyze = function(e, t, i) {
   typeof e > "u" && (e = ""), typeof t == "function" && (i = t, t = {}), t = t || {};
   var a = t.language || "en", o = wl.getLabels(a);
   typeof t.extras == "object" && (o = Object.assign(o, t.extras));
-  for (var l = N7e(e), c = 0, d = [], p = [], f = [], v = [], _ = l.length; _--; ) {
+  for (var l = N6e(e), c = 0, d = [], p = [], f = [], v = [], _ = l.length; _--; ) {
     var D = l[_];
     if (o.hasOwnProperty(D)) {
       d.push(D);
@@ -15671,9 +15671,9 @@ au.prototype.analyze = function(e, t, i) {
   else
     return A;
 };
-var z7e = au;
-const M7e = { extras: { "a+": 5, abound: 2, abounds: 2, abundance: 4, abundant: 4, accessable: 3, accessible: 3, acclaim: 2, acclaimed: 2, acclamation: 2, accolade: 3, accolades: 3, accommodative: 2, accomodative: 2, accomplish: 5, accomplished: 5, accomplishment: 5, accomplishments: 5, accurate: 3, accurately: 3, achievable: 3, achievement: 3, achievements: 3, achievible: 3, acumen: 1, adaptable: 1, adaptive: 1, adequate: 1, adjustable: 2, admirable: 2, admirably: 2, admiration: 2, admire: 2, admirer: 2, admiring: 2, admiringly: 2, adorable: 3, adore: 3, adored: 3, adorer: 3, adoring: 3, adoringly: 3, adroit: 2, adroitly: 2, adulate: 2, adulation: 1, adulatory: 1, advanced: 3, advantage: 3, advantageous: 2, advantageously: 2, advantages: 2, adventuresome: 2, adventurous: 2, advocate: 2, advocated: 2, advocates: 2, affability: 2, affable: 2, affably: 2, affectation: 3, affection: 3, affectionate: 3, affinity: 3, affirm: 2, affirmation: 2, affirmative: 2, affluence: 2, affluent: 3, afford: 2, affordable: 2, affordably: 2, afordable: 2, agile: 3, agilely: 2, agility: 2, agreeable: 3, agreeableness: 3, agreeably: 2, "all-around": 2, alluring: 3, alluringly: 3, altruistic: 3, altruistically: 3, amaze: 4, amazed: 4, amazement: 4, amazes: 4, amazing: 4, amazingly: 4, ambitious: 4, ambitiously: 4, ameliorate: 4, amenable: 3, amenity: 3, amiability: 3, amiabily: 3, amiable: 3, amicability: 3, amicable: 3, amicably: 3, amity: 2, ample: 2, amply: 2, amuse: 2, amusing: 2, amusingly: 2, angel: 5, angelic: 5, apotheosis: 1, appeal: 4, appealing: 4, applaud: 4, appreciable: 4, appreciate: 4, appreciated: 4, appreciates: 4, appreciative: 4, appreciatively: 4, appropriate: 4, approval: 4, approve: 4, ardent: 1, ardently: 1, ardor: 1, articulate: 1, aspiration: 3, aspirations: 3, aspire: 3, assurance: 3, assurances: 3, assure: 3, assuredly: 3, assuring: 3, astonish: 4, astonished: 4, astonishing: 4, astonishingly: 4, astonishment: 4, astound: 4, astounded: 4, astounding: 4, astoundingly: 4, astutely: 1, attentive: 1, attraction: 1, attractive: 1, attractively: 1, attune: 1, audible: 1, audibly: 1, auspicious: 1, authentic: 1, authoritative: 1, autonomous: 1, available: 1, aver: 1, avid: 1, avidly: 1, award: 1, awarded: 1, awards: 1, awe: 5, awed: 1, awesome: 5, awesomely: 4, awesomeness: 4, awestruck: 4, awsome: 4, backbone: 3, balanced: 3, bargain: 3, beauteous: 3, beautiful: 3, beautifullly: 3, beautifully: 3, beautify: 3, beauty: 3, beckon: 2, beckoned: 1, beckoning: 1, beckons: 1, believable: 3, believeable: 3, beloved: 3, benefactor: 2, beneficent: 2, beneficial: 2, beneficially: 2, beneficiary: 2, benefit: 3, benefits: 3, benevolence: 1, benevolent: 1, benifits: 2, best: 5, "best-known": 5, "best-performing": 5, "best-selling": 5, better: 5, "better-known": 5, "better-than-expected": 4, beutifully: 5, blameless: 4, bless: 3, blessing: 3, bliss: 4, blissful: 4, blissfully: 4, blithe: 1, blockbuster: 5, bloom: 3, blossom: 4, bolster: 1, bonny: 1, bonus: 4, bonuses: 4, boom: 2, booming: 3, boost: 4, boundless: 4, bountiful: 3, brainiest: 3, brainy: 3, "brand-new": 5, brave: 3, bravery: 3, bravo: 2, breakthrough: 5, breakthroughs: 5, breathlessness: 5, breathtaking: 5, breathtakingly: 5, breeze: 4, bright: 4, brighten: 4, brighter: 4, brightest: 4, brilliance: 4, brilliances: 4, brilliant: 4, brilliantly: 4, brisk: 3, brotherly: 4, bullish: 1, buoyant: 1, cajole: 1, calm: 3, calming: 3, calmness: 3, capability: 4, capable: 4, capably: 4, captivate: 4, captivating: 4, carefree: 1, cashback: 1, cashbacks: 1, catchy: 1, celebrate: 4, celebrated: 4, celebration: 4, celebratory: 4, champ: 3, champion: 3, charisma: 4, charismatic: 4, charitable: 3, charm: 5, charming: 5, charmingly: 5, chaste: 1, cheaper: 1, cheapest: 1, cheer: 4, cheerful: 4, cheery: 4, cherish: 4, cherished: 4, cherub: 1, chic: 1, chivalrous: 2, chivalry: 2, civility: 2, civilize: 2, clarity: 4, classic: 1, classy: 1, clean: 3, cleaner: 3, cleanest: 3, cleanliness: 3, cleanly: 3, clear: 3, "clear-cut": 3, cleared: 3, clearer: 3, clearly: 3, clears: 3, clever: 3, cleverly: 2, cohere: 2, coherence: 2, coherent: 2, cohesive: 2, colorful: 3, comely: 1, comfort: 4, comfortable: 4, comfortably: 4, comforting: 4, comfy: 4, commend: 1, commendable: 1, commendably: 1, commitment: 3, commodious: 1, compact: 3, compactly: 2, compassion: 3, compassionate: 4, compatible: 3, competitive: 3, complement: 3, complementary: 3, complemented: 3, complements: 3, compliant: 2, compliment: 5, complimentary: 5, comprehensive: 5, conciliate: 1, conciliatory: 1, concise: 2, confidence: 3, confident: 4, congenial: 1, congratulate: 5, congratulation: 5, congratulations: 5, congratulatory: 5, conscientious: 2, considerate: 4, consistent: 4, consistently: 4, constructive: 4, consummate: 1, contentment: 1, continuity: 4, contrasty: 1, contribution: 2, convenience: 3, convenient: 3, conveniently: 3, convience: 3, convienient: 3, convient: 3, convincing: 3, convincingly: 3, cool: 5, coolest: 5, cooperative: 3, cooperatively: 3, cornerstone: 3, correct: 5, correctly: 5, "cost-effective": 3, "cost-saving": 3, "counter-attack": 2, "counter-attacks": 2, courage: 3, courageous: 3, courageously: 3, courageousness: 3, courteous: 3, courtly: 2, covenant: 2, cozy: 2, creative: 2, credence: 2, credible: 2, crisp: 1, crisper: 1, cure: 4, "cure-all": 1, cushy: 1, cute: 5, cuteness: 5, danke: 1, danken: 1, daring: 5, daringly: 5, darling: 5, dashing: 5, dauntless: 1, dawn: 1, dazzle: 5, dazzled: 5, dazzling: 5, "dead-cheap": 1, "dead-on": 1, decency: 5, decent: 5, decisive: 5, decisiveness: 5, dedicated: 5, defeat: 1, defeated: 1, defeating: 1, defeats: 1, defender: 1, deference: 1, deft: 1, deginified: 1, delectable: 1, delicacy: 4, delicate: 4, delicious: 4, delight: 4, delighted: 4, delightful: 4, delightfully: 4, delightfulness: 4, dependable: 2, dependably: 2, deservedly: 5, deserving: 5, desirable: 5, desiring: 5, desirous: 5, destiny: 5, detachable: 5, devout: 5, dexterous: 5, dexterously: 5, dextrous: 5, dignified: 5, dignify: 5, dignity: 5, diligence: 3, diligent: 3, diligently: 3, diplomatic: 3, "dirt-cheap": 3, distinction: 3, distinctive: 3, distinguished: 3, diversified: 3, divine: 5, divinely: 5, dominate: 5, dominated: 5, dominates: 5, dote: 1, dotingly: 1, doubtless: 1, dreamland: 1, dumbfounded: 1, dumbfounding: 1, "dummy-proof": 1, durable: 3, dynamic: 3, eager: 5, eagerly: 5, eagerness: 5, earnest: 5, earnestly: 5, earnestness: 5, ease: 4, eased: 4, eases: 4, easier: 4, easiest: 4, easiness: 4, easing: 4, easy: 4, "easy-to-use": 5, easygoing: 5, ebullience: 1, ebullient: 1, ebulliently: 1, ecenomical: 1, economical: 5, ecstasies: 5, ecstasy: 5, ecstatic: 5, ecstatically: 5, edify: 1, educated: 5, effective: 5, effectively: 5, effectiveness: 5, effectual: 5, efficacious: 5, efficient: 5, efficiently: 5, effortless: 5, effortlessly: 5, effusion: 5, effusive: 5, effusively: 5, effusiveness: 5, elan: 2, elate: 2, elated: 2, elatedly: 2, elation: 3, electrify: 5, elegance: 5, elegant: 5, elegantly: 5, elevate: 5, elite: 5, eloquence: 3, eloquent: 3, eloquently: 3, embolden: 3, eminence: 3, eminent: 3, empathize: 5, empathy: 5, empower: 5, empowerment: 5, enchant: 5, enchanted: 5, enchanting: 5, enchantingly: 5, encourage: 5, encouragement: 5, encouraging: 5, encouragingly: 5, endear: 3, endearing: 3, endorse: 3, endorsed: 3, endorsement: 3, endorses: 3, endorsing: 2, energetic: 5, energize: 5, "energy-efficient": 5, "energy-saving": 5, engaging: 2, engrossing: 2, enhance: 5, enhanced: 5, enhancement: 5, enhances: 5, enjoy: 5, enjoyable: 5, enjoyably: 5, enjoyed: 5, enjoying: 5, enjoyment: 5, enjoys: 5, enlighten: 5, enlightenment: 5, enliven: 1, ennoble: 2, enough: 3, enrapt: 2, enrapture: 1, enraptured: 1, enrich: 5, enrichment: 3, enterprising: 3, entertain: 3, entertaining: 5, entertains: 5, enthral: 2, enthrall: 1, enthralled: 1, enthuse: 1, enthusiasm: 4, enthusiast: 4, enthusiastic: 4, enthusiastically: 3, entice: 3, enticed: 4, enticing: 3, enticingly: 4, entranced: 3, entrancing: 3, entrust: 4, enviable: 3, enviably: 3, envious: 3, enviously: 3, enviousness: 1, envy: 1, equitable: 1, ergonomical: 5, "err-free": 1, erudite: 1, ethical: 4, eulogize: 2, euphoria: 3, euphoric: 3, euphorically: 3, evaluative: 4, evenly: 5, eventful: 4, everlasting: 5, evocative: 2, exalt: 1, exaltation: 2, exalted: 3, exaltedly: 3, exalting: 3, exaltingly: 3, examplar: 1, examplary: 1, excallent: 1, exceed: 5, exceeded: 5, exceeding: 5, exceedingly: 5, exceeds: 5, excel: 5, exceled: 5, excelent: 5, excellant: 5, excelled: 5, excellence: 5, excellency: 5, excellent: 5, excellently: 5, excels: 5, exceptional: 5, exceptionally: 5, excite: 5, excited: 5, excitedly: 5, excitedness: 5, excitement: 5, excites: 5, exciting: 5, excitingly: 5, exellent: 5, exemplar: 3, exemplary: 3, exhilarate: 3, exhilarating: 3, exhilaratingly: 3, exhilaration: 3, exonerate: 3, expansive: 3, expeditiously: 3, expertly: 4, exquisite: 1, exquisitely: 1, extol: 1, extoll: 1, extraordinarily: 5, extraordinary: 5, exuberance: 3, exuberant: 3, exuberantly: 3, exult: 1, exultant: 1, exultation: 1, exultingly: 1, "eye-catch": 5, "eye-catching": 5, eyecatch: 5, eyecatching: 5, fabulous: 1, fabulously: 4, facilitate: 4, fair: 5, fairly: 5, fairness: 5, faith: 4, faithful: 4, faithfully: 4, faithfulness: 4, fame: 4, famed: 4, famous: 4, famously: 4, fancier: 5, fancinating: 5, fancy: 5, fanfare: 3, fans: 3, fantastic: 3, fantastically: 3, fascinate: 5, fascinating: 5, fascinatingly: 5, fascination: 5, fashionable: 5, fashionably: 5, fast: 2, "fast-growing": 2, "fast-paced": 2, faster: 5, fastest: 5, "fastest-growing": 5, faultless: 3, fav: 4, fave: 4, favor: 4, favorable: 4, favored: 4, favorite: 4, favorited: 4, favour: 4, fearless: 5, fearlessly: 5, feasible: 3, feasibly: 3, feat: 2, "feature-rich": 2, fecilitous: 2, feisty: 2, felicitate: 2, felicitous: 2, felicity: 3, fertile: 3, fervent: 3, fervently: 3, fervid: 3, fervidly: 3, fervor: 3, festive: 3, fidelity: 1, fiery: 1, fine: 5, "fine-looking": 5, finely: 5, finer: 5, finest: 5, firmer: 4, "first-class": 4, "first-in-class": 4, "first-rate": 5, flashy: 5, flatter: 4, flattering: 4, flatteringly: 4, flawless: 5, flawlessly: 5, flexibility: 3, flexible: 3, flourish: 1, flourishing: 1, fluent: 2, flutter: 2, fond: 4, fondly: 4, fondness: 4, foolproof: 4, foremost: 3, foresight: 5, formidable: 4, fortitude: 5, fortuitous: 5, fortuitously: 3, fortunate: 5, fortunately: 5, fortune: 5, fragrant: 4, free: 5, freed: 5, freedom: 5, freedoms: 5, fresh: 5, fresher: 5, freshest: 5, friendliness: 4, friendly: 4, frolic: 3, frugal: 3, fruitful: 4, ftw: 4, fulfillment: 4, fun: 5, futurestic: 4, futuristic: 4, gaiety: 1, gaily: 1, gain: 4, gained: 4, gainful: 4, gainfully: 4, gaining: 4, gains: 4, gallant: 2, gallantly: 2, galore: 4, geekier: 4, geeky: 3, gem: 4, gems: 4, generosity: 4, generous: 5, generously: 5, genial: 1, genius: 4, gentle: 4, gentlest: 4, genuine: 5, gifted: 5, glad: 4, gladden: 1, gladly: 4, gladness: 4, glamorous: 5, glee: 1, gleeful: 1, gleefully: 1, glimmer: 1, glimmering: 1, glisten: 1, glistening: 1, glitter: 1, glitz: 1, glorify: 5, glorious: 5, gloriously: 5, glory: 5, glow: 4, glowing: 4, glowingly: 4, "god-given": 3, "god-send": 3, godlike: 4, godsend: 4, gold: 3, golden: 3, good: 5, goodly: 5, goodness: 4, goodwill: 3, goood: 5, gooood: 5, gorgeous: 4, gorgeously: 4, grace: 4, graceful: 4, gracefully: 4, gracious: 4, graciously: 4, graciousness: 4, grand: 5, grandeur: 3, grateful: 3, gratefully: 3, gratification: 3, gratified: 3, gratifies: 3, gratify: 3, gratifying: 3, gratifyingly: 3, gratitude: 5, great: 5, greatest: 5, greatness: 5, grin: 3, groundbreaking: 3, guarantee: 3, guidance: 3, guiltless: 3, gumption: 1, gush: 1, gusto: 1, gutsy: 1, hail: 1, halcyon: 1, hale: 1, hallmark: 1, hallmarks: 1, hallowed: 1, handier: 1, handily: 1, "hands-down": 4, handsome: 5, handsomely: 5, handy: 5, happier: 5, happily: 5, happiness: 5, happy: 5, "hard-working": 4, hardier: 4, hardy: 4, harmless: 3, harmonious: 1, harmoniously: 1, harmonize: 1, harmony: 4, headway: 1, heal: 5, healthful: 5, healthy: 4, hearten: 2, heartening: 2, heartfelt: 3, heartily: 3, heartwarming: 4, heaven: 5, heavenly: 5, helped: 4, helpful: 4, helping: 4, hero: 4, heroic: 4, heroically: 4, heroine: 2, heroize: 2, heros: 4, "high-quality": 5, "high-spirited": 3, hilarious: 3, holy: 3, homage: 2, honest: 3, honesty: 4, honor: 3, honorable: 3, honored: 3, honoring: 3, hooray: 4, hopeful: 4, hospitable: 4, hot: 2, hotcake: 2, hotcakes: 3, hottest: 4, hug: 3, humane: 4, humble: 3, humility: 4, humor: 3, humorous: 3, humorously: 3, humour: 3, humourous: 3, ideal: 4, idealize: 3, ideally: 3, idol: 2, idolize: 2, idolized: 2, idyllic: 1, illuminate: 5, illuminati: 1, illuminating: 4, illumine: 2, illustrious: 3, ilu: 1, imaculate: 5, imaginative: 5, immaculate: 5, immaculately: 5, immense: 3, impartial: 3, impartiality: 3, impartially: 3, impassioned: 3, impeccable: 3, impeccably: 3, important: 4, impress: 4, impressed: 4, impresses: 4, impressive: 4, impressively: 4, impressiveness: 4, improve: 4, improved: 3, improvement: 4, improvements: 5, improves: 5, improving: 3, incredible: 4, incredibly: 5, indebted: 4, individualized: 1, indulgence: 1, indulgent: 1, industrious: 1, inestimable: 1, inestimably: 1, inexpensive: 4, infallibility: 1, infallible: 1, infallibly: 1, influential: 1, ingenious: 2, ingeniously: 3, ingenuity: 3, ingenuous: 3, ingenuously: 2, innocuous: 3, innovation: 4, innovative: 4, inpressed: 2, insightful: 4, insightfully: 3, inspiration: 4, inspirational: 5, inspire: 5, inspiring: 5, instantly: 3, instructive: 3, instrumental: 3, integral: 3, integrated: 3, intelligence: 3, intelligent: 3, intelligible: 2, interesting: 4, interests: 3, intimacy: 2, intimate: 2, intricate: 3, intrigue: 2, intriguing: 2, intriguingly: 2, intuitive: 3, invaluable: 5, invaluablely: 5, inventive: 3, invigorate: 3, invigorating: 2, invincibility: 3, invincible: 5, inviolable: 3, inviolate: 3, invulnerable: 4, irreplaceable: 3, irreproachable: 3, irresistible: 3, irresistibly: 3, "issue-free": 3, "jaw-droping": 5, "jaw-dropping": 5, jollify: 3, jolly: 3, jovial: 2, joy: 4, joyful: 5, joyfully: 5, joyous: 4, joyously: 4, jubilant: 4, jubilantly: 3, jubilate: 3, jubilation: 3, jubiliant: 3, judicious: 3, justly: 3, keen: 3, keenly: 4, keenness: 4, "kid-friendly": 3, kindliness: 5, kindly: 5, kindness: 5, knowledgeable: 4, kudos: 3, "large-capacity": 3, laud: 3, laudable: 4, laudably: 4, lavish: 5, lavishly: 5, "law-abiding": 4, lawful: 4, lawfully: 4, lead: 3, leading: 3, leads: 1, lean: 1, led: 1, legendary: 5, leverage: 3, levity: 2, liberate: 4, liberation: 4, liberty: 4, lifesaver: 5, "light-hearted": 3, lighter: 3, likable: 4, like: 5, liked: 4, likes: 4, liking: 5, lionhearted: 4, lively: 5, logical: 4, "long-lasting": 5, lovable: 4, lovably: 5, love: 5, loved: 5, loveliness: 4, lovely: 5, lover: 4, loves: 4, loving: 5, "low-cost": 2, "low-price": 2, "low-priced": 2, "low-risk": 3, "lower-priced": 3, loyal: 4, loyalty: 4, lucid: 2, lucidly: 2, luck: 4, luckier: 4, luckiest: 4, luckiness: 4, lucky: 5, lucrative: 3, luminous: 3, lush: 2, luster: 2, lustrous: 3, luxuriant: 3, luxuriate: 3, luxurious: 3, luxuriously: 4, luxury: 5, lyrical: 2, magic: 3, magical: 4, magnanimous: 3, magnanimously: 3, magnificence: 2, magnificent: 3, magnificently: 3, majestic: 3, majesty: 3, manageable: 2, maneuverable: 2, marvel: 4, marveled: 4, marvelled: 4, marvellous: 4, marvelous: 4, marvelously: 5, marvelousness: 3, marvels: 3, master: 5, masterful: 5, masterfully: 5, masterpiece: 5, masterpieces: 5, masters: 5, mastery: 4, matchless: 4, mature: 3, maturely: 2, maturity: 3, meaningful: 4, memorable: 5, merciful: 5, mercifully: 5, mercy: 5, merit: 4, meritorious: 4, merrily: 3, merriment: 2, merriness: 2, merry: 4, mesmerize: 3, mesmerized: 3, mesmerizes: 3, mesmerizing: 3, mesmerizingly: 3, meticulous: 3, meticulously: 3, mightily: 4, mighty: 2, "mind-blowing": 5, miracle: 5, miracles: 5, miraculous: 5, miraculously: 5, miraculousness: 1, modern: 3, modest: 3, modesty: 3, momentous: 3, monumental: 3, monumentally: 3, morality: 3, motivated: 3, "multi-purpose": 3, navigable: 3, neat: 5, neatest: 5, neatly: 5, nice: 5, nicely: 5, nicer: 5, nicest: 5, nifty: 4, nimble: 4, noble: 4, nobly: 4, noiseless: 4, "non-violence": 2, "non-violent": 2, notably: 4, noteworthy: 4, nourish: 4, nourishing: 4, nourishment: 4, novelty: 3, nurturing: 3, oasis: 3, obsession: 3, obsessions: 3, obtainable: 3, openly: 1, openness: 1, optimal: 3, optimism: 3, optimistic: 3, opulent: 1, orderly: 4, originality: 4, outdo: 4, outdone: 4, outperform: 4, outperformed: 4, outperforming: 4, outperforms: 4, outshine: 5, outshone: 5, outsmart: 5, outstanding: 3, outstandingly: 3, outstrip: 4, outwit: 4, ovation: 2, overjoyed: 2, overtake: 3, overtaken: 3, overtakes: 4, overtaking: 4, overtook: 3, overture: 3, "pain-free": 4, painless: 4, painlessly: 5, palatial: 2, pamper: 3, pampered: 3, pamperedly: 3, pamperedness: 2, pampers: 2, panoramic: 3, paradise: 4, paramount: 2, pardon: 2, passion: 2, passionate: 2, passionately: 2, patience: 3, patient: 3, patiently: 2, patriot: 2, patriotic: 2, peace: 5, peaceable: 5, peaceful: 5, peacefully: 5, peacekeepers: 5, peach: 3, peerless: 3, pep: 2, pepped: 2, pepping: 2, peppy: 2, peps: 2, perfect: 5, perfection: 5, perfectly: 5, permissible: 2, perseverance: 2, persevere: 1, personages: 1, personalized: 3, phenomenal: 4, phenomenally: 4, picturesque: 4, piety: 3, pinnacle: 4, playful: 4, playfully: 4, pleasant: 4, pleasantly: 3, pleased: 4, pleases: 4, pleasing: 3, pleasingly: 4, pleasurable: 4, pleasurably: 3, pleasure: 3, plentiful: 4, pluses: 2, plush: 1, plusses: 1, poetic: 1, poeticize: 1, poignant: 1, poise: 1, poised: 2, polished: 2, polite: 4, politeness: 4, popular: 5, portable: 4, posh: 3, positive: 4, positively: 5, positives: 5, powerful: 5, powerfully: 5, praise: 5, praiseworthy: 5, praising: 4, "pre-eminent": 2, precious: 2, precise: 2, precisely: 2, preeminent: 2, prefer: 2, preferable: 2, preferably: 2, prefered: 2, preferes: 2, preferring: 2, prefers: 2, premier: 2, prestige: 4, prestigious: 2, prettily: 2, pretty: 5, priceless: 5, pride: 4, principled: 2, privilege: 2, privileged: 2, prize: 2, proactive: 2, "problem-free": 2, "problem-solver": 2, prodigious: 2, prodigiously: 2, prodigy: 2, productive: 2, productively: 2, proficient: 2, proficiently: 2, profound: 3, profoundly: 3, profuse: 2, profusion: 2, progress: 2, progressive: 2, prolific: 2, prominence: 2, prominent: 2, promise: 2, promised: 2, promises: 2, promising: 2, promoter: 2, prompt: 2, promptly: 2, proper: 2, properly: 2, propitious: 2, propitiously: 2, pros: 2, prosper: 2, prosperity: 3, prosperous: 3, prospros: 3, protect: 3, protection: 4, protective: 4, proud: 2, proven: 2, proves: 2, providence: 2, proving: 2, prowess: 2, prudence: 2, prudent: 2, prudently: 2, punctual: 2, pure: 5, purify: 5, purposeful: 2, quaint: 2, qualified: 2, qualify: 4, quicker: 5, quiet: 5, quieter: 2, radiance: 2, radiant: 2, rapid: 2, rapport: 2, rapt: 1, rapture: 1, raptureous: 1, raptureously: 1, rapturous: 1, rapturously: 1, rational: 1, "razor-sharp": 2, reachable: 1, readable: 2, readily: 2, ready: 5, reaffirm: 1, reaffirmation: 2, realistic: 2, realizable: 2, reasonable: 2, reasonably: 2, reasoned: 2, reassurance: 2, reassure: 2, receptive: 2, reclaim: 2, recomend: 4, recommend: 4, recommendation: 4, recommendations: 4, recommended: 5, reconcile: 3, reconciliation: 3, "record-setting": 4, recover: 4, recovery: 4, rectification: 4, rectify: 3, rectifying: 3, redeem: 3, redeeming: 3, redemption: 1, refine: 1, refined: 3, refinement: 3, reform: 4, reformed: 4, reforming: 3, reforms: 3, refresh: 3, refreshed: 3, refreshing: 3, refund: 3, refunded: 2, regal: 2, regally: 2, regard: 2, rejoice: 2, rejoicing: 3, rejoicingly: 3, rejuvenate: 3, rejuvenated: 3, rejuvenating: 3, relaxed: 4, relent: 4, reliable: 4, reliably: 4, relief: 4, relish: 4, remarkable: 3, remarkably: 3, remedy: 3, remission: 3, remunerate: 3, renaissance: 3, renewed: 2, renown: 2, renowned: 2, replaceable: 3, reputable: 3, reputation: 4, resilient: 4, resolute: 4, resound: 4, resounding: 2, resourceful: 2, resourcefulness: 3, respect: 3, respectable: 3, respectful: 2, respectfully: 2, respite: 2, resplendent: 2, responsibly: 2, responsive: 4, restful: 4, restored: 2, restructure: 2, restructured: 2, restructuring: 2, retractable: 2, revel: 2, revelation: 2, revere: 2, reverence: 2, reverent: 2, reverently: 2, revitalize: 2, revival: 2, revive: 4, revives: 2, revolutionary: 2, revolutionize: 2, revolutionized: 2, revolutionizes: 2, reward: 5, rewarding: 5, rewardingly: 5, rich: 4, richer: 4, richly: 4, richness: 4, right: 4, righten: 3, righteous: 3, righteously: 2, righteousness: 2, rightful: 2, rightfully: 2, rightly: 2, rightness: 2, "risk-free": 2, robust: 2, "rock-star": 4, "rock-stars": 4, rockstar: 2, rockstars: 2, romantic: 2, romantically: 2, romanticize: 2, roomier: 2, roomy: 2, rosy: 2, safe: 4, safely: 4, sagacity: 2, sagely: 2, saint: 2, saintliness: 2, saintly: 2, salutary: 2, salute: 2, sane: 3, satisfactorily: 3, satisfactory: 3, satisfied: 3, satisfies: 3, satisfy: 3, satisfying: 3, satisified: 3, saver: 4, savings: 4, savior: 4, savvy: 4, scenic: 4, seamless: 4, seasoned: 2, secure: 5, securely: 2, selective: 3, "self-determination": 3, "self-respect": 5, "self-satisfaction": 5, "self-sufficiency": 5, "self-sufficient": 5, sensation: 5, sensational: 4, sensationally: 4, sensations: 4, sensible: 4, sensibly: 4, sensitive: 2, serene: 2, serenity: 2, sexy: 4, sharp: 2, sharper: 2, sharpest: 2, shimmering: 2, shimmeringly: 2, shine: 2, shiny: 2, significant: 2, silent: 3, simpler: 3, simplest: 2, simplified: 2, simplifies: 2, simplify: 2, simplifying: 2, sincere: 5, sincerely: 2, sincerity: 2, skill: 4, skilled: 2, skillful: 2, skillfully: 2, slammin: 2, sleek: 2, slick: 2, smart: 3, smarter: 3, smartest: 2, smartly: 2, smile: 2, smiles: 2, smiling: 2, smilingly: 2, smitten: 2, smooth: 2, smoother: 2, smoothes: 2, smoothest: 2, smoothly: 2, snappy: 2, snazzy: 2, sociable: 2, soft: 4, softer: 4, solace: 2, solicitous: 2, solicitously: 2, solid: 2, solidarity: 2, soothe: 2, soothingly: 2, sophisticated: 2, soulful: 3, soundly: 3, soundness: 2, spacious: 2, sparkle: 2, sparkling: 2, spectacular: 5, spectacularly: 5, speedily: 2, speedy: 2, spellbind: 2, spellbinding: 2, spellbindingly: 2, spellbound: 2, spirited: 2, spiritual: 2, splendid: 2, splendidly: 2, splendor: 2, spontaneous: 2, sporty: 1, spotless: 2, sprightly: 1, stability: 2, stabilize: 2, stable: 4, stainless: 2, standout: 2, "state-of-the-art": 2, stately: 2, statuesque: 2, staunch: 2, staunchly: 2, staunchness: 2, steadfast: 2, steadfastly: 2, steadfastness: 2, steadiest: 3, steadiness: 3, steady: 5, stellar: 5, stellarly: 2, stimulate: 2, stimulates: 2, stimulating: 2, stimulative: 2, stirringly: 1, straighten: 1, straightforward: 3, streamlined: 3, striking: 2, strikingly: 2, striving: 2, strong: 4, stronger: 4, strongest: 4, stunned: 4, stunning: 5, stunningly: 5, stupendous: 1, stupendously: 1, sturdier: 1, sturdy: 1, stylish: 4, stylishly: 4, stylized: 4, suave: 2, suavely: 1, sublime: 2, subsidize: 1, subsidized: 1, subsidizes: 1, subsidizing: 1, substantive: 1, succeed: 3, succeeded: 4, succeeding: 3, succeeds: 3, succes: 1, success: 4, successes: 2, successful: 2, successfully: 4, suffice: 2, sufficed: 3, suffices: 2, sufficient: 3, sufficiently: 3, suitable: 4, sumptuous: 1, sumptuously: 1, sumptuousness: 1, super: 5, superb: 5, superbly: 5, superior: 2, superiority: 4, supple: 2, support: 3, supported: 3, supporter: 3, supporting: 3, supportive: 3, supports: 3, supremacy: 4, supreme: 4, supremely: 4, supurb: 4, supurbly: 3, surmount: 2, surpass: 3, surreal: 4, survival: 2, survivor: 2, sustainability: 2, sustainable: 2, swank: 1, swankier: 1, swankiest: 1, swanky: 1, sweeping: 2, sweet: 4, sweeten: 3, sweetheart: 5, sweetly: 4, sweetness: 5, swift: 3, swiftness: 3, talent: 2, talented: 2, talents: 2, tantalize: 1, tantalizing: 1, tantalizingly: 1, tempt: 1, tempting: 3, temptingly: 3, tenacious: 2, tenaciously: 2, tenacity: 2, tender: 4, tenderly: 4, terrific: 4, terrifically: 4, thank: 4, thankful: 4, thinner: 3, thoughtful: 2, thoughtfully: 2, thoughtfulness: 2, thrift: 2, thrifty: 2, thrill: 2, thrilled: 2, thrilling: 2, thrillingly: 2, thrills: 2, thrive: 2, thriving: 2, "thumb-up": 2, "thumbs-up": 2, tickle: 2, tidy: 2, "time-honored": 1, timely: 2, tingle: 2, titillate: 1, titillating: 1, titillatingly: 1, togetherness: 2, tolerable: 3, "toll-free": 1, top: 4, "top-notch": 5, "top-quality": 5, topnotch: 5, tops: 5, tough: 2, tougher: 3, toughest: 4, traction: 1, tranquil: 1, tranquility: 1, transparent: 2, treasure: 4, tremendously: 5, trendy: 5, triumph: 5, triumphal: 5, triumphant: 1, triumphantly: 1, trivially: 1, trophy: 1, "trouble-free": 2, trump: 5, trumpet: 1, trust: 5, trusted: 2, trusting: 3, trustingly: 2, trustworthiness: 2, trustworthy: 2, trusty: 4, truthful: 2, truthfully: 2, truthfulness: 2, twinkly: 2, "ultra-crisp": 5, unabashed: 2, unabashedly: 2, unaffected: 1, unassailable: 2, unbeatable: 2, unbiased: 2, unbound: 2, uncomplicated: 3, unconditional: 2, undamaged: 3, undaunted: 2, understandable: 2, undisputable: 2, undisputably: 2, undisputed: 3, unencumbered: 1, unequivocal: 1, unequivocally: 1, unfazed: 2, unfettered: 1, unforgettable: 3, unity: 2, unlimited: 3, unmatched: 2, unparalleled: 1, unquestionable: 1, unquestionably: 1, unreal: 3, unrestricted: 2, unrivaled: 2, unselfish: 2, unwavering: 3, upbeat: 2, upgradable: 2, upgradeable: 2, upgraded: 2, upheld: 2, uphold: 2, uplift: 2, uplifting: 2, upliftingly: 2, upliftment: 2, upscale: 2, usable: 4, useable: 2, useful: 5, "user-friendly": 2, "user-replaceable": 2, valiant: 1, valiantly: 2, valor: 2, valuable: 5, variety: 2, venerate: 2, verifiable: 1, veritable: 1, versatile: 2, versatility: 1, vibrant: 4, vibrantly: 4, victorious: 5, victory: 5, viewable: 2, vigilance: 2, vigilant: 3, virtue: 2, virtuous: 2, virtuously: 2, visionary: 2, vivacious: 2, vivid: 2, vouch: 3, vouchsafe: 2, warm: 4, warmer: 2, warmhearted: 2, warmly: 4, warmth: 5, wealthy: 5, welcome: 2, well: 5, "well-backlit": 2, "well-balanced": 2, "well-behaved": 5, "well-being": 2, "well-bred": 2, "well-connected": 2, "well-educated": 2, "well-established": 1, "well-informed": 1, "well-intentioned": 2, "well-known": 3, "well-made": 5, "well-managed": 2, "well-mannered": 2, "well-positioned": 2, "well-received": 2, "well-regarded": 2, "well-rounded": 2, "well-run": 2, "well-wishers": 2, wellbeing: 2, whoa: 2, wholeheartedly: 2, wholesome: 2, whooa: 2, whoooa: 2, wieldy: 1, willing: 2, willingly: 2, willingness: 3, win: 5, windfall: 2, winnable: 2, winner: 2, winners: 2, winning: 2, wins: 2, wisdom: 2, wise: 2, wisely: 2, witty: 4, won: 5, wonder: 2, wonderful: 2, wonderfully: 2, wonderous: 2, wonderously: 2, wonders: 2, wondrous: 2, woo: 3, work: 2, workable: 2, worked: 3, works: 4, "world-famous": 2, worth: 2, "worth-while": 2, worthiness: 2, worthwhile: 2, worthy: 4, wow: 5, wowed: 2, wowing: 2, wows: 2, yay: 4, youthful: 5, zeal: 2, zenith: 2, zest: 4, zippy: 2, "2-faced": -1, "2-faces": -1, abnormal: -5, abolish: -4, abominable: -3, abominably: -3, abominate: -2, abomination: -3, abort: -2, aborted: -3, aborts: -3, abrade: -2, abrasive: -4, abrupt: -2, abruptly: -2, abscond: -4, aborted: -5, absence: -5, "absent-minded": -5, absentee: -5, absurd: -4, absurdity: -3, absurdly: -3, absurdness: -3, abuse: -4, abused: -4, abuses: -4, abusive: -3, abysmal: -2, abysmally: -1, abyss: -1, accidental: -3, accost: -1, accursed: -1, accusation: -5, accusations: -1, accuse: -3, accuses: -3, accusing: -2, accusingly: -4, acerbate: -1, acerbic: -1, acerbically: -1, ache: -5, ached: -1, aches: -2, achey: -1, aching: -5, acrid: -1, acridly: -1, acridness: -1, acrimonious: -1, acrimoniously: -1, acrimony: -1, adamant: -4, adamantly: -4, addict: -5, addicted: -2, addicting: -2, addicts: -3, admonish: -4, admonisher: -2, admonishingly: -3, admonishment: -4, admonition: -3, adulterate: -1, adulterated: -3, adulteration: -5, adulterier: -2, adversarial: -1, adversary: -1, adverse: -4, adversity: -5, afflict: -1, affliction: -1, afflictive: -1, affront: -1, afraid: -5, aggravate: -4, aggravating: -4, aggravation: -5, aggression: -5, aggressive: -5, aggressiveness: -4, aggressor: -4, aggrieve: -3, aggrieved: -4, aggrivation: -5, aghast: -2, agonies: -4, agonize: -5, agonizing: -5, agonizingly: -4, agony: -5, aground: -2, ail: -1, ailing: -1, ailment: -2, aimless: -2, alarm: -1, alarmed: -1, alarming: -1, alarmingly: -1, alienate: -2, alienated: -1, alienation: -1, allegation: -2, allegations: -3, allege: -1, allergic: -1, allergies: -1, allergy: -1, aloof: -1, altercation: -1, ambiguity: -2, ambiguous: -2, ambivalence: -1, ambivalent: -1, ambush: -1, amiss: -1, amputate: -3, anarchism: -1, anarchist: -4, anarchistic: -1, anarchy: -1, anemic: -1, anger: -4, angrily: -5, angriness: -5, angry: -5, anguish: -3, animosity: -1, annihilate: -1, annihilation: -1, annoy: -3, annoyance: -4, annoyances: -4, annoyed: -2, annoying: -2, annoyingly: -3, annoys: -1, anomalous: -1, anomaly: -3, antagonism: -1, antagonist: -1, antagonistic: -1, antagonize: -1, "anti-": -1, "anti-american": -1, "anti-israeli": -1, "anti-occupation": -1, "anti-proliferation": -1, "anti-semites": -1, "anti-social": -1, "anti-us": -1, "anti-white": -1, antipathy: -1, antiquated: -1, antithetical: -1, anxieties: -1, anxiety: -2, anxious: -3, anxiously: -3, anxiousness: -1, apathetic: -4, apathetically: -1, apathy: -5, apocalypse: -5, apocalyptic: -4, apologist: -3, apologists: -2, appal: -1, appall: -1, appalled: -1, appalling: -1, appallingly: -1, apprehension: -1, apprehensions: -1, apprehensive: -1, apprehensively: -1, arbitrary: -1, arcane: -1, archaic: -1, arduous: -1, arduously: -1, argumentative: -1, arrogance: -3, arrogant: -4, arrogantly: -5, ashamed: -4, asinine: -1, asininely: -1, asinininity: -1, askance: -1, asperse: -1, aspersion: -1, aspersions: -1, assail: -1, assassin: -2, assassinate: -2, assault: -1, assult: -1, astray: -1, asunder: -1, atrocious: -1, atrocities: -1, atrocity: -1, atrophy: -1, attack: -3, attacks: -3, audacious: -3, audaciously: -2, audaciousness: -2, audacity: -2, audiciously: -1, austere: -1, authoritarian: -1, autocrat: -1, autocratic: -1, avalanche: -2, avarice: -1, avaricious: -1, avariciously: -1, avenge: -4, averse: -1, aversion: -1, aweful: -4, awful: -5, awfully: -1, awfulness: -1, awkward: -3, awkwardness: -2, ax: -1, babble: -1, "back-logged": -1, "back-wood": -1, "back-woods": -1, backache: -1, backaches: -1, backaching: -1, backbite: -1, backbiting: -1, backward: -1, backwardness: -1, backwood: -1, backwoods: -1, bad: -4, badly: -2, baffle: -5, baffled: -4, bafflement: -1, baffling: -1, bait: -1, balk: -1, banal: -1, banalize: -1, bane: -1, banish: -5, banishment: -4, bankrupt: -2, barbarian: -5, barbaric: -4, barbarically: -3, barbarity: -2, barbarous: -3, barbarously: -1, barren: -3, baseless: -2, bash: -1, bashed: -1, bashful: -1, bashing: -1, bastard: -2, bastards: -2, battered: -1, battering: -1, batty: -1, bearish: -1, beastly: -1, bedlam: -1, bedlamite: -1, befoul: -1, beg: -1, beggar: -1, beggarly: -1, begging: -1, beguile: -1, belabor: -1, belated: -1, beleaguer: -1, belie: -2, belittle: -2, belittled: -2, belittling: -2, bellicose: -2, belligerence: -2, belligerent: -2, belligerently: -2, bemoan: -2, bemoaning: -2, bemused: -2, bent: -2, berate: -2, bereave: -2, bereavement: -2, bereft: -2, berserk: -2, beseech: -1, beset: -1, besiege: -1, besmirch: -1, bestial: -1, betray: -1, betrayal: -1, betrayals: -1, betrayer: -1, betraying: -1, betrays: -1, bewail: -1, beware: -2, bewilder: -1, bewildered: -1, bewildering: -1, bewilderingly: -1, bewilderment: -1, bewitch: -1, bias: -3, biased: -1, biases: -1, bicker: -1, bickering: -1, "bid-rigging": -1, bigotries: -1, bigotry: -4, bitch: -5, bitchy: -5, biting: -5, bitingly: -5, bitter: -5, bitterly: -5, bitterness: -5, bizarre: -1, blab: -1, blabber: -1, blackmail: -1, blah: -1, blame: -3, blameworthy: -1, bland: -1, blandish: -1, blaspheme: -1, blasphemous: -1, blasphemy: -1, blasted: -1, blatant: -1, blatantly: -1, blather: -1, bleak: -1, bleakly: -1, bleakness: -1, bleed: -2, bleeding: -3, bleeds: -3, blemish: -1, blind: -2, blinding: -1, blindingly: -1, blindside: -1, blister: -1, blistering: -1, bloated: -1, blockage: -1, blockhead: -1, bloodshed: -1, bloodthirsty: -1, bloody: -1, blotchy: -1, blow: -3, blunder: -1, blundering: -1, blunders: -1, blunt: -1, blur: -1, bluring: -1, blurred: -1, blurring: -1, blurry: -1, blurs: -1, blurt: -1, boastful: -1, boggle: -3, bogus: -2, boil: -2, boiling: -3, boisterous: -2, bomb: -4, bombard: -2, bombardment: -1, bombastic: -1, bondage: -1, bonkers: -4, bore: -1, bored: -1, boredom: -2, bores: -2, boring: -1, botch: -1, bother: -1, bothered: -1, bothering: -1, bothers: -1, bothersome: -1, bowdlerize: -1, boycott: -3, braggart: -3, bragger: -2, brainless: -3, brainwash: -1, brash: -1, brashly: -1, brashness: -1, brat: -1, bravado: -1, brazen: -1, brazenly: -2, brazenness: -2, breach: -3, break: -2, "break-up": -2, "break-ups": -1, breakdown: -4, breaking: -1, breaks: -2, breakup: -2, breakups: -2, bribery: -2, brimstone: -2, bristle: -2, brittle: -3, broke: -3, broken: -3, "broken-hearted": -3, brood: -3, browbeat: -3, bruise: -3, bruised: -2, bruises: -2, bruising: -2, brusque: -3, brutal: -3, brutalising: -3, brutalities: -2, brutality: -2, brutalize: -2, brutalizing: -2, brutally: -2, brute: -2, brutish: -1, bs: -3, buckle: -1, bug: -2, bugging: -5, buggy: -3, bugs: -2, bulkier: -2, bulkiness: -1, bulky: -3, bulkyness: -1, "bull****": -3, "bull----": -3, bullies: -2, bullshit: -5, bullshyt: -1, bully: -2, bullying: -1, bullyingly: -1, bum: -1, bump: -1, bumped: -3, bumping: -1, bumpping: -1, bumps: -1, bumpy: -1, bungle: -1, bungler: -1, bungling: -1, bunk: -1, burden: -4, burdensome: -1, burdensomely: -1, burn: -5, burned: -4, burning: -1, burns: -1, bust: -1, busts: -1, busybody: -1, butcher: -1, butchery: -1, buzzing: -1, byzantine: -1, cackle: -1, calamities: -3, calamitous: -3, calamitously: -3, calamity: -4, callous: -2, calumniate: -1, calumniation: -1, calumnies: -1, calumnious: -1, calumniously: -1, calumny: -1, cancer: -5, cancerous: -1, cannibal: -1, cannibalize: -5, capitulate: -1, capricious: -1, capriciously: -1, capriciousness: -1, capsize: -1, careless: -4, carelessness: -5, caricature: -1, carnage: -1, carp: -1, cartoonish: -1, "cash-strapped": -1, castigate: -1, castrated: -1, casualty: -3, cataclysm: -2, cataclysmal: -2, cataclysmic: -2, cataclysmically: -1, catastrophe: -4, catastrophes: -4, catastrophic: -4, catastrophically: -1, catastrophies: -1, caustic: -1, caustically: -1, cautionary: -3, cave: -1, censure: -1, chafe: -1, chaff: -1, chagrin: -1, challenging: -3, chaos: -5, chaotic: -1, chasten: -1, chastise: -1, chastisement: -1, chatter: -1, chatterbox: -1, cheap: -3, cheapen: -1, cheaply: -1, cheat: -2, cheated: -3, cheater: -2, cheating: -1, cheats: -1, checkered: -1, cheerless: -1, cheesy: -1, chide: -1, childish: -1, chill: -1, chilly: -1, chintzy: -1, choke: -1, choleric: -1, choppy: -1, chore: -1, chronic: -1, chunky: -1, clamor: -1, clamorous: -1, clash: -1, cliche: -1, cliched: -1, clique: -1, clog: -1, clogged: -1, clogs: -1, cloud: -1, clouding: -1, cloudy: -1, clueless: -1, clumsy: -3, clunky: -3, coarse: -3, cocky: -1, coerce: -2, coercion: -2, coercive: -2, cold: -3, coldly: -1, collapse: -1, collude: -1, collusion: -1, combative: -1, combust: -2, comical: -2, commiserate: -2, commonplace: -2, commotion: -3, commotions: -3, complacent: -3, complain: -3, complained: -4, complaining: -4, complains: -4, complaint: -4, complaints: -2, complex: -2, complicated: -4, complication: -4, complicit: -4, compulsion: -4, compulsive: -1, concede: -1, conceded: -1, conceit: -1, conceited: -1, concen: -1, concens: -2, concern: -1, concerned: -1, concerns: -1, concession: -1, concessions: -1, condemn: -1, condemnable: -1, condemnation: -1, condemned: -1, condemns: -1, condescend: -1, condescending: -1, condescendingly: -1, condescension: -1, confess: -1, confession: -4, confessions: -2, confined: -2, conflict: -2, conflicted: -2, conflicting: -2, conflicts: -2, confound: -2, confounded: -2, confounding: -2, confront: -3, confrontation: -3, confrontational: -3, confuse: -5, confused: -4, confuses: -4, confusing: -4, confusion: -4, confusions: -4, congested: -4, congestion: -4, cons: -5, conscons: -2, conservative: -1, conspicuous: -1, conspicuously: -1, conspiracies: -1, conspiracy: -4, conspirator: -1, conspiratorial: -1, conspire: -5, consternation: -1, contagious: -3, contaminate: -3, contaminated: -3, contaminates: -2, contaminating: -2, contamination: -1, contempt: -1, contemptible: -1, contemptuous: -2, contemptuously: -2, contend: -2, contention: -2, contentious: -2, contort: -3, contortions: -3, contradict: -3, contradiction: -3, contradictory: -3, contrariness: -3, contravene: -3, contrive: -3, contrived: -3, controversial: -3, controversy: -2, convoluted: -2, corrode: -2, corrosion: -3, corrosions: -3, corrosive: -3, corrupt: -4, corrupted: -4, corrupting: -4, corruption: -4, corrupts: -4, corruptted: -4, costlier: -3, costly: -3, "counter-productive": -3, counterproductive: -3, coupists: -1, covetous: -2, coward: -4, cowardly: -5, crabby: -2, crack: -2, cracked: -2, cracks: -1, craftily: -1, craftly: -1, crafty: -1, cramp: -1, cramped: -1, cramping: -1, cranky: -1, crap: -4, crappy: -5, craps: -3, crash: -3, crashed: -2, crashes: -2, crashing: -1, crass: -1, craven: -1, cravenly: -1, craze: -1, crazily: -1, craziness: -1, crazy: -2, creak: -3, creaking: -3, creaks: -1, credulous: -1, creep: -1, creeping: -1, creeps: -1, creepy: -1, crept: -1, crime: -4, criminal: -4, cringe: -2, cringed: -2, cringes: -2, cripple: -2, crippled: -3, cripples: -3, crippling: -4, crisis: -4, critic: -4, critical: -1, criticism: -1, criticisms: -1, criticize: -1, criticized: -1, criticizing: -1, critics: -3, cronyism: -3, crook: -3, crooked: -3, crooks: -1, crowded: -1, crowdedness: -1, crude: -1, cruel: -5, crueler: -5, cruelest: -5, cruelly: -5, cruelness: -4, cruelties: -4, cruelty: -4, crumble: -3, crumbling: -3, crummy: -2, crumple: -2, crumpled: -2, crumples: -1, crush: -3, crushed: -1, crushing: -1, cry: -3, culpable: -1, culprit: -3, cumbersome: -1, cunt: -5, cunts: -5, cuplrit: -1, curse: -3, cursed: -3, curses: -4, curt: -1, cuss: -3, cussed: -3, cutthroat: -2, cynical: -3, cynicism: -3, "d*mn": -3, damage: -3, damaged: -3, damages: -3, damaging: -3, damn: -4, damnable: -5, damnably: -5, damnation: -5, damned: -5, damning: -5, damper: -2, danger: -2, dangerous: -2, dangerousness: -3, dark: -3, darken: -2, darkened: -2, darker: -2, darkness: -2, dastard: -1, dastardly: -1, daunt: -1, daunting: -2, dauntingly: -2, dawdle: -1, daze: -1, dazed: -1, dead: -5, deadbeat: -5, deadlock: -3, deadly: -4, deadweight: -3, deaf: -3, dearth: -1, death: -4, debacle: -1, debase: -1, debasement: -1, debaser: -1, debatable: -1, debauch: -1, debaucher: -1, debauchery: -1, debilitate: -1, debilitating: -1, debility: -1, debt: -2, debts: -2, decadence: -1, decadent: -1, decay: -4, decayed: -4, deceit: -3, deceitful: -3, deceitfully: -3, deceitfulness: -3, deceive: -3, deceiver: -3, deceivers: -3, deceiving: -3, deception: -4, deceptive: -4, deceptively: -5, declaim: -3, decline: -2, declines: -2, declining: -2, decrement: -2, decrepit: -2, decrepitude: -1, decry: -1, defamation: -3, defamations: -3, defamatory: -3, defame: -3, defect: -4, defective: -4, defects: -4, defensive: -3, defiance: -3, defiant: -3, defiantly: -3, deficiencies: -3, deficiency: -3, deficient: -3, defile: -3, defiler: -3, deform: -3, deformed: -3, defrauding: -4, defunct: -2, defy: -1, degenerate: -2, degenerately: -2, degeneration: -2, degradation: -3, degrade: -3, degrading: -3, degradingly: -3, dehumanization: -2, dehumanize: -2, deign: -1, deject: -1, dejected: -1, dejectedly: -1, dejection: -1, delay: -1, delayed: -1, delaying: -1, delays: -1, delinquency: -1, delinquent: -1, delirious: -1, delirium: -1, delude: -1, deluded: -1, deluge: -1, delusion: -1, delusional: -1, delusions: -1, demean: -2, demeaning: -1, demise: -3, demolish: -3, demolisher: -3, demon: -4, demonic: -4, demonize: -4, demonized: -4, demonizes: -4, demonizing: -4, demoralize: -1, demoralizing: -1, demoralizingly: -1, denial: -2, denied: -2, denies: -1, denigrate: -1, denounce: -1, dense: -1, dent: -1, dented: -1, dents: -1, denunciate: -1, denunciation: -1, denunciations: -1, deny: -2, denying: -2, deplete: -1, deplorable: -1, deplorably: -1, deplore: -1, deploring: -1, deploringly: -1, deprave: -1, depraved: -1, depravedly: -1, deprecate: -1, depress: -4, depressed: -3, depressing: -4, depressingly: -3, depression: -4, depressions: -4, deprive: -3, deprived: -3, deride: -1, derision: -1, derisive: -1, derisively: -1, derisiveness: -1, derogatory: -3, desecrate: -1, desert: -2, desertion: -1, desiccate: -1, desiccated: -1, desititute: -1, desolate: -1, desolately: -1, desolation: -1, despair: -1, despairing: -1, despairingly: -1, desperate: -2, desperately: -2, desperation: -1, despicable: -2, despicably: -1, despise: -1, despised: -1, despoil: -1, despoiler: -1, despondence: -1, despondency: -1, despondent: -1, despondently: -1, despot: -1, despotic: -1, despotism: -1, destabilisation: -1, destains: -1, destitute: -1, destitution: -1, destroy: -5, destroyer: -5, destruction: -5, destructive: -5, desultory: -1, deter: -2, deteriorate: -5, deteriorating: -5, deterioration: -5, deterrent: -5, detest: -3, detestable: -3, detestably: -3, detested: -3, detesting: -3, detests: -3, detract: -3, detracted: -2, detracting: -2, detraction: -2, detracts: -2, detriment: -2, detrimental: -2, devastate: -5, devastated: -5, devastates: -5, devastating: -5, devastatingly: -5, devastation: -5, deviate: -2, deviation: -2, devil: -2, devilish: -2, devilishly: -2, devilment: -2, devilry: -2, devious: -3, deviously: -3, deviousness: -3, devoid: -2, diabolic: -2, diabolical: -2, diabolically: -2, diametrically: -1, diappointed: -5, diatribe: -1, diatribes: -1, dick: -5, dictator: -4, dictatorial: -3, die: -5, "die-hard": -2, died: -4, dies: -3, difficult: -2, difficulties: -2, difficulty: -2, diffidence: -1, dilapidated: -1, dilemma: -1, "dilly-dally": -1, dim: -1, dimmer: -1, din: -1, ding: -1, dings: -1, dinky: -1, dire: -1, direly: -1, direness: -1, dirt: -2, dirtbag: -1, dirtbags: -1, dirts: -2, dirty: -2, disable: -1, disabled: -1, disaccord: -1, disadvantage: -1, disadvantaged: -1, disadvantageous: -1, disadvantages: -1, disaffect: -1, disaffected: -1, disaffirm: -1, disagree: -2, disagreeable: -1, disagreeably: -1, disagreed: -2, disagreeing: -1, disagreement: -1, disagrees: -1, disallow: -4, disapointed: -5, disapointing: -5, disapointment: -5, disappoint: -5, disappointed: -4, disappointing: -4, disappointingly: -4, disappointment: -4, disappointments: -4, disappoints: -3, disapprobation: -1, disapproval: -2, disapprove: -2, disapproving: -2, disarm: -2, disarray: -1, disaster: -1, disasterous: -2, disastrous: -2, disastrously: -1, disavow: -3, disavowal: -3, disbelief: -2, disbelieve: -2, disbeliever: -2, disclaim: -1, discombobulate: -1, discomfit: -3, discomfititure: -1, discomfort: -1, discompose: -1, disconcert: -1, disconcerted: -1, disconcerting: -1, disconcertingly: -1, disconsolate: -1, disconsolately: -1, disconsolation: -1, discontent: -2, discontented: -2, discontentedly: -2, discontinued: -2, discontinuity: -1, discontinuous: -1, discord: -1, discordance: -1, discordant: -1, discountenance: -1, discourage: -1, discouragement: -1, discouraging: -1, discouragingly: -1, discourteous: -1, discourteously: -1, discoutinous: -1, discredit: -1, discrepant: -1, discriminate: -2, discrimination: -2, discriminatory: -2, disdain: -1, disdained: -1, disdainful: -1, disdainfully: -1, disfavor: -1, disgrace: -5, disgraced: -5, disgraceful: -5, disgracefully: -5, disgruntle: -3, disgruntled: -3, disgust: -5, disgusted: -5, disgustedly: -5, disgustful: -5, disgustfully: -5, disgusting: -5, disgustingly: -5, dishearten: -4, disheartening: -4, dishearteningly: -4, dishonest: -3, dishonestly: -3, dishonesty: -3, dishonor: -3, dishonorable: -3, dishonorablely: -3, disillusion: -2, disillusioned: -2, disillusionment: -2, disillusions: -2, disinclination: -2, disinclined: -2, disingenuous: -2, disingenuously: -2, disintegrate: -2, disintegrated: -2, disintegrates: -2, disintegration: -2, disinterest: -2, disinterested: -2, dislike: -3, disliked: -3, dislikes: -3, disliking: -3, dislocated: -3, disloyal: -3, disloyalty: -3, dismal: -1, dismally: -1, dismalness: -1, dismay: -3, dismayed: -3, dismaying: -3, dismayingly: -3, dismissive: -2, dismissively: -2, disobedience: -2, disobedient: -2, disobey: -1, disoobedient: -1, disorder: -1, disordered: -1, disorderly: -1, disorganized: -1, disorient: -1, disoriented: -1, disown: -1, disparage: -1, disparaging: -1, disparagingly: -1, dispensable: -1, dispirit: -1, dispirited: -1, dispiritedly: -1, dispiriting: -1, displace: -1, displaced: -1, displease: -1, displeased: -1, displeasing: -1, displeasure: -1, disproportionate: -1, disprove: -2, disputable: -1, dispute: -3, disputed: -3, disquiet: -1, disquieting: -1, disquietingly: -1, disquietude: -1, disregard: -3, disregardful: -1, disreputable: -1, disrepute: -2, disrespect: -1, disrespectable: -1, disrespectablity: -1, disrespectful: -1, disrespectfully: -1, disrespectfulness: -1, disrespecting: -1, disrupt: -4, disruption: -4, disruptive: -4, diss: -1, dissapointed: -5, dissappointed: -5, dissappointing: -5, dissatisfaction: -4, dissatisfactory: -4, dissatisfied: -4, dissatisfies: -4, dissatisfy: -4, dissatisfying: -4, dissed: -1, dissemble: -1, dissembler: -1, dissension: -1, dissent: -1, dissenter: -1, dissention: -1, disservice: -1, disses: -1, dissidence: -1, dissident: -1, dissidents: -1, dissing: -1, dissocial: -1, dissolute: -1, dissolution: -1, dissonance: -1, dissonant: -1, dissonantly: -1, dissuade: -1, dissuasive: -1, distains: -1, distaste: -1, distasteful: -1, distastefully: -1, distort: -1, distorted: -1, distortion: -1, distorts: -1, distract: -1, distracting: -1, distraction: -1, distraught: -1, distraughtly: -1, distraughtness: -1, distress: -2, distressed: -2, distressing: -2, distressingly: -1, distrust: -3, distrustful: -3, distrusting: -3, disturb: -3, disturbance: -3, disturbed: -3, disturbing: -3, disturbingly: -3, disunity: -2, disvalue: -2, divergent: -2, divisive: -2, divisively: -2, divisiveness: -2, dizzing: -2, dizzingly: -2, dizzy: -2, doddering: -2, dodgey: -2, dogged: -2, doggedly: -2, dogmatic: -2, doldrums: -2, domineer: -2, domineering: -2, donside: -2, doom: -4, doomed: -4, doomsday: -3, dope: -1, doubt: -2, doubtful: -1, doubtfully: -1, doubts: -2, douchbag: -5, douchebag: -5, douchebags: -5, downbeat: -3, downcast: -1, downer: -1, downfall: -1, downfallen: -1, downgrade: -1, downhearted: -1, downheartedly: -1, downhill: -1, downside: -3, downsides: -1, downturn: -1, downturns: -1, drab: -1, draconian: -1, draconic: -1, drag: -2, dragged: -1, dragging: -1, dragoon: -1, drags: -1, drain: -3, drained: -3, draining: -3, drains: -1, drastic: -1, drastically: -1, drawback: -1, drawbacks: -1, dread: -4, dreadful: -4, dreadfully: -4, dreadfulness: -4, dreary: -2, dripped: -2, dripping: -2, drippy: -2, drips: -2, drones: -2, droop: -2, droops: -2, "drop-out": -3, "drop-outs": -3, dropout: -3, dropouts: -2, drought: -2, drowning: -3, drunk: -3, drunkard: -1, drunken: -1, dubious: -1, dubiously: -1, dubitable: -1, dud: -1, dull: -1, dullard: -1, dumb: -2, dumbfound: -2, dump: -2, dumped: -3, dumping: -3, dumps: -3, dunce: -1, dungeon: -1, dungeons: -1, dupe: -2, dust: -2, dusty: -2, dwindling: -1, dying: -1, earsplitting: -1, eccentric: -1, eccentricity: -1, effigy: -1, effrontery: -1, egocentric: -2, egomania: -3, egotism: -1, egotistical: -1, egotistically: -1, egregious: -1, egregiously: -1, "election-rigger": -1, elimination: -1, emaciated: -1, emasculate: -1, embarrass: -1, embarrassing: -1, embarrassingly: -1, embarrassment: -1, embattled: -1, embroil: -1, embroiled: -1, embroilment: -1, emergency: -1, emphatic: -1, emphatically: -1, emptiness: -1, encroach: -1, encroachment: -1, endanger: -3, enemies: -2, enemy: -2, enervate: -1, enfeeble: -1, enflame: -1, engulf: -1, enjoin: -1, enmity: -1, enrage: -1, enraged: -1, enraging: -1, enslave: -3, entangle: -1, entanglement: -1, entrap: -1, entrapment: -1, envious: -1, enviously: -1, enviousness: -1, epidemic: -4, equivocal: -1, erase: -3, erode: -5, erodes: -5, erosion: -5, err: -1, errant: -1, erratic: -1, erratically: -1, erroneous: -1, erroneously: -1, error: -3, errors: -3, eruptions: -1, escapade: -1, eschew: -1, estranged: -1, evade: -1, evasion: -1, evasive: -1, evil: -1, evildoer: -1, evils: -1, eviscerate: -1, exacerbate: -1, exagerate: -3, exagerated: -3, exagerates: -3, exaggerate: -3, exaggeration: -3, exasperate: -3, exasperated: -3, exasperating: -3, exasperatingly: -3, exasperation: -3, excessive: -3, excessively: -2, exclusion: -2, excoriate: -2, excruciating: -2, excruciatingly: -1, excuse: -2, excuses: -2, execrate: -3, exhaust: -3, exhausted: -3, exhaustion: -3, exhausts: -3, exhorbitant: -2, exhort: -2, exile: -2, exorbitant: -2, exorbitantance: -2, exorbitantly: -2, expel: -4, expensive: -4, expire: -4, expired: -4, explode: -4, exploit: -4, exploitation: -3, explosive: -3, expropriate: -3, expropriation: -3, expulse: -1, expunge: -1, exterminate: -3, extermination: -3, extinguish: -1, extort: -5, extortion: -5, extraneous: -1, extravagance: -2, extravagant: -1, extravagantly: -1, extremism: -3, extremist: -5, extremists: -5, eyesore: -3, "f**k": -5, fabricate: -3, fabrication: -1, facetious: -1, facetiously: -1, fail: -5, failed: -4, failing: -4, fails: -4, failure: -4, failures: -4, faint: -2, fainthearted: -2, faithless: -2, fake: -2, fall: -2, fallacies: -2, fallacious: -1, fallaciously: -1, fallaciousness: -1, fallacy: -3, fallen: -3, falling: -3, fallout: -4, falls: -3, false: -1, falsehood: -5, falsely: -4, falsify: -4, falter: -1, faltered: -1, famine: -5, famished: -1, fanatic: -3, fanatical: -3, fanatically: -4, fanaticism: -2, fanatics: -2, fanciful: -2, "far-fetched": -1, farce: -1, farcical: -1, "farcical-yet-provocative": -1, farcically: -1, farfetched: -1, fascism: -5, fascist: -5, fastidious: -1, fastidiously: -1, fastuous: -1, fat: -1, "fat-cat": -1, "fat-cats": -1, fatal: -4, fatalistic: -4, fatalistically: -4, fatally: -4, fatcat: -1, fatcats: -1, fateful: -3, fatefully: -3, fathomless: -1, fatigue: -4, fatigued: -4, fatique: -4, fatty: -4, fatuity: -2, fatuous: -2, fatuously: -2, fault: -4, faults: -4, faulty: -4, fawningly: -1, faze: -1, fear: -5, fearful: -5, fearfully: -5, fears: -5, fearsome: -5, feckless: -1, feeble: -1, feeblely: -1, feebleminded: -1, feign: -1, feint: -1, fell: -1, felon: -1, felonious: -1, ferociously: -1, ferocity: -1, fetid: -1, fever: -3, feverish: -1, fevers: -1, fiasco: -1, fib: -1, fibber: -1, fickle: -1, fiction: -3, fictional: -3, fictitious: -3, fidget: -1, fidgety: -1, fiend: -1, fiendish: -1, fierce: -1, figurehead: -1, filth: -2, filthy: -2, finagle: -2, finicky: -2, fissures: -2, fist: -1, flabbergast: -1, flabbergasted: -1, flagging: -1, flagrant: -1, flagrantly: -1, flair: -1, flairs: -1, flak: -1, flake: -1, flakey: -1, flakieness: -1, flaking: -1, flaky: -1, flare: -1, flares: -1, flareup: -1, flareups: -1, "flat-out": -1, flaunt: -1, flaw: -5, flawed: -5, flaws: -5, flee: -2, fleed: -2, fleeing: -2, fleer: -2, flees: -2, fleeting: -3, flicering: -3, flicker: -3, flickering: -3, flickers: -2, flighty: -2, flimflam: -2, flimsy: -3, flirt: -3, flirty: -3, floored: -3, flounder: -3, floundering: -3, flout: -3, fluster: -2, foe: -4, fool: -3, fooled: -3, foolhardy: -3, foolish: -3, foolishly: -3, foolishness: -3, forbid: -3, forbidden: -2, forbidding: -2, forceful: -2, foreboding: -1, forebodingly: -1, forfeit: -1, forged: -1, forgetful: -1, forgetfully: -1, forgetfulness: -1, forlorn: -1, forlornly: -1, forsake: -2, forsaken: -2, forswear: -2, foul: -5, foully: -5, foulness: -5, fractious: -3, fractiously: -3, fracture: -3, fragile: -3, fragmented: -3, frail: -3, frantic: -3, frantically: -3, franticly: -3, fraud: -3, fraudulent: -3, fraught: -3, frazzle: -2, frazzled: -2, freak: -2, freaking: -3, freakish: -3, freakishly: -3, freaks: -2, freeze: -2, freezes: -2, freezing: -2, frenetic: -2, frenetically: -3, frenzied: -3, frenzy: -3, fret: -3, fretful: -3, frets: -3, friction: -3, frictions: -3, fried: -3, friggin: -3, frigging: -3, fright: -3, frighten: -2, frightening: -2, frighteningly: -2, frightful: -2, frightfully: -2, frigid: -3, frost: -3, frown: -3, froze: -3, frozen: -2, fruitless: -2, fruitlessly: -2, frustrate: -2, frustrated: -5, frustrates: -5, frustrating: -5, frustratingly: -5, frustration: -5, frustrations: -5, fuck: -5, fucking: -5, fudge: -2, fugitive: -2, "full-blown": -3, fulminate: -3, fumble: -3, fume: -3, fumes: -3, fundamentalism: -2, funky: -2, funnily: -2, funny: -1, furious: -2, furiously: -2, furor: -2, fury: -3, fuss: -3, fussy: -3, fustigate: -3, fusty: -3, futile: -3, futilely: -3, futility: -3, fuzzy: -3, gabble: -2, gaff: -2, gaffe: -2, gainsay: -2, gainsayer: -2, gall: -2, galling: -2, gallingly: -2, galls: -2, gangster: -5, gape: -5, garbage: -5, garish: -1, gasp: -1, gauche: -1, gaudy: -1, gawk: -1, gawky: -3, geezer: -1, genocide: -3, "get-rich": -1, ghastly: -1, ghetto: -1, ghosting: -1, gibber: -1, gibberish: -1, gibe: -1, giddy: -1, gimmick: -3, gimmicked: -3, gimmicking: -3, gimmicks: -3, gimmicky: -3, glare: -1, glaringly: -1, glib: -1, glibly: -1, glitch: -1, glitches: -1, gloatingly: -1, gloom: -1, gloomy: -1, glower: -1, glum: -1, glut: -1, gnawing: -1, goad: -1, goading: -1, "god-awful": -1, goof: -1, goofy: -1, goon: -1, gossip: -1, graceless: -1, gracelessly: -1, graft: -1, grainy: -1, grapple: -1, grate: -1, grating: -1, gravely: -1, greasy: -1, greed: -4, greedy: -4, grief: -5, grievance: -5, grievances: -5, grieve: -5, grieving: -5, grievous: -5, grievously: -5, grim: -2, grimace: -2, grind: -1, gripe: -1, gripes: -1, grisly: -1, gritty: -1, gross: -2, grossly: -2, grotesque: -1, grouch: -1, grouchy: -1, groundless: -1, grouse: -1, growl: -3, grudge: -4, grudges: -4, grudging: -4, grudgingly: -4, gruesome: -5, gruesomely: -5, gruff: -1, grumble: -1, grumpier: -1, grumpiest: -1, grumpily: -1, grumpish: -1, grumpy: -1, guile: -1, guilt: -3, guiltily: -3, guilty: -3, gullible: -3, gutless: -1, gutter: -1, hack: -2, hacks: -2, haggard: -2, haggle: -2, hairloss: -1, halfhearted: -1, halfheartedly: -1, hallucinate: -1, hallucination: -1, hamper: -1, hampered: -1, handicapped: -1, hang: -1, hangs: -1, haphazard: -1, hapless: -1, harangue: -1, harass: -3, harassed: -3, harasses: -3, harassment: -3, harboring: -1, harbors: -1, hard: -4, "hard-hit": -3, "hard-line": -3, "hard-liner": -3, hardball: -3, harden: -3, hardened: -3, hardheaded: -3, hardhearted: -3, hardliner: -3, hardliners: -3, hardship: -5, hardships: -5, harm: -5, harmed: -5, harmful: -5, harms: -5, harpy: -1, harridan: -1, harried: -1, harrow: -1, harsh: -1, harshly: -1, hasseling: -1, hassle: -3, hassled: -3, hassles: -3, haste: -5, hastily: -1, hasty: -1, hate: -5, hated: -5, hateful: -5, hatefully: -5, hatefulness: -5, hater: -5, haters: -5, hates: -5, hating: -5, hatred: -5, haughtily: -1, haughty: -1, haunt: -3, haunting: -3, havoc: -1, hawkish: -1, haywire: -1, hazard: -3, hazardous: -3, haze: -1, hazy: -1, "head-aches": -1, headache: -2, headaches: -2, heartbreaker: -4, heartbreaking: -4, heartbreakingly: -4, heartless: -4, heathen: -1, "heavy-handed": -2, heavyhearted: -2, heck: -1, heckle: -1, heckled: -1, heckles: -1, hectic: -1, hedge: -1, hedonistic: -1, heedless: -1, hefty: -1, hegemonism: -1, hegemonistic: -1, hegemony: -1, heinous: -1, hell: -2, "hell-bent": -2, hellion: -1, hells: -1, helpless: -3, helplessly: -3, helplessness: -1, heresy: -1, heretic: -1, heretical: -1, hesitant: -1, hestitant: -1, hideous: -1, hideously: -1, hideousness: -1, "high-priced": -1, hiliarious: -1, hinder: -1, hindrance: -1, hiss: -1, hissed: -1, hissing: -1, "ho-hum": -1, hoard: -1, hoax: -5, hobble: -5, hogs: -1, hollow: -1, hoodium: -1, hoodwink: -1, hooligan: -1, hopeless: -2, hopelessly: -2, hopelessness: -2, horde: -2, horrendous: -1, horrendously: -1, horrible: -1, horrid: -1, horrific: -1, horrified: -1, horrifies: -1, horrify: -1, horrifying: -1, horrifys: -1, hostage: -1, hostile: -1, hostilities: -1, hostility: -1, hotbeds: -1, hothead: -1, hotheaded: -1, hothouse: -1, hubris: -1, huckster: -1, hum: -1, humid: -1, humiliate: -3, humiliating: -3, humiliation: -3, humming: -1, hung: -3, hurt: -5, hurted: -5, hurtful: -5, hurting: -5, hurts: -4, hustler: -1, hype: -1, hypocricy: -3, hypocrisy: -3, hypocrite: -3, hypocrites: -3, hypocritical: -3, hypocritically: -3, hysteria: -2, hysteric: -2, hysterical: -2, hysterically: -2, hysterics: -2, idiocies: -1, idiocy: -1, idiot: -3, idiotic: -3, idiotically: -3, idiots: -3, idle: -1, ignoble: -1, ignominious: -3, ignominiously: -3, ignominy: -3, ignorance: -5, ignorant: -5, ignore: -5, "ill-advised": -2, "ill-conceived": -2, "ill-defined": -2, "ill-designed": -2, "ill-fated": -2, "ill-favored": -2, "ill-formed": -2, "ill-mannered": -2, "ill-natured": -2, "ill-sorted": -2, "ill-tempered": -2, "ill-treated": -2, "ill-treatment": -2, "ill-usage": -2, "ill-used": -2, illegal: -4, illegally: -4, illegitimate: -1, illicit: -1, illiterate: -1, illness: -1, illogic: -1, illogical: -1, illogically: -1, illusion: -1, illusions: -1, illusory: -1, imaginary: -1, imbalance: -1, imbecile: -1, imbroglio: -1, immaterial: -1, immature: -1, imminence: -1, imminently: -1, immobilized: -1, immoderate: -1, immoderately: -1, immodest: -1, immoral: -1, immorality: -1, immorally: -1, immovable: -1, impair: -3, impaired: -1, impasse: -1, impatience: -2, impatient: -1, impatiently: -1, impeach: -1, impedance: -1, impede: -1, impediment: -1, impending: -1, impenitent: -1, imperfect: -1, imperfection: -1, imperfections: -1, imperfectly: -3, imperialist: -2, imperil: -2, imperious: -1, imperiously: -1, impermissible: -1, impersonal: -1, impertinent: -1, impetuous: -1, impetuously: -1, impiety: -1, impinge: -1, impious: -1, implacable: -1, implausible: -1, implausibly: -1, implicate: -1, implication: -1, implode: -2, impolite: -1, impolitely: -1, impolitic: -1, importunate: -1, importune: -1, impose: -1, imposers: -1, imposing: -1, imposition: -1, impossible: -3, impossiblity: -3, impossibly: -1, impotent: -2, impoverish: -1, impoverished: -1, impractical: -1, imprecate: -1, imprecise: -2, imprecisely: -1, imprecision: -1, imprison: -1, imprisonment: -1, improbability: -1, improbable: -1, improbably: -1, improper: -1, improperly: -1, impropriety: -1, imprudence: -1, imprudent: -1, impudence: -1, impudent: -1, impudently: -1, impugn: -1, impulsive: -3, impulsively: -3, impunity: -1, impure: -1, impurity: -1, inability: -1, inaccuracies: -1, inaccuracy: -1, inaccurate: -1, inaccurately: -1, inaction: -1, inactive: -1, inadequacy: -1, inadequate: -1, inadequately: -1, inadverent: -1, inadverently: -1, inadvisable: -1, inadvisably: -1, inane: -1, inanely: -1, inappropriate: -1, inappropriately: -1, inapt: -1, inaptitude: -1, inarticulate: -1, inattentive: -1, inaudible: -1, incapable: -1, incapably: -1, incautious: -1, incendiary: -1, incense: -2, incessant: -1, incessantly: -1, incite: -1, incitement: -1, incivility: -1, inclement: -1, incognizant: -1, incoherence: -1, incoherent: -1, incoherently: -1, incommensurate: -1, incomparable: -1, incomparably: -1, incompatability: -2, incompatibility: -2, incompatible: -2, incompetence: -2, incompetent: -2, incompetently: -2, incomplete: -3, incompliant: -3, incomprehensible: -3, incomprehension: -3, inconceivable: -3, inconceivably: -3, incongruous: -3, incongruously: -3, inconsequent: -3, inconsequential: -1, inconsequentially: -1, inconsequently: -1, inconsiderate: -1, inconsiderately: -1, inconsistence: -4, inconsistencies: -1, inconsistency: -1, inconsistent: -4, inconsolable: -1, inconsolably: -1, inconstant: -1, inconvenience: -1, inconveniently: -1, incorrect: -5, incorrectly: -1, incorrigible: -1, incorrigibly: -1, incredulous: -1, incredulously: -1, inculcate: -1, indecency: -5, indecent: -5, indecently: -5, indecision: -2, indecisive: -2, indecisively: -1, indecorum: -1, indefensible: -1, indelicate: -1, indeterminable: -1, indeterminably: -1, indeterminate: -1, indifference: -1, indifferent: -1, indigent: -1, indignant: -1, indignantly: -1, indignation: -1, indignity: -1, indiscernible: -1, indiscreet: -1, indiscreetly: -1, indiscretion: -1, indiscriminate: -2, indiscriminately: -2, indiscriminating: -2, indistinguishable: -2, indoctrinate: -1, indoctrination: -1, indolent: -1, indulge: -1, ineffective: -1, ineffectively: -1, ineffectiveness: -1, ineffectual: -1, ineffectually: -1, ineffectualness: -1, inefficacious: -1, inefficacy: -1, inefficiency: -1, inefficient: -1, inefficiently: -1, inelegance: -1, inelegant: -1, ineligible: -1, ineloquent: -1, ineloquently: -1, inept: -1, ineptitude: -1, ineptly: -1, inequalities: -1, inequality: -1, inequitable: -1, inequitably: -1, inequities: -1, inescapable: -1, inescapably: -1, inessential: -1, inevitable: -1, inevitably: -1, inexcusable: -1, inexcusably: -1, inexorable: -1, inexorably: -1, inexperience: -1, inexperienced: -1, inexpert: -1, inexpertly: -1, inexpiable: -1, inexplainable: -1, inextricable: -1, inextricably: -1, infamous: -1, infamously: -1, infamy: -1, infected: -4, infection: -1, infections: -1, inferior: -1, inferiority: -1, infernal: -1, infest: -1, infested: -1, infidel: -1, infidels: -1, infiltrator: -1, infiltrators: -1, infirm: -1, inflame: -1, inflammation: -1, inflammatory: -1, inflammed: -1, inflated: -1, inflationary: -1, inflexible: -1, inflict: -1, infraction: -1, infringe: -1, infringement: -1, infringements: -1, infuriate: -2, infuriated: -2, infuriating: -2, infuriatingly: -2, inglorious: -2, ingrate: -2, ingratitude: -2, inhibit: -2, inhibition: -2, inhospitable: -2, inhospitality: -2, inhuman: -1, inhumane: -3, inhumanity: -3, inimical: -1, inimically: -1, iniquitous: -1, iniquity: -1, injudicious: -1, injure: -3, injurious: -3, injury: -3, injustice: -3, injustices: -1, innuendo: -1, inoperable: -1, inopportune: -1, inordinate: -1, inordinately: -1, insane: -3, insanely: -3, insanity: -3, insatiable: -1, insecure: -1, insecurity: -1, insensible: -2, insensitive: -2, insensitively: -3, insensitivity: -3, insidious: -3, insidiously: -2, insignificance: -3, insignificant: -3, insignificantly: -3, insincere: -4, insincerely: -4, insincerity: -4, insinuate: -2, insinuating: -1, insinuation: -1, insociable: -1, insolence: -1, insolent: -1, insolently: -1, insolvent: -1, insouciance: -1, instability: -1, instable: -2, instigate: -2, instigator: -2, instigators: -2, insubordinate: -4, insubstantial: -4, insubstantially: -4, insufferable: -2, insufferably: -2, insufficiency: -2, insufficient: -2, insufficiently: -2, insular: -1, insult: -5, insulted: -1, insulting: -1, insultingly: -1, insults: -1, insupportable: -1, insupportably: -1, insurmountable: -1, insurmountably: -1, insurrection: -1, intefere: -1, inteferes: -1, intense: -1, interfere: -1, interference: -1, interferes: -1, intermittent: -1, interrupt: -1, interruption: -1, interruptions: -1, intimidate: -1, intimidating: -1, intimidatingly: -1, intimidation: -1, intolerable: -1, intolerablely: -1, intolerance: -1, intoxicate: -1, intractable: -1, intransigence: -1, intransigent: -1, intrude: -4, intrusion: -4, intrusive: -1, inundate: -1, inundated: -1, invader: -1, invalid: -5, invalidate: -1, invalidity: -1, invasive: -1, invective: -1, inveigle: -1, invidious: -1, invidiously: -1, invidiousness: -1, invisible: -4, involuntarily: -1, involuntary: -1, irascible: -1, irate: -1, irately: -1, ire: -1, irk: -1, irked: -1, irking: -1, irks: -1, irksome: -1, irksomely: -1, irksomeness: -1, irksomenesses: -1, ironic: -3, ironical: -3, ironically: -3, ironies: -3, irony: -3, irragularity: -1, irrational: -1, irrationalities: -1, irrationality: -1, irrationally: -1, irrationals: -1, irreconcilable: -1, irrecoverable: -1, irrecoverableness: -1, irrecoverablenesses: -1, irrecoverably: -1, irredeemable: -1, irredeemably: -1, irreformable: -1, irregular: -2, irregularity: -2, irrelevance: -2, irrelevant: -2, irreparable: -2, irreplacible: -2, irrepressible: -2, irresolute: -2, irresolvable: -2, irresponsible: -2, irresponsibly: -1, irretating: -1, irretrievable: -1, irreversible: -1, irritable: -1, irritably: -1, irritant: -1, irritate: -1, irritated: -1, irritating: -1, irritation: -1, irritations: -1, isolate: -2, isolated: -2, isolation: -2, issue: -2, issues: -1, itch: -1, itching: -3, itchy: -1, jabber: -1, jaded: -1, jagged: -1, jam: -1, jarring: -1, jaundiced: -1, jealous: -2, jealously: -2, jealousness: -2, jealousy: -2, jeer: -1, jeering: -1, jeeringly: -1, jeers: -1, jeopardize: -1, jeopardy: -1, jerk: -1, jerky: -1, jitter: -1, jitters: -1, jittery: -1, "job-killing": -1, jobless: -3, joke: -1, joker: -1, jolt: -3, judder: -1, juddering: -1, judders: -1, jumpy: -1, junk: -3, junky: -1, junkyard: -1, jutter: -1, jutters: -1, kaput: -1, kill: -5, killed: -5, killer: -4, killing: -4, killjoy: -4, kills: -4, knave: -1, knife: -1, knock: -2, knotted: -1, kook: -1, kooky: -1, lack: -3, lackadaisical: -1, lacked: -1, lackey: -1, lackeys: -1, lacking: -1, lackluster: -1, lacks: -1, laconic: -1, lag: -1, lagged: -1, lagging: -1, laggy: -1, lags: -1, "laid-off": -1, lambast: -1, lambaste: -1, lame: -1, "lame-duck": -1, lament: -1, lamentable: -1, lamentably: -1, languid: -1, languish: -1, languor: -1, languorous: -1, languorously: -1, lanky: -1, lapse: -1, lapsed: -1, lapses: -1, lascivious: -1, "last-ditch": -1, latency: -1, laughable: -1, laughably: -1, laughingstock: -1, lawbreaker: -1, lawbreaking: -1, lawless: -1, lawlessness: -1, layoff: -1, "layoff-happy": -1, lazy: -3, leak: -1, leakage: -1, leakages: -1, leaking: -1, leaks: -1, leaky: -1, lech: -1, lecher: -1, lecherous: -1, lechery: -1, leech: -1, leer: -1, leery: -1, "left-leaning": -1, lemon: -1, lengthy: -1, "less-developed": -1, "lesser-known": -1, letch: -1, lethal: -1, lethargic: -1, lethargy: -1, lewd: -1, lewdly: -1, lewdness: -1, liability: -1, liable: -2, liar: -3, liars: -4, licentious: -1, licentiously: -1, licentiousness: -1, lie: -3, lied: -3, lier: -3, lies: -3, "life-threatening": -4, lifeless: -4, limit: -3, limitation: -3, limitations: -3, limited: -3, limits: -3, limp: -1, listless: -1, litigious: -1, "little-known": -1, livid: -1, lividly: -1, loath: -1, loathe: -1, loathing: -4, loathly: -4, loathsome: -1, loathsomely: -1, lone: -1, loneliness: -1, lonely: -1, loner: -1, lonesome: -1, "long-time": -1, "long-winded": -1, longing: -3, longingly: -3, loophole: -2, loopholes: -2, loose: -3, loot: -1, lorn: -1, lose: -5, loser: -5, losers: -5, loses: -5, losing: -5, loss: -5, losses: -5, lost: -5, loud: -2, louder: -2, lousy: -2, loveless: -2, lovelorn: -2, "low-rated": -2, lowly: -2, ludicrous: -2, ludicrously: -2, lugubrious: -2, lukewarm: -2, lull: -2, lumpy: -2, lunatic: -2, lunaticism: -2, lurch: -2, lure: -1, lurid: -1, lurk: -1, lurking: -1, lying: -1, macabre: -1, mad: -1, madden: -1, maddening: -1, maddeningly: -1, madder: -1, madly: -3, madman: -3, madness: -3, maladjusted: -3, maladjustment: -3, malady: -3, malaise: -3, malcontent: -3, malcontented: -1, maledict: -1, malevolence: -1, malevolent: -1, malevolently: -1, malice: -1, malicious: -1, maliciously: -1, maliciousness: -1, malign: -2, malignant: -2, malodorous: -2, maltreatment: -2, mangle: -2, mangled: -2, mangles: -2, mangling: -2, mania: -3, maniac: -3, maniacal: -3, manic: -3, manipulate: -3, manipulation: -3, manipulative: -3, manipulators: -3, mar: -1, marginal: -1, marginally: -1, martyrdom: -1, "martyrdom-seeking": -1, mashed: -1, massacre: -1, massacres: -1, matte: -1, mawkish: -1, mawkishly: -1, mawkishness: -1, meager: -1, meaningless: -4, meanness: -2, measly: -2, meddle: -2, meddlesome: -2, mediocre: -2, mediocrity: -2, melancholy: -2, melodramatic: -2, melodramatically: -1, meltdown: -2, menace: -2, menacing: -2, menacingly: -2, mendacious: -2, mendacity: -2, menial: -2, merciless: -2, mercilessly: -1, mess: -1, messed: -1, messes: -1, messing: -1, messy: -1, midget: -1, miff: -1, militancy: -1, mindless: -1, mindlessly: -1, mirage: -1, mire: -1, misalign: -1, misaligned: -1, misaligns: -1, misapprehend: -1, misbecome: -1, misbecoming: -1, misbegotten: -1, misbehave: -1, misbehavior: -1, miscalculate: -1, miscalculation: -1, miscellaneous: -1, mischief: -1, mischievous: -1, mischievously: -1, misconception: -1, misconceptions: -3, miscreant: -3, miscreants: -3, misdirection: -3, miser: -3, miserable: -3, miserableness: -3, miserably: -3, miseries: -2, miserly: -2, misery: -2, misfit: -1, misfortune: -5, misgiving: -3, misgivings: -3, misguidance: -3, misguide: -3, misguided: -3, mishandle: -3, mishap: -4, misinform: -2, misinformed: -2, misinterpret: -2, misjudge: -2, misjudgment: -3, mislead: -3, misleading: -3, misleadingly: -3, mislike: -4, mismanage: -2, mispronounce: -2, mispronounced: -2, mispronounces: -2, misread: -3, misreading: -3, misrepresent: -2, misrepresentation: -2, miss: -1, missed: -1, misses: -1, misstatement: -1, mist: -1, mistake: -3, mistaken: -3, mistakenly: -3, mistakes: -3, mistified: -1, mistress: -1, mistrust: -1, mistrustful: -1, mistrustfully: -1, mists: -1, misunderstand: -2, misunderstanding: -2, misunderstandings: -2, misunderstood: -2, misuse: -3, moan: -1, mobster: -1, mock: -3, mocked: -3, mockeries: -1, mockery: -1, mocking: -1, mockingly: -1, mocks: -1, molest: -5, molestation: -5, monotonous: -2, monotony: -2, monster: -5, monstrosities: -2, monstrosity: -2, monstrous: -3, monstrously: -3, moody: -4, moot: -1, mope: -1, morbid: -3, morbidly: -3, mordant: -2, mordantly: -1, moribund: -1, moron: -4, moronic: -4, morons: -4, mortification: -1, mortified: -1, mortify: -3, mortifying: -1, motionless: -1, motley: -1, mourn: -4, mourner: -3, mournful: -3, mournfully: -3, muddle: -1, muddy: -1, mudslinger: -1, mudslinging: -1, mulish: -1, "multi-polarization": -1, mundane: -1, murder: -3, murderer: -1, murderous: -1, murderously: -1, murky: -1, "muscle-flexing": -1, mushy: -1, musty: -1, mysterious: -3, mysteriously: -3, mystery: -3, mystify: -3, myth: -2, nag: -1, nagging: -2, naive: -5, naively: -5, narrower: -1, nastily: -1, nastiness: -1, nasty: -3, naughty: -4, nauseate: -1, nauseates: -1, nauseating: -1, nauseatingly: -1, naïve: -3, nebulous: -1, nebulously: -1, needless: -1, needlessly: -1, needy: -3, nefarious: -1, nefariously: -1, negate: -1, negation: -1, negative: -5, negatives: -4, negativity: -4, neglect: -4, neglected: -3, negligence: -3, negligent: -3, nemesis: -2, nepotism: -1, nervous: -4, nervously: -4, nervousness: -4, nettle: -1, nettlesome: -1, neurotic: -1, neurotically: -1, niggle: -1, niggles: -1, nightmare: -4, nightmarish: -4, nightmarishly: -3, nitpick: -1, nitpicking: -1, noise: -3, noises: -3, noisier: -1, noisy: -2, "non-confidence": -1, nonexistent: -1, nonresponsive: -1, nonsense: -4, nosey: -3, notoriety: -1, notorious: -1, notoriously: -1, noxious: -1, nuisance: -1, numb: -3, obese: -1, object: -1, objection: -1, objectionable: -1, objections: -1, oblique: -1, obliterate: -1, obliterated: -1, oblivious: -1, obnoxious: -1, obnoxiously: -1, obscene: -5, obscenely: -5, obscenity: -5, obscure: -1, obscured: -1, obscures: -1, obscurity: -1, obsess: -4, obsessive: -1, obsessively: -1, obsessiveness: -1, obsolete: -1, obstacle: -1, obstinate: -1, obstinately: -1, obstruct: -1, obstructed: -1, obstructing: -1, obstruction: -1, obstructs: -1, obtrusive: -1, obtuse: -1, occlude: -1, occluded: -1, occludes: -1, occluding: -1, odd: -3, odder: -3, oddest: -1, oddities: -1, oddity: -1, oddly: -2, odor: -1, offence: -3, offend: -3, offender: -3, offending: -3, offenses: -3, offensive: -3, offensively: -3, offensiveness: -1, officious: -1, ominous: -1, ominously: -1, omission: -1, omit: -1, "one-sided": -1, onerous: -1, onerously: -1, onslaught: -1, opinionated: -1, opponent: -1, opportunistic: -1, oppose: -1, opposition: -1, oppositions: -1, oppress: -1, oppression: -5, oppressive: -5, oppressively: -5, oppressiveness: -5, oppressors: -5, ordeal: -3, orphan: -2, ostracize: -1, outbreak: -1, outburst: -3, outbursts: -3, outcast: -2, outcry: -3, outlaw: -4, outmoded: -2, outrage: -5, outraged: -5, outrageous: -5, outrageously: -5, outrageousness: -5, outrages: -1, outsider: -1, "over-acted": -1, "over-awe": -1, "over-balanced": -1, "over-hyped": -1, "over-priced": -1, "over-valuation": -1, overact: -2, overacted: -2, overawe: -1, overbalance: -1, overbalanced: -1, overbearing: -1, overbearingly: -1, overblown: -1, overdo: -1, overdone: -1, overdue: -1, overemphasize: -1, overheat: -1, overkill: -1, overloaded: -1, overlook: -1, overpaid: -1, overpayed: -1, overplay: -1, overpower: -1, overpriced: -1, overrated: -1, overreach: -1, overrun: -3, overshadow: -3, oversight: -1, oversights: -1, oversimplification: -1, oversimplified: -1, oversimplify: -1, oversize: -3, overstate: -1, overstated: -1, overstatement: -1, overstatements: -1, overstates: -1, overtaxed: -1, overthrow: -1, overthrows: -1, overturn: -2, overweight: -1, overwhelm: -1, overwhelmed: -1, overwhelming: -1, overwhelmingly: -1, overwhelms: -1, overzealous: -1, overzealously: -1, overzelous: -1, pain: -4, painful: -4, painfull: -4, painfully: -4, pains: -4, pale: -2, pales: -2, paltry: -1, pan: -1, pandemonium: -1, pander: -1, pandering: -1, panders: -1, panic: -1, panick: -3, panicked: -3, panicking: -3, panicky: -1, paradoxical: -1, paradoxically: -1, paralize: -2, paralyzed: -2, paranoia: -3, paranoid: -3, parasite: -3, pariah: -1, parody: -4, partiality: -1, partisan: -1, partisans: -1, passe: -1, passive: -1, passiveness: -1, pathetic: -1, pathetically: -1, patronize: -1, paucity: -1, pauper: -1, paupers: -1, payback: -1, peculiar: -1, peculiarly: -1, pedantic: -1, peeled: -1, peeve: -1, peeved: -1, peevish: -1, peevishly: -1, penalize: -3, penalty: -3, perfidious: -1, perfidity: -1, perfunctory: -1, peril: -1, perilous: -1, perilously: -1, perish: -1, pernicious: -1, perplex: -1, perplexed: -1, perplexing: -1, perplexity: -1, persecute: -1, persecution: -1, pertinacious: -1, pertinaciously: -1, pertinacity: -1, perturb: -1, perturbed: -1, pervasive: -2, perverse: -2, perversely: -1, perversion: -1, perversity: -1, pervert: -1, perverted: -1, perverts: -1, pessimism: -3, pessimistic: -3, pessimistically: -3, pest: -1, pestilent: -1, petrified: -1, petrify: -1, pettifog: -1, petty: -1, phobia: -2, phobic: -1, phony: -1, picket: -1, picketed: -1, picketing: -1, pickets: -1, picky: -1, pig: -3, pigs: -3, pillage: -1, pillory: -1, pimple: -2, pinch: -1, pique: -1, pitiable: -1, pitiful: -1, pitifully: -1, pitiless: -1, pitilessly: -1, pittance: -1, pity: -3, plagiarize: -1, plague: -1, plasticky: -1, plaything: -1, plea: -1, pleas: -1, plebeian: -1, plight: -1, plot: -1, plotters: -1, ploy: -1, plunder: -1, plunderer: -1, pointless: -1, pointlessly: -1, poison: -2, poisonous: -2, poisonously: -2, pokey: -1, poky: -1, polarisation: -3, polemize: -1, pollute: -2, polluter: -2, polluters: -2, polution: -2, pompous: -1, poor: -2, poorer: -2, poorest: -2, poorly: -2, posturing: -1, pout: -1, poverty: -4, powerless: -4, prate: -1, pratfall: -1, prattle: -1, precarious: -1, precariously: -1, precipitate: -1, precipitous: -1, predatory: -1, predicament: -1, prejudge: -2, prejudice: -2, prejudices: -2, prejudicial: -2, premeditated: -1, preoccupy: -1, preposterous: -1, preposterously: -1, presumptuous: -1, presumptuously: -1, pretence: -1, pretend: -1, pretense: -1, pretentious: -1, pretentiously: -1, prevaricate: -1, pricey: -1, pricier: -1, prick: -1, prickle: -1, prickles: -1, prideful: -1, prik: -1, primitive: -1, prison: -1, prisoner: -1, problem: -3, problematic: -3, problems: -3, procrastinate: -2, procrastinates: -2, procrastination: -2, profane: -1, profanity: -1, prohibit: -3, prohibitive: -3, prohibitively: -3, propaganda: -1, propagandize: -1, proprietary: -1, prosecute: -1, protest: -3, protested: -3, protesting: -1, protests: -1, protracted: -1, provocation: -1, provocative: -1, provoke: -1, pry: -1, pugnacious: -1, pugnaciously: -1, pugnacity: -1, punch: -1, punish: -3, punishable: -3, punitive: -3, punk: -2, puny: -2, puppet: -1, puppets: -1, puzzled: -1, puzzlement: -1, puzzling: -1, quack: -1, qualm: -1, qualms: -1, quandary: -1, quarrel: -3, quarrellous: -1, quarrellously: -1, quarrels: -1, quarrelsome: -1, quash: -1, queer: -1, questionable: -1, quibble: -1, quibbles: -1, quitter: -1, rabid: -1, racism: -1, racist: -5, racists: -5, racy: -2, radical: -4, radicalization: -5, radically: -5, radicals: -5, rage: -4, ragged: -3, raging: -3, rail: -1, raked: -1, rampage: -3, rampant: -3, ramshackle: -1, rancor: -1, randomly: -2, rankle: -1, rant: -1, ranted: -1, ranting: -1, rantingly: -1, rants: -1, rape: -5, raped: -5, raping: -5, rascal: -4, rascals: -4, rash: -3, rattle: -2, rattled: -2, rattles: -2, ravage: -3, raving: -2, reactionary: -1, rebellious: -3, rebuff: -1, rebuke: -1, recalcitrant: -1, recant: -1, recession: -1, recessionary: -1, reckless: -4, recklessly: -4, recklessness: -4, recoil: -1, recourses: -1, redundancy: -1, redundant: -1, refusal: -1, refuse: -4, refused: -2, refuses: -2, refusing: -2, refutation: -1, refute: -1, refuted: -1, refutes: -1, refuting: -1, regress: -1, regression: -1, regressive: -1, regret: -4, regreted: -4, regretful: -4, regretfully: -4, regrets: -4, regrettable: -4, regrettably: -4, regretted: -4, reject: -5, rejected: -5, rejecting: -5, rejection: -5, rejects: -5, relapse: -5, relentless: -3, relentlessly: -3, relentlessness: -3, reluctance: -2, reluctant: -2, reluctantly: -2, remorse: -4, remorseful: -4, remorsefully: -4, remorseless: -4, remorselessly: -4, remorselessness: -4, renounce: -1, renunciation: -1, repel: -1, repetitive: -3, reprehensible: -1, reprehensibly: -1, reprehension: -1, reprehensive: -1, repress: -1, repression: -1, repressive: -1, reprimand: -1, reproach: -1, reproachful: -1, reprove: -1, reprovingly: -1, repudiate: -1, repudiation: -1, repugn: -1, repugnance: -1, repugnant: -1, repugnantly: -1, repulse: -3, repulsed: -2, repulsing: -2, repulsive: -3, repulsively: -1, repulsiveness: -1, resent: -1, resentful: -1, resentment: -1, resignation: -1, resigned: -1, resistance: -1, restless: -3, restlessness: -3, restrict: -3, restricted: -3, restriction: -3, restrictive: -3, resurgent: -1, retaliate: -2, retaliatory: -2, retard: -3, retarded: -3, retardedness: -3, retards: -3, reticent: -2, retract: -2, retreat: -2, retreated: -2, revenge: -5, revengeful: -5, revengefully: -5, revert: -4, revile: -3, reviled: -3, revoke: -3, revolt: -4, revolting: -4, revoltingly: -4, revulsion: -3, revulsive: -3, rhapsodize: -1, rhetoric: -3, rhetorical: -3, ricer: -2, ridicule: -2, ridicules: -2, ridiculous: -3, ridiculously: -2, rife: -1, rift: -5, rifts: -5, rigid: -3, rigidity: -2, rigidness: -2, rile: -1, riled: -1, rip: -4, "rip-off": -3, ripoff: -3, ripped: -3, risk: -4, risks: -4, risky: -4, rival: -5, rivalry: -5, roadblocks: -3, rocky: -1, rogue: -3, rollercoaster: -2, rot: -2, rotten: -2, rough: -2, rremediable: -1, rubbish: -2, rude: -4, rue: -1, ruffian: -1, ruffle: -1, ruin: -3, ruined: -3, ruining: -3, ruinous: -3, ruins: -3, rumbling: -2, rumor: -2, rumors: -2, rumours: -2, rumple: -1, "run-down": -2, runaway: -2, rupture: -4, rust: -3, rusts: -3, rusty: -3, rut: -2, ruthless: -2, ruthlessly: -1, ruthlessness: -1, ruts: -1, sabotage: -3, sack: -1, sacrificed: -3, sad: -4, sadden: -4, sadly: -4, sadness: -4, sag: -1, sagged: -1, sagging: -1, saggy: -1, sags: -1, salacious: -1, sanctimonious: -1, sap: -1, sarcasm: -2, sarcastic: -2, sarcastically: -2, sardonic: -4, sardonically: -4, sass: -1, satirical: -1, satirize: -1, savage: -3, savaged: -3, savagery: -4, savages: -4, scaly: -1, scam: -5, scams: -5, scandal: -5, scandalize: -5, scandalized: -5, scandalous: -5, scandalously: -5, scandals: -5, scandel: -1, scandels: -1, scant: -1, scapegoat: -1, scar: -1, scarce: -1, scarcely: -4, scarcity: -4, scare: -5, scared: -5, scarier: -4, scariest: -5, scarily: -4, scarred: -1, scars: -1, scary: -4, scathing: -1, scathingly: -1, sceptical: -1, scoff: -1, scoffingly: -1, scold: -2, scolded: -1, scolding: -1, scoldingly: -1, scorching: -1, scorchingly: -1, scorn: -1, scornful: -1, scornfully: -1, scoundrel: -1, scourge: -1, scowl: -1, scramble: -1, scrambled: -1, scrambles: -1, scrambling: -1, scrap: -3, scratch: -3, scratched: -1, scratches: -1, scratchy: -1, scream: -1, screech: -1, "screw-up": -1, screwed: -1, "screwed-up": -1, screwy: -1, scuff: -1, scuffs: -1, scum: -2, scummy: -1, "second-class": -1, "second-tier": -1, secretive: -1, sedentary: -3, seedy: -1, seethe: -1, seething: -1, "self-coup": -1, "self-criticism": -1, "self-defeating": -1, "self-destructive": -1, "self-humiliation": -1, "self-interest": -1, "self-interested": -1, "self-serving": -1, selfinterested: -1, selfish: -4, selfishly: -4, selfishness: -4, "semi-retarded": -1, senile: -5, sensationalize: -1, senseless: -3, senselessly: -3, seriousness: -1, sermonize: -1, servitude: -1, "set-up": -1, setback: -3, setbacks: -3, sever: -2, severe: -2, severity: -2, "sh*t": -5, shabby: -1, shadowy: -1, shady: -2, shake: -2, shaky: -2, shallow: -2, sham: -3, shambles: -3, shame: -3, shameful: -2, shamefully: -1, shamefulness: -1, shameless: -3, shamelessly: -3, shamelessness: -3, shark: -2, sharply: -2, shatter: -1, shemale: -1, shimmer: -1, shimmy: -1, shipwreck: -2, shirk: -2, shirker: -1, shit: -5, shiver: -1, shock: -3, shocked: -3, shocking: -3, shockingly: -3, shoddy: -1, "short-lived": -1, shortage: -3, shortchange: -1, shortcoming: -1, shortcomings: -1, shortness: -2, shortsighted: -4, shortsightedness: -2, showdown: -2, shrew: -1, shriek: -1, shrill: -1, shrilly: -1, shrivel: -1, shroud: -1, shrouded: -1, shrug: -1, shun: -1, shunned: -1, sick: -3, sicken: -3, sickening: -3, sickeningly: -1, sickly: -1, sickness: -1, sidetrack: -1, sidetracked: -1, siege: -1, sillily: -1, silly: -1, simplistic: -3, simplistically: -1, sin: -3, sinful: -3, sinfully: -3, sinister: -3, sinisterly: -1, sink: -2, sinking: -1, skeletons: -2, skeptic: -3, skeptical: -3, skeptically: -3, skepticism: -3, sketchy: -4, skimpy: -2, skinny: -2, skittish: -1, skittishly: -1, skulk: -1, slack: -1, slander: -3, slanderer: -3, slanderous: -3, slanderously: -3, slanders: -1, slap: -2, slashing: -1, slaughter: -5, slaughtered: -5, slave: -4, slaves: -4, sleazy: -3, slime: -1, slog: -1, slogged: -1, slogging: -1, slogs: -1, sloooooooooooooow: -1, sloooow: -1, slooow: -1, sloow: -1, sloppily: -1, sloppy: -1, sloth: -1, slothful: -1, slow: -1, "slow-moving": -1, slowed: -1, slower: -1, slowest: -1, slowly: -1, sloww: -1, slowww: -1, slowwww: -1, slug: -1, sluggish: -1, slump: -1, slumping: -1, slumpping: -1, slur: -1, slut: -5, sluts: -5, sly: -1, smack: -2, smallish: -2, smash: -2, smear: -1, smell: -1, smelled: -1, smelling: -1, smells: -1, smelly: -1, smelt: -1, smoke: -2, smokescreen: -1, smolder: -1, smoldering: -1, smother: -1, smoulder: -1, smouldering: -1, smudge: -1, smudged: -1, smudges: -1, smudging: -1, smug: -1, smugly: -1, smut: -1, smuttier: -1, smuttiest: -1, smutty: -1, snag: -1, snagged: -1, snagging: -1, snags: -1, snappish: -1, snappishly: -1, snare: -1, snarky: -1, snarl: -1, sneak: -2, sneakily: -2, sneaky: -2, sneer: -1, sneering: -1, sneeringly: -1, snob: -1, snobbish: -1, snobby: -1, snobish: -1, snobs: -1, snub: -1, "so-cal": -1, soapy: -1, sob: -1, sober: -1, sobering: -1, solemn: -1, solicitude: -1, somber: -1, sore: -1, sorely: -1, soreness: -1, sorrow: -1, sorrowful: -1, sorrowfully: -1, sorry: -1, sour: -2, sourly: -1, spade: -1, spank: -3, spendy: -1, spew: -1, spewed: -1, spewing: -1, spews: -1, spilling: -1, spinster: -1, spiritless: -3, spite: -1, spiteful: -1, spitefully: -1, spitefulness: -1, splatter: -1, split: -2, splitting: -1, spoil: -2, spoilage: -1, spoilages: -1, spoiled: -1, spoilled: -1, spoils: -2, spook: -1, spookier: -1, spookiest: -1, spookily: -1, spooky: -1, "spoon-fed": -1, "spoon-feed": -1, spoonfed: -2, sporadic: -1, spotty: -1, spurious: -1, spurn: -1, sputter: -1, squabble: -1, squabbling: -1, squander: -1, squash: -1, squeak: -1, squeaks: -1, squeaky: -1, squeal: -1, squealing: -1, squeals: -1, squirm: -1, stab: -2, stagnant: -1, stagnate: -1, stagnation: -1, staid: -1, stain: -1, stains: -1, stale: -1, stalemate: -1, stall: -1, stalls: -1, stammer: -1, stampede: -1, standstill: -1, stark: -2, starkly: -2, startle: -1, startling: -1, startlingly: -1, starvation: -1, starve: -2, static: -1, steal: -3, stealing: -3, steals: -3, steep: -1, steeply: -1, stench: -1, stereotype: -1, stereotypical: -1, stereotypically: -1, stern: -1, stew: -1, sticky: -2, stiff: -1, stiffness: -1, stifle: -1, stifling: -1, stiflingly: -1, stigma: -1, stigmatize: -1, sting: -1, stinging: -1, stingingly: -1, stingy: -1, stink: -2, stinks: -2, stodgy: -2, stole: -2, stolen: -2, stooge: -2, stooges: -2, stormy: -2, straggle: -2, straggler: -2, strain: -2, strained: -1, straining: -1, strange: -3, strangely: -3, stranger: -1, strangest: -1, strangle: -1, streaky: -1, strenuous: -1, stress: -3, stresses: -1, stressful: -1, stressfully: -1, stricken: -1, strict: -3, strictly: -3, strident: -1, stridently: -1, strife: -1, strike: -1, stringent: -1, stringently: -1, struck: -3, struggle: -1, struggled: -1, struggles: -1, struggling: -1, strut: -1, stubborn: -4, stubbornly: -4, stubbornness: -4, stuck: -3, stuffy: -1, stumble: -1, stumbled: -1, stumbles: -1, stump: -1, stumped: -1, stumps: -1, stun: -2, stunt: -3, stunted: -3, stupid: -1, stupidest: -1, stupidity: -1, stupidly: -1, stupified: -1, stupify: -1, stupor: -1, stutter: -1, stuttered: -1, stuttering: -1, stutters: -1, sty: -1, stymied: -1, "sub-par": -3, subdued: -1, subjected: -1, subjection: -1, subjugate: -1, subjugation: -1, submissive: -3, subordinate: -1, subpoena: -1, subpoenas: -1, subservience: -1, subservient: -1, substandard: -1, subtract: -3, subversion: -1, subversive: -1, subversively: -1, subvert: -1, succumb: -2, suck: -4, sucked: -3, sucker: -3, sucks: -3, sucky: -2, sue: -3, sued: -3, sueing: -3, sues: -1, suffer: -1, suffered: -1, sufferer: -1, sufferers: -1, suffering: -1, suffers: -1, suffocate: -1, "sugar-coat": -1, "sugar-coated": -1, sugarcoated: -1, suicidal: -5, suicide: -5, sulk: -4, sullen: -1, sully: -1, sunder: -1, sunk: -3, sunken: -3, superficial: -1, superficiality: -1, superficially: -1, superfluous: -1, superstition: -3, superstitious: -3, suppress: -1, suppression: -1, surrender: -1, susceptible: -1, suspect: -2, suspicion: -2, suspicions: -2, suspicious: -1, suspiciously: -1, swagger: -1, swamped: -1, sweaty: -2, swelled: -1, swelling: -1, swindle: -1, swipe: -3, swollen: -1, symptom: -1, symptoms: -1, syndrome: -1, taboo: -1, tacky: -1, taint: -1, tainted: -1, tamper: -1, tangle: -1, tangled: -1, tangles: -1, tank: -1, tanked: -1, tanks: -1, tantrum: -1, tardy: -1, tarnish: -2, tarnished: -1, tarnishes: -1, tarnishing: -1, tattered: -1, taunt: -1, taunting: -1, tauntingly: -1, taunts: -3, taut: -1, tawdry: -1, taxing: -1, tease: -1, teasingly: -1, tedious: -1, tediously: -1, temerity: -1, temper: -3, tempest: -2, temptation: -1, tenderness: -1, tense: -1, tension: -1, tentative: -1, tentatively: -1, tenuous: -1, tenuously: -1, tepid: -1, terrible: -5, terribleness: -5, terribly: -4, terror: -4, "terror-genic": -1, terrorism: -5, terrorize: -5, testily: -1, testy: -1, tetchily: -1, tetchy: -1, thankless: -2, thicker: -1, thirst: -1, thorny: -4, thoughtless: -3, thoughtlessly: -3, thoughtlessness: -3, thrash: -4, threat: -4, threaten: -4, threatening: -4, threats: -4, threesome: -3, throb: -2, throbbed: -2, throbbing: -2, throbs: -2, throttle: -1, thug: -4, "thumb-down": -3, "thumbs-down": -3, thwart: -2, "time-consuming": -1, timid: -3, timidity: -3, timidly: -3, timidness: -3, "tin-y": -1, tingled: -1, tingling: -1, tired: -2, tiresome: -2, tiring: -1, tiringly: -1, toil: -1, toll: -1, "top-heavy": -2, topple: -1, torment: -5, tormented: -5, torrent: -2, tortuous: -1, torture: -4, tortured: -4, tortures: -4, torturing: -4, torturous: -4, torturously: -4, totalitarian: -2, touchy: -1, toughness: -1, tout: -1, touted: -1, touts: -1, toxic: -4, traduce: -1, tragedy: -5, tragic: -5, tragically: -5, traitor: -4, traitorous: -1, traitorously: -1, tramp: -1, trample: -1, transgress: -2, transgression: -2, trap: -4, traped: -4, trapped: -4, trash: -1, trashed: -1, trashy: -1, trauma: -2, traumatic: -2, traumatically: -1, traumatize: -1, traumatized: -1, travesties: -1, travesty: -1, treacherous: -1, treacherously: -1, treachery: -1, treason: -1, treasonous: -1, trick: -1, tricked: -1, trickery: -1, tricky: -1, trivial: -1, trivialize: -1, trouble: -2, troubled: -2, troublemaker: -1, troubles: -1, troublesome: -1, troublesomely: -1, troubling: -1, troublingly: -1, truant: -1, tumble: -1, tumbled: -1, tumbles: -1, tumultuous: -1, turbulent: -1, turmoil: -1, twist: -1, twisted: -1, twists: -1, "two-faced": -1, "two-faces": -1, tyrannical: -4, tyrannically: -4, tyranny: -4, tyrant: -4, ugh: -1, uglier: -4, ugliest: -5, ugliness: -4, ugly: -3, ulterior: -3, ultimatum: -3, ultimatums: -3, "ultra-hardline": -1, "un-viewable": -1, unable: -1, unacceptable: -2, unacceptablely: -2, unacceptably: -2, unaccessible: -2, unaccustomed: -2, unachievable: -2, unaffordable: -2, unappealing: -4, unattractive: -3, unauthentic: -3, unavailable: -3, unavoidably: -3, unbearable: -3, unbearablely: -3, unbelievable: -3, unbelievably: -3, uncaring: -3, uncertain: -1, uncivil: -1, uncivilized: -1, unclean: -2, unclear: -2, uncollectible: -2, uncomfortable: -2, uncomfortably: -2, uncomfy: -2, uncompetitive: -2, uncompromising: -1, uncompromisingly: -1, unconfirmed: -1, unconstitutional: -1, uncontrolled: -2, unconvincing: -2, unconvincingly: -2, uncooperative: -2, uncouth: -1, uncreative: -1, undecided: -1, undefined: -3, undependability: -1, undependable: -1, undercut: -2, undercuts: -1, undercutting: -1, underdog: -1, underestimate: -1, underlings: -1, undermine: -3, undermined: -3, undermines: -3, undermining: -3, underpaid: -3, underpowered: -2, undersized: -2, undesirable: -3, undetermined: -1, undid: -1, undignified: -1, undissolved: -1, undocumented: -1, undone: -1, undue: -1, unease: -1, uneasily: -1, uneasiness: -1, uneasy: -1, uneconomical: -2, unemployed: -3, unequal: -1, unethical: -3, uneven: -1, uneventful: -1, unexpected: -1, unexpectedly: -1, unexplained: -1, unfairly: -1, unfaithful: -1, unfaithfully: -1, unfamiliar: -1, unfavorable: -1, unfeeling: -1, unfinished: -1, unfit: -2, unforeseen: -3, unforgiving: -1, unfortunate: -5, unfortunately: -5, unfounded: -1, unfriendly: -2, unfulfilled: -1, unfunded: -1, ungovernable: -1, ungrateful: -1, unhappily: -4, unhappiness: -4, unhappy: -4, unhealthy: -4, unhelpful: -3, unilateralism: -1, unimaginable: -1, unimaginably: -1, unimportant: -1, uninformed: -1, uninsured: -1, unintelligible: -1, unintelligile: -1, unipolar: -1, unjust: -1, unjustifiable: -1, unjustifiably: -1, unjustified: -1, unjustly: -1, unkind: -1, unkindly: -1, unknown: -1, unlamentable: -1, unlamentably: -1, unlawful: -2, unlawfully: -2, unlawfulness: -2, unleash: -1, unlicensed: -1, unlikely: -1, unlucky: -1, unmoved: -3, unnatural: -2, unnaturally: -2, unnecessary: -4, unneeded: -1, unnerve: -1, unnerved: -1, unnerving: -1, unnervingly: -1, unnoticed: -2, unobserved: -3, unorthodox: -3, unorthodoxy: -3, unpleasant: -1, unpleasantries: -2, unpopular: -2, unpredictable: -1, unprepared: -1, unproductive: -1, unprofitable: -1, unprove: -1, unproved: -1, unproven: -1, unproves: -1, unproving: -1, unqualified: -1, unravel: -1, unraveled: -1, unreachable: -1, unreadable: -1, unrealistic: -1, unreasonable: -1, unreasonably: -1, unrelenting: -2, unrelentingly: -2, unreliability: -2, unreliable: -2, unresolved: -2, unresponsive: -3, unrest: -3, unruly: -1, unsafe: -1, unsatisfactory: -1, unsavory: -1, unscrupulous: -1, unscrupulously: -1, unsecure: -2, unseemly: -1, unsettle: -3, unsettled: -3, unsettling: -3, unsettlingly: -1, unskilled: -4, unsophisticated: -1, unsound: -1, unspeakable: -1, unspeakablely: -1, unspecified: -1, unstable: -1, unsteadily: -1, unsteadiness: -1, unsteady: -1, unsuccessful: -1, unsuccessfully: -1, unsupported: -1, unsupportive: -1, unsure: -1, unsuspecting: -1, unsustainable: -1, untenable: -1, untested: -1, unthinkable: -1, unthinkably: -1, untimely: -1, untouched: -1, untrue: -1, untrustworthy: -1, untruthful: -1, unusable: -1, unusably: -1, unuseable: -1, unuseably: -1, unusual: -1, unusually: -1, unviewable: -1, unwanted: -1, unwarranted: -1, unwatchable: -1, unwelcome: -1, unwell: -1, unwieldy: -1, unwilling: -1, unwillingly: -1, unwillingness: -1, unwise: -1, unwisely: -1, unworkable: -1, unworthy: -1, unyielding: -1, upbraid: -1, upheaval: -1, uprising: -1, uproar: -3, uproarious: -1, uproariously: -1, uproarous: -1, uproarously: -1, uproot: -2, upset: -1, upseting: -1, upsets: -1, upsetting: -1, upsettingly: -1, urgent: -1, useless: -2, usurp: -1, usurper: -1, utterly: -1, vagrant: -1, vague: -2, vagueness: -1, vain: -1, vainly: -1, vanity: -1, vehement: -1, vehemently: -1, vengeance: -4, vengeful: -4, vengefully: -4, vengefulness: -4, venom: -3, venomous: -3, venomously: -3, vent: -3, vestiges: -1, vex: -1, vexation: -1, vexing: -1, vexingly: -1, vibrate: -1, vibrated: -1, vibrates: -1, vibrating: -1, vibration: -1, vice: -1, vicious: -1, viciously: -1, viciousness: -1, victimize: -1, vile: -1, vileness: -1, vilify: -1, villainous: -1, villainously: -1, villains: -1, villian: -1, villianous: -1, villianously: -1, villify: -1, vindictive: -1, vindictively: -1, vindictiveness: -1, violate: -1, violation: -1, violator: -1, violators: -1, violent: -1, violently: -1, viper: -1, virulence: -1, virulent: -1, virulently: -1, virus: -3, vociferous: -1, vociferously: -1, volatile: -1, volatility: -1, vomit: -1, vomited: -1, vomiting: -1, vomits: -1, vulgar: -1, vulnerable: -1, wack: -1, wail: -1, wallow: -1, wane: -1, waning: -1, wanton: -1, "war-like": -3, warily: -3, wariness: -3, warlike: -3, warned: -2, warning: -2, warp: -1, warped: -1, wary: -1, "washed-out": -1, waste: -1, wasted: -1, wasteful: -1, wastefulness: -1, wasting: -1, "water-down": -1, "watered-down": -1, wayward: -1, weak: -4, weaken: -4, weakening: -3, weaker: -3, weakness: -3, weaknesses: -3, weariness: -1, wearisome: -1, weary: -1, wedge: -1, weed: -1, weep: -1, weird: -1, weirdly: -1, wheedle: -1, whimper: -1, whine: -3, whining: -1, whiny: -1, whips: -1, whore: -1, whores: -1, wicked: -1, wickedly: -1, wickedness: -1, wild: -1, wildly: -1, wiles: -1, wilt: -1, wily: -1, wimpy: -1, wince: -1, wobble: -1, wobbled: -1, wobbles: -1, woe: -1, woebegone: -1, woeful: -1, woefully: -1, womanizer: -1, womanizing: -1, worn: -1, worried: -1, worriedly: -1, worrier: -1, worries: -1, worrisome: -1, worry: -1, worrying: -1, worryingly: -1, worse: -5, worsen: -5, worsening: -5, worst: -5, worthless: -3, worthlessly: -3, worthlessness: -3, wound: -3, wounds: -3, wrangle: -2, wrath: -3, wreak: -3, wreaked: -3, wreaks: -3, wreck: -3, wrest: -2, wrestle: -2, wretch: -3, wretched: -3, wretchedly: -2, wretchedness: -2, wrinkle: -3, wrinkled: -3, wrinkles: -3, wrip: -1, wripped: -1, wripping: -1, writhe: -1, wrong: -3, wrongful: -3, wrongly: -3, wrought: -3, yawn: -2, zap: -2, zapped: -2, zaps: -1, zealot: -3, zealous: -3, zealously: -3, zombie: -4 } };
-class U7e extends nt {
+var z6e = au;
+const M6e = { extras: { "a+": 5, abound: 2, abounds: 2, abundance: 4, abundant: 4, accessable: 3, accessible: 3, acclaim: 2, acclaimed: 2, acclamation: 2, accolade: 3, accolades: 3, accommodative: 2, accomodative: 2, accomplish: 5, accomplished: 5, accomplishment: 5, accomplishments: 5, accurate: 3, accurately: 3, achievable: 3, achievement: 3, achievements: 3, achievible: 3, acumen: 1, adaptable: 1, adaptive: 1, adequate: 1, adjustable: 2, admirable: 2, admirably: 2, admiration: 2, admire: 2, admirer: 2, admiring: 2, admiringly: 2, adorable: 3, adore: 3, adored: 3, adorer: 3, adoring: 3, adoringly: 3, adroit: 2, adroitly: 2, adulate: 2, adulation: 1, adulatory: 1, advanced: 3, advantage: 3, advantageous: 2, advantageously: 2, advantages: 2, adventuresome: 2, adventurous: 2, advocate: 2, advocated: 2, advocates: 2, affability: 2, affable: 2, affably: 2, affectation: 3, affection: 3, affectionate: 3, affinity: 3, affirm: 2, affirmation: 2, affirmative: 2, affluence: 2, affluent: 3, afford: 2, affordable: 2, affordably: 2, afordable: 2, agile: 3, agilely: 2, agility: 2, agreeable: 3, agreeableness: 3, agreeably: 2, "all-around": 2, alluring: 3, alluringly: 3, altruistic: 3, altruistically: 3, amaze: 4, amazed: 4, amazement: 4, amazes: 4, amazing: 4, amazingly: 4, ambitious: 4, ambitiously: 4, ameliorate: 4, amenable: 3, amenity: 3, amiability: 3, amiabily: 3, amiable: 3, amicability: 3, amicable: 3, amicably: 3, amity: 2, ample: 2, amply: 2, amuse: 2, amusing: 2, amusingly: 2, angel: 5, angelic: 5, apotheosis: 1, appeal: 4, appealing: 4, applaud: 4, appreciable: 4, appreciate: 4, appreciated: 4, appreciates: 4, appreciative: 4, appreciatively: 4, appropriate: 4, approval: 4, approve: 4, ardent: 1, ardently: 1, ardor: 1, articulate: 1, aspiration: 3, aspirations: 3, aspire: 3, assurance: 3, assurances: 3, assure: 3, assuredly: 3, assuring: 3, astonish: 4, astonished: 4, astonishing: 4, astonishingly: 4, astonishment: 4, astound: 4, astounded: 4, astounding: 4, astoundingly: 4, astutely: 1, attentive: 1, attraction: 1, attractive: 1, attractively: 1, attune: 1, audible: 1, audibly: 1, auspicious: 1, authentic: 1, authoritative: 1, autonomous: 1, available: 1, aver: 1, avid: 1, avidly: 1, award: 1, awarded: 1, awards: 1, awe: 5, awed: 1, awesome: 5, awesomely: 4, awesomeness: 4, awestruck: 4, awsome: 4, backbone: 3, balanced: 3, bargain: 3, beauteous: 3, beautiful: 3, beautifullly: 3, beautifully: 3, beautify: 3, beauty: 3, beckon: 2, beckoned: 1, beckoning: 1, beckons: 1, believable: 3, believeable: 3, beloved: 3, benefactor: 2, beneficent: 2, beneficial: 2, beneficially: 2, beneficiary: 2, benefit: 3, benefits: 3, benevolence: 1, benevolent: 1, benifits: 2, best: 5, "best-known": 5, "best-performing": 5, "best-selling": 5, better: 5, "better-known": 5, "better-than-expected": 4, beutifully: 5, blameless: 4, bless: 3, blessing: 3, bliss: 4, blissful: 4, blissfully: 4, blithe: 1, blockbuster: 5, bloom: 3, blossom: 4, bolster: 1, bonny: 1, bonus: 4, bonuses: 4, boom: 2, booming: 3, boost: 4, boundless: 4, bountiful: 3, brainiest: 3, brainy: 3, "brand-new": 5, brave: 3, bravery: 3, bravo: 2, breakthrough: 5, breakthroughs: 5, breathlessness: 5, breathtaking: 5, breathtakingly: 5, breeze: 4, bright: 4, brighten: 4, brighter: 4, brightest: 4, brilliance: 4, brilliances: 4, brilliant: 4, brilliantly: 4, brisk: 3, brotherly: 4, bullish: 1, buoyant: 1, cajole: 1, calm: 3, calming: 3, calmness: 3, capability: 4, capable: 4, capably: 4, captivate: 4, captivating: 4, carefree: 1, cashback: 1, cashbacks: 1, catchy: 1, celebrate: 4, celebrated: 4, celebration: 4, celebratory: 4, champ: 3, champion: 3, charisma: 4, charismatic: 4, charitable: 3, charm: 5, charming: 5, charmingly: 5, chaste: 1, cheaper: 1, cheapest: 1, cheer: 4, cheerful: 4, cheery: 4, cherish: 4, cherished: 4, cherub: 1, chic: 1, chivalrous: 2, chivalry: 2, civility: 2, civilize: 2, clarity: 4, classic: 1, classy: 1, clean: 3, cleaner: 3, cleanest: 3, cleanliness: 3, cleanly: 3, clear: 3, "clear-cut": 3, cleared: 3, clearer: 3, clearly: 3, clears: 3, clever: 3, cleverly: 2, cohere: 2, coherence: 2, coherent: 2, cohesive: 2, colorful: 3, comely: 1, comfort: 4, comfortable: 4, comfortably: 4, comforting: 4, comfy: 4, commend: 1, commendable: 1, commendably: 1, commitment: 3, commodious: 1, compact: 3, compactly: 2, compassion: 3, compassionate: 4, compatible: 3, competitive: 3, complement: 3, complementary: 3, complemented: 3, complements: 3, compliant: 2, compliment: 5, complimentary: 5, comprehensive: 5, conciliate: 1, conciliatory: 1, concise: 2, confidence: 3, confident: 4, congenial: 1, congratulate: 5, congratulation: 5, congratulations: 5, congratulatory: 5, conscientious: 2, considerate: 4, consistent: 4, consistently: 4, constructive: 4, consummate: 1, contentment: 1, continuity: 4, contrasty: 1, contribution: 2, convenience: 3, convenient: 3, conveniently: 3, convience: 3, convienient: 3, convient: 3, convincing: 3, convincingly: 3, cool: 5, coolest: 5, cooperative: 3, cooperatively: 3, cornerstone: 3, correct: 5, correctly: 5, "cost-effective": 3, "cost-saving": 3, "counter-attack": 2, "counter-attacks": 2, courage: 3, courageous: 3, courageously: 3, courageousness: 3, courteous: 3, courtly: 2, covenant: 2, cozy: 2, creative: 2, credence: 2, credible: 2, crisp: 1, crisper: 1, cure: 4, "cure-all": 1, cushy: 1, cute: 5, cuteness: 5, danke: 1, danken: 1, daring: 5, daringly: 5, darling: 5, dashing: 5, dauntless: 1, dawn: 1, dazzle: 5, dazzled: 5, dazzling: 5, "dead-cheap": 1, "dead-on": 1, decency: 5, decent: 5, decisive: 5, decisiveness: 5, dedicated: 5, defeat: 1, defeated: 1, defeating: 1, defeats: 1, defender: 1, deference: 1, deft: 1, deginified: 1, delectable: 1, delicacy: 4, delicate: 4, delicious: 4, delight: 4, delighted: 4, delightful: 4, delightfully: 4, delightfulness: 4, dependable: 2, dependably: 2, deservedly: 5, deserving: 5, desirable: 5, desiring: 5, desirous: 5, destiny: 5, detachable: 5, devout: 5, dexterous: 5, dexterously: 5, dextrous: 5, dignified: 5, dignify: 5, dignity: 5, diligence: 3, diligent: 3, diligently: 3, diplomatic: 3, "dirt-cheap": 3, distinction: 3, distinctive: 3, distinguished: 3, diversified: 3, divine: 5, divinely: 5, dominate: 5, dominated: 5, dominates: 5, dote: 1, dotingly: 1, doubtless: 1, dreamland: 1, dumbfounded: 1, dumbfounding: 1, "dummy-proof": 1, durable: 3, dynamic: 3, eager: 5, eagerly: 5, eagerness: 5, earnest: 5, earnestly: 5, earnestness: 5, ease: 4, eased: 4, eases: 4, easier: 4, easiest: 4, easiness: 4, easing: 4, easy: 4, "easy-to-use": 5, easygoing: 5, ebullience: 1, ebullient: 1, ebulliently: 1, ecenomical: 1, economical: 5, ecstasies: 5, ecstasy: 5, ecstatic: 5, ecstatically: 5, edify: 1, educated: 5, effective: 5, effectively: 5, effectiveness: 5, effectual: 5, efficacious: 5, efficient: 5, efficiently: 5, effortless: 5, effortlessly: 5, effusion: 5, effusive: 5, effusively: 5, effusiveness: 5, elan: 2, elate: 2, elated: 2, elatedly: 2, elation: 3, electrify: 5, elegance: 5, elegant: 5, elegantly: 5, elevate: 5, elite: 5, eloquence: 3, eloquent: 3, eloquently: 3, embolden: 3, eminence: 3, eminent: 3, empathize: 5, empathy: 5, empower: 5, empowerment: 5, enchant: 5, enchanted: 5, enchanting: 5, enchantingly: 5, encourage: 5, encouragement: 5, encouraging: 5, encouragingly: 5, endear: 3, endearing: 3, endorse: 3, endorsed: 3, endorsement: 3, endorses: 3, endorsing: 2, energetic: 5, energize: 5, "energy-efficient": 5, "energy-saving": 5, engaging: 2, engrossing: 2, enhance: 5, enhanced: 5, enhancement: 5, enhances: 5, enjoy: 5, enjoyable: 5, enjoyably: 5, enjoyed: 5, enjoying: 5, enjoyment: 5, enjoys: 5, enlighten: 5, enlightenment: 5, enliven: 1, ennoble: 2, enough: 3, enrapt: 2, enrapture: 1, enraptured: 1, enrich: 5, enrichment: 3, enterprising: 3, entertain: 3, entertaining: 5, entertains: 5, enthral: 2, enthrall: 1, enthralled: 1, enthuse: 1, enthusiasm: 4, enthusiast: 4, enthusiastic: 4, enthusiastically: 3, entice: 3, enticed: 4, enticing: 3, enticingly: 4, entranced: 3, entrancing: 3, entrust: 4, enviable: 3, enviably: 3, envious: 3, enviously: 3, enviousness: 1, envy: 1, equitable: 1, ergonomical: 5, "err-free": 1, erudite: 1, ethical: 4, eulogize: 2, euphoria: 3, euphoric: 3, euphorically: 3, evaluative: 4, evenly: 5, eventful: 4, everlasting: 5, evocative: 2, exalt: 1, exaltation: 2, exalted: 3, exaltedly: 3, exalting: 3, exaltingly: 3, examplar: 1, examplary: 1, excallent: 1, exceed: 5, exceeded: 5, exceeding: 5, exceedingly: 5, exceeds: 5, excel: 5, exceled: 5, excelent: 5, excellant: 5, excelled: 5, excellence: 5, excellency: 5, excellent: 5, excellently: 5, excels: 5, exceptional: 5, exceptionally: 5, excite: 5, excited: 5, excitedly: 5, excitedness: 5, excitement: 5, excites: 5, exciting: 5, excitingly: 5, exellent: 5, exemplar: 3, exemplary: 3, exhilarate: 3, exhilarating: 3, exhilaratingly: 3, exhilaration: 3, exonerate: 3, expansive: 3, expeditiously: 3, expertly: 4, exquisite: 1, exquisitely: 1, extol: 1, extoll: 1, extraordinarily: 5, extraordinary: 5, exuberance: 3, exuberant: 3, exuberantly: 3, exult: 1, exultant: 1, exultation: 1, exultingly: 1, "eye-catch": 5, "eye-catching": 5, eyecatch: 5, eyecatching: 5, fabulous: 1, fabulously: 4, facilitate: 4, fair: 5, fairly: 5, fairness: 5, faith: 4, faithful: 4, faithfully: 4, faithfulness: 4, fame: 4, famed: 4, famous: 4, famously: 4, fancier: 5, fancinating: 5, fancy: 5, fanfare: 3, fans: 3, fantastic: 3, fantastically: 3, fascinate: 5, fascinating: 5, fascinatingly: 5, fascination: 5, fashionable: 5, fashionably: 5, fast: 2, "fast-growing": 2, "fast-paced": 2, faster: 5, fastest: 5, "fastest-growing": 5, faultless: 3, fav: 4, fave: 4, favor: 4, favorable: 4, favored: 4, favorite: 4, favorited: 4, favour: 4, fearless: 5, fearlessly: 5, feasible: 3, feasibly: 3, feat: 2, "feature-rich": 2, fecilitous: 2, feisty: 2, felicitate: 2, felicitous: 2, felicity: 3, fertile: 3, fervent: 3, fervently: 3, fervid: 3, fervidly: 3, fervor: 3, festive: 3, fidelity: 1, fiery: 1, fine: 5, "fine-looking": 5, finely: 5, finer: 5, finest: 5, firmer: 4, "first-class": 4, "first-in-class": 4, "first-rate": 5, flashy: 5, flatter: 4, flattering: 4, flatteringly: 4, flawless: 5, flawlessly: 5, flexibility: 3, flexible: 3, flourish: 1, flourishing: 1, fluent: 2, flutter: 2, fond: 4, fondly: 4, fondness: 4, foolproof: 4, foremost: 3, foresight: 5, formidable: 4, fortitude: 5, fortuitous: 5, fortuitously: 3, fortunate: 5, fortunately: 5, fortune: 5, fragrant: 4, free: 5, freed: 5, freedom: 5, freedoms: 5, fresh: 5, fresher: 5, freshest: 5, friendliness: 4, friendly: 4, frolic: 3, frugal: 3, fruitful: 4, ftw: 4, fulfillment: 4, fun: 5, futurestic: 4, futuristic: 4, gaiety: 1, gaily: 1, gain: 4, gained: 4, gainful: 4, gainfully: 4, gaining: 4, gains: 4, gallant: 2, gallantly: 2, galore: 4, geekier: 4, geeky: 3, gem: 4, gems: 4, generosity: 4, generous: 5, generously: 5, genial: 1, genius: 4, gentle: 4, gentlest: 4, genuine: 5, gifted: 5, glad: 4, gladden: 1, gladly: 4, gladness: 4, glamorous: 5, glee: 1, gleeful: 1, gleefully: 1, glimmer: 1, glimmering: 1, glisten: 1, glistening: 1, glitter: 1, glitz: 1, glorify: 5, glorious: 5, gloriously: 5, glory: 5, glow: 4, glowing: 4, glowingly: 4, "god-given": 3, "god-send": 3, godlike: 4, godsend: 4, gold: 3, golden: 3, good: 5, goodly: 5, goodness: 4, goodwill: 3, goood: 5, gooood: 5, gorgeous: 4, gorgeously: 4, grace: 4, graceful: 4, gracefully: 4, gracious: 4, graciously: 4, graciousness: 4, grand: 5, grandeur: 3, grateful: 3, gratefully: 3, gratification: 3, gratified: 3, gratifies: 3, gratify: 3, gratifying: 3, gratifyingly: 3, gratitude: 5, great: 5, greatest: 5, greatness: 5, grin: 3, groundbreaking: 3, guarantee: 3, guidance: 3, guiltless: 3, gumption: 1, gush: 1, gusto: 1, gutsy: 1, hail: 1, halcyon: 1, hale: 1, hallmark: 1, hallmarks: 1, hallowed: 1, handier: 1, handily: 1, "hands-down": 4, handsome: 5, handsomely: 5, handy: 5, happier: 5, happily: 5, happiness: 5, happy: 5, "hard-working": 4, hardier: 4, hardy: 4, harmless: 3, harmonious: 1, harmoniously: 1, harmonize: 1, harmony: 4, headway: 1, heal: 5, healthful: 5, healthy: 4, hearten: 2, heartening: 2, heartfelt: 3, heartily: 3, heartwarming: 4, heaven: 5, heavenly: 5, helped: 4, helpful: 4, helping: 4, hero: 4, heroic: 4, heroically: 4, heroine: 2, heroize: 2, heros: 4, "high-quality": 5, "high-spirited": 3, hilarious: 3, holy: 3, homage: 2, honest: 3, honesty: 4, honor: 3, honorable: 3, honored: 3, honoring: 3, hooray: 4, hopeful: 4, hospitable: 4, hot: 2, hotcake: 2, hotcakes: 3, hottest: 4, hug: 3, humane: 4, humble: 3, humility: 4, humor: 3, humorous: 3, humorously: 3, humour: 3, humourous: 3, ideal: 4, idealize: 3, ideally: 3, idol: 2, idolize: 2, idolized: 2, idyllic: 1, illuminate: 5, illuminati: 1, illuminating: 4, illumine: 2, illustrious: 3, ilu: 1, imaculate: 5, imaginative: 5, immaculate: 5, immaculately: 5, immense: 3, impartial: 3, impartiality: 3, impartially: 3, impassioned: 3, impeccable: 3, impeccably: 3, important: 4, impress: 4, impressed: 4, impresses: 4, impressive: 4, impressively: 4, impressiveness: 4, improve: 4, improved: 3, improvement: 4, improvements: 5, improves: 5, improving: 3, incredible: 4, incredibly: 5, indebted: 4, individualized: 1, indulgence: 1, indulgent: 1, industrious: 1, inestimable: 1, inestimably: 1, inexpensive: 4, infallibility: 1, infallible: 1, infallibly: 1, influential: 1, ingenious: 2, ingeniously: 3, ingenuity: 3, ingenuous: 3, ingenuously: 2, innocuous: 3, innovation: 4, innovative: 4, inpressed: 2, insightful: 4, insightfully: 3, inspiration: 4, inspirational: 5, inspire: 5, inspiring: 5, instantly: 3, instructive: 3, instrumental: 3, integral: 3, integrated: 3, intelligence: 3, intelligent: 3, intelligible: 2, interesting: 4, interests: 3, intimacy: 2, intimate: 2, intricate: 3, intrigue: 2, intriguing: 2, intriguingly: 2, intuitive: 3, invaluable: 5, invaluablely: 5, inventive: 3, invigorate: 3, invigorating: 2, invincibility: 3, invincible: 5, inviolable: 3, inviolate: 3, invulnerable: 4, irreplaceable: 3, irreproachable: 3, irresistible: 3, irresistibly: 3, "issue-free": 3, "jaw-droping": 5, "jaw-dropping": 5, jollify: 3, jolly: 3, jovial: 2, joy: 4, joyful: 5, joyfully: 5, joyous: 4, joyously: 4, jubilant: 4, jubilantly: 3, jubilate: 3, jubilation: 3, jubiliant: 3, judicious: 3, justly: 3, keen: 3, keenly: 4, keenness: 4, "kid-friendly": 3, kindliness: 5, kindly: 5, kindness: 5, knowledgeable: 4, kudos: 3, "large-capacity": 3, laud: 3, laudable: 4, laudably: 4, lavish: 5, lavishly: 5, "law-abiding": 4, lawful: 4, lawfully: 4, lead: 3, leading: 3, leads: 1, lean: 1, led: 1, legendary: 5, leverage: 3, levity: 2, liberate: 4, liberation: 4, liberty: 4, lifesaver: 5, "light-hearted": 3, lighter: 3, likable: 4, like: 5, liked: 4, likes: 4, liking: 5, lionhearted: 4, lively: 5, logical: 4, "long-lasting": 5, lovable: 4, lovably: 5, love: 5, loved: 5, loveliness: 4, lovely: 5, lover: 4, loves: 4, loving: 5, "low-cost": 2, "low-price": 2, "low-priced": 2, "low-risk": 3, "lower-priced": 3, loyal: 4, loyalty: 4, lucid: 2, lucidly: 2, luck: 4, luckier: 4, luckiest: 4, luckiness: 4, lucky: 5, lucrative: 3, luminous: 3, lush: 2, luster: 2, lustrous: 3, luxuriant: 3, luxuriate: 3, luxurious: 3, luxuriously: 4, luxury: 5, lyrical: 2, magic: 3, magical: 4, magnanimous: 3, magnanimously: 3, magnificence: 2, magnificent: 3, magnificently: 3, majestic: 3, majesty: 3, manageable: 2, maneuverable: 2, marvel: 4, marveled: 4, marvelled: 4, marvellous: 4, marvelous: 4, marvelously: 5, marvelousness: 3, marvels: 3, master: 5, masterful: 5, masterfully: 5, masterpiece: 5, masterpieces: 5, masters: 5, mastery: 4, matchless: 4, mature: 3, maturely: 2, maturity: 3, meaningful: 4, memorable: 5, merciful: 5, mercifully: 5, mercy: 5, merit: 4, meritorious: 4, merrily: 3, merriment: 2, merriness: 2, merry: 4, mesmerize: 3, mesmerized: 3, mesmerizes: 3, mesmerizing: 3, mesmerizingly: 3, meticulous: 3, meticulously: 3, mightily: 4, mighty: 2, "mind-blowing": 5, miracle: 5, miracles: 5, miraculous: 5, miraculously: 5, miraculousness: 1, modern: 3, modest: 3, modesty: 3, momentous: 3, monumental: 3, monumentally: 3, morality: 3, motivated: 3, "multi-purpose": 3, navigable: 3, neat: 5, neatest: 5, neatly: 5, nice: 5, nicely: 5, nicer: 5, nicest: 5, nifty: 4, nimble: 4, noble: 4, nobly: 4, noiseless: 4, "non-violence": 2, "non-violent": 2, notably: 4, noteworthy: 4, nourish: 4, nourishing: 4, nourishment: 4, novelty: 3, nurturing: 3, oasis: 3, obsession: 3, obsessions: 3, obtainable: 3, openly: 1, openness: 1, optimal: 3, optimism: 3, optimistic: 3, opulent: 1, orderly: 4, originality: 4, outdo: 4, outdone: 4, outperform: 4, outperformed: 4, outperforming: 4, outperforms: 4, outshine: 5, outshone: 5, outsmart: 5, outstanding: 3, outstandingly: 3, outstrip: 4, outwit: 4, ovation: 2, overjoyed: 2, overtake: 3, overtaken: 3, overtakes: 4, overtaking: 4, overtook: 3, overture: 3, "pain-free": 4, painless: 4, painlessly: 5, palatial: 2, pamper: 3, pampered: 3, pamperedly: 3, pamperedness: 2, pampers: 2, panoramic: 3, paradise: 4, paramount: 2, pardon: 2, passion: 2, passionate: 2, passionately: 2, patience: 3, patient: 3, patiently: 2, patriot: 2, patriotic: 2, peace: 5, peaceable: 5, peaceful: 5, peacefully: 5, peacekeepers: 5, peach: 3, peerless: 3, pep: 2, pepped: 2, pepping: 2, peppy: 2, peps: 2, perfect: 5, perfection: 5, perfectly: 5, permissible: 2, perseverance: 2, persevere: 1, personages: 1, personalized: 3, phenomenal: 4, phenomenally: 4, picturesque: 4, piety: 3, pinnacle: 4, playful: 4, playfully: 4, pleasant: 4, pleasantly: 3, pleased: 4, pleases: 4, pleasing: 3, pleasingly: 4, pleasurable: 4, pleasurably: 3, pleasure: 3, plentiful: 4, pluses: 2, plush: 1, plusses: 1, poetic: 1, poeticize: 1, poignant: 1, poise: 1, poised: 2, polished: 2, polite: 4, politeness: 4, popular: 5, portable: 4, posh: 3, positive: 4, positively: 5, positives: 5, powerful: 5, powerfully: 5, praise: 5, praiseworthy: 5, praising: 4, "pre-eminent": 2, precious: 2, precise: 2, precisely: 2, preeminent: 2, prefer: 2, preferable: 2, preferably: 2, prefered: 2, preferes: 2, preferring: 2, prefers: 2, premier: 2, prestige: 4, prestigious: 2, prettily: 2, pretty: 5, priceless: 5, pride: 4, principled: 2, privilege: 2, privileged: 2, prize: 2, proactive: 2, "problem-free": 2, "problem-solver": 2, prodigious: 2, prodigiously: 2, prodigy: 2, productive: 2, productively: 2, proficient: 2, proficiently: 2, profound: 3, profoundly: 3, profuse: 2, profusion: 2, progress: 2, progressive: 2, prolific: 2, prominence: 2, prominent: 2, promise: 2, promised: 2, promises: 2, promising: 2, promoter: 2, prompt: 2, promptly: 2, proper: 2, properly: 2, propitious: 2, propitiously: 2, pros: 2, prosper: 2, prosperity: 3, prosperous: 3, prospros: 3, protect: 3, protection: 4, protective: 4, proud: 2, proven: 2, proves: 2, providence: 2, proving: 2, prowess: 2, prudence: 2, prudent: 2, prudently: 2, punctual: 2, pure: 5, purify: 5, purposeful: 2, quaint: 2, qualified: 2, qualify: 4, quicker: 5, quiet: 5, quieter: 2, radiance: 2, radiant: 2, rapid: 2, rapport: 2, rapt: 1, rapture: 1, raptureous: 1, raptureously: 1, rapturous: 1, rapturously: 1, rational: 1, "razor-sharp": 2, reachable: 1, readable: 2, readily: 2, ready: 5, reaffirm: 1, reaffirmation: 2, realistic: 2, realizable: 2, reasonable: 2, reasonably: 2, reasoned: 2, reassurance: 2, reassure: 2, receptive: 2, reclaim: 2, recomend: 4, recommend: 4, recommendation: 4, recommendations: 4, recommended: 5, reconcile: 3, reconciliation: 3, "record-setting": 4, recover: 4, recovery: 4, rectification: 4, rectify: 3, rectifying: 3, redeem: 3, redeeming: 3, redemption: 1, refine: 1, refined: 3, refinement: 3, reform: 4, reformed: 4, reforming: 3, reforms: 3, refresh: 3, refreshed: 3, refreshing: 3, refund: 3, refunded: 2, regal: 2, regally: 2, regard: 2, rejoice: 2, rejoicing: 3, rejoicingly: 3, rejuvenate: 3, rejuvenated: 3, rejuvenating: 3, relaxed: 4, relent: 4, reliable: 4, reliably: 4, relief: 4, relish: 4, remarkable: 3, remarkably: 3, remedy: 3, remission: 3, remunerate: 3, renaissance: 3, renewed: 2, renown: 2, renowned: 2, replaceable: 3, reputable: 3, reputation: 4, resilient: 4, resolute: 4, resound: 4, resounding: 2, resourceful: 2, resourcefulness: 3, respect: 3, respectable: 3, respectful: 2, respectfully: 2, respite: 2, resplendent: 2, responsibly: 2, responsive: 4, restful: 4, restored: 2, restructure: 2, restructured: 2, restructuring: 2, retractable: 2, revel: 2, revelation: 2, revere: 2, reverence: 2, reverent: 2, reverently: 2, revitalize: 2, revival: 2, revive: 4, revives: 2, revolutionary: 2, revolutionize: 2, revolutionized: 2, revolutionizes: 2, reward: 5, rewarding: 5, rewardingly: 5, rich: 4, richer: 4, richly: 4, richness: 4, right: 4, righten: 3, righteous: 3, righteously: 2, righteousness: 2, rightful: 2, rightfully: 2, rightly: 2, rightness: 2, "risk-free": 2, robust: 2, "rock-star": 4, "rock-stars": 4, rockstar: 2, rockstars: 2, romantic: 2, romantically: 2, romanticize: 2, roomier: 2, roomy: 2, rosy: 2, safe: 4, safely: 4, sagacity: 2, sagely: 2, saint: 2, saintliness: 2, saintly: 2, salutary: 2, salute: 2, sane: 3, satisfactorily: 3, satisfactory: 3, satisfied: 3, satisfies: 3, satisfy: 3, satisfying: 3, satisified: 3, saver: 4, savings: 4, savior: 4, savvy: 4, scenic: 4, seamless: 4, seasoned: 2, secure: 5, securely: 2, selective: 3, "self-determination": 3, "self-respect": 5, "self-satisfaction": 5, "self-sufficiency": 5, "self-sufficient": 5, sensation: 5, sensational: 4, sensationally: 4, sensations: 4, sensible: 4, sensibly: 4, sensitive: 2, serene: 2, serenity: 2, sexy: 4, sharp: 2, sharper: 2, sharpest: 2, shimmering: 2, shimmeringly: 2, shine: 2, shiny: 2, significant: 2, silent: 3, simpler: 3, simplest: 2, simplified: 2, simplifies: 2, simplify: 2, simplifying: 2, sincere: 5, sincerely: 2, sincerity: 2, skill: 4, skilled: 2, skillful: 2, skillfully: 2, slammin: 2, sleek: 2, slick: 2, smart: 3, smarter: 3, smartest: 2, smartly: 2, smile: 2, smiles: 2, smiling: 2, smilingly: 2, smitten: 2, smooth: 2, smoother: 2, smoothes: 2, smoothest: 2, smoothly: 2, snappy: 2, snazzy: 2, sociable: 2, soft: 4, softer: 4, solace: 2, solicitous: 2, solicitously: 2, solid: 2, solidarity: 2, soothe: 2, soothingly: 2, sophisticated: 2, soulful: 3, soundly: 3, soundness: 2, spacious: 2, sparkle: 2, sparkling: 2, spectacular: 5, spectacularly: 5, speedily: 2, speedy: 2, spellbind: 2, spellbinding: 2, spellbindingly: 2, spellbound: 2, spirited: 2, spiritual: 2, splendid: 2, splendidly: 2, splendor: 2, spontaneous: 2, sporty: 1, spotless: 2, sprightly: 1, stability: 2, stabilize: 2, stable: 4, stainless: 2, standout: 2, "state-of-the-art": 2, stately: 2, statuesque: 2, staunch: 2, staunchly: 2, staunchness: 2, steadfast: 2, steadfastly: 2, steadfastness: 2, steadiest: 3, steadiness: 3, steady: 5, stellar: 5, stellarly: 2, stimulate: 2, stimulates: 2, stimulating: 2, stimulative: 2, stirringly: 1, straighten: 1, straightforward: 3, streamlined: 3, striking: 2, strikingly: 2, striving: 2, strong: 4, stronger: 4, strongest: 4, stunned: 4, stunning: 5, stunningly: 5, stupendous: 1, stupendously: 1, sturdier: 1, sturdy: 1, stylish: 4, stylishly: 4, stylized: 4, suave: 2, suavely: 1, sublime: 2, subsidize: 1, subsidized: 1, subsidizes: 1, subsidizing: 1, substantive: 1, succeed: 3, succeeded: 4, succeeding: 3, succeeds: 3, succes: 1, success: 4, successes: 2, successful: 2, successfully: 4, suffice: 2, sufficed: 3, suffices: 2, sufficient: 3, sufficiently: 3, suitable: 4, sumptuous: 1, sumptuously: 1, sumptuousness: 1, super: 5, superb: 5, superbly: 5, superior: 2, superiority: 4, supple: 2, support: 3, supported: 3, supporter: 3, supporting: 3, supportive: 3, supports: 3, supremacy: 4, supreme: 4, supremely: 4, supurb: 4, supurbly: 3, surmount: 2, surpass: 3, surreal: 4, survival: 2, survivor: 2, sustainability: 2, sustainable: 2, swank: 1, swankier: 1, swankiest: 1, swanky: 1, sweeping: 2, sweet: 4, sweeten: 3, sweetheart: 5, sweetly: 4, sweetness: 5, swift: 3, swiftness: 3, talent: 2, talented: 2, talents: 2, tantalize: 1, tantalizing: 1, tantalizingly: 1, tempt: 1, tempting: 3, temptingly: 3, tenacious: 2, tenaciously: 2, tenacity: 2, tender: 4, tenderly: 4, terrific: 4, terrifically: 4, thank: 4, thankful: 4, thinner: 3, thoughtful: 2, thoughtfully: 2, thoughtfulness: 2, thrift: 2, thrifty: 2, thrill: 2, thrilled: 2, thrilling: 2, thrillingly: 2, thrills: 2, thrive: 2, thriving: 2, "thumb-up": 2, "thumbs-up": 2, tickle: 2, tidy: 2, "time-honored": 1, timely: 2, tingle: 2, titillate: 1, titillating: 1, titillatingly: 1, togetherness: 2, tolerable: 3, "toll-free": 1, top: 4, "top-notch": 5, "top-quality": 5, topnotch: 5, tops: 5, tough: 2, tougher: 3, toughest: 4, traction: 1, tranquil: 1, tranquility: 1, transparent: 2, treasure: 4, tremendously: 5, trendy: 5, triumph: 5, triumphal: 5, triumphant: 1, triumphantly: 1, trivially: 1, trophy: 1, "trouble-free": 2, trump: 5, trumpet: 1, trust: 5, trusted: 2, trusting: 3, trustingly: 2, trustworthiness: 2, trustworthy: 2, trusty: 4, truthful: 2, truthfully: 2, truthfulness: 2, twinkly: 2, "ultra-crisp": 5, unabashed: 2, unabashedly: 2, unaffected: 1, unassailable: 2, unbeatable: 2, unbiased: 2, unbound: 2, uncomplicated: 3, unconditional: 2, undamaged: 3, undaunted: 2, understandable: 2, undisputable: 2, undisputably: 2, undisputed: 3, unencumbered: 1, unequivocal: 1, unequivocally: 1, unfazed: 2, unfettered: 1, unforgettable: 3, unity: 2, unlimited: 3, unmatched: 2, unparalleled: 1, unquestionable: 1, unquestionably: 1, unreal: 3, unrestricted: 2, unrivaled: 2, unselfish: 2, unwavering: 3, upbeat: 2, upgradable: 2, upgradeable: 2, upgraded: 2, upheld: 2, uphold: 2, uplift: 2, uplifting: 2, upliftingly: 2, upliftment: 2, upscale: 2, usable: 4, useable: 2, useful: 5, "user-friendly": 2, "user-replaceable": 2, valiant: 1, valiantly: 2, valor: 2, valuable: 5, variety: 2, venerate: 2, verifiable: 1, veritable: 1, versatile: 2, versatility: 1, vibrant: 4, vibrantly: 4, victorious: 5, victory: 5, viewable: 2, vigilance: 2, vigilant: 3, virtue: 2, virtuous: 2, virtuously: 2, visionary: 2, vivacious: 2, vivid: 2, vouch: 3, vouchsafe: 2, warm: 4, warmer: 2, warmhearted: 2, warmly: 4, warmth: 5, wealthy: 5, welcome: 2, well: 5, "well-backlit": 2, "well-balanced": 2, "well-behaved": 5, "well-being": 2, "well-bred": 2, "well-connected": 2, "well-educated": 2, "well-established": 1, "well-informed": 1, "well-intentioned": 2, "well-known": 3, "well-made": 5, "well-managed": 2, "well-mannered": 2, "well-positioned": 2, "well-received": 2, "well-regarded": 2, "well-rounded": 2, "well-run": 2, "well-wishers": 2, wellbeing: 2, whoa: 2, wholeheartedly: 2, wholesome: 2, whooa: 2, whoooa: 2, wieldy: 1, willing: 2, willingly: 2, willingness: 3, win: 5, windfall: 2, winnable: 2, winner: 2, winners: 2, winning: 2, wins: 2, wisdom: 2, wise: 2, wisely: 2, witty: 4, won: 5, wonder: 2, wonderful: 2, wonderfully: 2, wonderous: 2, wonderously: 2, wonders: 2, wondrous: 2, woo: 3, work: 2, workable: 2, worked: 3, works: 4, "world-famous": 2, worth: 2, "worth-while": 2, worthiness: 2, worthwhile: 2, worthy: 4, wow: 5, wowed: 2, wowing: 2, wows: 2, yay: 4, youthful: 5, zeal: 2, zenith: 2, zest: 4, zippy: 2, "2-faced": -1, "2-faces": -1, abnormal: -5, abolish: -4, abominable: -3, abominably: -3, abominate: -2, abomination: -3, abort: -2, aborted: -3, aborts: -3, abrade: -2, abrasive: -4, abrupt: -2, abruptly: -2, abscond: -4, aborted: -5, absence: -5, "absent-minded": -5, absentee: -5, absurd: -4, absurdity: -3, absurdly: -3, absurdness: -3, abuse: -4, abused: -4, abuses: -4, abusive: -3, abysmal: -2, abysmally: -1, abyss: -1, accidental: -3, accost: -1, accursed: -1, accusation: -5, accusations: -1, accuse: -3, accuses: -3, accusing: -2, accusingly: -4, acerbate: -1, acerbic: -1, acerbically: -1, ache: -5, ached: -1, aches: -2, achey: -1, aching: -5, acrid: -1, acridly: -1, acridness: -1, acrimonious: -1, acrimoniously: -1, acrimony: -1, adamant: -4, adamantly: -4, addict: -5, addicted: -2, addicting: -2, addicts: -3, admonish: -4, admonisher: -2, admonishingly: -3, admonishment: -4, admonition: -3, adulterate: -1, adulterated: -3, adulteration: -5, adulterier: -2, adversarial: -1, adversary: -1, adverse: -4, adversity: -5, afflict: -1, affliction: -1, afflictive: -1, affront: -1, afraid: -5, aggravate: -4, aggravating: -4, aggravation: -5, aggression: -5, aggressive: -5, aggressiveness: -4, aggressor: -4, aggrieve: -3, aggrieved: -4, aggrivation: -5, aghast: -2, agonies: -4, agonize: -5, agonizing: -5, agonizingly: -4, agony: -5, aground: -2, ail: -1, ailing: -1, ailment: -2, aimless: -2, alarm: -1, alarmed: -1, alarming: -1, alarmingly: -1, alienate: -2, alienated: -1, alienation: -1, allegation: -2, allegations: -3, allege: -1, allergic: -1, allergies: -1, allergy: -1, aloof: -1, altercation: -1, ambiguity: -2, ambiguous: -2, ambivalence: -1, ambivalent: -1, ambush: -1, amiss: -1, amputate: -3, anarchism: -1, anarchist: -4, anarchistic: -1, anarchy: -1, anemic: -1, anger: -4, angrily: -5, angriness: -5, angry: -5, anguish: -3, animosity: -1, annihilate: -1, annihilation: -1, annoy: -3, annoyance: -4, annoyances: -4, annoyed: -2, annoying: -2, annoyingly: -3, annoys: -1, anomalous: -1, anomaly: -3, antagonism: -1, antagonist: -1, antagonistic: -1, antagonize: -1, "anti-": -1, "anti-american": -1, "anti-israeli": -1, "anti-occupation": -1, "anti-proliferation": -1, "anti-semites": -1, "anti-social": -1, "anti-us": -1, "anti-white": -1, antipathy: -1, antiquated: -1, antithetical: -1, anxieties: -1, anxiety: -2, anxious: -3, anxiously: -3, anxiousness: -1, apathetic: -4, apathetically: -1, apathy: -5, apocalypse: -5, apocalyptic: -4, apologist: -3, apologists: -2, appal: -1, appall: -1, appalled: -1, appalling: -1, appallingly: -1, apprehension: -1, apprehensions: -1, apprehensive: -1, apprehensively: -1, arbitrary: -1, arcane: -1, archaic: -1, arduous: -1, arduously: -1, argumentative: -1, arrogance: -3, arrogant: -4, arrogantly: -5, ashamed: -4, asinine: -1, asininely: -1, asinininity: -1, askance: -1, asperse: -1, aspersion: -1, aspersions: -1, assail: -1, assassin: -2, assassinate: -2, assault: -1, assult: -1, astray: -1, asunder: -1, atrocious: -1, atrocities: -1, atrocity: -1, atrophy: -1, attack: -3, attacks: -3, audacious: -3, audaciously: -2, audaciousness: -2, audacity: -2, audiciously: -1, austere: -1, authoritarian: -1, autocrat: -1, autocratic: -1, avalanche: -2, avarice: -1, avaricious: -1, avariciously: -1, avenge: -4, averse: -1, aversion: -1, aweful: -4, awful: -5, awfully: -1, awfulness: -1, awkward: -3, awkwardness: -2, ax: -1, babble: -1, "back-logged": -1, "back-wood": -1, "back-woods": -1, backache: -1, backaches: -1, backaching: -1, backbite: -1, backbiting: -1, backward: -1, backwardness: -1, backwood: -1, backwoods: -1, bad: -4, badly: -2, baffle: -5, baffled: -4, bafflement: -1, baffling: -1, bait: -1, balk: -1, banal: -1, banalize: -1, bane: -1, banish: -5, banishment: -4, bankrupt: -2, barbarian: -5, barbaric: -4, barbarically: -3, barbarity: -2, barbarous: -3, barbarously: -1, barren: -3, baseless: -2, bash: -1, bashed: -1, bashful: -1, bashing: -1, bastard: -2, bastards: -2, battered: -1, battering: -1, batty: -1, bearish: -1, beastly: -1, bedlam: -1, bedlamite: -1, befoul: -1, beg: -1, beggar: -1, beggarly: -1, begging: -1, beguile: -1, belabor: -1, belated: -1, beleaguer: -1, belie: -2, belittle: -2, belittled: -2, belittling: -2, bellicose: -2, belligerence: -2, belligerent: -2, belligerently: -2, bemoan: -2, bemoaning: -2, bemused: -2, bent: -2, berate: -2, bereave: -2, bereavement: -2, bereft: -2, berserk: -2, beseech: -1, beset: -1, besiege: -1, besmirch: -1, bestial: -1, betray: -1, betrayal: -1, betrayals: -1, betrayer: -1, betraying: -1, betrays: -1, bewail: -1, beware: -2, bewilder: -1, bewildered: -1, bewildering: -1, bewilderingly: -1, bewilderment: -1, bewitch: -1, bias: -3, biased: -1, biases: -1, bicker: -1, bickering: -1, "bid-rigging": -1, bigotries: -1, bigotry: -4, bitch: -5, bitchy: -5, biting: -5, bitingly: -5, bitter: -5, bitterly: -5, bitterness: -5, bizarre: -1, blab: -1, blabber: -1, blackmail: -1, blah: -1, blame: -3, blameworthy: -1, bland: -1, blandish: -1, blaspheme: -1, blasphemous: -1, blasphemy: -1, blasted: -1, blatant: -1, blatantly: -1, blather: -1, bleak: -1, bleakly: -1, bleakness: -1, bleed: -2, bleeding: -3, bleeds: -3, blemish: -1, blind: -2, blinding: -1, blindingly: -1, blindside: -1, blister: -1, blistering: -1, bloated: -1, blockage: -1, blockhead: -1, bloodshed: -1, bloodthirsty: -1, bloody: -1, blotchy: -1, blow: -3, blunder: -1, blundering: -1, blunders: -1, blunt: -1, blur: -1, bluring: -1, blurred: -1, blurring: -1, blurry: -1, blurs: -1, blurt: -1, boastful: -1, boggle: -3, bogus: -2, boil: -2, boiling: -3, boisterous: -2, bomb: -4, bombard: -2, bombardment: -1, bombastic: -1, bondage: -1, bonkers: -4, bore: -1, bored: -1, boredom: -2, bores: -2, boring: -1, botch: -1, bother: -1, bothered: -1, bothering: -1, bothers: -1, bothersome: -1, bowdlerize: -1, boycott: -3, braggart: -3, bragger: -2, brainless: -3, brainwash: -1, brash: -1, brashly: -1, brashness: -1, brat: -1, bravado: -1, brazen: -1, brazenly: -2, brazenness: -2, breach: -3, break: -2, "break-up": -2, "break-ups": -1, breakdown: -4, breaking: -1, breaks: -2, breakup: -2, breakups: -2, bribery: -2, brimstone: -2, bristle: -2, brittle: -3, broke: -3, broken: -3, "broken-hearted": -3, brood: -3, browbeat: -3, bruise: -3, bruised: -2, bruises: -2, bruising: -2, brusque: -3, brutal: -3, brutalising: -3, brutalities: -2, brutality: -2, brutalize: -2, brutalizing: -2, brutally: -2, brute: -2, brutish: -1, bs: -3, buckle: -1, bug: -2, bugging: -5, buggy: -3, bugs: -2, bulkier: -2, bulkiness: -1, bulky: -3, bulkyness: -1, "bull****": -3, "bull----": -3, bullies: -2, bullshit: -5, bullshyt: -1, bully: -2, bullying: -1, bullyingly: -1, bum: -1, bump: -1, bumped: -3, bumping: -1, bumpping: -1, bumps: -1, bumpy: -1, bungle: -1, bungler: -1, bungling: -1, bunk: -1, burden: -4, burdensome: -1, burdensomely: -1, burn: -5, burned: -4, burning: -1, burns: -1, bust: -1, busts: -1, busybody: -1, butcher: -1, butchery: -1, buzzing: -1, byzantine: -1, cackle: -1, calamities: -3, calamitous: -3, calamitously: -3, calamity: -4, callous: -2, calumniate: -1, calumniation: -1, calumnies: -1, calumnious: -1, calumniously: -1, calumny: -1, cancer: -5, cancerous: -1, cannibal: -1, cannibalize: -5, capitulate: -1, capricious: -1, capriciously: -1, capriciousness: -1, capsize: -1, careless: -4, carelessness: -5, caricature: -1, carnage: -1, carp: -1, cartoonish: -1, "cash-strapped": -1, castigate: -1, castrated: -1, casualty: -3, cataclysm: -2, cataclysmal: -2, cataclysmic: -2, cataclysmically: -1, catastrophe: -4, catastrophes: -4, catastrophic: -4, catastrophically: -1, catastrophies: -1, caustic: -1, caustically: -1, cautionary: -3, cave: -1, censure: -1, chafe: -1, chaff: -1, chagrin: -1, challenging: -3, chaos: -5, chaotic: -1, chasten: -1, chastise: -1, chastisement: -1, chatter: -1, chatterbox: -1, cheap: -3, cheapen: -1, cheaply: -1, cheat: -2, cheated: -3, cheater: -2, cheating: -1, cheats: -1, checkered: -1, cheerless: -1, cheesy: -1, chide: -1, childish: -1, chill: -1, chilly: -1, chintzy: -1, choke: -1, choleric: -1, choppy: -1, chore: -1, chronic: -1, chunky: -1, clamor: -1, clamorous: -1, clash: -1, cliche: -1, cliched: -1, clique: -1, clog: -1, clogged: -1, clogs: -1, cloud: -1, clouding: -1, cloudy: -1, clueless: -1, clumsy: -3, clunky: -3, coarse: -3, cocky: -1, coerce: -2, coercion: -2, coercive: -2, cold: -3, coldly: -1, collapse: -1, collude: -1, collusion: -1, combative: -1, combust: -2, comical: -2, commiserate: -2, commonplace: -2, commotion: -3, commotions: -3, complacent: -3, complain: -3, complained: -4, complaining: -4, complains: -4, complaint: -4, complaints: -2, complex: -2, complicated: -4, complication: -4, complicit: -4, compulsion: -4, compulsive: -1, concede: -1, conceded: -1, conceit: -1, conceited: -1, concen: -1, concens: -2, concern: -1, concerned: -1, concerns: -1, concession: -1, concessions: -1, condemn: -1, condemnable: -1, condemnation: -1, condemned: -1, condemns: -1, condescend: -1, condescending: -1, condescendingly: -1, condescension: -1, confess: -1, confession: -4, confessions: -2, confined: -2, conflict: -2, conflicted: -2, conflicting: -2, conflicts: -2, confound: -2, confounded: -2, confounding: -2, confront: -3, confrontation: -3, confrontational: -3, confuse: -5, confused: -4, confuses: -4, confusing: -4, confusion: -4, confusions: -4, congested: -4, congestion: -4, cons: -5, conscons: -2, conservative: -1, conspicuous: -1, conspicuously: -1, conspiracies: -1, conspiracy: -4, conspirator: -1, conspiratorial: -1, conspire: -5, consternation: -1, contagious: -3, contaminate: -3, contaminated: -3, contaminates: -2, contaminating: -2, contamination: -1, contempt: -1, contemptible: -1, contemptuous: -2, contemptuously: -2, contend: -2, contention: -2, contentious: -2, contort: -3, contortions: -3, contradict: -3, contradiction: -3, contradictory: -3, contrariness: -3, contravene: -3, contrive: -3, contrived: -3, controversial: -3, controversy: -2, convoluted: -2, corrode: -2, corrosion: -3, corrosions: -3, corrosive: -3, corrupt: -4, corrupted: -4, corrupting: -4, corruption: -4, corrupts: -4, corruptted: -4, costlier: -3, costly: -3, "counter-productive": -3, counterproductive: -3, coupists: -1, covetous: -2, coward: -4, cowardly: -5, crabby: -2, crack: -2, cracked: -2, cracks: -1, craftily: -1, craftly: -1, crafty: -1, cramp: -1, cramped: -1, cramping: -1, cranky: -1, crap: -4, crappy: -5, craps: -3, crash: -3, crashed: -2, crashes: -2, crashing: -1, crass: -1, craven: -1, cravenly: -1, craze: -1, crazily: -1, craziness: -1, crazy: -2, creak: -3, creaking: -3, creaks: -1, credulous: -1, creep: -1, creeping: -1, creeps: -1, creepy: -1, crept: -1, crime: -4, criminal: -4, cringe: -2, cringed: -2, cringes: -2, cripple: -2, crippled: -3, cripples: -3, crippling: -4, crisis: -4, critic: -4, critical: -1, criticism: -1, criticisms: -1, criticize: -1, criticized: -1, criticizing: -1, critics: -3, cronyism: -3, crook: -3, crooked: -3, crooks: -1, crowded: -1, crowdedness: -1, crude: -1, cruel: -5, crueler: -5, cruelest: -5, cruelly: -5, cruelness: -4, cruelties: -4, cruelty: -4, crumble: -3, crumbling: -3, crummy: -2, crumple: -2, crumpled: -2, crumples: -1, crush: -3, crushed: -1, crushing: -1, cry: -3, culpable: -1, culprit: -3, cumbersome: -1, cunt: -5, cunts: -5, cuplrit: -1, curse: -3, cursed: -3, curses: -4, curt: -1, cuss: -3, cussed: -3, cutthroat: -2, cynical: -3, cynicism: -3, "d*mn": -3, damage: -3, damaged: -3, damages: -3, damaging: -3, damn: -4, damnable: -5, damnably: -5, damnation: -5, damned: -5, damning: -5, damper: -2, danger: -2, dangerous: -2, dangerousness: -3, dark: -3, darken: -2, darkened: -2, darker: -2, darkness: -2, dastard: -1, dastardly: -1, daunt: -1, daunting: -2, dauntingly: -2, dawdle: -1, daze: -1, dazed: -1, dead: -5, deadbeat: -5, deadlock: -3, deadly: -4, deadweight: -3, deaf: -3, dearth: -1, death: -4, debacle: -1, debase: -1, debasement: -1, debaser: -1, debatable: -1, debauch: -1, debaucher: -1, debauchery: -1, debilitate: -1, debilitating: -1, debility: -1, debt: -2, debts: -2, decadence: -1, decadent: -1, decay: -4, decayed: -4, deceit: -3, deceitful: -3, deceitfully: -3, deceitfulness: -3, deceive: -3, deceiver: -3, deceivers: -3, deceiving: -3, deception: -4, deceptive: -4, deceptively: -5, declaim: -3, decline: -2, declines: -2, declining: -2, decrement: -2, decrepit: -2, decrepitude: -1, decry: -1, defamation: -3, defamations: -3, defamatory: -3, defame: -3, defect: -4, defective: -4, defects: -4, defensive: -3, defiance: -3, defiant: -3, defiantly: -3, deficiencies: -3, deficiency: -3, deficient: -3, defile: -3, defiler: -3, deform: -3, deformed: -3, defrauding: -4, defunct: -2, defy: -1, degenerate: -2, degenerately: -2, degeneration: -2, degradation: -3, degrade: -3, degrading: -3, degradingly: -3, dehumanization: -2, dehumanize: -2, deign: -1, deject: -1, dejected: -1, dejectedly: -1, dejection: -1, delay: -1, delayed: -1, delaying: -1, delays: -1, delinquency: -1, delinquent: -1, delirious: -1, delirium: -1, delude: -1, deluded: -1, deluge: -1, delusion: -1, delusional: -1, delusions: -1, demean: -2, demeaning: -1, demise: -3, demolish: -3, demolisher: -3, demon: -4, demonic: -4, demonize: -4, demonized: -4, demonizes: -4, demonizing: -4, demoralize: -1, demoralizing: -1, demoralizingly: -1, denial: -2, denied: -2, denies: -1, denigrate: -1, denounce: -1, dense: -1, dent: -1, dented: -1, dents: -1, denunciate: -1, denunciation: -1, denunciations: -1, deny: -2, denying: -2, deplete: -1, deplorable: -1, deplorably: -1, deplore: -1, deploring: -1, deploringly: -1, deprave: -1, depraved: -1, depravedly: -1, deprecate: -1, depress: -4, depressed: -3, depressing: -4, depressingly: -3, depression: -4, depressions: -4, deprive: -3, deprived: -3, deride: -1, derision: -1, derisive: -1, derisively: -1, derisiveness: -1, derogatory: -3, desecrate: -1, desert: -2, desertion: -1, desiccate: -1, desiccated: -1, desititute: -1, desolate: -1, desolately: -1, desolation: -1, despair: -1, despairing: -1, despairingly: -1, desperate: -2, desperately: -2, desperation: -1, despicable: -2, despicably: -1, despise: -1, despised: -1, despoil: -1, despoiler: -1, despondence: -1, despondency: -1, despondent: -1, despondently: -1, despot: -1, despotic: -1, despotism: -1, destabilisation: -1, destains: -1, destitute: -1, destitution: -1, destroy: -5, destroyer: -5, destruction: -5, destructive: -5, desultory: -1, deter: -2, deteriorate: -5, deteriorating: -5, deterioration: -5, deterrent: -5, detest: -3, detestable: -3, detestably: -3, detested: -3, detesting: -3, detests: -3, detract: -3, detracted: -2, detracting: -2, detraction: -2, detracts: -2, detriment: -2, detrimental: -2, devastate: -5, devastated: -5, devastates: -5, devastating: -5, devastatingly: -5, devastation: -5, deviate: -2, deviation: -2, devil: -2, devilish: -2, devilishly: -2, devilment: -2, devilry: -2, devious: -3, deviously: -3, deviousness: -3, devoid: -2, diabolic: -2, diabolical: -2, diabolically: -2, diametrically: -1, diappointed: -5, diatribe: -1, diatribes: -1, dick: -5, dictator: -4, dictatorial: -3, die: -5, "die-hard": -2, died: -4, dies: -3, difficult: -2, difficulties: -2, difficulty: -2, diffidence: -1, dilapidated: -1, dilemma: -1, "dilly-dally": -1, dim: -1, dimmer: -1, din: -1, ding: -1, dings: -1, dinky: -1, dire: -1, direly: -1, direness: -1, dirt: -2, dirtbag: -1, dirtbags: -1, dirts: -2, dirty: -2, disable: -1, disabled: -1, disaccord: -1, disadvantage: -1, disadvantaged: -1, disadvantageous: -1, disadvantages: -1, disaffect: -1, disaffected: -1, disaffirm: -1, disagree: -2, disagreeable: -1, disagreeably: -1, disagreed: -2, disagreeing: -1, disagreement: -1, disagrees: -1, disallow: -4, disapointed: -5, disapointing: -5, disapointment: -5, disappoint: -5, disappointed: -4, disappointing: -4, disappointingly: -4, disappointment: -4, disappointments: -4, disappoints: -3, disapprobation: -1, disapproval: -2, disapprove: -2, disapproving: -2, disarm: -2, disarray: -1, disaster: -1, disasterous: -2, disastrous: -2, disastrously: -1, disavow: -3, disavowal: -3, disbelief: -2, disbelieve: -2, disbeliever: -2, disclaim: -1, discombobulate: -1, discomfit: -3, discomfititure: -1, discomfort: -1, discompose: -1, disconcert: -1, disconcerted: -1, disconcerting: -1, disconcertingly: -1, disconsolate: -1, disconsolately: -1, disconsolation: -1, discontent: -2, discontented: -2, discontentedly: -2, discontinued: -2, discontinuity: -1, discontinuous: -1, discord: -1, discordance: -1, discordant: -1, discountenance: -1, discourage: -1, discouragement: -1, discouraging: -1, discouragingly: -1, discourteous: -1, discourteously: -1, discoutinous: -1, discredit: -1, discrepant: -1, discriminate: -2, discrimination: -2, discriminatory: -2, disdain: -1, disdained: -1, disdainful: -1, disdainfully: -1, disfavor: -1, disgrace: -5, disgraced: -5, disgraceful: -5, disgracefully: -5, disgruntle: -3, disgruntled: -3, disgust: -5, disgusted: -5, disgustedly: -5, disgustful: -5, disgustfully: -5, disgusting: -5, disgustingly: -5, dishearten: -4, disheartening: -4, dishearteningly: -4, dishonest: -3, dishonestly: -3, dishonesty: -3, dishonor: -3, dishonorable: -3, dishonorablely: -3, disillusion: -2, disillusioned: -2, disillusionment: -2, disillusions: -2, disinclination: -2, disinclined: -2, disingenuous: -2, disingenuously: -2, disintegrate: -2, disintegrated: -2, disintegrates: -2, disintegration: -2, disinterest: -2, disinterested: -2, dislike: -3, disliked: -3, dislikes: -3, disliking: -3, dislocated: -3, disloyal: -3, disloyalty: -3, dismal: -1, dismally: -1, dismalness: -1, dismay: -3, dismayed: -3, dismaying: -3, dismayingly: -3, dismissive: -2, dismissively: -2, disobedience: -2, disobedient: -2, disobey: -1, disoobedient: -1, disorder: -1, disordered: -1, disorderly: -1, disorganized: -1, disorient: -1, disoriented: -1, disown: -1, disparage: -1, disparaging: -1, disparagingly: -1, dispensable: -1, dispirit: -1, dispirited: -1, dispiritedly: -1, dispiriting: -1, displace: -1, displaced: -1, displease: -1, displeased: -1, displeasing: -1, displeasure: -1, disproportionate: -1, disprove: -2, disputable: -1, dispute: -3, disputed: -3, disquiet: -1, disquieting: -1, disquietingly: -1, disquietude: -1, disregard: -3, disregardful: -1, disreputable: -1, disrepute: -2, disrespect: -1, disrespectable: -1, disrespectablity: -1, disrespectful: -1, disrespectfully: -1, disrespectfulness: -1, disrespecting: -1, disrupt: -4, disruption: -4, disruptive: -4, diss: -1, dissapointed: -5, dissappointed: -5, dissappointing: -5, dissatisfaction: -4, dissatisfactory: -4, dissatisfied: -4, dissatisfies: -4, dissatisfy: -4, dissatisfying: -4, dissed: -1, dissemble: -1, dissembler: -1, dissension: -1, dissent: -1, dissenter: -1, dissention: -1, disservice: -1, disses: -1, dissidence: -1, dissident: -1, dissidents: -1, dissing: -1, dissocial: -1, dissolute: -1, dissolution: -1, dissonance: -1, dissonant: -1, dissonantly: -1, dissuade: -1, dissuasive: -1, distains: -1, distaste: -1, distasteful: -1, distastefully: -1, distort: -1, distorted: -1, distortion: -1, distorts: -1, distract: -1, distracting: -1, distraction: -1, distraught: -1, distraughtly: -1, distraughtness: -1, distress: -2, distressed: -2, distressing: -2, distressingly: -1, distrust: -3, distrustful: -3, distrusting: -3, disturb: -3, disturbance: -3, disturbed: -3, disturbing: -3, disturbingly: -3, disunity: -2, disvalue: -2, divergent: -2, divisive: -2, divisively: -2, divisiveness: -2, dizzing: -2, dizzingly: -2, dizzy: -2, doddering: -2, dodgey: -2, dogged: -2, doggedly: -2, dogmatic: -2, doldrums: -2, domineer: -2, domineering: -2, donside: -2, doom: -4, doomed: -4, doomsday: -3, dope: -1, doubt: -2, doubtful: -1, doubtfully: -1, doubts: -2, douchbag: -5, douchebag: -5, douchebags: -5, downbeat: -3, downcast: -1, downer: -1, downfall: -1, downfallen: -1, downgrade: -1, downhearted: -1, downheartedly: -1, downhill: -1, downside: -3, downsides: -1, downturn: -1, downturns: -1, drab: -1, draconian: -1, draconic: -1, drag: -2, dragged: -1, dragging: -1, dragoon: -1, drags: -1, drain: -3, drained: -3, draining: -3, drains: -1, drastic: -1, drastically: -1, drawback: -1, drawbacks: -1, dread: -4, dreadful: -4, dreadfully: -4, dreadfulness: -4, dreary: -2, dripped: -2, dripping: -2, drippy: -2, drips: -2, drones: -2, droop: -2, droops: -2, "drop-out": -3, "drop-outs": -3, dropout: -3, dropouts: -2, drought: -2, drowning: -3, drunk: -3, drunkard: -1, drunken: -1, dubious: -1, dubiously: -1, dubitable: -1, dud: -1, dull: -1, dullard: -1, dumb: -2, dumbfound: -2, dump: -2, dumped: -3, dumping: -3, dumps: -3, dunce: -1, dungeon: -1, dungeons: -1, dupe: -2, dust: -2, dusty: -2, dwindling: -1, dying: -1, earsplitting: -1, eccentric: -1, eccentricity: -1, effigy: -1, effrontery: -1, egocentric: -2, egomania: -3, egotism: -1, egotistical: -1, egotistically: -1, egregious: -1, egregiously: -1, "election-rigger": -1, elimination: -1, emaciated: -1, emasculate: -1, embarrass: -1, embarrassing: -1, embarrassingly: -1, embarrassment: -1, embattled: -1, embroil: -1, embroiled: -1, embroilment: -1, emergency: -1, emphatic: -1, emphatically: -1, emptiness: -1, encroach: -1, encroachment: -1, endanger: -3, enemies: -2, enemy: -2, enervate: -1, enfeeble: -1, enflame: -1, engulf: -1, enjoin: -1, enmity: -1, enrage: -1, enraged: -1, enraging: -1, enslave: -3, entangle: -1, entanglement: -1, entrap: -1, entrapment: -1, envious: -1, enviously: -1, enviousness: -1, epidemic: -4, equivocal: -1, erase: -3, erode: -5, erodes: -5, erosion: -5, err: -1, errant: -1, erratic: -1, erratically: -1, erroneous: -1, erroneously: -1, error: -3, errors: -3, eruptions: -1, escapade: -1, eschew: -1, estranged: -1, evade: -1, evasion: -1, evasive: -1, evil: -1, evildoer: -1, evils: -1, eviscerate: -1, exacerbate: -1, exagerate: -3, exagerated: -3, exagerates: -3, exaggerate: -3, exaggeration: -3, exasperate: -3, exasperated: -3, exasperating: -3, exasperatingly: -3, exasperation: -3, excessive: -3, excessively: -2, exclusion: -2, excoriate: -2, excruciating: -2, excruciatingly: -1, excuse: -2, excuses: -2, execrate: -3, exhaust: -3, exhausted: -3, exhaustion: -3, exhausts: -3, exhorbitant: -2, exhort: -2, exile: -2, exorbitant: -2, exorbitantance: -2, exorbitantly: -2, expel: -4, expensive: -4, expire: -4, expired: -4, explode: -4, exploit: -4, exploitation: -3, explosive: -3, expropriate: -3, expropriation: -3, expulse: -1, expunge: -1, exterminate: -3, extermination: -3, extinguish: -1, extort: -5, extortion: -5, extraneous: -1, extravagance: -2, extravagant: -1, extravagantly: -1, extremism: -3, extremist: -5, extremists: -5, eyesore: -3, "f**k": -5, fabricate: -3, fabrication: -1, facetious: -1, facetiously: -1, fail: -5, failed: -4, failing: -4, fails: -4, failure: -4, failures: -4, faint: -2, fainthearted: -2, faithless: -2, fake: -2, fall: -2, fallacies: -2, fallacious: -1, fallaciously: -1, fallaciousness: -1, fallacy: -3, fallen: -3, falling: -3, fallout: -4, falls: -3, false: -1, falsehood: -5, falsely: -4, falsify: -4, falter: -1, faltered: -1, famine: -5, famished: -1, fanatic: -3, fanatical: -3, fanatically: -4, fanaticism: -2, fanatics: -2, fanciful: -2, "far-fetched": -1, farce: -1, farcical: -1, "farcical-yet-provocative": -1, farcically: -1, farfetched: -1, fascism: -5, fascist: -5, fastidious: -1, fastidiously: -1, fastuous: -1, fat: -1, "fat-cat": -1, "fat-cats": -1, fatal: -4, fatalistic: -4, fatalistically: -4, fatally: -4, fatcat: -1, fatcats: -1, fateful: -3, fatefully: -3, fathomless: -1, fatigue: -4, fatigued: -4, fatique: -4, fatty: -4, fatuity: -2, fatuous: -2, fatuously: -2, fault: -4, faults: -4, faulty: -4, fawningly: -1, faze: -1, fear: -5, fearful: -5, fearfully: -5, fears: -5, fearsome: -5, feckless: -1, feeble: -1, feeblely: -1, feebleminded: -1, feign: -1, feint: -1, fell: -1, felon: -1, felonious: -1, ferociously: -1, ferocity: -1, fetid: -1, fever: -3, feverish: -1, fevers: -1, fiasco: -1, fib: -1, fibber: -1, fickle: -1, fiction: -3, fictional: -3, fictitious: -3, fidget: -1, fidgety: -1, fiend: -1, fiendish: -1, fierce: -1, figurehead: -1, filth: -2, filthy: -2, finagle: -2, finicky: -2, fissures: -2, fist: -1, flabbergast: -1, flabbergasted: -1, flagging: -1, flagrant: -1, flagrantly: -1, flair: -1, flairs: -1, flak: -1, flake: -1, flakey: -1, flakieness: -1, flaking: -1, flaky: -1, flare: -1, flares: -1, flareup: -1, flareups: -1, "flat-out": -1, flaunt: -1, flaw: -5, flawed: -5, flaws: -5, flee: -2, fleed: -2, fleeing: -2, fleer: -2, flees: -2, fleeting: -3, flicering: -3, flicker: -3, flickering: -3, flickers: -2, flighty: -2, flimflam: -2, flimsy: -3, flirt: -3, flirty: -3, floored: -3, flounder: -3, floundering: -3, flout: -3, fluster: -2, foe: -4, fool: -3, fooled: -3, foolhardy: -3, foolish: -3, foolishly: -3, foolishness: -3, forbid: -3, forbidden: -2, forbidding: -2, forceful: -2, foreboding: -1, forebodingly: -1, forfeit: -1, forged: -1, forgetful: -1, forgetfully: -1, forgetfulness: -1, forlorn: -1, forlornly: -1, forsake: -2, forsaken: -2, forswear: -2, foul: -5, foully: -5, foulness: -5, fractious: -3, fractiously: -3, fracture: -3, fragile: -3, fragmented: -3, frail: -3, frantic: -3, frantically: -3, franticly: -3, fraud: -3, fraudulent: -3, fraught: -3, frazzle: -2, frazzled: -2, freak: -2, freaking: -3, freakish: -3, freakishly: -3, freaks: -2, freeze: -2, freezes: -2, freezing: -2, frenetic: -2, frenetically: -3, frenzied: -3, frenzy: -3, fret: -3, fretful: -3, frets: -3, friction: -3, frictions: -3, fried: -3, friggin: -3, frigging: -3, fright: -3, frighten: -2, frightening: -2, frighteningly: -2, frightful: -2, frightfully: -2, frigid: -3, frost: -3, frown: -3, froze: -3, frozen: -2, fruitless: -2, fruitlessly: -2, frustrate: -2, frustrated: -5, frustrates: -5, frustrating: -5, frustratingly: -5, frustration: -5, frustrations: -5, fuck: -5, fucking: -5, fudge: -2, fugitive: -2, "full-blown": -3, fulminate: -3, fumble: -3, fume: -3, fumes: -3, fundamentalism: -2, funky: -2, funnily: -2, funny: -1, furious: -2, furiously: -2, furor: -2, fury: -3, fuss: -3, fussy: -3, fustigate: -3, fusty: -3, futile: -3, futilely: -3, futility: -3, fuzzy: -3, gabble: -2, gaff: -2, gaffe: -2, gainsay: -2, gainsayer: -2, gall: -2, galling: -2, gallingly: -2, galls: -2, gangster: -5, gape: -5, garbage: -5, garish: -1, gasp: -1, gauche: -1, gaudy: -1, gawk: -1, gawky: -3, geezer: -1, genocide: -3, "get-rich": -1, ghastly: -1, ghetto: -1, ghosting: -1, gibber: -1, gibberish: -1, gibe: -1, giddy: -1, gimmick: -3, gimmicked: -3, gimmicking: -3, gimmicks: -3, gimmicky: -3, glare: -1, glaringly: -1, glib: -1, glibly: -1, glitch: -1, glitches: -1, gloatingly: -1, gloom: -1, gloomy: -1, glower: -1, glum: -1, glut: -1, gnawing: -1, goad: -1, goading: -1, "god-awful": -1, goof: -1, goofy: -1, goon: -1, gossip: -1, graceless: -1, gracelessly: -1, graft: -1, grainy: -1, grapple: -1, grate: -1, grating: -1, gravely: -1, greasy: -1, greed: -4, greedy: -4, grief: -5, grievance: -5, grievances: -5, grieve: -5, grieving: -5, grievous: -5, grievously: -5, grim: -2, grimace: -2, grind: -1, gripe: -1, gripes: -1, grisly: -1, gritty: -1, gross: -2, grossly: -2, grotesque: -1, grouch: -1, grouchy: -1, groundless: -1, grouse: -1, growl: -3, grudge: -4, grudges: -4, grudging: -4, grudgingly: -4, gruesome: -5, gruesomely: -5, gruff: -1, grumble: -1, grumpier: -1, grumpiest: -1, grumpily: -1, grumpish: -1, grumpy: -1, guile: -1, guilt: -3, guiltily: -3, guilty: -3, gullible: -3, gutless: -1, gutter: -1, hack: -2, hacks: -2, haggard: -2, haggle: -2, hairloss: -1, halfhearted: -1, halfheartedly: -1, hallucinate: -1, hallucination: -1, hamper: -1, hampered: -1, handicapped: -1, hang: -1, hangs: -1, haphazard: -1, hapless: -1, harangue: -1, harass: -3, harassed: -3, harasses: -3, harassment: -3, harboring: -1, harbors: -1, hard: -4, "hard-hit": -3, "hard-line": -3, "hard-liner": -3, hardball: -3, harden: -3, hardened: -3, hardheaded: -3, hardhearted: -3, hardliner: -3, hardliners: -3, hardship: -5, hardships: -5, harm: -5, harmed: -5, harmful: -5, harms: -5, harpy: -1, harridan: -1, harried: -1, harrow: -1, harsh: -1, harshly: -1, hasseling: -1, hassle: -3, hassled: -3, hassles: -3, haste: -5, hastily: -1, hasty: -1, hate: -5, hated: -5, hateful: -5, hatefully: -5, hatefulness: -5, hater: -5, haters: -5, hates: -5, hating: -5, hatred: -5, haughtily: -1, haughty: -1, haunt: -3, haunting: -3, havoc: -1, hawkish: -1, haywire: -1, hazard: -3, hazardous: -3, haze: -1, hazy: -1, "head-aches": -1, headache: -2, headaches: -2, heartbreaker: -4, heartbreaking: -4, heartbreakingly: -4, heartless: -4, heathen: -1, "heavy-handed": -2, heavyhearted: -2, heck: -1, heckle: -1, heckled: -1, heckles: -1, hectic: -1, hedge: -1, hedonistic: -1, heedless: -1, hefty: -1, hegemonism: -1, hegemonistic: -1, hegemony: -1, heinous: -1, hell: -2, "hell-bent": -2, hellion: -1, hells: -1, helpless: -3, helplessly: -3, helplessness: -1, heresy: -1, heretic: -1, heretical: -1, hesitant: -1, hestitant: -1, hideous: -1, hideously: -1, hideousness: -1, "high-priced": -1, hiliarious: -1, hinder: -1, hindrance: -1, hiss: -1, hissed: -1, hissing: -1, "ho-hum": -1, hoard: -1, hoax: -5, hobble: -5, hogs: -1, hollow: -1, hoodium: -1, hoodwink: -1, hooligan: -1, hopeless: -2, hopelessly: -2, hopelessness: -2, horde: -2, horrendous: -1, horrendously: -1, horrible: -1, horrid: -1, horrific: -1, horrified: -1, horrifies: -1, horrify: -1, horrifying: -1, horrifys: -1, hostage: -1, hostile: -1, hostilities: -1, hostility: -1, hotbeds: -1, hothead: -1, hotheaded: -1, hothouse: -1, hubris: -1, huckster: -1, hum: -1, humid: -1, humiliate: -3, humiliating: -3, humiliation: -3, humming: -1, hung: -3, hurt: -5, hurted: -5, hurtful: -5, hurting: -5, hurts: -4, hustler: -1, hype: -1, hypocricy: -3, hypocrisy: -3, hypocrite: -3, hypocrites: -3, hypocritical: -3, hypocritically: -3, hysteria: -2, hysteric: -2, hysterical: -2, hysterically: -2, hysterics: -2, idiocies: -1, idiocy: -1, idiot: -3, idiotic: -3, idiotically: -3, idiots: -3, idle: -1, ignoble: -1, ignominious: -3, ignominiously: -3, ignominy: -3, ignorance: -5, ignorant: -5, ignore: -5, "ill-advised": -2, "ill-conceived": -2, "ill-defined": -2, "ill-designed": -2, "ill-fated": -2, "ill-favored": -2, "ill-formed": -2, "ill-mannered": -2, "ill-natured": -2, "ill-sorted": -2, "ill-tempered": -2, "ill-treated": -2, "ill-treatment": -2, "ill-usage": -2, "ill-used": -2, illegal: -4, illegally: -4, illegitimate: -1, illicit: -1, illiterate: -1, illness: -1, illogic: -1, illogical: -1, illogically: -1, illusion: -1, illusions: -1, illusory: -1, imaginary: -1, imbalance: -1, imbecile: -1, imbroglio: -1, immaterial: -1, immature: -1, imminence: -1, imminently: -1, immobilized: -1, immoderate: -1, immoderately: -1, immodest: -1, immoral: -1, immorality: -1, immorally: -1, immovable: -1, impair: -3, impaired: -1, impasse: -1, impatience: -2, impatient: -1, impatiently: -1, impeach: -1, impedance: -1, impede: -1, impediment: -1, impending: -1, impenitent: -1, imperfect: -1, imperfection: -1, imperfections: -1, imperfectly: -3, imperialist: -2, imperil: -2, imperious: -1, imperiously: -1, impermissible: -1, impersonal: -1, impertinent: -1, impetuous: -1, impetuously: -1, impiety: -1, impinge: -1, impious: -1, implacable: -1, implausible: -1, implausibly: -1, implicate: -1, implication: -1, implode: -2, impolite: -1, impolitely: -1, impolitic: -1, importunate: -1, importune: -1, impose: -1, imposers: -1, imposing: -1, imposition: -1, impossible: -3, impossiblity: -3, impossibly: -1, impotent: -2, impoverish: -1, impoverished: -1, impractical: -1, imprecate: -1, imprecise: -2, imprecisely: -1, imprecision: -1, imprison: -1, imprisonment: -1, improbability: -1, improbable: -1, improbably: -1, improper: -1, improperly: -1, impropriety: -1, imprudence: -1, imprudent: -1, impudence: -1, impudent: -1, impudently: -1, impugn: -1, impulsive: -3, impulsively: -3, impunity: -1, impure: -1, impurity: -1, inability: -1, inaccuracies: -1, inaccuracy: -1, inaccurate: -1, inaccurately: -1, inaction: -1, inactive: -1, inadequacy: -1, inadequate: -1, inadequately: -1, inadverent: -1, inadverently: -1, inadvisable: -1, inadvisably: -1, inane: -1, inanely: -1, inappropriate: -1, inappropriately: -1, inapt: -1, inaptitude: -1, inarticulate: -1, inattentive: -1, inaudible: -1, incapable: -1, incapably: -1, incautious: -1, incendiary: -1, incense: -2, incessant: -1, incessantly: -1, incite: -1, incitement: -1, incivility: -1, inclement: -1, incognizant: -1, incoherence: -1, incoherent: -1, incoherently: -1, incommensurate: -1, incomparable: -1, incomparably: -1, incompatability: -2, incompatibility: -2, incompatible: -2, incompetence: -2, incompetent: -2, incompetently: -2, incomplete: -3, incompliant: -3, incomprehensible: -3, incomprehension: -3, inconceivable: -3, inconceivably: -3, incongruous: -3, incongruously: -3, inconsequent: -3, inconsequential: -1, inconsequentially: -1, inconsequently: -1, inconsiderate: -1, inconsiderately: -1, inconsistence: -4, inconsistencies: -1, inconsistency: -1, inconsistent: -4, inconsolable: -1, inconsolably: -1, inconstant: -1, inconvenience: -1, inconveniently: -1, incorrect: -5, incorrectly: -1, incorrigible: -1, incorrigibly: -1, incredulous: -1, incredulously: -1, inculcate: -1, indecency: -5, indecent: -5, indecently: -5, indecision: -2, indecisive: -2, indecisively: -1, indecorum: -1, indefensible: -1, indelicate: -1, indeterminable: -1, indeterminably: -1, indeterminate: -1, indifference: -1, indifferent: -1, indigent: -1, indignant: -1, indignantly: -1, indignation: -1, indignity: -1, indiscernible: -1, indiscreet: -1, indiscreetly: -1, indiscretion: -1, indiscriminate: -2, indiscriminately: -2, indiscriminating: -2, indistinguishable: -2, indoctrinate: -1, indoctrination: -1, indolent: -1, indulge: -1, ineffective: -1, ineffectively: -1, ineffectiveness: -1, ineffectual: -1, ineffectually: -1, ineffectualness: -1, inefficacious: -1, inefficacy: -1, inefficiency: -1, inefficient: -1, inefficiently: -1, inelegance: -1, inelegant: -1, ineligible: -1, ineloquent: -1, ineloquently: -1, inept: -1, ineptitude: -1, ineptly: -1, inequalities: -1, inequality: -1, inequitable: -1, inequitably: -1, inequities: -1, inescapable: -1, inescapably: -1, inessential: -1, inevitable: -1, inevitably: -1, inexcusable: -1, inexcusably: -1, inexorable: -1, inexorably: -1, inexperience: -1, inexperienced: -1, inexpert: -1, inexpertly: -1, inexpiable: -1, inexplainable: -1, inextricable: -1, inextricably: -1, infamous: -1, infamously: -1, infamy: -1, infected: -4, infection: -1, infections: -1, inferior: -1, inferiority: -1, infernal: -1, infest: -1, infested: -1, infidel: -1, infidels: -1, infiltrator: -1, infiltrators: -1, infirm: -1, inflame: -1, inflammation: -1, inflammatory: -1, inflammed: -1, inflated: -1, inflationary: -1, inflexible: -1, inflict: -1, infraction: -1, infringe: -1, infringement: -1, infringements: -1, infuriate: -2, infuriated: -2, infuriating: -2, infuriatingly: -2, inglorious: -2, ingrate: -2, ingratitude: -2, inhibit: -2, inhibition: -2, inhospitable: -2, inhospitality: -2, inhuman: -1, inhumane: -3, inhumanity: -3, inimical: -1, inimically: -1, iniquitous: -1, iniquity: -1, injudicious: -1, injure: -3, injurious: -3, injury: -3, injustice: -3, injustices: -1, innuendo: -1, inoperable: -1, inopportune: -1, inordinate: -1, inordinately: -1, insane: -3, insanely: -3, insanity: -3, insatiable: -1, insecure: -1, insecurity: -1, insensible: -2, insensitive: -2, insensitively: -3, insensitivity: -3, insidious: -3, insidiously: -2, insignificance: -3, insignificant: -3, insignificantly: -3, insincere: -4, insincerely: -4, insincerity: -4, insinuate: -2, insinuating: -1, insinuation: -1, insociable: -1, insolence: -1, insolent: -1, insolently: -1, insolvent: -1, insouciance: -1, instability: -1, instable: -2, instigate: -2, instigator: -2, instigators: -2, insubordinate: -4, insubstantial: -4, insubstantially: -4, insufferable: -2, insufferably: -2, insufficiency: -2, insufficient: -2, insufficiently: -2, insular: -1, insult: -5, insulted: -1, insulting: -1, insultingly: -1, insults: -1, insupportable: -1, insupportably: -1, insurmountable: -1, insurmountably: -1, insurrection: -1, intefere: -1, inteferes: -1, intense: -1, interfere: -1, interference: -1, interferes: -1, intermittent: -1, interrupt: -1, interruption: -1, interruptions: -1, intimidate: -1, intimidating: -1, intimidatingly: -1, intimidation: -1, intolerable: -1, intolerablely: -1, intolerance: -1, intoxicate: -1, intractable: -1, intransigence: -1, intransigent: -1, intrude: -4, intrusion: -4, intrusive: -1, inundate: -1, inundated: -1, invader: -1, invalid: -5, invalidate: -1, invalidity: -1, invasive: -1, invective: -1, inveigle: -1, invidious: -1, invidiously: -1, invidiousness: -1, invisible: -4, involuntarily: -1, involuntary: -1, irascible: -1, irate: -1, irately: -1, ire: -1, irk: -1, irked: -1, irking: -1, irks: -1, irksome: -1, irksomely: -1, irksomeness: -1, irksomenesses: -1, ironic: -3, ironical: -3, ironically: -3, ironies: -3, irony: -3, irragularity: -1, irrational: -1, irrationalities: -1, irrationality: -1, irrationally: -1, irrationals: -1, irreconcilable: -1, irrecoverable: -1, irrecoverableness: -1, irrecoverablenesses: -1, irrecoverably: -1, irredeemable: -1, irredeemably: -1, irreformable: -1, irregular: -2, irregularity: -2, irrelevance: -2, irrelevant: -2, irreparable: -2, irreplacible: -2, irrepressible: -2, irresolute: -2, irresolvable: -2, irresponsible: -2, irresponsibly: -1, irretating: -1, irretrievable: -1, irreversible: -1, irritable: -1, irritably: -1, irritant: -1, irritate: -1, irritated: -1, irritating: -1, irritation: -1, irritations: -1, isolate: -2, isolated: -2, isolation: -2, issue: -2, issues: -1, itch: -1, itching: -3, itchy: -1, jabber: -1, jaded: -1, jagged: -1, jam: -1, jarring: -1, jaundiced: -1, jealous: -2, jealously: -2, jealousness: -2, jealousy: -2, jeer: -1, jeering: -1, jeeringly: -1, jeers: -1, jeopardize: -1, jeopardy: -1, jerk: -1, jerky: -1, jitter: -1, jitters: -1, jittery: -1, "job-killing": -1, jobless: -3, joke: -1, joker: -1, jolt: -3, judder: -1, juddering: -1, judders: -1, jumpy: -1, junk: -3, junky: -1, junkyard: -1, jutter: -1, jutters: -1, kaput: -1, kill: -5, killed: -5, killer: -4, killing: -4, killjoy: -4, kills: -4, knave: -1, knife: -1, knock: -2, knotted: -1, kook: -1, kooky: -1, lack: -3, lackadaisical: -1, lacked: -1, lackey: -1, lackeys: -1, lacking: -1, lackluster: -1, lacks: -1, laconic: -1, lag: -1, lagged: -1, lagging: -1, laggy: -1, lags: -1, "laid-off": -1, lambast: -1, lambaste: -1, lame: -1, "lame-duck": -1, lament: -1, lamentable: -1, lamentably: -1, languid: -1, languish: -1, languor: -1, languorous: -1, languorously: -1, lanky: -1, lapse: -1, lapsed: -1, lapses: -1, lascivious: -1, "last-ditch": -1, latency: -1, laughable: -1, laughably: -1, laughingstock: -1, lawbreaker: -1, lawbreaking: -1, lawless: -1, lawlessness: -1, layoff: -1, "layoff-happy": -1, lazy: -3, leak: -1, leakage: -1, leakages: -1, leaking: -1, leaks: -1, leaky: -1, lech: -1, lecher: -1, lecherous: -1, lechery: -1, leech: -1, leer: -1, leery: -1, "left-leaning": -1, lemon: -1, lengthy: -1, "less-developed": -1, "lesser-known": -1, letch: -1, lethal: -1, lethargic: -1, lethargy: -1, lewd: -1, lewdly: -1, lewdness: -1, liability: -1, liable: -2, liar: -3, liars: -4, licentious: -1, licentiously: -1, licentiousness: -1, lie: -3, lied: -3, lier: -3, lies: -3, "life-threatening": -4, lifeless: -4, limit: -3, limitation: -3, limitations: -3, limited: -3, limits: -3, limp: -1, listless: -1, litigious: -1, "little-known": -1, livid: -1, lividly: -1, loath: -1, loathe: -1, loathing: -4, loathly: -4, loathsome: -1, loathsomely: -1, lone: -1, loneliness: -1, lonely: -1, loner: -1, lonesome: -1, "long-time": -1, "long-winded": -1, longing: -3, longingly: -3, loophole: -2, loopholes: -2, loose: -3, loot: -1, lorn: -1, lose: -5, loser: -5, losers: -5, loses: -5, losing: -5, loss: -5, losses: -5, lost: -5, loud: -2, louder: -2, lousy: -2, loveless: -2, lovelorn: -2, "low-rated": -2, lowly: -2, ludicrous: -2, ludicrously: -2, lugubrious: -2, lukewarm: -2, lull: -2, lumpy: -2, lunatic: -2, lunaticism: -2, lurch: -2, lure: -1, lurid: -1, lurk: -1, lurking: -1, lying: -1, macabre: -1, mad: -1, madden: -1, maddening: -1, maddeningly: -1, madder: -1, madly: -3, madman: -3, madness: -3, maladjusted: -3, maladjustment: -3, malady: -3, malaise: -3, malcontent: -3, malcontented: -1, maledict: -1, malevolence: -1, malevolent: -1, malevolently: -1, malice: -1, malicious: -1, maliciously: -1, maliciousness: -1, malign: -2, malignant: -2, malodorous: -2, maltreatment: -2, mangle: -2, mangled: -2, mangles: -2, mangling: -2, mania: -3, maniac: -3, maniacal: -3, manic: -3, manipulate: -3, manipulation: -3, manipulative: -3, manipulators: -3, mar: -1, marginal: -1, marginally: -1, martyrdom: -1, "martyrdom-seeking": -1, mashed: -1, massacre: -1, massacres: -1, matte: -1, mawkish: -1, mawkishly: -1, mawkishness: -1, meager: -1, meaningless: -4, meanness: -2, measly: -2, meddle: -2, meddlesome: -2, mediocre: -2, mediocrity: -2, melancholy: -2, melodramatic: -2, melodramatically: -1, meltdown: -2, menace: -2, menacing: -2, menacingly: -2, mendacious: -2, mendacity: -2, menial: -2, merciless: -2, mercilessly: -1, mess: -1, messed: -1, messes: -1, messing: -1, messy: -1, midget: -1, miff: -1, militancy: -1, mindless: -1, mindlessly: -1, mirage: -1, mire: -1, misalign: -1, misaligned: -1, misaligns: -1, misapprehend: -1, misbecome: -1, misbecoming: -1, misbegotten: -1, misbehave: -1, misbehavior: -1, miscalculate: -1, miscalculation: -1, miscellaneous: -1, mischief: -1, mischievous: -1, mischievously: -1, misconception: -1, misconceptions: -3, miscreant: -3, miscreants: -3, misdirection: -3, miser: -3, miserable: -3, miserableness: -3, miserably: -3, miseries: -2, miserly: -2, misery: -2, misfit: -1, misfortune: -5, misgiving: -3, misgivings: -3, misguidance: -3, misguide: -3, misguided: -3, mishandle: -3, mishap: -4, misinform: -2, misinformed: -2, misinterpret: -2, misjudge: -2, misjudgment: -3, mislead: -3, misleading: -3, misleadingly: -3, mislike: -4, mismanage: -2, mispronounce: -2, mispronounced: -2, mispronounces: -2, misread: -3, misreading: -3, misrepresent: -2, misrepresentation: -2, miss: -1, missed: -1, misses: -1, misstatement: -1, mist: -1, mistake: -3, mistaken: -3, mistakenly: -3, mistakes: -3, mistified: -1, mistress: -1, mistrust: -1, mistrustful: -1, mistrustfully: -1, mists: -1, misunderstand: -2, misunderstanding: -2, misunderstandings: -2, misunderstood: -2, misuse: -3, moan: -1, mobster: -1, mock: -3, mocked: -3, mockeries: -1, mockery: -1, mocking: -1, mockingly: -1, mocks: -1, molest: -5, molestation: -5, monotonous: -2, monotony: -2, monster: -5, monstrosities: -2, monstrosity: -2, monstrous: -3, monstrously: -3, moody: -4, moot: -1, mope: -1, morbid: -3, morbidly: -3, mordant: -2, mordantly: -1, moribund: -1, moron: -4, moronic: -4, morons: -4, mortification: -1, mortified: -1, mortify: -3, mortifying: -1, motionless: -1, motley: -1, mourn: -4, mourner: -3, mournful: -3, mournfully: -3, muddle: -1, muddy: -1, mudslinger: -1, mudslinging: -1, mulish: -1, "multi-polarization": -1, mundane: -1, murder: -3, murderer: -1, murderous: -1, murderously: -1, murky: -1, "muscle-flexing": -1, mushy: -1, musty: -1, mysterious: -3, mysteriously: -3, mystery: -3, mystify: -3, myth: -2, nag: -1, nagging: -2, naive: -5, naively: -5, narrower: -1, nastily: -1, nastiness: -1, nasty: -3, naughty: -4, nauseate: -1, nauseates: -1, nauseating: -1, nauseatingly: -1, naïve: -3, nebulous: -1, nebulously: -1, needless: -1, needlessly: -1, needy: -3, nefarious: -1, nefariously: -1, negate: -1, negation: -1, negative: -5, negatives: -4, negativity: -4, neglect: -4, neglected: -3, negligence: -3, negligent: -3, nemesis: -2, nepotism: -1, nervous: -4, nervously: -4, nervousness: -4, nettle: -1, nettlesome: -1, neurotic: -1, neurotically: -1, niggle: -1, niggles: -1, nightmare: -4, nightmarish: -4, nightmarishly: -3, nitpick: -1, nitpicking: -1, noise: -3, noises: -3, noisier: -1, noisy: -2, "non-confidence": -1, nonexistent: -1, nonresponsive: -1, nonsense: -4, nosey: -3, notoriety: -1, notorious: -1, notoriously: -1, noxious: -1, nuisance: -1, numb: -3, obese: -1, object: -1, objection: -1, objectionable: -1, objections: -1, oblique: -1, obliterate: -1, obliterated: -1, oblivious: -1, obnoxious: -1, obnoxiously: -1, obscene: -5, obscenely: -5, obscenity: -5, obscure: -1, obscured: -1, obscures: -1, obscurity: -1, obsess: -4, obsessive: -1, obsessively: -1, obsessiveness: -1, obsolete: -1, obstacle: -1, obstinate: -1, obstinately: -1, obstruct: -1, obstructed: -1, obstructing: -1, obstruction: -1, obstructs: -1, obtrusive: -1, obtuse: -1, occlude: -1, occluded: -1, occludes: -1, occluding: -1, odd: -3, odder: -3, oddest: -1, oddities: -1, oddity: -1, oddly: -2, odor: -1, offence: -3, offend: -3, offender: -3, offending: -3, offenses: -3, offensive: -3, offensively: -3, offensiveness: -1, officious: -1, ominous: -1, ominously: -1, omission: -1, omit: -1, "one-sided": -1, onerous: -1, onerously: -1, onslaught: -1, opinionated: -1, opponent: -1, opportunistic: -1, oppose: -1, opposition: -1, oppositions: -1, oppress: -1, oppression: -5, oppressive: -5, oppressively: -5, oppressiveness: -5, oppressors: -5, ordeal: -3, orphan: -2, ostracize: -1, outbreak: -1, outburst: -3, outbursts: -3, outcast: -2, outcry: -3, outlaw: -4, outmoded: -2, outrage: -5, outraged: -5, outrageous: -5, outrageously: -5, outrageousness: -5, outrages: -1, outsider: -1, "over-acted": -1, "over-awe": -1, "over-balanced": -1, "over-hyped": -1, "over-priced": -1, "over-valuation": -1, overact: -2, overacted: -2, overawe: -1, overbalance: -1, overbalanced: -1, overbearing: -1, overbearingly: -1, overblown: -1, overdo: -1, overdone: -1, overdue: -1, overemphasize: -1, overheat: -1, overkill: -1, overloaded: -1, overlook: -1, overpaid: -1, overpayed: -1, overplay: -1, overpower: -1, overpriced: -1, overrated: -1, overreach: -1, overrun: -3, overshadow: -3, oversight: -1, oversights: -1, oversimplification: -1, oversimplified: -1, oversimplify: -1, oversize: -3, overstate: -1, overstated: -1, overstatement: -1, overstatements: -1, overstates: -1, overtaxed: -1, overthrow: -1, overthrows: -1, overturn: -2, overweight: -1, overwhelm: -1, overwhelmed: -1, overwhelming: -1, overwhelmingly: -1, overwhelms: -1, overzealous: -1, overzealously: -1, overzelous: -1, pain: -4, painful: -4, painfull: -4, painfully: -4, pains: -4, pale: -2, pales: -2, paltry: -1, pan: -1, pandemonium: -1, pander: -1, pandering: -1, panders: -1, panic: -1, panick: -3, panicked: -3, panicking: -3, panicky: -1, paradoxical: -1, paradoxically: -1, paralize: -2, paralyzed: -2, paranoia: -3, paranoid: -3, parasite: -3, pariah: -1, parody: -4, partiality: -1, partisan: -1, partisans: -1, passe: -1, passive: -1, passiveness: -1, pathetic: -1, pathetically: -1, patronize: -1, paucity: -1, pauper: -1, paupers: -1, payback: -1, peculiar: -1, peculiarly: -1, pedantic: -1, peeled: -1, peeve: -1, peeved: -1, peevish: -1, peevishly: -1, penalize: -3, penalty: -3, perfidious: -1, perfidity: -1, perfunctory: -1, peril: -1, perilous: -1, perilously: -1, perish: -1, pernicious: -1, perplex: -1, perplexed: -1, perplexing: -1, perplexity: -1, persecute: -1, persecution: -1, pertinacious: -1, pertinaciously: -1, pertinacity: -1, perturb: -1, perturbed: -1, pervasive: -2, perverse: -2, perversely: -1, perversion: -1, perversity: -1, pervert: -1, perverted: -1, perverts: -1, pessimism: -3, pessimistic: -3, pessimistically: -3, pest: -1, pestilent: -1, petrified: -1, petrify: -1, pettifog: -1, petty: -1, phobia: -2, phobic: -1, phony: -1, picket: -1, picketed: -1, picketing: -1, pickets: -1, picky: -1, pig: -3, pigs: -3, pillage: -1, pillory: -1, pimple: -2, pinch: -1, pique: -1, pitiable: -1, pitiful: -1, pitifully: -1, pitiless: -1, pitilessly: -1, pittance: -1, pity: -3, plagiarize: -1, plague: -1, plasticky: -1, plaything: -1, plea: -1, pleas: -1, plebeian: -1, plight: -1, plot: -1, plotters: -1, ploy: -1, plunder: -1, plunderer: -1, pointless: -1, pointlessly: -1, poison: -2, poisonous: -2, poisonously: -2, pokey: -1, poky: -1, polarisation: -3, polemize: -1, pollute: -2, polluter: -2, polluters: -2, polution: -2, pompous: -1, poor: -2, poorer: -2, poorest: -2, poorly: -2, posturing: -1, pout: -1, poverty: -4, powerless: -4, prate: -1, pratfall: -1, prattle: -1, precarious: -1, precariously: -1, precipitate: -1, precipitous: -1, predatory: -1, predicament: -1, prejudge: -2, prejudice: -2, prejudices: -2, prejudicial: -2, premeditated: -1, preoccupy: -1, preposterous: -1, preposterously: -1, presumptuous: -1, presumptuously: -1, pretence: -1, pretend: -1, pretense: -1, pretentious: -1, pretentiously: -1, prevaricate: -1, pricey: -1, pricier: -1, prick: -1, prickle: -1, prickles: -1, prideful: -1, prik: -1, primitive: -1, prison: -1, prisoner: -1, problem: -3, problematic: -3, problems: -3, procrastinate: -2, procrastinates: -2, procrastination: -2, profane: -1, profanity: -1, prohibit: -3, prohibitive: -3, prohibitively: -3, propaganda: -1, propagandize: -1, proprietary: -1, prosecute: -1, protest: -3, protested: -3, protesting: -1, protests: -1, protracted: -1, provocation: -1, provocative: -1, provoke: -1, pry: -1, pugnacious: -1, pugnaciously: -1, pugnacity: -1, punch: -1, punish: -3, punishable: -3, punitive: -3, punk: -2, puny: -2, puppet: -1, puppets: -1, puzzled: -1, puzzlement: -1, puzzling: -1, quack: -1, qualm: -1, qualms: -1, quandary: -1, quarrel: -3, quarrellous: -1, quarrellously: -1, quarrels: -1, quarrelsome: -1, quash: -1, queer: -1, questionable: -1, quibble: -1, quibbles: -1, quitter: -1, rabid: -1, racism: -1, racist: -5, racists: -5, racy: -2, radical: -4, radicalization: -5, radically: -5, radicals: -5, rage: -4, ragged: -3, raging: -3, rail: -1, raked: -1, rampage: -3, rampant: -3, ramshackle: -1, rancor: -1, randomly: -2, rankle: -1, rant: -1, ranted: -1, ranting: -1, rantingly: -1, rants: -1, rape: -5, raped: -5, raping: -5, rascal: -4, rascals: -4, rash: -3, rattle: -2, rattled: -2, rattles: -2, ravage: -3, raving: -2, reactionary: -1, rebellious: -3, rebuff: -1, rebuke: -1, recalcitrant: -1, recant: -1, recession: -1, recessionary: -1, reckless: -4, recklessly: -4, recklessness: -4, recoil: -1, recourses: -1, redundancy: -1, redundant: -1, refusal: -1, refuse: -4, refused: -2, refuses: -2, refusing: -2, refutation: -1, refute: -1, refuted: -1, refutes: -1, refuting: -1, regress: -1, regression: -1, regressive: -1, regret: -4, regreted: -4, regretful: -4, regretfully: -4, regrets: -4, regrettable: -4, regrettably: -4, regretted: -4, reject: -5, rejected: -5, rejecting: -5, rejection: -5, rejects: -5, relapse: -5, relentless: -3, relentlessly: -3, relentlessness: -3, reluctance: -2, reluctant: -2, reluctantly: -2, remorse: -4, remorseful: -4, remorsefully: -4, remorseless: -4, remorselessly: -4, remorselessness: -4, renounce: -1, renunciation: -1, repel: -1, repetitive: -3, reprehensible: -1, reprehensibly: -1, reprehension: -1, reprehensive: -1, repress: -1, repression: -1, repressive: -1, reprimand: -1, reproach: -1, reproachful: -1, reprove: -1, reprovingly: -1, repudiate: -1, repudiation: -1, repugn: -1, repugnance: -1, repugnant: -1, repugnantly: -1, repulse: -3, repulsed: -2, repulsing: -2, repulsive: -3, repulsively: -1, repulsiveness: -1, resent: -1, resentful: -1, resentment: -1, resignation: -1, resigned: -1, resistance: -1, restless: -3, restlessness: -3, restrict: -3, restricted: -3, restriction: -3, restrictive: -3, resurgent: -1, retaliate: -2, retaliatory: -2, retard: -3, retarded: -3, retardedness: -3, retards: -3, reticent: -2, retract: -2, retreat: -2, retreated: -2, revenge: -5, revengeful: -5, revengefully: -5, revert: -4, revile: -3, reviled: -3, revoke: -3, revolt: -4, revolting: -4, revoltingly: -4, revulsion: -3, revulsive: -3, rhapsodize: -1, rhetoric: -3, rhetorical: -3, ricer: -2, ridicule: -2, ridicules: -2, ridiculous: -3, ridiculously: -2, rife: -1, rift: -5, rifts: -5, rigid: -3, rigidity: -2, rigidness: -2, rile: -1, riled: -1, rip: -4, "rip-off": -3, ripoff: -3, ripped: -3, risk: -4, risks: -4, risky: -4, rival: -5, rivalry: -5, roadblocks: -3, rocky: -1, rogue: -3, rollercoaster: -2, rot: -2, rotten: -2, rough: -2, rremediable: -1, rubbish: -2, rude: -4, rue: -1, ruffian: -1, ruffle: -1, ruin: -3, ruined: -3, ruining: -3, ruinous: -3, ruins: -3, rumbling: -2, rumor: -2, rumors: -2, rumours: -2, rumple: -1, "run-down": -2, runaway: -2, rupture: -4, rust: -3, rusts: -3, rusty: -3, rut: -2, ruthless: -2, ruthlessly: -1, ruthlessness: -1, ruts: -1, sabotage: -3, sack: -1, sacrificed: -3, sad: -4, sadden: -4, sadly: -4, sadness: -4, sag: -1, sagged: -1, sagging: -1, saggy: -1, sags: -1, salacious: -1, sanctimonious: -1, sap: -1, sarcasm: -2, sarcastic: -2, sarcastically: -2, sardonic: -4, sardonically: -4, sass: -1, satirical: -1, satirize: -1, savage: -3, savaged: -3, savagery: -4, savages: -4, scaly: -1, scam: -5, scams: -5, scandal: -5, scandalize: -5, scandalized: -5, scandalous: -5, scandalously: -5, scandals: -5, scandel: -1, scandels: -1, scant: -1, scapegoat: -1, scar: -1, scarce: -1, scarcely: -4, scarcity: -4, scare: -5, scared: -5, scarier: -4, scariest: -5, scarily: -4, scarred: -1, scars: -1, scary: -4, scathing: -1, scathingly: -1, sceptical: -1, scoff: -1, scoffingly: -1, scold: -2, scolded: -1, scolding: -1, scoldingly: -1, scorching: -1, scorchingly: -1, scorn: -1, scornful: -1, scornfully: -1, scoundrel: -1, scourge: -1, scowl: -1, scramble: -1, scrambled: -1, scrambles: -1, scrambling: -1, scrap: -3, scratch: -3, scratched: -1, scratches: -1, scratchy: -1, scream: -1, screech: -1, "screw-up": -1, screwed: -1, "screwed-up": -1, screwy: -1, scuff: -1, scuffs: -1, scum: -2, scummy: -1, "second-class": -1, "second-tier": -1, secretive: -1, sedentary: -3, seedy: -1, seethe: -1, seething: -1, "self-coup": -1, "self-criticism": -1, "self-defeating": -1, "self-destructive": -1, "self-humiliation": -1, "self-interest": -1, "self-interested": -1, "self-serving": -1, selfinterested: -1, selfish: -4, selfishly: -4, selfishness: -4, "semi-retarded": -1, senile: -5, sensationalize: -1, senseless: -3, senselessly: -3, seriousness: -1, sermonize: -1, servitude: -1, "set-up": -1, setback: -3, setbacks: -3, sever: -2, severe: -2, severity: -2, "sh*t": -5, shabby: -1, shadowy: -1, shady: -2, shake: -2, shaky: -2, shallow: -2, sham: -3, shambles: -3, shame: -3, shameful: -2, shamefully: -1, shamefulness: -1, shameless: -3, shamelessly: -3, shamelessness: -3, shark: -2, sharply: -2, shatter: -1, shemale: -1, shimmer: -1, shimmy: -1, shipwreck: -2, shirk: -2, shirker: -1, shit: -5, shiver: -1, shock: -3, shocked: -3, shocking: -3, shockingly: -3, shoddy: -1, "short-lived": -1, shortage: -3, shortchange: -1, shortcoming: -1, shortcomings: -1, shortness: -2, shortsighted: -4, shortsightedness: -2, showdown: -2, shrew: -1, shriek: -1, shrill: -1, shrilly: -1, shrivel: -1, shroud: -1, shrouded: -1, shrug: -1, shun: -1, shunned: -1, sick: -3, sicken: -3, sickening: -3, sickeningly: -1, sickly: -1, sickness: -1, sidetrack: -1, sidetracked: -1, siege: -1, sillily: -1, silly: -1, simplistic: -3, simplistically: -1, sin: -3, sinful: -3, sinfully: -3, sinister: -3, sinisterly: -1, sink: -2, sinking: -1, skeletons: -2, skeptic: -3, skeptical: -3, skeptically: -3, skepticism: -3, sketchy: -4, skimpy: -2, skinny: -2, skittish: -1, skittishly: -1, skulk: -1, slack: -1, slander: -3, slanderer: -3, slanderous: -3, slanderously: -3, slanders: -1, slap: -2, slashing: -1, slaughter: -5, slaughtered: -5, slave: -4, slaves: -4, sleazy: -3, slime: -1, slog: -1, slogged: -1, slogging: -1, slogs: -1, sloooooooooooooow: -1, sloooow: -1, slooow: -1, sloow: -1, sloppily: -1, sloppy: -1, sloth: -1, slothful: -1, slow: -1, "slow-moving": -1, slowed: -1, slower: -1, slowest: -1, slowly: -1, sloww: -1, slowww: -1, slowwww: -1, slug: -1, sluggish: -1, slump: -1, slumping: -1, slumpping: -1, slur: -1, slut: -5, sluts: -5, sly: -1, smack: -2, smallish: -2, smash: -2, smear: -1, smell: -1, smelled: -1, smelling: -1, smells: -1, smelly: -1, smelt: -1, smoke: -2, smokescreen: -1, smolder: -1, smoldering: -1, smother: -1, smoulder: -1, smouldering: -1, smudge: -1, smudged: -1, smudges: -1, smudging: -1, smug: -1, smugly: -1, smut: -1, smuttier: -1, smuttiest: -1, smutty: -1, snag: -1, snagged: -1, snagging: -1, snags: -1, snappish: -1, snappishly: -1, snare: -1, snarky: -1, snarl: -1, sneak: -2, sneakily: -2, sneaky: -2, sneer: -1, sneering: -1, sneeringly: -1, snob: -1, snobbish: -1, snobby: -1, snobish: -1, snobs: -1, snub: -1, "so-cal": -1, soapy: -1, sob: -1, sober: -1, sobering: -1, solemn: -1, solicitude: -1, somber: -1, sore: -1, sorely: -1, soreness: -1, sorrow: -1, sorrowful: -1, sorrowfully: -1, sorry: -1, sour: -2, sourly: -1, spade: -1, spank: -3, spendy: -1, spew: -1, spewed: -1, spewing: -1, spews: -1, spilling: -1, spinster: -1, spiritless: -3, spite: -1, spiteful: -1, spitefully: -1, spitefulness: -1, splatter: -1, split: -2, splitting: -1, spoil: -2, spoilage: -1, spoilages: -1, spoiled: -1, spoilled: -1, spoils: -2, spook: -1, spookier: -1, spookiest: -1, spookily: -1, spooky: -1, "spoon-fed": -1, "spoon-feed": -1, spoonfed: -2, sporadic: -1, spotty: -1, spurious: -1, spurn: -1, sputter: -1, squabble: -1, squabbling: -1, squander: -1, squash: -1, squeak: -1, squeaks: -1, squeaky: -1, squeal: -1, squealing: -1, squeals: -1, squirm: -1, stab: -2, stagnant: -1, stagnate: -1, stagnation: -1, staid: -1, stain: -1, stains: -1, stale: -1, stalemate: -1, stall: -1, stalls: -1, stammer: -1, stampede: -1, standstill: -1, stark: -2, starkly: -2, startle: -1, startling: -1, startlingly: -1, starvation: -1, starve: -2, static: -1, steal: -3, stealing: -3, steals: -3, steep: -1, steeply: -1, stench: -1, stereotype: -1, stereotypical: -1, stereotypically: -1, stern: -1, stew: -1, sticky: -2, stiff: -1, stiffness: -1, stifle: -1, stifling: -1, stiflingly: -1, stigma: -1, stigmatize: -1, sting: -1, stinging: -1, stingingly: -1, stingy: -1, stink: -2, stinks: -2, stodgy: -2, stole: -2, stolen: -2, stooge: -2, stooges: -2, stormy: -2, straggle: -2, straggler: -2, strain: -2, strained: -1, straining: -1, strange: -3, strangely: -3, stranger: -1, strangest: -1, strangle: -1, streaky: -1, strenuous: -1, stress: -3, stresses: -1, stressful: -1, stressfully: -1, stricken: -1, strict: -3, strictly: -3, strident: -1, stridently: -1, strife: -1, strike: -1, stringent: -1, stringently: -1, struck: -3, struggle: -1, struggled: -1, struggles: -1, struggling: -1, strut: -1, stubborn: -4, stubbornly: -4, stubbornness: -4, stuck: -3, stuffy: -1, stumble: -1, stumbled: -1, stumbles: -1, stump: -1, stumped: -1, stumps: -1, stun: -2, stunt: -3, stunted: -3, stupid: -1, stupidest: -1, stupidity: -1, stupidly: -1, stupified: -1, stupify: -1, stupor: -1, stutter: -1, stuttered: -1, stuttering: -1, stutters: -1, sty: -1, stymied: -1, "sub-par": -3, subdued: -1, subjected: -1, subjection: -1, subjugate: -1, subjugation: -1, submissive: -3, subordinate: -1, subpoena: -1, subpoenas: -1, subservience: -1, subservient: -1, substandard: -1, subtract: -3, subversion: -1, subversive: -1, subversively: -1, subvert: -1, succumb: -2, suck: -4, sucked: -3, sucker: -3, sucks: -3, sucky: -2, sue: -3, sued: -3, sueing: -3, sues: -1, suffer: -1, suffered: -1, sufferer: -1, sufferers: -1, suffering: -1, suffers: -1, suffocate: -1, "sugar-coat": -1, "sugar-coated": -1, sugarcoated: -1, suicidal: -5, suicide: -5, sulk: -4, sullen: -1, sully: -1, sunder: -1, sunk: -3, sunken: -3, superficial: -1, superficiality: -1, superficially: -1, superfluous: -1, superstition: -3, superstitious: -3, suppress: -1, suppression: -1, surrender: -1, susceptible: -1, suspect: -2, suspicion: -2, suspicions: -2, suspicious: -1, suspiciously: -1, swagger: -1, swamped: -1, sweaty: -2, swelled: -1, swelling: -1, swindle: -1, swipe: -3, swollen: -1, symptom: -1, symptoms: -1, syndrome: -1, taboo: -1, tacky: -1, taint: -1, tainted: -1, tamper: -1, tangle: -1, tangled: -1, tangles: -1, tank: -1, tanked: -1, tanks: -1, tantrum: -1, tardy: -1, tarnish: -2, tarnished: -1, tarnishes: -1, tarnishing: -1, tattered: -1, taunt: -1, taunting: -1, tauntingly: -1, taunts: -3, taut: -1, tawdry: -1, taxing: -1, tease: -1, teasingly: -1, tedious: -1, tediously: -1, temerity: -1, temper: -3, tempest: -2, temptation: -1, tenderness: -1, tense: -1, tension: -1, tentative: -1, tentatively: -1, tenuous: -1, tenuously: -1, tepid: -1, terrible: -5, terribleness: -5, terribly: -4, terror: -4, "terror-genic": -1, terrorism: -5, terrorize: -5, testily: -1, testy: -1, tetchily: -1, tetchy: -1, thankless: -2, thicker: -1, thirst: -1, thorny: -4, thoughtless: -3, thoughtlessly: -3, thoughtlessness: -3, thrash: -4, threat: -4, threaten: -4, threatening: -4, threats: -4, threesome: -3, throb: -2, throbbed: -2, throbbing: -2, throbs: -2, throttle: -1, thug: -4, "thumb-down": -3, "thumbs-down": -3, thwart: -2, "time-consuming": -1, timid: -3, timidity: -3, timidly: -3, timidness: -3, "tin-y": -1, tingled: -1, tingling: -1, tired: -2, tiresome: -2, tiring: -1, tiringly: -1, toil: -1, toll: -1, "top-heavy": -2, topple: -1, torment: -5, tormented: -5, torrent: -2, tortuous: -1, torture: -4, tortured: -4, tortures: -4, torturing: -4, torturous: -4, torturously: -4, totalitarian: -2, touchy: -1, toughness: -1, tout: -1, touted: -1, touts: -1, toxic: -4, traduce: -1, tragedy: -5, tragic: -5, tragically: -5, traitor: -4, traitorous: -1, traitorously: -1, tramp: -1, trample: -1, transgress: -2, transgression: -2, trap: -4, traped: -4, trapped: -4, trash: -1, trashed: -1, trashy: -1, trauma: -2, traumatic: -2, traumatically: -1, traumatize: -1, traumatized: -1, travesties: -1, travesty: -1, treacherous: -1, treacherously: -1, treachery: -1, treason: -1, treasonous: -1, trick: -1, tricked: -1, trickery: -1, tricky: -1, trivial: -1, trivialize: -1, trouble: -2, troubled: -2, troublemaker: -1, troubles: -1, troublesome: -1, troublesomely: -1, troubling: -1, troublingly: -1, truant: -1, tumble: -1, tumbled: -1, tumbles: -1, tumultuous: -1, turbulent: -1, turmoil: -1, twist: -1, twisted: -1, twists: -1, "two-faced": -1, "two-faces": -1, tyrannical: -4, tyrannically: -4, tyranny: -4, tyrant: -4, ugh: -1, uglier: -4, ugliest: -5, ugliness: -4, ugly: -3, ulterior: -3, ultimatum: -3, ultimatums: -3, "ultra-hardline": -1, "un-viewable": -1, unable: -1, unacceptable: -2, unacceptablely: -2, unacceptably: -2, unaccessible: -2, unaccustomed: -2, unachievable: -2, unaffordable: -2, unappealing: -4, unattractive: -3, unauthentic: -3, unavailable: -3, unavoidably: -3, unbearable: -3, unbearablely: -3, unbelievable: -3, unbelievably: -3, uncaring: -3, uncertain: -1, uncivil: -1, uncivilized: -1, unclean: -2, unclear: -2, uncollectible: -2, uncomfortable: -2, uncomfortably: -2, uncomfy: -2, uncompetitive: -2, uncompromising: -1, uncompromisingly: -1, unconfirmed: -1, unconstitutional: -1, uncontrolled: -2, unconvincing: -2, unconvincingly: -2, uncooperative: -2, uncouth: -1, uncreative: -1, undecided: -1, undefined: -3, undependability: -1, undependable: -1, undercut: -2, undercuts: -1, undercutting: -1, underdog: -1, underestimate: -1, underlings: -1, undermine: -3, undermined: -3, undermines: -3, undermining: -3, underpaid: -3, underpowered: -2, undersized: -2, undesirable: -3, undetermined: -1, undid: -1, undignified: -1, undissolved: -1, undocumented: -1, undone: -1, undue: -1, unease: -1, uneasily: -1, uneasiness: -1, uneasy: -1, uneconomical: -2, unemployed: -3, unequal: -1, unethical: -3, uneven: -1, uneventful: -1, unexpected: -1, unexpectedly: -1, unexplained: -1, unfairly: -1, unfaithful: -1, unfaithfully: -1, unfamiliar: -1, unfavorable: -1, unfeeling: -1, unfinished: -1, unfit: -2, unforeseen: -3, unforgiving: -1, unfortunate: -5, unfortunately: -5, unfounded: -1, unfriendly: -2, unfulfilled: -1, unfunded: -1, ungovernable: -1, ungrateful: -1, unhappily: -4, unhappiness: -4, unhappy: -4, unhealthy: -4, unhelpful: -3, unilateralism: -1, unimaginable: -1, unimaginably: -1, unimportant: -1, uninformed: -1, uninsured: -1, unintelligible: -1, unintelligile: -1, unipolar: -1, unjust: -1, unjustifiable: -1, unjustifiably: -1, unjustified: -1, unjustly: -1, unkind: -1, unkindly: -1, unknown: -1, unlamentable: -1, unlamentably: -1, unlawful: -2, unlawfully: -2, unlawfulness: -2, unleash: -1, unlicensed: -1, unlikely: -1, unlucky: -1, unmoved: -3, unnatural: -2, unnaturally: -2, unnecessary: -4, unneeded: -1, unnerve: -1, unnerved: -1, unnerving: -1, unnervingly: -1, unnoticed: -2, unobserved: -3, unorthodox: -3, unorthodoxy: -3, unpleasant: -1, unpleasantries: -2, unpopular: -2, unpredictable: -1, unprepared: -1, unproductive: -1, unprofitable: -1, unprove: -1, unproved: -1, unproven: -1, unproves: -1, unproving: -1, unqualified: -1, unravel: -1, unraveled: -1, unreachable: -1, unreadable: -1, unrealistic: -1, unreasonable: -1, unreasonably: -1, unrelenting: -2, unrelentingly: -2, unreliability: -2, unreliable: -2, unresolved: -2, unresponsive: -3, unrest: -3, unruly: -1, unsafe: -1, unsatisfactory: -1, unsavory: -1, unscrupulous: -1, unscrupulously: -1, unsecure: -2, unseemly: -1, unsettle: -3, unsettled: -3, unsettling: -3, unsettlingly: -1, unskilled: -4, unsophisticated: -1, unsound: -1, unspeakable: -1, unspeakablely: -1, unspecified: -1, unstable: -1, unsteadily: -1, unsteadiness: -1, unsteady: -1, unsuccessful: -1, unsuccessfully: -1, unsupported: -1, unsupportive: -1, unsure: -1, unsuspecting: -1, unsustainable: -1, untenable: -1, untested: -1, unthinkable: -1, unthinkably: -1, untimely: -1, untouched: -1, untrue: -1, untrustworthy: -1, untruthful: -1, unusable: -1, unusably: -1, unuseable: -1, unuseably: -1, unusual: -1, unusually: -1, unviewable: -1, unwanted: -1, unwarranted: -1, unwatchable: -1, unwelcome: -1, unwell: -1, unwieldy: -1, unwilling: -1, unwillingly: -1, unwillingness: -1, unwise: -1, unwisely: -1, unworkable: -1, unworthy: -1, unyielding: -1, upbraid: -1, upheaval: -1, uprising: -1, uproar: -3, uproarious: -1, uproariously: -1, uproarous: -1, uproarously: -1, uproot: -2, upset: -1, upseting: -1, upsets: -1, upsetting: -1, upsettingly: -1, urgent: -1, useless: -2, usurp: -1, usurper: -1, utterly: -1, vagrant: -1, vague: -2, vagueness: -1, vain: -1, vainly: -1, vanity: -1, vehement: -1, vehemently: -1, vengeance: -4, vengeful: -4, vengefully: -4, vengefulness: -4, venom: -3, venomous: -3, venomously: -3, vent: -3, vestiges: -1, vex: -1, vexation: -1, vexing: -1, vexingly: -1, vibrate: -1, vibrated: -1, vibrates: -1, vibrating: -1, vibration: -1, vice: -1, vicious: -1, viciously: -1, viciousness: -1, victimize: -1, vile: -1, vileness: -1, vilify: -1, villainous: -1, villainously: -1, villains: -1, villian: -1, villianous: -1, villianously: -1, villify: -1, vindictive: -1, vindictively: -1, vindictiveness: -1, violate: -1, violation: -1, violator: -1, violators: -1, violent: -1, violently: -1, viper: -1, virulence: -1, virulent: -1, virulently: -1, virus: -3, vociferous: -1, vociferously: -1, volatile: -1, volatility: -1, vomit: -1, vomited: -1, vomiting: -1, vomits: -1, vulgar: -1, vulnerable: -1, wack: -1, wail: -1, wallow: -1, wane: -1, waning: -1, wanton: -1, "war-like": -3, warily: -3, wariness: -3, warlike: -3, warned: -2, warning: -2, warp: -1, warped: -1, wary: -1, "washed-out": -1, waste: -1, wasted: -1, wasteful: -1, wastefulness: -1, wasting: -1, "water-down": -1, "watered-down": -1, wayward: -1, weak: -4, weaken: -4, weakening: -3, weaker: -3, weakness: -3, weaknesses: -3, weariness: -1, wearisome: -1, weary: -1, wedge: -1, weed: -1, weep: -1, weird: -1, weirdly: -1, wheedle: -1, whimper: -1, whine: -3, whining: -1, whiny: -1, whips: -1, whore: -1, whores: -1, wicked: -1, wickedly: -1, wickedness: -1, wild: -1, wildly: -1, wiles: -1, wilt: -1, wily: -1, wimpy: -1, wince: -1, wobble: -1, wobbled: -1, wobbles: -1, woe: -1, woebegone: -1, woeful: -1, woefully: -1, womanizer: -1, womanizing: -1, worn: -1, worried: -1, worriedly: -1, worrier: -1, worries: -1, worrisome: -1, worry: -1, worrying: -1, worryingly: -1, worse: -5, worsen: -5, worsening: -5, worst: -5, worthless: -3, worthlessly: -3, worthlessness: -3, wound: -3, wounds: -3, wrangle: -2, wrath: -3, wreak: -3, wreaked: -3, wreaks: -3, wreck: -3, wrest: -2, wrestle: -2, wretch: -3, wretched: -3, wretchedly: -2, wretchedness: -2, wrinkle: -3, wrinkled: -3, wrinkles: -3, wrip: -1, wripped: -1, wripping: -1, writhe: -1, wrong: -3, wrongful: -3, wrongly: -3, wrought: -3, yawn: -2, zap: -2, zapped: -2, zaps: -1, zealot: -3, zealous: -3, zealously: -3, zombie: -4 } };
+class U6e extends nt {
   /**
    * Create new analysis result instance.
    *
@@ -15695,7 +15695,7 @@ class U7e extends nt {
    * @return {AnalysisResult} an AnalysisResult with the score and the formatted text.
    */
   getResult(t, i, a) {
-    const o = this.newResult(a, t), l = new z7e().analyze(t.getLower("title"), M7e).score;
+    const o = this.newResult(a, t), l = new z6e().analyze(t.getLower("title"), M6e).score;
     return o.setScore(this.calculateScore(l)).setText(this.translateScore(o, a)), o;
   }
   /**
@@ -15742,7 +15742,7 @@ class U7e extends nt {
     );
   }
 }
-class q7e extends nt {
+class q6e extends nt {
   /**
    * Create new analysis result instance.
    *
@@ -15806,21 +15806,21 @@ class q7e extends nt {
     return t.hasScore() ? i.__("Focus Keyword used at the beginning of SEO title.", "rank-math") : i.__("Focus Keyword doesn't appear at the beginning of SEO title.", "rank-math");
   }
 }
-function V7e(e, t, i, a) {
+function V6e(e, t, i, a) {
   var o = -1, l = e == null ? 0 : e.length;
   for (a && l && (i = e[++o]); ++o < l; )
     i = t(i, e[o], o, e);
   return i;
 }
-var W7e = V7e, G7e = /[^\x00-\x2f\x3a-\x40\x5b-\x60\x7b-\x7f]+/g;
-function H7e(e) {
-  return e.match(G7e) || [];
+var W6e = V6e, G6e = /[^\x00-\x2f\x3a-\x40\x5b-\x60\x7b-\x7f]+/g;
+function H6e(e) {
+  return e.match(G6e) || [];
 }
-var K7e = H7e, Y7e = /[a-z][A-Z]|[A-Z]{2}[a-z]|[0-9][a-zA-Z]|[a-zA-Z][0-9]|[^a-zA-Z0-9 ]/;
-function X7e(e) {
-  return Y7e.test(e);
+var K6e = H6e, Y6e = /[a-z][A-Z]|[A-Z]{2}[a-z]|[0-9][a-zA-Z]|[a-zA-Z][0-9]|[^a-zA-Z0-9 ]/;
+function X6e(e) {
+  return Y6e.test(e);
 }
-var Z7e = X7e, dg = "\\ud800-\\udfff", J7e = "\\u0300-\\u036f", Q7e = "\\ufe20-\\ufe2f", eje = "\\u20d0-\\u20ff", tje = J7e + Q7e + eje, fg = "\\u2700-\\u27bf", pg = "a-z\\xdf-\\xf6\\xf8-\\xff", nje = "\\xac\\xb1\\xd7\\xf7", ije = "\\x00-\\x2f\\x3a-\\x40\\x5b-\\x60\\x7b-\\xbf", rje = "\\u2000-\\u206f", aje = " \\t\\x0b\\f\\xa0\\ufeff\\n\\r\\u2028\\u2029\\u1680\\u180e\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200a\\u202f\\u205f\\u3000", hg = "A-Z\\xc0-\\xd6\\xd8-\\xde", sje = "\\ufe0e\\ufe0f", gg = nje + ije + rje + aje, mg = "['’]", Bp = "[" + gg + "]", oje = "[" + tje + "]", vg = "\\d+", lje = "[" + fg + "]", yg = "[" + pg + "]", _g = "[^" + dg + gg + vg + fg + pg + hg + "]", uje = "\\ud83c[\\udffb-\\udfff]", cje = "(?:" + oje + "|" + uje + ")", dje = "[^" + dg + "]", bg = "(?:\\ud83c[\\udde6-\\uddff]){2}", wg = "[\\ud800-\\udbff][\\udc00-\\udfff]", Ni = "[" + hg + "]", fje = "\\u200d", Lp = "(?:" + yg + "|" + _g + ")", pje = "(?:" + Ni + "|" + _g + ")", Pp = "(?:" + mg + "(?:d|ll|m|re|s|t|ve))?", jp = "(?:" + mg + "(?:D|LL|M|RE|S|T|VE))?", Dg = cje + "?", xg = "[" + sje + "]?", hje = "(?:" + fje + "(?:" + [dje, bg, wg].join("|") + ")" + xg + Dg + ")*", gje = "\\d*(?:1st|2nd|3rd|(?![123])\\dth)(?=\\b|[A-Z_])", mje = "\\d*(?:1ST|2ND|3RD|(?![123])\\dTH)(?=\\b|[a-z_])", vje = xg + Dg + hje, yje = "(?:" + [lje, bg, wg].join("|") + ")" + vje, _je = RegExp([
+var Z6e = X6e, dg = "\\ud800-\\udfff", J6e = "\\u0300-\\u036f", Q6e = "\\ufe20-\\ufe2f", eje = "\\u20d0-\\u20ff", tje = J6e + Q6e + eje, fg = "\\u2700-\\u27bf", pg = "a-z\\xdf-\\xf6\\xf8-\\xff", nje = "\\xac\\xb1\\xd7\\xf7", ije = "\\x00-\\x2f\\x3a-\\x40\\x5b-\\x60\\x7b-\\xbf", rje = "\\u2000-\\u206f", aje = " \\t\\x0b\\f\\xa0\\ufeff\\n\\r\\u2028\\u2029\\u1680\\u180e\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200a\\u202f\\u205f\\u3000", hg = "A-Z\\xc0-\\xd6\\xd8-\\xde", sje = "\\ufe0e\\ufe0f", gg = nje + ije + rje + aje, mg = "['’]", Bp = "[" + gg + "]", oje = "[" + tje + "]", vg = "\\d+", lje = "[" + fg + "]", yg = "[" + pg + "]", _g = "[^" + dg + gg + vg + fg + pg + hg + "]", uje = "\\ud83c[\\udffb-\\udfff]", cje = "(?:" + oje + "|" + uje + ")", dje = "[^" + dg + "]", bg = "(?:\\ud83c[\\udde6-\\uddff]){2}", wg = "[\\ud800-\\udbff][\\udc00-\\udfff]", Ni = "[" + hg + "]", fje = "\\u200d", Lp = "(?:" + yg + "|" + _g + ")", pje = "(?:" + Ni + "|" + _g + ")", Pp = "(?:" + mg + "(?:d|ll|m|re|s|t|ve))?", jp = "(?:" + mg + "(?:D|LL|M|RE|S|T|VE))?", Dg = cje + "?", xg = "[" + sje + "]?", hje = "(?:" + fje + "(?:" + [dje, bg, wg].join("|") + ")" + xg + Dg + ")*", gje = "\\d*(?:1st|2nd|3rd|(?![123])\\dth)(?=\\b|[A-Z_])", mje = "\\d*(?:1ST|2ND|3RD|(?![123])\\dTH)(?=\\b|[a-z_])", vje = xg + Dg + hje, yje = "(?:" + [lje, bg, wg].join("|") + ")" + vje, _je = RegExp([
   Ni + "?" + yg + "+" + Pp + "(?=" + [Bp, Ni, "$"].join("|") + ")",
   pje + "+" + jp + "(?=" + [Bp, Ni + Lp, "$"].join("|") + ")",
   Ni + "?" + Lp + "+" + Pp,
@@ -15833,11 +15833,11 @@ var Z7e = X7e, dg = "\\ud800-\\udfff", J7e = "\\u0300-\\u036f", Q7e = "\\ufe20-\
 function bje(e) {
   return e.match(_je) || [];
 }
-var wje = bje, Dje = K7e, xje = Z7e, kje = _i, Eje = wje;
+var wje = bje, Dje = K6e, xje = Z6e, kje = _i, Eje = wje;
 function Aje(e, t, i) {
   return e = kje(e), t = i ? void 0 : t, t === void 0 ? xje(e) ? Eje(e) : Dje(e) : e.match(t) || [];
 }
-var Cje = Aje, Fje = W7e, Sje = m1, $je = Cje, Tje = "['’]", Rje = RegExp(Tje, "g");
+var Cje = Aje, Fje = W6e, Sje = m1, $je = Cje, Tje = "['’]", Rje = RegExp(Tje, "g");
 function Oje(e) {
   return function(t) {
     return Fje($je(Sje(t).replace(Rje, "")), e, "");
@@ -15863,7 +15863,7 @@ class Hje extends nt {
    * @return {AnalysisResult} New instance.
    */
   newResult(t) {
-    const i = kt(this.configs.postType) ? "Post" : Np(this.configs.postType);
+    const i = Et(this.configs.postType) ? "Post" : Np(this.configs.postType);
     return new it().setMaxScore(this.getScore()).setEmpty(
       t.sprintf(
         /* Translators: 1) Placeholder expands to "Content AI" with a link to the corresponding KB article. 2) Post Type. */
@@ -15923,7 +15923,7 @@ class Hje extends nt {
    * @return {string} The translated string.
    */
   translateScore(t, i) {
-    const a = kt(this.configs.postType) ? "Post" : Np(this.configs.postType);
+    const a = Et(this.configs.postType) ? "Post" : Np(this.configs.postType);
     return t.hasScore() ? i.sprintf(
       /* Translators: 1. Placeholder expands to "Content AI" with a link to the corresponding KB article. 2. Post Type. */
       i.__("You are using %1$s to optimise this %2$s.", "rank-math"),
@@ -16123,7 +16123,7 @@ class kg {
    * @throws {Error} Parameter needs to be a valid i18n object.
    */
   setI18n(t) {
-    if (kt(t))
+    if (Et(t))
       throw new Error("The assessor requires an i18n object.");
     this.i18n = t;
   }
@@ -16151,12 +16151,12 @@ class kg {
       linksNotAllExternals: new VN(),
       titleHasNumber: new WN(),
       titleHasPowerWords: new ZN(),
-      titleSentiment: new U7e(),
-      titleStartWithKeyword: new q7e(),
+      titleSentiment: new U6e(),
+      titleStartWithKeyword: new q6e(),
       hasContentAI: new Hje(),
       isReviewEnabled: new Kje(),
       hasProductSchema: new Yje()
-    }, this.analyses = this.defaultAnalyses, pi(this.options, "analyses") && !kt(this.options.analyses) && (this.analyses = Gf(this.defaultAnalyses, this.options.analyses));
+    }, this.analyses = this.defaultAnalyses, pi(this.options, "analyses") && !Et(this.options.analyses) && (this.analyses = Gf(this.defaultAnalyses, this.options.analyses));
   }
 }
 var Xje = Ir, Zje = u1, Jje = c1;
@@ -16204,7 +16204,7 @@ var bNe = _Ne, wNe = eNe, DNe = Rr, xNe = sNe, kNe = bNe, Eg = Object.prototype,
 const Dl = {}, CNe = (e) => {
   Br(e.assessor.diacritics, (t, i) => Dl[i] = new RegExp(t, "g"));
 }, di = (e) => {
-  if (kt(e))
+  if (Et(e))
     return e;
   for (const t in Dl)
     e = e.replace(Dl[t], t);
@@ -16760,7 +16760,7 @@ class Ag {
       locale: "en_US",
       contentAI: !1,
       schemas: {}
-    }), this.setText(kt(t) ? "" : t), this.args.shortLocale = this.args.locale.split("_")[0], this.configs = zp(a, FNe()), CNe(this.configs);
+    }), this.setText(Et(t) ? "" : t), this.args.shortLocale = this.args.locale.split("_")[0], this.configs = zp(a, FNe()), CNe(this.configs);
   }
   /**
    * Get argument value.
@@ -17361,13 +17361,13 @@ const Sg = $3("SEOStore", () => {
 function HNe(e, t, i, a, o, l) {
   const c = J("v-icon"), d = J("v-badge"), p = J("v-chip"), f = J("transition-expand"), v = Bn("tooltip");
   return Q(), Fe("div", {
-    class: Ct(["sidebar-detail", { open: !0 }])
+    class: kt(["sidebar-detail", { open: !0 }])
   }, [
     nn((Q(), Fe("button", {
-      class: Ct(["toggle", { open: e.active }]),
+      class: kt(["toggle", { open: e.active }]),
       onClick: t[0] || (t[0] = (_) => e.toggle())
     }, [
-      U("div", qNe, [
+      q("div", qNe, [
         K(d, {
           dot: e.badge === !0,
           bordered: "",
@@ -17380,8 +17380,8 @@ function HNe(e, t, i, a, o, l) {
           _: 1
         }, 8, ["dot", "value", "disabled"])
       ]),
-      U("div", VNe, [
-        U("span", null, Ae(e.title), 1),
+      q("div", VNe, [
+        q("span", null, Ae(e.title), 1),
         e.errors ? (Q(), xe(p, {
           key: 0,
           class: "error",
@@ -17418,8 +17418,8 @@ function HNe(e, t, i, a, o, l) {
     ]),
     K(f, { class: "scroll-container" }, {
       default: W(() => [
-        nn(U("div", null, [
-          U("div", GNe, [
+        nn(q("div", null, [
+          q("div", GNe, [
             Cl(e.$slots, "default", {}, void 0, !0)
           ])
         ], 512), [
@@ -17430,7 +17430,7 @@ function HNe(e, t, i, a, o, l) {
     })
   ]);
 }
-const KNe = /* @__PURE__ */ bt(UNe, [["render", HNe], ["__scopeId", "data-v-9b1b7e8a"]]), YNe = (e) => (Dn("data-v-643df86b"), e = e(), xn(), e), XNe = /* @__PURE__ */ YNe(() => /* @__PURE__ */ U("label", { for: "" }, "Focus Keywords", -1)), ZNe = { class: "keywords-chip" }, JNe = { class: "seo-groups" }, QNe = {
+const KNe = /* @__PURE__ */ bt(UNe, [["render", HNe], ["__scopeId", "data-v-9b1b7e8a"]]), YNe = (e) => (Dn("data-v-643df86b"), e = e(), xn(), e), XNe = /* @__PURE__ */ YNe(() => /* @__PURE__ */ q("label", { for: "" }, "Focus Keywords", -1)), ZNe = { class: "keywords-chip" }, JNe = { class: "seo-groups" }, QNe = {
   key: 0,
   class: "checklist"
 }, eze = ["innerHTML"], tze = /* @__PURE__ */ at({
@@ -17497,11 +17497,11 @@ const KNe = /* @__PURE__ */ bt(UNe, [["render", HNe], ["__scopeId", "data-v-9b1b
           onKeydown: C3(p, ["enter"])
         }, {
           prepend: W(() => [
-            U("div", ZNe, [
+            q("div", ZNe, [
               (Q(!0), Fe(Ot, null, rn(D.modelValue.filter((x) => x !== ""), (x, T) => (Q(), xe(y, {
                 active: "",
                 close: "",
-                class: Ct([_(Z(a).resultManager.getScore(x)), { selected: Z(a).selectedKeyWord == x }]),
+                class: kt([_(Z(a).resultManager.getScore(x)), { selected: Z(a).selectedKeyWord == x }]),
                 onClose: ($) => d(x),
                 onClick: ($) => c(x)
               }, {
@@ -17514,7 +17514,7 @@ const KNe = /* @__PURE__ */ bt(UNe, [["render", HNe], ["__scopeId", "data-v-9b1b
           ]),
           _: 1
         }, 40, ["value", "onKeydown"])),
-        U("div", JNe, [
+        q("div", JNe, [
           (Q(!0), Fe(Ot, null, rn(f.value, (x, T) => (Q(), xe(KNe, {
             title: Z(a).getGroupTitle(x.name),
             errors: x.errors,
@@ -17525,13 +17525,13 @@ const KNe = /* @__PURE__ */ bt(UNe, [["render", HNe], ["__scopeId", "data-v-9b1b
               l.value ? (Q(), Fe("ul", QNe, [
                 (Q(!0), Fe(Ot, null, rn(x.list, ($) => (Q(), Fe("li", {
                   key: $.text,
-                  class: Ct($.classes)
+                  class: kt($.classes)
                 }, [
                   K(A, {
                     name: $.hasScore ? "check_circle" : "cancel",
-                    class: Ct($.hasScore ? "success" : "error")
+                    class: kt($.hasScore ? "success" : "error")
                   }, null, 8, ["name", "class"]),
-                  U("span", {
+                  q("span", {
                     innerHTML: $.text
                   }, null, 8, eze)
                 ], 2))), 128))
@@ -17594,7 +17594,7 @@ const uze = /* @__PURE__ */ at({
     var ze, Ge, mt, ln;
     const i = e, a = zt(), o = te([]), l = on(), { useFieldsStore: c, useRelationsStore: d, useNotificationsStore: p, useCollectionsStore: f } = l;
     c(), d();
-    const v = p(), _ = f(), D = Hn(), b = (pe) => _.getCollection(pe), { internalActive: y } = Ke(), { internalEdits: A, loading: x, initialValues: T, refresh: $ } = ve(), { save: O, cancel: C } = _e(), { collection: E, primaryKey: R, isSEOAdvanced: z, rootValues: B } = Qa(i), { info: V, primaryKeyField: G } = N3(E);
+    const v = p(), _ = f(), D = Hn(), b = (pe) => _.getCollection(pe), { internalActive: y } = Ke(), { internalEdits: A, loading: x, initialValues: T, refresh: $ } = ve(), { save: O, cancel: C } = _e(), { collection: E, primaryKey: R, isSEOAdvanced: z, rootValues: B } = Qa(i), { info: M, primaryKeyField: G } = N3(E);
     fe(() => i.primaryKey === "+"), fe(() => !pn.isEmpty(A.value));
     const ae = Wi(), me = Kn("values", te({})), Be = te([z.value ? 2 : 1]), ee = te(), P = z.value ? ((ze = ae.params) == null ? void 0 : ze.primaryKey) || ((Ge = ae.params) == null ? void 0 : Ge.collection) : ((mt = me.value) == null ? void 0 : mt.seo_advanced_setting_collection) || ((ln = me.value) == null ? void 0 : ln.collection) || E.value, j = b(P) ? "meta-template" : "input", Y = fe(() => {
       var pe, ge, Oe;
@@ -17609,7 +17609,7 @@ const uze = /* @__PURE__ */ at({
       var pe, ge, Oe;
       return ((pe = A.value) == null ? void 0 : pe.twitter_description) || se((ge = me.value) == null ? void 0 : ge[i.map_content]) || ((Oe = T.value) == null ? void 0 : Oe.meta_description);
     }), X = fe(() => {
-      var pe, ge, Oe, Te, Ue, lt;
+      var pe, ge, Oe, Te, Me, lt;
       return [
         {
           field: "meta_robots",
@@ -17683,7 +17683,7 @@ const uze = /* @__PURE__ */ at({
             width: "full",
             interface: j,
             options: {
-              placeholder: ((Te = A.value) == null ? void 0 : Te.meta_description) || ((Ue = T.value) == null ? void 0 : Ue.meta_description) || se((lt = me.value) == null ? void 0 : lt[i.map_content]) || "",
+              placeholder: ((Te = A.value) == null ? void 0 : Te.meta_description) || ((Me = T.value) == null ? void 0 : Me.meta_description) || se((lt = me.value) == null ? void 0 : lt[i.map_content]) || "",
               collectionName: P,
               inject: {
                 fields: [
@@ -18004,7 +18004,7 @@ const uze = /* @__PURE__ */ at({
         id: ge,
         meta_title: Oe,
         meta_description: Te,
-        facebook_image: Ue,
+        facebook_image: Me,
         twitter_image: lt
       } = pe;
       let St = ((qe = pe == null ? void 0 : pe.meta_keywords) == null ? void 0 : qe.split(",")) || [""];
@@ -18014,7 +18014,7 @@ const uze = /* @__PURE__ */ at({
         id: ge,
         meta_title: Oe,
         meta_description: Te,
-        facebook_image: Ue,
+        facebook_image: Me,
         twitter_image: lt,
         meta_robots: wt,
         meta_keywords: St,
@@ -18034,7 +18034,7 @@ const uze = /* @__PURE__ */ at({
     }
     function ve() {
       const pe = te({}), ge = te(!1), Oe = te(null);
-      return i.primaryKey !== "+" && Ue(), Gn(
+      return i.primaryKey !== "+" && Me(), Gn(
         () => i.edits,
         () => {
           pe.value = i.edits ?? {};
@@ -18043,14 +18043,14 @@ const uze = /* @__PURE__ */ at({
       ), Gn(
         () => i.primaryKey,
         (lt) => {
-          i.primaryKey !== "+" && Ue();
+          i.primaryKey !== "+" && Me();
         },
         { immediate: !0 }
       ), { internalEdits: pe, loading: ge, initialValues: Oe, refresh: Te };
       async function Te() {
-        ge.value = !1, i.primaryKey !== "+" && Ue();
+        ge.value = !1, i.primaryKey !== "+" && Me();
       }
-      async function Ue() {
+      async function Me() {
         if (!i.primaryKey) return;
         ge.value = !0;
         const lt = mh(i.collection), St = mF(i.collection) ? `${lt}/${i.primaryKey}` : `${lt}/${encodeURIComponent(i.primaryKey)}`;
@@ -18071,8 +18071,8 @@ const uze = /* @__PURE__ */ at({
       function pe() {
         var Ht, wt, qe;
         (Ht = A.value) != null && Ht.meta_robots ? A.value.meta_robots = he((wt = A.value) == null ? void 0 : wt.meta_robots) : A.value.meta_robots = ["index"];
-        const Oe = A.value, Te = [...X.value, ...ie.value], Ue = GF(Te), lt = T == null ? void 0 : T.value;
-        let St = pn.merge({}, Ue.value, lt, Oe, {
+        const Oe = A.value, Te = [...X.value, ...ie.value], Me = GF(Te), lt = T == null ? void 0 : T.value;
+        let St = pn.merge({}, Me.value, lt, Oe, {
           meta_keywords: (qe = ce.value) == null ? void 0 : qe.join(",")
         });
         delete St.social_sharing_tab, i.primaryKey && i.primaryKey !== "+" && G.value && (St[G.value.field] = i.primaryKey), t("input", St);
@@ -18092,9 +18092,9 @@ const uze = /* @__PURE__ */ at({
       return ge !== -1 && Oe !== -1 ? ge > Oe ? pe.filter((Te) => Te !== "noindex") : pe.filter((Te) => Te !== "index") : pe;
     }
     return (pe, ge) => {
-      const Oe = J("v-button"), Te = J("v-tab"), Ue = J("v-tabs"), lt = J("v-tab-item"), St = J("v-form"), Ht = J("v-icon"), wt = J("v-tabs-items");
+      const Oe = J("v-button"), Te = J("v-tab"), Me = J("v-tabs"), lt = J("v-tab-item"), St = J("v-form"), Ht = J("v-icon"), wt = J("v-tabs-items");
       return Q(), Fe("div", null, [
-        K(Ue, {
+        K(Me, {
           modelValue: Be.value,
           "onUpdate:modelValue": ge[0] || (ge[0] = (qe) => Be.value = qe),
           class: "analyzer"
@@ -18200,7 +18200,7 @@ const uze = /* @__PURE__ */ at({
             }),
             K(lt, { value: 3 }, {
               default: W(() => [
-                K(Ue, {
+                K(Me, {
                   modelValue: ee.value,
                   "onUpdate:modelValue": ge[5] || (ge[5] = (qe) => ee.value = qe)
                 }, {
@@ -18310,8 +18310,8 @@ const uze = /* @__PURE__ */ at({
       var R;
       (R = l.value) != null && R.post_id || (Yd(), Gn(
         () => {
-          var z, B, V, G, ae, me, Be;
-          return (Be = (me = (ae = (G = (V = (B = (z = Yd()) == null ? void 0 : z.parent) == null ? void 0 : B.parent) == null ? void 0 : V.parent) == null ? void 0 : G.parent) == null ? void 0 : ae.parent) == null ? void 0 : me.provides) == null ? void 0 : Be.values;
+          var z, B, M, G, ae, me, Be;
+          return (Be = (me = (ae = (G = (M = (B = (z = Yd()) == null ? void 0 : z.parent) == null ? void 0 : B.parent) == null ? void 0 : M.parent) == null ? void 0 : G.parent) == null ? void 0 : ae.parent) == null ? void 0 : me.provides) == null ? void 0 : Be.values;
         },
         (z) => {
           console.log("instance change", z);
@@ -18321,11 +18321,11 @@ const uze = /* @__PURE__ */ at({
         }
       ));
     }), (R, z) => {
-      var B, V;
+      var B, M;
       return Q(), Fe("div", null, [
         K(cze, {
           active: "",
-          collection: (V = (B = Z(v)) == null ? void 0 : B.relatedCollection) == null ? void 0 : V.collection,
+          collection: (M = (B = Z(v)) == null ? void 0 : B.relatedCollection) == null ? void 0 : M.collection,
           "primary-key": T.value,
           fields: C,
           edits: $.value,
@@ -18429,16 +18429,16 @@ const uze = /* @__PURE__ */ at({
       }
     ];
   }
-}), ir = (e) => (Dn("data-v-6f6d1139"), e = e(), xn(), e), pze = { class: "social-preview-item" }, hze = { class: "social-preview-meta" }, gze = /* @__PURE__ */ ir(() => /* @__PURE__ */ U("div", { class: "social-profile-image" }, null, -1)), mze = /* @__PURE__ */ ir(() => /* @__PURE__ */ U("div", { class: "social-name" }, "admin", -1)), vze = { class: "social-time" }, yze = /* @__PURE__ */ ir(() => /* @__PURE__ */ U("span", null, "2 hrs", -1)), _ze = { class: "social-preview-item-wrapper group" }, bze = { class: "social-preview-image" }, wze = { class: "preview-placeholder overflow-hidden" }, Dze = ["src"], xze = {
+}), ir = (e) => (Dn("data-v-6f6d1139"), e = e(), xn(), e), pze = { class: "social-preview-item" }, hze = { class: "social-preview-meta" }, gze = /* @__PURE__ */ ir(() => /* @__PURE__ */ q("div", { class: "social-profile-image" }, null, -1)), mze = /* @__PURE__ */ ir(() => /* @__PURE__ */ q("div", { class: "social-name" }, "admin", -1)), vze = { class: "social-time" }, yze = /* @__PURE__ */ ir(() => /* @__PURE__ */ q("span", null, "2 hrs", -1)), _ze = { class: "social-preview-item-wrapper group" }, bze = { class: "social-preview-image" }, wze = { class: "preview-placeholder overflow-hidden" }, Dze = ["src"], xze = {
   key: 1,
   class: "placeholder-content mt-40"
-}, kze = /* @__PURE__ */ ir(() => /* @__PURE__ */ U("h3", null, "Please upload image", -1)), Eze = /* @__PURE__ */ ir(() => /* @__PURE__ */ U("p", null, "Recommended Size: 1200x628 px", -1)), Aze = [
+}, kze = /* @__PURE__ */ ir(() => /* @__PURE__ */ q("h3", null, "Please upload image", -1)), Eze = /* @__PURE__ */ ir(() => /* @__PURE__ */ q("p", null, "Recommended Size: 1200x628 px", -1)), Aze = [
   kze,
   Eze
 ], Cze = {
   key: 0,
   class: "absolute right-4 top-4"
-}, Fze = { class: "social-preview-caption" }, Sze = /* @__PURE__ */ ir(() => /* @__PURE__ */ U("h4", { class: "social-preview-publisher" }, "site name", -1)), $ze = { class: "social-preview-title" }, Tze = { class: "social-preview-description" }, Rze = /* @__PURE__ */ at({
+}, Fze = { class: "social-preview-caption" }, Sze = /* @__PURE__ */ ir(() => /* @__PURE__ */ q("h4", { class: "social-preview-publisher" }, "site name", -1)), $ze = { class: "social-preview-title" }, Tze = { class: "social-preview-description" }, Rze = /* @__PURE__ */ at({
   __name: "interface",
   props: {
     title: { default: "" },
@@ -18466,20 +18466,20 @@ const uze = /* @__PURE__ */ at({
     return (D, b) => {
       const y = J("v-icon"), A = J("v-upload"), x = J("v-button"), T = Bn("tooltip");
       return Q(), Fe("div", {
-        class: Ct(["social-preview", `social-preview-${D.provider}`])
+        class: kt(["social-preview", `social-preview-${D.provider}`])
       }, [
-        U("div", pze, [
-          U("div", hze, [
+        q("div", pze, [
+          q("div", hze, [
             gze,
             mze,
-            U("div", vze, [
+            q("div", vze, [
               yze,
               K(y, { name: "public" })
             ])
           ]),
-          U("div", _ze, [
-            U("div", bze, [
-              U("div", wze, [
+          q("div", _ze, [
+            q("div", bze, [
+              q("div", wze, [
                 D.value ? (Q(), Fe("img", {
                   key: 0,
                   class: "social-image-thumbnail absolute inset-0 object-cover object-center w-full h-full",
@@ -18487,8 +18487,8 @@ const uze = /* @__PURE__ */ at({
                   alt: ""
                 }, null, 8, Dze)) : (Q(), Fe("div", xze, Aze))
               ]),
-              U("div", {
-                class: Ct({
+              q("div", {
+                class: kt({
                   "absolute inset-0 z-9": !0,
                   "opacity-0 group-hover:opacity-100": D.value
                 })
@@ -18519,10 +18519,10 @@ const uze = /* @__PURE__ */ at({
                 ])) : _t("", !0)
               ], 2)
             ]),
-            U("div", Fze, [
+            q("div", Fze, [
               Sze,
-              U("h3", $ze, Ae(v.value), 1),
-              U("p", Tze, Ae(_.value), 1)
+              q("h3", $ze, Ae(v.value), 1),
+              q("p", Tze, Ae(_.value), 1)
             ])
           ])
         ])
@@ -18551,7 +18551,7 @@ const su = () => {
   i(t), e.afterEach((a, o, l) => {
     i(a);
   });
-}, Bze = "directus-extension-seo", Lze = "CodiHaus", Pze = "1.5.9", jze = "module", Nze = "Directus SEO Extension enhance Directus with powerful SEO scoring and validator and AI SEO from ChatGPT", zze = {
+}, Bze = "directus-extension-seo", Lze = "CodiHaus", Pze = "1.5.10", jze = "module", Nze = "Directus SEO Extension enhance Directus with powerful SEO scoring and validator and AI SEO from ChatGPT", zze = {
   type: "git",
   url: "git+https://github.com/codihaus/directus-extension-seo"
 }, Mze = "extension", Uze = [
@@ -18726,12 +18726,12 @@ function bs(e = "", t = "", i = !0, a = {}) {
     }
   }), x = es(), T = `/items/${e}`;
   async function $() {
-    var C, E, R, z, B, V;
+    var C, E, R, z, B, M;
     if (t !== "+") {
       f.value = !0, _.value = null;
       try {
         const G = await x.get(`${T}/${t}`, { params: { fields: ["*.*"] } });
-        (E = (C = G == null ? void 0 : G.data) == null ? void 0 : C.data) != null && E.value ? d.value = (z = (R = G == null ? void 0 : G.data) == null ? void 0 : R.data) == null ? void 0 : z.value : (B = G == null ? void 0 : G.data) != null && B.data && (d.value = (V = G == null ? void 0 : G.data) == null ? void 0 : V.data);
+        (E = (C = G == null ? void 0 : G.data) == null ? void 0 : C.data) != null && E.value ? d.value = (z = (R = G == null ? void 0 : G.data) == null ? void 0 : R.data) == null ? void 0 : z.value : (B = G == null ? void 0 : G.data) != null && B.data && (d.value = (M = G == null ? void 0 : G.data) == null ? void 0 : M.data);
       } catch (G) {
         _.value = G, p.value = !0;
       } finally {
@@ -18740,7 +18740,7 @@ function bs(e = "", t = "", i = !0, a = {}) {
     }
   }
   async function O(C = {}) {
-    var E, R, z, B, V, G;
+    var E, R, z, B, M, G;
     v.value = !0;
     try {
       let ae, me = i ? {
@@ -18752,7 +18752,7 @@ function bs(e = "", t = "", i = !0, a = {}) {
       return p.value === !0 ? ae = await x.post(T, { ...me, ...C }) : (ae = await x.patch(`${T}/${t}`, { ...me, ...C }), p.value = !1), l.add({
         type: "success",
         title: "Saved Successfully!"
-      }), (R = (E = ae == null ? void 0 : ae.data) == null ? void 0 : E.data) != null && R.value ? d.value = (B = (z = ae == null ? void 0 : ae.data) == null ? void 0 : z.data) == null ? void 0 : B.value : (V = ae == null ? void 0 : ae.data) != null && V.data && (d.value = (G = ae == null ? void 0 : ae.data) == null ? void 0 : G.data), p.value = !1, ae.data.data;
+      }), (R = (E = ae == null ? void 0 : ae.data) == null ? void 0 : E.data) != null && R.value ? d.value = (B = (z = ae == null ? void 0 : ae.data) == null ? void 0 : z.data) == null ? void 0 : B.value : (M = ae == null ? void 0 : ae.data) != null && M.data && (d.value = (G = ae == null ? void 0 : ae.data) == null ? void 0 : G.data), p.value = !1, ae.data.data;
     } catch (ae) {
       console.log(ae), l.add({
         type: "error",
@@ -19323,10 +19323,10 @@ const pt = (e = { title: "", field: "" }, t = []) => {
         }, {
           default: W(() => [
             (Q(!0), Fe(Ot, null, rn(a.value, (b, y) => (Q(), xe(_, {
-              class: Ct({ hidden: b == null ? void 0 : b.hidden })
+              class: kt({ hidden: b == null ? void 0 : b.hidden })
             }, {
               activator: W(() => [
-                U("div", {
+                q("div", {
                   class: "flex items-center text-slate-700 mr-auto",
                   onClick: (A) => Z(t).push(b == null ? void 0 : b.to)
                 }, [
@@ -19352,7 +19352,7 @@ const pt = (e = { title: "", field: "" }, t = []) => {
                 (Q(!0), Fe(Ot, null, rn(b == null ? void 0 : b.childrens, (A, x) => (Q(), xe(v, {
                   key: A.to,
                   to: A.to,
-                  class: Ct({ "!hidden": A == null ? void 0 : A.hidden })
+                  class: kt({ "!hidden": A == null ? void 0 : A.hidden })
                 }, {
                   default: W(() => [
                     K(d, null, {
@@ -19380,7 +19380,7 @@ const pt = (e = { title: "", field: "" }, t = []) => {
           ]),
           _: 1
         }, 8, ["modelValue"]),
-        U("div", Jze, "Directus SEO Extensions " + Ae(Z(kl)), 1)
+        q("div", Jze, "Directus SEO Extensions " + Ae(Z(kl)), 1)
       ]);
     };
   }
@@ -19412,10 +19412,10 @@ function sMe(e, t, i, a, o, l) {
   const c = J("v-icon"), d = J("v-progress-linear"), p = J("v-list-item"), f = J("v-list"), v = J("v-menu"), _ = Bn("tooltip");
   return Q(), xe(v, {
     attached: "",
-    class: Ct(["language-select", { secondary: e.secondary }])
+    class: kt(["language-select", { secondary: e.secondary }])
   }, {
     activator: W(({ toggle: D, active: b }) => [
-      U("button", {
+      q("button", {
         class: "toggle",
         onClick: D
       }, [
@@ -19423,12 +19423,12 @@ function sMe(e, t, i, a, o, l) {
           class: "translate",
           name: "translate"
         }),
-        U("span", nMe, Ae(e.displayValue), 1),
+        q("span", nMe, Ae(e.displayValue), 1),
         K(c, {
           name: "expand_more",
-          class: Ct({ active: b })
+          class: kt({ active: b })
         }, null, 8, ["class"]),
-        U("span", iMe, [
+        q("span", iMe, [
           Cl(e.$slots, "append", {}, void 0, !0)
         ])
       ], 8, tMe)
@@ -19441,13 +19441,13 @@ function sMe(e, t, i, a, o, l) {
             onClick: (y) => e.$emit("update:modelValue", D.value)
           }, {
             default: W(() => [
-              U("div", rMe, [
-                U("div", {
-                  class: Ct(["dot", { show: D.edited }])
+              q("div", rMe, [
+                q("div", {
+                  class: kt(["dot", { show: D.edited }])
                 }, null, 2),
                 We(" " + Ae(D.text), 1)
               ]),
-              U("div", aMe, [
+              q("div", aMe, [
                 nn(K(d, {
                   value: D.progress,
                   rounded: "",
@@ -19466,10 +19466,10 @@ function sMe(e, t, i, a, o, l) {
     _: 3
   }, 8, ["class"]);
 }
-const ws = /* @__PURE__ */ bt(eMe, [["render", sMe], ["__scopeId", "data-v-b025e43d"]]), ou = (e) => (Dn("data-v-600970de"), e = e(), xn(), e), oMe = /* @__PURE__ */ ou(() => /* @__PURE__ */ U("div", null, [
-  /* @__PURE__ */ U("h1", { class: "font-semibold text-lg text-slate-900" }, /* @__PURE__ */ Ae("Site basics")),
-  /* @__PURE__ */ U("div", { class: "text-sm" }, "Add social account information to your website's Schema and Open Graph. Learn More.")
-], -1)), lMe = /* @__PURE__ */ ou(() => /* @__PURE__ */ U("div", { class: "w-px h-9 my-auto bg-slate-200" }, null, -1)), uMe = /* @__PURE__ */ ou(() => /* @__PURE__ */ U("div", { class: "page-description px-3" }, null, -1)), cMe = { class: "py-6 px-7.5" }, dMe = /* @__PURE__ */ at({
+const ws = /* @__PURE__ */ bt(eMe, [["render", sMe], ["__scopeId", "data-v-b025e43d"]]), ou = (e) => (Dn("data-v-600970de"), e = e(), xn(), e), oMe = /* @__PURE__ */ ou(() => /* @__PURE__ */ q("div", null, [
+  /* @__PURE__ */ q("h1", { class: "font-semibold text-lg text-slate-900" }, /* @__PURE__ */ Ae("Site basics")),
+  /* @__PURE__ */ q("div", { class: "text-sm" }, "Add social account information to your website's Schema and Open Graph. Learn More.")
+], -1)), lMe = /* @__PURE__ */ ou(() => /* @__PURE__ */ q("div", { class: "w-px h-9 my-auto bg-slate-200" }, null, -1)), uMe = /* @__PURE__ */ ou(() => /* @__PURE__ */ q("div", { class: "page-description px-3" }, null, -1)), cMe = { class: "py-6 px-7.5" }, dMe = /* @__PURE__ */ at({
   __name: "site-basic",
   setup(e) {
     su(), zt(), Hn();
@@ -19563,7 +19563,7 @@ const ws = /* @__PURE__ */ bt(eMe, [["render", sMe], ["__scopeId", "data-v-b025e
           })
         ]),
         default: W(() => [
-          U("div", cMe, [
+          q("div", cMe, [
             K(T, { items: t.value }, null, 8, ["items"]),
             K($, {
               modelValue: Z(o),
@@ -20514,10 +20514,10 @@ const ws = /* @__PURE__ */ bt(eMe, [["render", sMe], ["__scopeId", "data-v-b025e
       }
     ]
   )
-], $g = (e) => (Dn("data-v-5b37e7f8"), e = e(), xn(), e), gMe = /* @__PURE__ */ $g(() => /* @__PURE__ */ U("div", null, [
-  /* @__PURE__ */ U("h1", { class: "font-semibold text-lg text-slate-900" }, /* @__PURE__ */ Ae("Local SEO")),
-  /* @__PURE__ */ U("div", { class: "text-sm" }, "Add social account information to your website's Schema and Open Graph. Learn More.")
-], -1)), mMe = /* @__PURE__ */ $g(() => /* @__PURE__ */ U("div", { class: "w-px h-9 my-auto bg-slate-200" }, null, -1)), vMe = { class: "py-6 px-7.5" }, yMe = /* @__PURE__ */ at({
+], $g = (e) => (Dn("data-v-5b37e7f8"), e = e(), xn(), e), gMe = /* @__PURE__ */ $g(() => /* @__PURE__ */ q("div", null, [
+  /* @__PURE__ */ q("h1", { class: "font-semibold text-lg text-slate-900" }, /* @__PURE__ */ Ae("Local SEO")),
+  /* @__PURE__ */ q("div", { class: "text-sm" }, "Add social account information to your website's Schema and Open Graph. Learn More.")
+], -1)), mMe = /* @__PURE__ */ $g(() => /* @__PURE__ */ q("div", { class: "w-px h-9 my-auto bg-slate-200" }, null, -1)), vMe = { class: "py-6 px-7.5" }, yMe = /* @__PURE__ */ at({
   __name: "local-seo",
   setup(e) {
     su(), zt();
@@ -20589,7 +20589,7 @@ const ws = /* @__PURE__ */ bt(eMe, [["render", sMe], ["__scopeId", "data-v-b025e
           K(Vi)
         ]),
         default: W(() => [
-          U("div", vMe, [
+          q("div", vMe, [
             K(T, { items: t.value }, null, 8, ["items"]),
             K($, {
               modelValue: Z(o),
@@ -20937,7 +20937,7 @@ const Og = [
         t("update:modelValue", !i.value);
     }
   }
-}), DMe = (e) => (Dn("data-v-417da395"), e = e(), xn(), e), xMe = ["aria-pressed", "disabled"], kMe = /* @__PURE__ */ DMe(() => /* @__PURE__ */ U("span", { class: "switch" }, null, -1)), EMe = { class: "label type-label" };
+}), DMe = (e) => (Dn("data-v-0d3be914"), e = e(), xn(), e), xMe = ["aria-pressed", "disabled"], kMe = /* @__PURE__ */ DMe(() => /* @__PURE__ */ q("span", { class: "switch" }, null, -1)), EMe = { class: "label type-label" };
 function AMe(e, t, i, a, o, l) {
   return Q(), Fe("button", {
     class: "v-switch",
@@ -20948,17 +20948,17 @@ function AMe(e, t, i, a, o, l) {
     onClick: t[0] || (t[0] = (...c) => e.toggleInput && e.toggleInput(...c))
   }, [
     kMe,
-    U("span", EMe, [
+    q("span", EMe, [
       Cl(e.$slots, "label", {}, () => [
         We(Ae(e.label), 1)
       ], !0)
     ])
   ], 8, xMe);
 }
-const CMe = /* @__PURE__ */ bt(wMe, [["render", AMe], ["__scopeId", "data-v-417da395"]]), FMe = { class: "flex flex-col rounded-t rounded-b border-px border-solid border-slate-300" }, SMe = { class: "flex gap-5 px-5 py-6" }, $Me = { class: "icon self-center" }, TMe = { class: "text-slate-900" }, RMe = { class: "text-md font-semibold text-slate-900" }, OMe = ["title"], IMe = { class: "text-xs text-slate-500 mt-1" }, BMe = {
+const CMe = /* @__PURE__ */ bt(wMe, [["render", AMe], ["__scopeId", "data-v-0d3be914"]]), FMe = { class: "seo-collection-item flex flex-col rounded-t rounded-b border-px border-solid" }, SMe = { class: "flex gap-5 px-5 py-6" }, $Me = { class: "icon self-center" }, TMe = { class: "collection-content" }, RMe = { class: "text-md font-semibold" }, OMe = ["title"], IMe = { class: "text-xs mt-1" }, BMe = {
   key: 0,
-  class: "text-xs text-slate-500 mt-1"
-}, LMe = { class: "flex gap-5 px-5 py-4 justify-between bg-slate-100 rounded-b mt-auto" }, PMe = { class: "font-bold" }, jMe = { class: "font-bold" }, NMe = { class: "font-bold" }, zMe = { class: "font-bold" }, MMe = /* @__PURE__ */ at({
+  class: "text-xs mt-1"
+}, LMe = { class: "flex gap-5 px-5 py-4 justify-between action rounded-b mt-auto" }, PMe = { class: "font-bold" }, jMe = { class: "font-bold" }, NMe = { class: "font-bold" }, zMe = { class: "font-bold" }, MMe = /* @__PURE__ */ at({
   __name: "collection-item",
   props: {
     item: {
@@ -20988,27 +20988,27 @@ const CMe = /* @__PURE__ */ bt(wMe, [["render", AMe], ["__scopeId", "data-v-417d
       a.value = !1, t("update:modelValue", !0, i.item, c);
     }
     return (c, d) => {
-      var A, x, T, $, O, C, E, R, z, B, V;
+      var A, x, T, $, O, C, E, R, z, B, M;
       const p = J("v-icon"), f = J("v-button"), v = J("v-card-title"), _ = J("v-card-text"), D = J("v-card-actions"), b = J("v-card"), y = J("v-dialog");
       return Q(), Fe("div", FMe, [
-        U("div", SMe, [
-          U("div", $Me, [
+        q("div", SMe, [
+          q("div", $Me, [
             K(p, {
               large: "",
               name: ((A = e.item) == null ? void 0 : A.icon) || "label"
             }, null, 8, ["name"])
           ]),
-          U("div", TMe, [
-            U("div", RMe, Ae(((x = e.item) == null ? void 0 : x.name) || Z(ol)((T = e.item) == null ? void 0 : T.collection)), 1),
-            U("div", {
-              class: "text-sm text-slate-500 mt-1 line-clamp-1",
+          q("div", TMe, [
+            q("div", RMe, Ae(((x = e.item) == null ? void 0 : x.name) || Z(ol)((T = e.item) == null ? void 0 : T.collection)), 1),
+            q("div", {
+              class: "text-sm mt-1 line-clamp-1",
               title: ((O = ($ = e.item) == null ? void 0 : $.meta) == null ? void 0 : O.note) || "..."
             }, Ae(((E = (C = e.item) == null ? void 0 : C.meta) == null ? void 0 : E.note) || "..."), 9, OMe),
-            U("div", IMe, " Collection: " + Ae((R = e.item) == null ? void 0 : R.collection), 1),
+            q("div", IMe, " Collection: " + Ae((R = e.item) == null ? void 0 : R.collection), 1),
             (z = e.item) != null && z.translation_collection ? (Q(), Fe("div", BMe, " Translation: " + Ae((B = e.item) == null ? void 0 : B.translation_collection), 1)) : _t("", !0)
           ])
         ]),
-        U("div", LMe, [
+        q("div", LMe, [
           K(CMe, {
             "model-value": e.modelValue,
             "onUpdate:modelValue": d[0] || (d[0] = (G) => {
@@ -21018,7 +21018,7 @@ const CMe = /* @__PURE__ */ bt(wMe, [["render", AMe], ["__scopeId", "data-v-417d
           }, null, 8, ["model-value"]),
           K(f, {
             class: "button-setting",
-            to: `/seo-settings/title-meta/${(V = e.item) == null ? void 0 : V.collection}`,
+            to: `/seo-settings/title-meta/${(M = e.item) == null ? void 0 : M.collection}`,
             disabled: !e.modelValue,
             style: {
               "--v-button-background-color": "#fff",
@@ -21050,20 +21050,20 @@ const CMe = /* @__PURE__ */ bt(wMe, [["render", AMe], ["__scopeId", "data-v-417d
                   default: W(() => {
                     var G, ae, me, Be;
                     return [
-                      U("div", null, [
+                      q("div", null, [
                         We("This collection has translation collection: "),
-                        U("span", PMe, Ae((G = e.item) == null ? void 0 : G.translation_collection), 1)
+                        q("span", PMe, Ae((G = e.item) == null ? void 0 : G.translation_collection), 1)
                       ]),
-                      U("div", null, [
+                      q("div", null, [
                         We("So, SEO module uses "),
-                        U("span", jMe, Ae((ae = e.item) == null ? void 0 : ae.translation_collection), 1),
+                        q("span", jMe, Ae((ae = e.item) == null ? void 0 : ae.translation_collection), 1),
                         We(" for saving data")
                       ]),
-                      U("div", null, [
+                      q("div", null, [
                         We("If you want to enabled for "),
-                        U("span", NMe, Ae((me = e.item) == null ? void 0 : me.collection), 1),
+                        q("span", NMe, Ae((me = e.item) == null ? void 0 : me.collection), 1),
                         We(" only, choose "),
-                        U("span", zMe, "Enabled for " + Ae((Be = e.item) == null ? void 0 : Be.collection) + " only", 1)
+                        q("span", zMe, "Enabled for " + Ae((Be = e.item) == null ? void 0 : Be.collection) + " only", 1)
                       ])
                     ];
                   }),
@@ -21104,7 +21104,7 @@ const CMe = /* @__PURE__ */ bt(wMe, [["render", AMe], ["__scopeId", "data-v-417d
       ]);
     };
   }
-}), Wp = /* @__PURE__ */ bt(MMe, [["__scopeId", "data-v-1a7bb224"]]);
+}), Wp = /* @__PURE__ */ bt(MMe, [["__scopeId", "data-v-409b3d09"]]);
 async function UMe() {
   const e = Gi(), t = es();
   async function i() {
@@ -21117,10 +21117,10 @@ async function UMe() {
   }
   sn(async () => await i());
 }
-const Ur = (e) => (Dn("data-v-0e886d12"), e = e(), xn(), e), qMe = /* @__PURE__ */ Ur(() => /* @__PURE__ */ U("div", null, [
-  /* @__PURE__ */ U("h1", { class: "font-semibold text-lg text-slate-900" }, /* @__PURE__ */ Ae("Title & Meta")),
-  /* @__PURE__ */ U("div", { class: "text-sm" }, "Choose a collection to setup.")
-], -1)), VMe = /* @__PURE__ */ Ur(() => /* @__PURE__ */ U("div", { class: "w-px h-9 my-auto !ml-2 !mr-4 bg-slate-200" }, null, -1)), WMe = /* @__PURE__ */ Ur(() => /* @__PURE__ */ U("div", { class: "page-description px-3" }, null, -1)), GMe = { class: "py-6 px-7.5" }, HMe = { class: "flex gap-4 items-center justify-between mb-5" }, KMe = { class: "mt-10" }, YMe = /* @__PURE__ */ Ur(() => /* @__PURE__ */ U("h2", { class: "text-lg mb-6" }, "Static page", -1)), XMe = { class: "grid grid-cols-1 gap-x6 gap-y-8 lg:grid-cols-3 2xl:grid-cols-4" }, ZMe = { class: "mt-10" }, JMe = /* @__PURE__ */ Ur(() => /* @__PURE__ */ U("h2", { class: "text-lg mb-6" }, "Collections", -1)), QMe = { class: "grid grid-cols-1 gap-x6 gap-y-8 lg:grid-cols-3 2xl:grid-cols-4" }, eUe = /* @__PURE__ */ at({
+const Ur = (e) => (Dn("data-v-37053cab"), e = e(), xn(), e), qMe = /* @__PURE__ */ Ur(() => /* @__PURE__ */ q("div", null, [
+  /* @__PURE__ */ q("h1", { class: "font-semibold text-lg text-slate-900" }, /* @__PURE__ */ Ae("Title & Meta")),
+  /* @__PURE__ */ q("div", { class: "text-sm" }, "Choose a collection to setup.")
+], -1)), VMe = /* @__PURE__ */ Ur(() => /* @__PURE__ */ q("div", { class: "w-px h-9 my-auto !ml-2 !mr-4 bg-slate-200" }, null, -1)), WMe = /* @__PURE__ */ Ur(() => /* @__PURE__ */ q("div", { class: "page-description px-3" }, null, -1)), GMe = { class: "py-6 px-7.5" }, HMe = { class: "flex gap-4 items-center justify-between mb-5" }, KMe = { class: "mt-10" }, YMe = /* @__PURE__ */ Ur(() => /* @__PURE__ */ q("h2", { class: "text-lg mb-6" }, "Static page", -1)), XMe = { class: "grid grid-cols-1 gap-x6 gap-y-8 lg:grid-cols-3 2xl:grid-cols-4" }, ZMe = { class: "mt-10" }, JMe = /* @__PURE__ */ Ur(() => /* @__PURE__ */ q("h2", { class: "text-lg mb-6" }, "Collections", -1)), QMe = { class: "grid grid-cols-1 gap-x6 gap-y-8 lg:grid-cols-3 2xl:grid-cols-4" }, eUe = /* @__PURE__ */ at({
   __name: "title-meta",
   setup(e) {
     UMe(), Tg(), zt(), Wi();
@@ -21154,12 +21154,12 @@ const Ur = (e) => (Dn("data-v-0e886d12"), e = e(), xn(), e), qMe = /* @__PURE__ 
       fields: te(["collection", "enabled", "is_static"])
     }), y = te(), A = fe(() => {
       var B;
-      return y.value = (B = v.value) == null ? void 0 : B.map((V) => {
+      return y.value = (B = v.value) == null ? void 0 : B.map((M) => {
         var ae;
-        console.log("collection::", V);
-        let G = (ae = _.value) == null ? void 0 : ae.find((me) => !me.is_static && V.collection === me.collection);
+        console.log("collection::", M);
+        let G = (ae = _.value) == null ? void 0 : ae.find((me) => !me.is_static && M.collection === me.collection);
         return {
-          ...V,
+          ...M,
           ...G,
           is_new: !G
         };
@@ -21167,11 +21167,11 @@ const Ur = (e) => (Dn("data-v-0e886d12"), e = e(), xn(), e), qMe = /* @__PURE__ 
     }), x = te();
     fe(() => {
       var B;
-      return x.value = (B = f.value) == null ? void 0 : B.map((V) => {
+      return x.value = (B = f.value) == null ? void 0 : B.map((M) => {
         var ae;
-        let G = (ae = _.value) == null ? void 0 : ae.find((me) => !me.is_static && V.collection === me.collection);
+        let G = (ae = _.value) == null ? void 0 : ae.find((me) => !me.is_static && M.collection === me.collection);
         return {
-          ...V,
+          ...M,
           ...G,
           is_new: !G
         };
@@ -21183,13 +21183,13 @@ const Ur = (e) => (Dn("data-v-0e886d12"), e = e(), xn(), e), qMe = /* @__PURE__ 
     async function $(B) {
       return await t.post(`/fields/${B}`, lu(B));
     }
-    async function O(B, V) {
+    async function O(B, M) {
       const G = l.getField(B, ue.seo_detail);
       let ae = {
         ...G,
         meta: {
           ...G == null ? void 0 : G.meta,
-          hidden: !V
+          hidden: !M
         }
       };
       return await l.updateField(B, ue.seo_detail, ae);
@@ -21197,22 +21197,22 @@ const Ur = (e) => (Dn("data-v-0e886d12"), e = e(), xn(), e), qMe = /* @__PURE__ 
     async function C(B) {
       return await t.post("/relations/", uu(B));
     }
-    async function E(B, V, G = !0) {
-      console.log("collection", V);
-      let ae = V == null ? void 0 : V.collection;
-      G && (V != null && V.translation_collection) && (ae = V == null ? void 0 : V.translation_collection), V != null && V.is_new ? await T(V == null ? void 0 : V.collection).then(() => {
+    async function E(B, M, G = !0) {
+      console.log("collection", M);
+      let ae = M == null ? void 0 : M.collection;
+      G && (M != null && M.translation_collection) && (ae = M == null ? void 0 : M.translation_collection), M != null && M.is_new ? await T(M == null ? void 0 : M.collection).then(() => {
         o.add({
           title: "Saved!"
         });
       }).finally(async () => {
         await $(ae), await C(ae);
-      }) : await z(V == null ? void 0 : V.collection, B, !1), b();
+      }) : await z(M == null ? void 0 : M.collection, B, !1), b();
     }
-    async function R(B, V) {
-      await z(V, B);
+    async function R(B, M) {
+      await z(M == null ? void 0 : M.collection, B);
     }
-    async function z(B, V = !0, G = !0) {
-      await t.patch(`/items/${ue.seo_advanced}/${B}`, { enabled: V, is_static: G }).then(() => {
+    async function z(B, M = !0, G = !0) {
+      await t.patch(`/items/${ue.seo_advanced}/${B}`, { enabled: M, is_static: G }).then(() => {
         o.add({
           title: "Saved!"
         });
@@ -21221,9 +21221,9 @@ const Ur = (e) => (Dn("data-v-0e886d12"), e = e(), xn(), e), qMe = /* @__PURE__ 
           title: "Error!",
           type: "error"
         });
-      }), G || await O(B, V);
+      }), G || await O(B, M);
     }
-    return (B, V) => {
+    return (B, M) => {
       const G = J("v-icon"), ae = J("v-button"), me = J("sidebar-detail"), Be = J("v-breadcrumb"), ee = J("private-view"), P = Bn("tooltip");
       return Q(), xe(ee, {
         smallHeader: "",
@@ -21269,13 +21269,13 @@ const Ur = (e) => (Dn("data-v-0e886d12"), e = e(), xn(), e), qMe = /* @__PURE__ 
           })
         ]),
         default: W(() => [
-          U("div", GMe, [
-            U("div", HMe, [
+          q("div", GMe, [
+            q("div", HMe, [
               K(Be, { items: c.value }, null, 8, ["items"])
             ]),
-            U("div", KMe, [
+            q("div", KMe, [
               YMe,
-              U("div", XMe, [
+              q("div", XMe, [
                 (Q(!0), Fe(Ot, null, rn(Z(_), (j, Y) => (Q(), Fe(Ot, {
                   key: j.collection
                 }, [
@@ -21288,9 +21288,9 @@ const Ur = (e) => (Dn("data-v-0e886d12"), e = e(), xn(), e), qMe = /* @__PURE__ 
                 ], 64))), 128))
               ])
             ]),
-            U("div", ZMe, [
+            q("div", ZMe, [
               JMe,
-              U("div", QMe, [
+              q("div", QMe, [
                 (Q(!0), Fe(Ot, null, rn(A.value, (j, Y) => (Q(), xe(Wp, {
                   key: j.collection,
                   item: j,
@@ -21305,7 +21305,7 @@ const Ur = (e) => (Dn("data-v-0e886d12"), e = e(), xn(), e), qMe = /* @__PURE__ 
       });
     };
   }
-}), Gp = /* @__PURE__ */ bt(eUe, [["__scopeId", "data-v-0e886d12"]]);
+}), Gp = /* @__PURE__ */ bt(eUe, [["__scopeId", "data-v-37053cab"]]);
 function tUe(e = null) {
   var b;
   const t = on(), { useFieldsStore: i, useCollectionsStore: a, useRelationsStore: o } = t, l = i(), c = o(), d = te(e != null && e.value ? e == null ? void 0 : e.value : e), p = te([]), f = c.getRelationsForCollection(d.value), v = l.getFieldsForCollection(d.value).find((y) => y.meta.interface === "translations");
@@ -21456,7 +21456,7 @@ function nUe(e) {
 var iUe = Lh, rUe = jh, aUe = rUe(function(e, t, i, a) {
   iUe(e, t, i, a);
 }), sUe = aUe;
-const Hp = /* @__PURE__ */ Sr(sUe), cu = (e) => (Dn("data-v-edeadacc"), e = e(), xn(), e), oUe = { class: "not-found py-20vh" }, lUe = { class: "font-semibold text-lg text-slate-900" }, uUe = /* @__PURE__ */ cu(() => /* @__PURE__ */ U("div", { class: "text-sm" }, "Setting per collection.", -1)), cUe = /* @__PURE__ */ cu(() => /* @__PURE__ */ U("div", { class: "w-px h-9 my-auto bg-slate-200" }, null, -1)), dUe = /* @__PURE__ */ cu(() => /* @__PURE__ */ U("div", { class: "page-description px-3" }, null, -1)), fUe = { class: "py-6 px-7.5" }, pUe = { class: "flex gap-4 items-center justify-between mb-5" }, hUe = /* @__PURE__ */ at({
+const Hp = /* @__PURE__ */ Sr(sUe), cu = (e) => (Dn("data-v-edeadacc"), e = e(), xn(), e), oUe = { class: "not-found py-20vh" }, lUe = { class: "font-semibold text-lg text-slate-900" }, uUe = /* @__PURE__ */ cu(() => /* @__PURE__ */ q("div", { class: "text-sm" }, "Setting per collection.", -1)), cUe = /* @__PURE__ */ cu(() => /* @__PURE__ */ q("div", { class: "w-px h-9 my-auto bg-slate-200" }, null, -1)), dUe = /* @__PURE__ */ cu(() => /* @__PURE__ */ q("div", { class: "page-description px-3" }, null, -1)), fUe = { class: "py-6 px-7.5" }, pUe = { class: "flex gap-4 items-center justify-between mb-5" }, hUe = /* @__PURE__ */ at({
   __name: "title-meta-detail-new",
   setup(e) {
     Tg();
@@ -21504,7 +21504,7 @@ const Hp = /* @__PURE__ */ Sr(sUe), cu = (e) => (Dn("data-v-edeadacc"), e = e(),
       languages: R,
       loading: z,
       saving: B,
-      error: V,
+      error: M,
       save: G
     } = bs(ue.seo_advanced, p.value, !1), ae = te();
     fe(() => Hp({}, C.value, O.value, function(P, j) {
@@ -21566,7 +21566,7 @@ const Hp = /* @__PURE__ */ Sr(sUe), cu = (e) => (Dn("data-v-edeadacc"), e = e(),
     };
     return sn(() => setTimeout(() => ee(E.value), 1e3)), (P, j) => {
       const Y = J("v-icon"), ne = J("v-button"), oe = J("v-info"), N = J("private-view"), X = J("sidebar-detail"), ie = J("v-breadcrumb"), ce = J("v-form"), ke = Bn("tooltip");
-      return Z(V) && !f.value ? (Q(), xe(N, {
+      return Z(M) && !f.value ? (Q(), xe(N, {
         key: 0,
         smallHeader: "",
         title: Z(i)("page_not_found")
@@ -21597,7 +21597,7 @@ const Hp = /* @__PURE__ */ Sr(sUe), cu = (e) => (Dn("data-v-edeadacc"), e = e(),
           K(Vi)
         ]),
         default: W(() => [
-          U("div", oUe, [
+          q("div", oUe, [
             K(oe, {
               title: Z(i)("page_not_found"),
               icon: "not_interested"
@@ -21615,8 +21615,8 @@ const Hp = /* @__PURE__ */ Sr(sUe), cu = (e) => (Dn("data-v-edeadacc"), e = e(),
         smallHeader: ""
       }, {
         title: W(() => [
-          U("div", null, [
-            U("h1", lUe, Ae(v.value), 1),
+          q("div", null, [
+            q("h1", lUe, Ae(v.value), 1),
             uUe
           ])
         ]),
@@ -21692,8 +21692,8 @@ const Hp = /* @__PURE__ */ Sr(sUe), cu = (e) => (Dn("data-v-edeadacc"), e = e(),
         default: W(() => {
           var ye, Pe, Ne;
           return [
-            U("div", fUe, [
-              U("div", pUe, [
+            q("div", fUe, [
+              q("div", pUe, [
                 K(ie, { items: _.value }, null, 8, ["items"])
               ]),
               f.value || (ye = Z(C)) != null && ye.is_static ? (Q(), xe(ce, {
@@ -21754,10 +21754,10 @@ const Hp = /* @__PURE__ */ Sr(sUe), cu = (e) => (Dn("data-v-edeadacc"), e = e(),
       }
     ]
   )
-], du = (e) => (Dn("data-v-8532e4e1"), e = e(), xn(), e), vUe = /* @__PURE__ */ du(() => /* @__PURE__ */ U("div", null, [
-  /* @__PURE__ */ U("h1", { class: "font-semibold text-lg text-slate-900" }, /* @__PURE__ */ Ae("Scripts")),
-  /* @__PURE__ */ U("div", { class: "text-sm" })
-], -1)), yUe = /* @__PURE__ */ du(() => /* @__PURE__ */ U("div", { class: "w-px h-9 my-auto bg-slate-200" }, null, -1)), _Ue = /* @__PURE__ */ du(() => /* @__PURE__ */ U("div", { class: "page-description px-3" }, null, -1)), bUe = { class: "py-6 px-7.5" }, wUe = /* @__PURE__ */ at({
+], du = (e) => (Dn("data-v-8532e4e1"), e = e(), xn(), e), vUe = /* @__PURE__ */ du(() => /* @__PURE__ */ q("div", null, [
+  /* @__PURE__ */ q("h1", { class: "font-semibold text-lg text-slate-900" }, /* @__PURE__ */ Ae("Scripts")),
+  /* @__PURE__ */ q("div", { class: "text-sm" })
+], -1)), yUe = /* @__PURE__ */ du(() => /* @__PURE__ */ q("div", { class: "w-px h-9 my-auto bg-slate-200" }, null, -1)), _Ue = /* @__PURE__ */ du(() => /* @__PURE__ */ q("div", { class: "page-description px-3" }, null, -1)), bUe = { class: "py-6 px-7.5" }, wUe = /* @__PURE__ */ at({
   __name: "scripts",
   setup(e) {
     su(), zt(), Hn();
@@ -21841,7 +21841,7 @@ const Hp = /* @__PURE__ */ Sr(sUe), cu = (e) => (Dn("data-v-edeadacc"), e = e(),
           })
         ]),
         default: W(() => [
-          U("div", bUe, [
+          q("div", bUe, [
             K(T, { items: t.value }, null, 8, ["items"]),
             K($, {
               modelValue: Z(o),
@@ -22628,7 +22628,7 @@ function mn() {
       let ce;
       return O(oe) ? ce = "" : O(N) ? ce = `>=${oe}.0.0${Y} <${+oe + 1}.0.0-0` : O(X) ? oe === "0" ? ce = `>=${oe}.${N}.0${Y} <${oe}.${+N + 1}.0-0` : ce = `>=${oe}.${N}.0${Y} <${+oe + 1}.0.0-0` : ie ? (c("replaceCaret pr", ie), oe === "0" ? N === "0" ? ce = `>=${oe}.${N}.${X}-${ie} <${oe}.${N}.${+X + 1}-0` : ce = `>=${oe}.${N}.${X}-${ie} <${oe}.${+N + 1}.0-0` : ce = `>=${oe}.${N}.${X}-${ie} <${+oe + 1}.0.0-0`) : (c("no pr"), oe === "0" ? N === "0" ? ce = `>=${oe}.${N}.${X}${Y} <${oe}.${N}.${+X + 1}-0` : ce = `>=${oe}.${N}.${X}${Y} <${oe}.${+N + 1}.0-0` : ce = `>=${oe}.${N}.${X} <${+oe + 1}.0.0-0`), c("caret return", ce), ce;
     });
-  }, B = (ee, P) => (c("replaceXRanges", ee, P), ee.split(/\s+/).map((j) => V(j, P)).join(" ")), V = (ee, P) => {
+  }, B = (ee, P) => (c("replaceXRanges", ee, P), ee.split(/\s+/).map((j) => M(j, P)).join(" ")), M = (ee, P) => {
     ee = ee.trim();
     const j = P.loose ? p[f.XRANGELOOSE] : p[f.XRANGE];
     return ee.replace(j, (Y, ne, oe, N, X, ie) => {
@@ -22950,13 +22950,13 @@ var bWe = {
   compareIdentifiers: gh.compareIdentifiers,
   rcompareIdentifiers: gh.rcompareIdentifiers
 };
-const Mg = (e) => (Dn("data-v-a93e5818"), e = e(), xn(), e), wWe = { class: "list-step list-none p-3 overflow-hidden space-y-8" }, DWe = ["value"], xWe = { class: "flex items-center font-medium w-full" }, kWe = {
+const Mg = (e) => (Dn("data-v-5bae177e"), e = e(), xn(), e), wWe = { class: "list-step list-none p-3 overflow-hidden space-y-8" }, DWe = ["value"], xWe = { class: "flex items-center font-medium w-full" }, kWe = {
   key: 0,
   class: "w-5 h-5 stroke-white",
   viewBox: "0 0 24 24",
   fill: "none",
   xmlns: "http://www.w3.org/2000/svg"
-}, EWe = /* @__PURE__ */ Mg(() => /* @__PURE__ */ U("path", {
+}, EWe = /* @__PURE__ */ Mg(() => /* @__PURE__ */ q("path", {
   d: "M5 12L9.28722 16.2923C9.62045 16.6259 9.78706 16.7927 9.99421 16.7928C10.2014 16.7929 10.3681 16.6262 10.7016 16.2929L20 7",
   stroke: "stroke-current",
   "stroke-width": "1.6",
@@ -22965,7 +22965,7 @@ const Mg = (e) => (Dn("data-v-a93e5818"), e = e(), xn(), e), wWe = { class: "lis
   class: "my-path"
 }, null, -1)), AWe = [
   EWe
-], CWe = { key: 1 }, FWe = { class: "block" }, SWe = { class: "text-lg text-primary" }, $We = { class: "px-5 pt-10 pb-3" }, TWe = { class: "flex gap-2 items-center" }, RWe = { class: "inline-block" }, OWe = { class: "field mb-10" }, IWe = /* @__PURE__ */ Mg(() => /* @__PURE__ */ U("div", { class: "field-label type-label mb-2" }, "Do you want SEO module support multi-language?", -1)), BWe = { class: "flex items-center justify-between gap-3" }, LWe = { class: "flex gap-2 items-center" }, PWe = { class: "inline-block" }, jWe = { class: "flex gap-2 items-center" }, NWe = { class: "inline-block" }, zWe = /* @__PURE__ */ at({
+], CWe = { key: 1 }, FWe = { class: "block" }, SWe = { class: "text-lg text-primary" }, $We = { class: "px-5 pt-10 pb-3" }, TWe = { class: "flex gap-2 items-center" }, RWe = { class: "inline-block" }, OWe = { class: "field mb-10" }, IWe = /* @__PURE__ */ Mg(() => /* @__PURE__ */ q("div", { class: "field-label type-label mb-2" }, "Do you want SEO module support multi-language?", -1)), BWe = { class: "flex items-center justify-between gap-3" }, LWe = { class: "flex gap-2 items-center" }, PWe = { class: "inline-block" }, jWe = { class: "flex gap-2 items-center" }, NWe = { class: "inline-block" }, zWe = /* @__PURE__ */ at({
   __name: "setup",
   setup(e) {
     const t = Hn(), { useCollectionsStore: i, useFieldsStore: a, useRelationsStore: o } = on(), l = i(), c = a(), d = o();
@@ -22986,7 +22986,7 @@ const Mg = (e) => (Dn("data-v-a93e5818"), e = e(), xn(), e), wWe = { class: "lis
       isLast: R,
       goTo: z,
       goToNext: B,
-      goToPrevious: V,
+      goToPrevious: M,
       goBackTo: G,
       isNext: ae,
       isPrevious: me,
@@ -23224,27 +23224,27 @@ const Mg = (e) => (Dn("data-v-a93e5818"), e = e(), xn(), e), wWe = { class: "lis
         title: "Setup"
       }, {
         navigation: W(() => [
-          U("ol", wWe, [
-            (Q(!0), Fe(Ot, null, rn(Z(A), (Te, Ue, lt) => (Q(), Fe("li", {
-              key: Ue,
-              value: Ue,
-              class: "active"
+          q("ol", wWe, [
+            (Q(!0), Fe(Ot, null, rn(Z(A), (Te, Me, lt) => (Q(), Fe("li", {
+              key: Me,
+              value: Me,
+              class: kt({ active: j.value.includes(Me) })
             }, [
-              U("div", xWe, [
-                U("span", {
-                  class: Ct([j.value.includes(Ue) ? "bg-primary text-white border-transparent" : "bg-[var(--background-normal-alt)] text-primary", "w-8 h-8 border-2 rounded-full flex justify-center items-center mr-3 text-sm lg:w-10 lg:h-10"])
+              q("div", xWe, [
+                q("span", {
+                  class: kt([j.value.includes(Me) ? "bg-primary text-white border-transparent" : "bg-[var(--background-normal-alt)] text-primary", "w-8 h-8 border-2 rounded-full flex justify-center items-center mr-3 text-sm lg:w-10 lg:h-10"])
                 }, [
-                  j.value.includes(Ue) ? (Q(), Fe("svg", kWe, AWe)) : (Q(), Fe("span", CWe, Ae(lt + 1), 1))
+                  j.value.includes(Me) ? (Q(), Fe("svg", kWe, AWe)) : (Q(), Fe("span", CWe, Ae(lt + 1), 1))
                 ], 2),
-                U("div", FWe, [
-                  U("h4", SWe, Ae(Te.label), 1)
+                q("div", FWe, [
+                  q("h4", SWe, Ae(Te.label), 1)
                 ])
               ])
-            ], 8, DWe))), 128))
+            ], 10, DWe))), 128))
           ])
         ]),
         default: W(() => [
-          U("div", $We, [
+          q("div", $We, [
             K(ge, {
               modelValue: j.value,
               "onUpdate:modelValue": _e[4] || (_e[4] = (Te) => j.value = Te)
@@ -23268,11 +23268,11 @@ const Mg = (e) => (Dn("data-v-a93e5818"), e = e(), xn(), e), wWe = { class: "lis
                           onClick: X
                         }, {
                           loading: W(() => [
-                            U("div", TWe, [
-                              U("div", RWe, [
+                            q("div", TWe, [
+                              q("div", RWe, [
                                 K(se, { indeterminate: "" })
                               ]),
-                              U("span", null, Ae("Setting up..."), 1)
+                              q("span", null, Ae("Setting up..."), 1)
                             ])
                           ]),
                           default: W(() => [
@@ -23296,11 +23296,11 @@ const Mg = (e) => (Dn("data-v-a93e5818"), e = e(), xn(), e), wWe = { class: "lis
                       class: "mb-10"
                     }, {
                       default: W(() => [
-                        U("h2", null, Ae(Z($).description), 1)
+                        q("h2", null, Ae(Z($).description), 1)
                       ]),
                       _: 1
                     }),
-                    U("div", OWe, [
+                    q("div", OWe, [
                       IWe,
                       K(ln, {
                         modelValue: b.value,
@@ -23327,15 +23327,15 @@ const Mg = (e) => (Dn("data-v-a93e5818"), e = e(), xn(), e), wWe = { class: "lis
                       fields: Y.value,
                       class: "mt-6"
                     }, null, 8, ["modelValue", "fields"]),
-                    U("div", BWe, [
+                    q("div", BWe, [
                       K(he, {
                         class: "mt-5",
                         disabled: f.value,
-                        onClick: Z(V)
+                        onClick: Z(M)
                       }, {
                         loading: W(() => [
-                          U("div", LWe, [
-                            U("div", PWe, [
+                          q("div", LWe, [
+                            q("div", PWe, [
                               K(se, { indeterminate: "" })
                             ])
                           ])
@@ -23352,11 +23352,11 @@ const Mg = (e) => (Dn("data-v-a93e5818"), e = e(), xn(), e), wWe = { class: "lis
                         onClick: ie
                       }, {
                         loading: W(() => [
-                          U("div", jWe, [
-                            U("div", NWe, [
+                          q("div", jWe, [
+                            q("div", NWe, [
                               K(se, { indeterminate: "" })
                             ]),
-                            U("span", null, Ae("Setting up..."), 1)
+                            q("span", null, Ae("Setting up..."), 1)
                           ])
                         ]),
                         default: W(() => [
@@ -23405,7 +23405,7 @@ const Mg = (e) => (Dn("data-v-a93e5818"), e = e(), xn(), e), wWe = { class: "lis
       });
     };
   }
-}), MWe = /* @__PURE__ */ bt(zWe, [["__scopeId", "data-v-a93e5818"]]), UWe = /* @__PURE__ */ at({
+}), MWe = /* @__PURE__ */ bt(zWe, [["__scopeId", "data-v-5bae177e"]]), UWe = /* @__PURE__ */ at({
   __name: "setup-wizard",
   setup(e) {
     Hn();
