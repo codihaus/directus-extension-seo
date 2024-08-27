@@ -297,7 +297,10 @@ async function setup() {
     if( ! isCollectionExist(COLLECTION.seo_setting) ) {
         currentStepTitle.value = 'Create settings'
         currentStepText.value = 'Creating collections for saving settings...'
-        await api.post('/collections', collectionModuleSettings).then((res) => {
+        await api.post('/collections', {
+            ...collectionModuleSettings,
+            fields: collectionModuleSettings?.fields?.filter((field) => field?.schema?.is_primary_key===true)
+        }).then((res) => {
             if( ! res.data.data ) {
                 currentStepTitle.value = 'Error!'
                 // currentStepText.value = res.data.errors.
@@ -305,6 +308,9 @@ async function setup() {
         })
         await collectionsStore.hydrate()
     }
+
+    await createFields(COLLECTION.seo_setting, collectionModuleSettings?.fields)
+
     if( ! isCollectionExist(COLLECTION.seo_redirection) ) {
         
         await api.post('/collections', collectionRedirection).then((res) => {
@@ -314,12 +320,21 @@ async function setup() {
         await collectionsStore.hydrate()
     }
     if( ! isCollectionExist(COLLECTION.seo_detail) ) {
-        await api.post('/collections', collectionSeoDetails).then((res) => {
+        await api.post('/collections', {
+            ...collectionSeoDetails,
+            fields: collectionSeoDetails?.fields?.filter((field) => field?.schema?.is_primary_key===true)
+        }).then((res) => {
             if( ! res.data.data ) {
             }
         })
         await collectionsStore.hydrate()
-        for await (const relation of relationsSeoDetails) {
+    }
+
+    await createFields(COLLECTION.seo_detail, collectionSeoDetails?.fields)
+    
+    for await (const relation of relationsSeoDetails) {
+        let existing = relationsStore.getRelationForField(relation.collection, relation.field)
+        if( ! existing ) {
             await api.post('/relations', relation)
         }
     }
@@ -336,10 +351,17 @@ const createMultiLanguage = async() => {
     loading.value = true
     await collectionsStore.hydrate()
 
+    const collectionSeoAdvancedOpition = getCollectionSeoAdvanced(languageCollection.value.default_language, languageCollection.value.direction, languageCollection.value.field)
+    
     if( ! isCollectionExist(COLLECTION.seo_advanced) ) {
-        await api.post('/collections', getCollectionSeoAdvanced(languageCollection.value.default_language, languageCollection.value.direction, languageCollection.value.field))
+        await api.post('/collections', {
+            ...collectionSeoAdvancedOpition,
+            fields: collectionSeoAdvancedOpition?.fields?.filter((field) => field?.schema?.is_primary_key===true)
+        })
         await collectionsStore.hydrate()
     }
+
+    await createFields(COLLECTION.seo_advanced, collectionSeoAdvancedOpition?.fields)
 
     if( ! isCollectionExist(`${COLLECTION.seo_advanced}_translations`) ) {
         await api.post('/collections', collectionSeoAdvancedTrans)
@@ -367,6 +389,19 @@ const createMultiLanguage = async() => {
     
     loading.value = false
     goToNext()
+}
+
+async function createFields(collection, fields) {
+    await fieldsStore.hydrate()
+
+    fields = fields?.filter((field) => !field?.schema?.is_primary_key)
+
+    for await (const field of fields) {
+        const existing = fieldsStore.getField(collection, field.field)
+        if( !existing ) {
+            await api.post(`fields/${collection}`, field)
+        }
+    }
 }
 
 async function createDefaultLanguage() {
