@@ -334,7 +334,7 @@ async function setup() {
     
     for await (const relation of relationsSeoDetails) {
         const existing = relationsStore.getRelationForField(relation.collection, relation.field)
-        console.log('relation', relation)
+        console.log('relation relationsSeoDetails', relation, existing)
         if( ! existing ) {
             await api.post('/relations', relation)
         }
@@ -379,6 +379,7 @@ const createMultiLanguage = async() => {
 
     for await (const relation of relationSeoAdvancedTranslation) {
         const existing = relationsStore.getRelationForField(relation.collection, relation.field)
+        console.log('relation relationSeoAdvancedTranslation', relation, existing)
         if( !existing ) {
             await api.post('/relations', relation)
         }
