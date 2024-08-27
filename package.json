@@ -1,7 +1,7 @@
 {
   "name": "directus-extension-seo",
   "author": "CodiHaus",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "type": "module",
   "directus:extension": {
     "host": "^10.1.9",
@@ -108,7 +108,7 @@
     "tsx": "^3.12.10",
     "typescript": "^5.2.2",
     "unocss": "^0.55.7",
-    "vite": "^4.4.9",
+    "vite": "^5.4.2",
     "vite-plugin-css-injected-by-js": "^3.3.0",
     "vite-plugin-replace": "^0.1.1",
     "vue": "^3.3.4",
