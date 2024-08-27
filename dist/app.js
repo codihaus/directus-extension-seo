@@ -18551,7 +18551,7 @@ const au = () => {
   i(t), e.afterEach((a, o, l) => {
     i(a);
   });
-}, Oze = "directus-extension-seo", Ize = "CodiHaus", Bze = "1.5.4", Lze = "module", Pze = "Directus SEO Extension enhance Directus with powerful SEO scoring and validator and AI SEO from ChatGPT", jze = {
+}, Oze = "directus-extension-seo", Ize = "CodiHaus", Bze = "1.5.5", Lze = "module", Pze = "Directus SEO Extension enhance Directus with powerful SEO scoring and validator and AI SEO from ChatGPT", jze = {
   type: "git",
   url: "git+https://github.com/codihaus/directus-extension-seo"
 }, Nze = "extension", zze = [
@@ -18752,7 +18752,7 @@ function ys(e = "", t = "", i = !0, a = {}) {
       return p.value === !0 ? ee = await k.post(T, { ...fe, ...C }) : (ee = await k.patch(`${T}/${t}`, { ...fe, ...C }), p.value = !1), l.add({
         type: "success",
         title: "Saved Successfully!"
-      }), (O = (E = ee == null ? void 0 : ee.data) == null ? void 0 : E.data) != null && O.value ? d.value = (V = (j = ee == null ? void 0 : ee.data) == null ? void 0 : j.data) == null ? void 0 : V.value : (ie = ee == null ? void 0 : ee.data) != null && ie.data && (d.value = (H = ee == null ? void 0 : ee.data) == null ? void 0 : H.data), ee.data.data;
+      }), (O = (E = ee == null ? void 0 : ee.data) == null ? void 0 : E.data) != null && O.value ? d.value = (V = (j = ee == null ? void 0 : ee.data) == null ? void 0 : j.data) == null ? void 0 : V.value : (ie = ee == null ? void 0 : ee.data) != null && ie.data && (d.value = (H = ee == null ? void 0 : ee.data) == null ? void 0 : H.data), p.value = !1, ee.data.data;
     } catch (ee) {
       console.log(ee), l.add({
         type: "error",
