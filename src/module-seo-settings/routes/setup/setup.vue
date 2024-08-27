@@ -334,6 +334,7 @@ async function setup() {
     
     for await (const relation of relationsSeoDetails) {
         let existing = relationsStore.getRelationForField(relation.collection, relation.field)
+        console.log('relation', relation)
         if( ! existing ) {
             await api.post('/relations', relation)
         }
