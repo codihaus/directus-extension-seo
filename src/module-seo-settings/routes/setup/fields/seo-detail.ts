@@ -158,14 +158,6 @@ export const collectionSeoDetails = {
             },
         },
         {
-            field: "image_share",
-            type: "string",
-            schema: {},
-            meta: {
-                interface: "input",
-            },
-        },
-        {
             field: "facebook_image",
             type: "uuid",
             schema: {},
@@ -195,17 +187,6 @@ export const collectionSeoDetails = {
 };
 
 export const relationsSeoDetails = [
-    {
-        collection: COLLECTION.seo_detail,
-        field: "image_share",
-        related_collection: "directus_files",
-        meta: {
-            sort_field: null,
-        },
-        schema: {
-            on_delete: "SET NULL",
-        },
-    },
     {
         collection: COLLECTION.seo_detail,
         field: "facebook_image",
