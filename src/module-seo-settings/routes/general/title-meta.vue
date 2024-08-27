@@ -217,8 +217,8 @@ async function onSelectCollection(enabled: boolean, collection:any, save_to_tran
     getItems()
 }
 
-async function onChangeCustomSetting(enabled: boolean, collection:string) {
-    await save(collection, enabled)
+async function onChangeCustomSetting(enabled: boolean, collection) {
+    await save(collection?.collection, enabled)
 }
 
 async function save(collection:string, enabled: boolean = true, is_static: boolean = true) {
