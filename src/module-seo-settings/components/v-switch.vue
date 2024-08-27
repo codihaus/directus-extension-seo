@@ -121,7 +121,7 @@ body {
 		border-color: var(--v-button-background-color, var(--theme--primary));
 
 		&::after {
-			background-color: var(--background-page);
+			background-color: #fff;
 			transform: translateX(20px);
 		}
 	}

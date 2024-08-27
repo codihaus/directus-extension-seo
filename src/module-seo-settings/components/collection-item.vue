@@ -1,25 +1,25 @@
 <template>
-<div class="flex flex-col rounded-t rounded-b border-px border-solid border-slate-300">
+<div class="seo-collection-item flex flex-col rounded-t rounded-b border-px border-solid">
     <div class="flex gap-5 px-5 py-6">
         <div class="icon self-center">
             <v-icon large :name="item?.icon || 'label'" />
         </div>
-        <div class="text-slate-900">
-            <div class="text-md font-semibold text-slate-900">
+        <div class="collection-content">
+            <div class="text-md font-semibold">
                 {{ item?.name || formatTitle(item?.collection) }}
             </div>
-            <div class="text-sm text-slate-500 mt-1 line-clamp-1" :title="item?.meta?.note || '...'">
+            <div class="text-sm mt-1 line-clamp-1" :title="item?.meta?.note || '...'">
                 {{ item?.meta?.note || '...' }}
             </div>
-            <div class="text-xs text-slate-500 mt-1">
+            <div class="text-xs mt-1">
                 Collection: {{ item?.collection }}
             </div>
-            <div v-if="item?.translation_collection" class="text-xs text-slate-500 mt-1">
+            <div v-if="item?.translation_collection" class="text-xs mt-1">
                 Translation: {{ item?.translation_collection }}
             </div>
         </div>
     </div>
-    <div class="flex gap-5 px-5 py-4 justify-between bg-slate-100 rounded-b mt-auto">
+    <div class="flex gap-5 px-5 py-4 justify-between action rounded-b mt-auto">
         <v-switch
             :model-value="modelValue"
             @update:model-value="updateValue($event, item?.collection)"
@@ -113,5 +113,12 @@ function enabledCollection(is_translation: boolean = true) {
             border-color: #94A3B8!important
         }
     }
+}
+.seo-collection-item {
+    color: var(--theme--foreground-accent, var(--foreground-normal));
+    border-color: var(--theme--border-color-accent, var(--border-normal))
+}
+.action {
+    background: var(--theme--background-normal, var(--background-normal))
 }
 </style>

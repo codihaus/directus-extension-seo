@@ -2,7 +2,7 @@
 <private-view smallHeader title="Setup">
     <template #navigation>
         <ol class="list-step list-none p-3 overflow-hidden space-y-8">
-            <li v-for="(step, id, index) in steps" :key="id" :value="id" class="active" >
+            <li v-for="(step, id, index) in steps" :key="id" :value="id" :class="{'active': currentStep.includes(id)}" >
                 <!-- @click="currentStep = [id]" -->
                 <div class="flex items-center font-medium w-full  ">
                     <span :class="currentStep.includes(id) ? 'bg-primary text-white border-transparent' : 'bg-[var(--background-normal-alt)] text-primary'" class="w-8 h-8 border-2 rounded-full flex justify-center items-center mr-3 text-sm lg:w-10 lg:h-10">
@@ -494,7 +494,7 @@ function getLanguageDetails(locale) {
 .list-step {
     li {
         @apply relative flex-1;
-        &:before {
+        &:not(:last-child):before {
             content: '';
             @apply bg-gray-300;
             @apply w-0.5 h-full -bottom-11 left-4;
