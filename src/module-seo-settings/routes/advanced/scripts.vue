@@ -1,8 +1,8 @@
 <template>
-    <private-view smallHeader title="Site basics">
+    <private-view smallHeader title="Scripts">
         <template #title>
             <div>
-                <h1 class="font-semibold text-lg text-slate-900">{{ 'Site basics' }}</h1>
+                <h1 class="font-semibold text-lg text-slate-900">{{ 'Scripts' }}</h1>
                 <div class="text-sm"></div>
             </div>
         </template>

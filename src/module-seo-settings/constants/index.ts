@@ -2,7 +2,7 @@ export const navigatorItems = [
     {
         icon: 'public',
         name: "General",
-        to: `/seo-settings`,
+        to: `/seo-settings/title-meta`,
         childrens: [
             {
                 icon: 'public',
@@ -25,7 +25,7 @@ export const navigatorItems = [
     {
         icon: 'manage_accounts',
         name: "Advanced",
-        to: `/seo-settings/advanced`,
+        to: `/seo-settings/advanced/scripts`,
         childrens: [
             {
                 icon: 'public',
@@ -46,5 +46,10 @@ export const navigatorItems = [
         name: "Redirection",
         to: `/seo-settings/redirection`,
         hidden: true
+    },
+    {
+        icon: 'construction',
+        name: "Setup wizard",
+        to: `/seo-settings/setup`,
     }
 ]

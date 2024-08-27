@@ -16,24 +16,6 @@
                     </div>
                 </div>
             </li>
-            <!-- <li>
-                <div class="flex items-center font-medium w-full">
-                    <span class=" w-8 h-8 border-2 border-primary rounded-full flex justify-center items-center mr-3 text-sm text-primary lg:w-10 lg:h-10">2</span>
-                    <div class="block">
-                        <h4 class="text-lg text-primary">Step 2</h4>
-                        <span class="text-sm">Billing Information</span>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="flex items-center font-medium w-full  ">
-                    <span class="w-8 h-8 bg-gray-50 border-2 border-gray-200 rounded-full flex justify-center items-center mr-3 text-sm  lg:w-10 lg:h-10">3</span>
-                    <div class="block">
-                        <h4 class="text-lg text-gray-900">Step 3</h4>
-                        <span class="text-sm">Summary</span>
-                    </div>
-                </div>
-            </li> -->
         </ol>
         <!-- <v-tabs v-model="currentStep" vertical>
             <v-tab v-for="(step, id) in steps" :key="id" :value="id"><v-icon :name="currentStep.includes(id) ? `radio_button_checked` : `radio_button_unchecked`" />{{ step.label }}</v-tab>
@@ -61,14 +43,14 @@
                 </v-notice>
                 <div class="field mb-10">
                     <div class="field-label type-label mb-2">Do you want SEO module support multi-language?</div>
-                    <v-radio v-model="useLanguage" :value="0" label="No" />
-                    <v-radio v-model="useLanguage" :value="1" label="Let SEO module create a new one" />
+                    <v-radio v-model="useLanguage" :value="1" label="Let SEO module create a new one name: languages" />
                     <v-radio v-model="useLanguage" :value="2" label="Choose from existing collection" />
                 </div>
                 <v-form v-if="useLanguage === 2" v-model="languageCollection" :fields="languageFields"></v-form>
+                <v-form v-model="languageCollection" :fields="defaultLanguageFields" class="mt-6"></v-form>
                 <div class="flex items-center justify-between gap-3">
 
-                    <v-button class="mt-5" :disabled="loading" :loading="loading" @click="goToPrevious">
+                    <v-button class="mt-5" :disabled="loading" @click="goToPrevious">
                         {{ 'Back' }}
                         <template #loading>
                             <div class="flex gap-2 items-center">
@@ -120,26 +102,35 @@ import {
     getRelationSeoAdvancedTranslation,
 collectionSeoAdvancedTrans,
 } from './fields'
-import { COLLECTION } from '../../../shared/constants';
+import { __EXTENSION_VERSION__, COLLECTION } from '../../../shared/constants';
+import { lt as ltVersion } from 'semver'
 
 const api = useApi()
-const { useCollectionsStore, useFieldsStore } = useStores();
+const { useCollectionsStore, useFieldsStore, useRelationsStore } = useStores();
 const collectionsStore = useCollectionsStore();
 const fieldsStore = useFieldsStore()
+const relationsStore = useRelationsStore()
 
 const { t } = useI18n()
 const router = useRouter()
 
 const loading = ref(false)
 // const currentStep = ref()
-const currentStepTitle = ref('Welcome to SEO Settings')
+const currentStepTitle = ref('Welcome to Directus Extension SEO')
 const currentStepText = ref('Click to button bellow to start')
 const buttonText = ref('Start now')
-const useLanguage = ref(0)
+const useLanguage = ref(1)
 const languageCollection = ref<{
     collection?: string,
     field?: string
-}>({})
+    direction?: string
+    default_language?: string
+}>({
+    collection: 'languages',
+    field: 'code',
+    direction: 'direction',
+    default_language: 'en-US'
+})
 const {
     steps,
     stepNames,
@@ -161,13 +152,13 @@ const {
 } = useStepper({
     createCollection: {
         label: 'Start',
-        title: 'Welcome to SEO Settings',
+        title: 'Welcome to Directus Extension SEO',
         description: 'Click to button bellow to start'
     },
     language: {
         label: 'Languages',
         title: 'Languages Support',
-        description: 'If you want SEO module support multi-language, choose an existing language collection or let SEO module create a new one for you.'
+        description: 'SEO module supports multi-language by default, choose an existing language collection or let SEO module create a new one for you. If you don\'t need more than one language, just choose a language as default'
     },
     completed: {
         label: 'Complete',
@@ -184,6 +175,21 @@ const currentStep = computed({
         goTo(val?.[0])
     }
 })
+
+const defaultLanguageFields = ref([
+    {
+        field: 'default_language',
+        name: 'Choose a default language',
+        type: 'string',
+        meta: {
+            interface: 'system-language',
+            width: 'half',
+            options: {
+            },
+        },
+    },
+
+])
 
 const languageFields = ref([
     {
@@ -213,6 +219,20 @@ const languageFields = ref([
             width: 'half',
         },
     },
+    {
+        field: 'direction',
+        type: 'string',
+        name: 'Choose direction field:',
+        meta: {
+            interface: 'system-field',
+            options: {
+                collectionField: 'collection',
+                allowPrimaryKey: true,
+                allowNone: true,
+            },
+            width: 'half',
+        },
+    },
 ])
 
 onMounted(() => {
@@ -221,6 +241,46 @@ onMounted(() => {
         buttonText.value = 'Next step'
     }
 })
+
+async function updateSEOAdvancedField() {
+    if( ! fieldsStore.getField(COLLECTION.seo_advanced, 'is_custom') ) {
+        return
+    }
+    await api.get(`/items/${COLLECTION.seo_advanced}`, {
+        params: {
+            filter: {
+                is_custom: {
+                    _eq: true
+                }
+            },
+            limit: -1,
+            fields: ['collection']
+        }
+    }).then(async (response) => {
+        let keys = response?.data?.data?.map((key) => key.collection)
+        if( keys ) {
+            await api.patch(`/items/${COLLECTION.seo_advanced}`, {
+                keys,
+                data: {
+                    is_static: true
+                }
+            })
+        }
+
+        if (fieldsStore.getField(COLLECTION.seo_advanced, 'is_custom')) {
+            await fieldsStore.deleteField(COLLECTION.seo_advanced, 'is_custom')
+        }
+    })
+}
+
+async function updateDB() {
+    await api.get(`/items/${COLLECTION.seo_setting}/setup`).then(async (response) => {
+        let setup = response?.data?.data?.value
+        if( setup?.currentVersion && ltVersion(setup?.currentVersion, '1.5.3') ) {
+            await updateSEOAdvancedField()
+        }
+    })
+}
 
 async function setup() {
     loading.value = true
@@ -264,9 +324,7 @@ async function setup() {
         }
     }
 
-    if (fieldsStore.getField(COLLECTION.seo_advanced, 'is_custom')) {
-        await fieldsStore.deleteField(COLLECTION.seo_advanced, 'is_custom')
-    }
+    await updateDB()
 
     loading.value = false
     goToNext()
@@ -279,11 +337,11 @@ const createMultiLanguage = async() => {
     await collectionsStore.hydrate()
 
     if( ! isCollectionExist(COLLECTION.seo_advanced) ) {
-        await api.post('/collections', getCollectionSeoAdvanced(useLanguage.value > 0))
+        await api.post('/collections', getCollectionSeoAdvanced(languageCollection.value.default_language, languageCollection.value.direction, languageCollection.value.field))
         await collectionsStore.hydrate()
     }
 
-    if( ! isCollectionExist(`${COLLECTION.seo_advanced}_translations`) && useLanguage.value > 0 ) {
+    if( ! isCollectionExist(`${COLLECTION.seo_advanced}_translations`) ) {
         await api.post('/collections', collectionSeoAdvancedTrans)
         await collectionsStore.hydrate()
     }
@@ -294,42 +352,105 @@ const createMultiLanguage = async() => {
         await collectionsStore.hydrate()
     }
 
-    if( useLanguage.value > 0 ) {
-        const relationSeoAdvancedTranslation = getRelationSeoAdvancedTranslation(languageCollection.value.collection || 'languages', languageCollection.value.field || 'code')
+    const relationSeoAdvancedTranslation = getRelationSeoAdvancedTranslation(languageCollection.value.collection || 'languages', languageCollection.value.field || 'code')
 
-        for await (const relation of relationSeoAdvancedTranslation) {
+    for await (const relation of relationSeoAdvancedTranslation) {
+        let existing = relationsStore.getRelationForField(relation.collection, relation.field)
+        if( !existing ) {
             await api.post('/relations', relation)
         }
     }
+
+    await createDefaultLanguage()
+    
+    await saveSetup()
     
     loading.value = false
     goToNext()
 }
 
-const complete = async() => {
-    // const generalData = {
-    //     key: 'general',
-    //     value: {}
-    // }
-    loading.value = true
+async function createDefaultLanguage() {
+    const language = getLanguageDetails(languageCollection.value.default_language)
     try {
-        await api.post(`/items/${COLLECTION.seo_setting}`, {key: 'setup', value: {
-            enabled: true,
-            currentVersion: '%%version%%'
-        }})
-    } catch {
-        await api.patch(`/items/${COLLECTION.seo_setting}/setup`, { value: {
-            enabled: true,
-            currentVersion: '%%version%%'
-        }})
-    }
-    loading.value = false
-    router.push('/seo-settings/title-meta')
-    // await api.post(`/items/${COLLECTION.seo_setting}`, generalData)
 
+        await api.post(`/items/${languageCollection.value.collection}`, {
+            [languageCollection.value.field]: languageCollection.value.default_language,
+            name: language.name,
+            default: true,
+            [languageCollection.value.direction]: language.direction
+        })
+    } catch {
+        
+        await api.patch(`/items/${languageCollection.value.collection}/${languageCollection.value.default_language}`, {
+            default: true,
+        })
+    }
+
+    await api.get(`/items/${languageCollection.value.collection}`, {
+        params: {
+            filter: {
+                [languageCollection.value.field]: {
+                    _neq: languageCollection.value.default_language
+                }
+            },
+            limit: -1,
+            fields: [languageCollection.value.field]
+        }
+    }).then(async (response) => {
+        let keys = response?.data?.data?.map((key) => key[languageCollection.value.field])
+        if( keys ) {
+            await api.patch(`/items/${languageCollection.value.collection}`, {
+                keys,
+                data: {
+                    default: false
+                }
+            })
+        }
+    })
+}
+
+async function saveSetup() {
+    try {
+        await api.post(`/items/${COLLECTION.seo_setting}`, {
+            key: 'setup',
+            value: {
+                enabled: true,
+                currentVersion: __EXTENSION_VERSION__
+            }
+        })
+    } catch {
+        await api.patch(`/items/${COLLECTION.seo_setting}/setup`, {
+            value: {
+                enabled: true,
+                currentVersion: __EXTENSION_VERSION__
+            }
+        })
+    }
+}
+
+async function complete() {
+    router.push('/seo-settings/title-meta')
 }
 
 const isCollectionExist = (collection: string) => collectionsStore.getCollection(collection)
+
+function getLanguageName(locale) {
+    // Create a new Intl.DisplayNames object with the type 'language'
+    const displayNames = new Intl.DisplayNames(['en'], { type: 'language' });
+
+    // Extract the language code from the locale and get the language name
+    return displayNames.of(locale.split('-')[0]);
+}
+
+function getLanguageDetails(locale) {
+    const displayNames = new Intl.DisplayNames(['en'], { type: 'language' });
+    const localeObj = new Intl.Locale(locale);
+    
+    return {
+        name: displayNames.of(localeObj.language),
+        direction: localeObj.textInfo.direction
+    };
+}
 </script>
 
 <style lang="scss" scoped>

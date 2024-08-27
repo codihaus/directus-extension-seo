@@ -63,6 +63,7 @@ export default defineConfig(({command, mode}) => {
         ],
         define: {
             "process.env.NODE_ENV": `"${process.env.NODE_ENV}"`,
+            __EXTENSION_VERSION__: packageInfo.version
         },
     }
 })

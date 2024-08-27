@@ -6,7 +6,7 @@
                 :class="{'hidden': item?.hidden }"
             >
                 <template #activator>
-                    <div class="flex items-center text-slate-700 mr-auto">
+                    <div class="flex items-center text-slate-700 mr-auto" @click="router.push(item?.to)">
                         <v-list-item-icon>
                             <v-icon :name="item.icon" />
                         </v-list-item-icon>
@@ -29,16 +29,17 @@
                 </v-list-item>
             </v-list-group>
         </v-list>
-        <div class="text-xs mt-auto py-1 px-3">Directus SEO Extensions v%%version%%</div>
+        <div class="text-xs mt-auto py-1 px-3">Directus SEO Extensions {{__EXTENSION_VERSION__}}</div>
     </div>
 </template>
 
 <script setup lang="ts">
 import { computed, PropType, ref, toRefs } from 'vue';
 import { useI18n } from 'vue-i18n';
-import { useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import type { NavigatorItem } from './types'
 import { navigatorItems } from '../../constants'
+import { __EXTENSION_VERSION__ } from '../../../shared/constants';
 
 const props = defineProps({
     // items: {
@@ -52,9 +53,11 @@ const props = defineProps({
 })
 
 const route = useRoute()
+const router = useRouter()
 
 const openDetail = ref<string[]>([]);
 const items = ref(navigatorItems)
+
 </script>
 <style lang="scss" scoped>
 .private-view #navigation .module-nav-content {

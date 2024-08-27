@@ -89,7 +89,7 @@ body {
 		width: 44px;
 		height: 24px;
 		vertical-align: middle;
-		border: var(--border-width) solid var(--border-normal);
+		border: var(--border-width, var(--theme--border-width)) solid var(--v-button-background-color, var(--theme--primary));
 		border-radius: 12px;
 		transition: var(--fast) var(--transition);
 		transition-property: background-color border;
@@ -117,8 +117,8 @@ body {
 	}
 
 	&[aria-pressed='true'] .switch {
-		background-color: var(--v-button-background-color);
-		border-color: var(--v-button-background-color);
+		background-color: var(--v-button-background-color, var(--theme--primary));
+		border-color: var(--v-button-background-color, var(--theme--primary));
 
 		&::after {
 			background-color: var(--background-page);

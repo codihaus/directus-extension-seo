@@ -131,10 +131,10 @@ export const getRelationSeoAdvancedTranslation = (
     getSeoDetailRelation(seoAdvancedTranslationCollectionName),
 ];
 
-export const getCollectionSeoAdvanced = (language: boolean = false) => {
+export const getCollectionSeoAdvanced = (defaultLanguage, languageDirectionField, languageField) => {
     // const field = getSeoDetailsField(COLLECTION.seo_advanced, {
     //     isSEOAdvanced: true,
     // });
-    collectionSeoAdvanced.fields.push(translationsField);
+    collectionSeoAdvanced.fields.push(translationsField(defaultLanguage, languageDirectionField, languageField));
     return collectionSeoAdvanced;
 };

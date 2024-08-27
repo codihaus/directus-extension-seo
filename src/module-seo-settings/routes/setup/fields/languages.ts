@@ -60,12 +60,17 @@ export const collectionLanguages = {
     ],
 };
 
-export const translationsField: Field = {
+export const translationsField: Field = (defaultLanguage = 'en-US', languageDirectionField = 'direction', languageField = 'code') => ({
     field: "translations",
     type: "alias",
     meta: {
         interface: "translations",
         special: ["translations"],
+        options: {
+            defaultLanguage,
+            languageDirectionField,
+            languageField
+        }
     },
     schema: null,
-};
+});
