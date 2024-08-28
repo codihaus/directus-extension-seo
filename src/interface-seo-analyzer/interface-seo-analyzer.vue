@@ -173,15 +173,15 @@ onMounted(() => {
 	// rootValues.value = parentComponent?.provides?.values?.value
 	// parent.value = parentComponent
 
-	watch(
-		() => getCurrentInstance()?.parent?.parent?.parent?.parent?.parent?.provides?.values,
-		(value) => {
-			console.log('instance change', value)
-		},
-		{
-			immediate: true
-		}
-	)
+	// watch(
+	// 	() => getCurrentInstance()?.parent?.parent?.parent?.parent?.parent?.provides?.values,
+	// 	(value) => {
+	// 		console.log('instance change', value)
+	// 	},
+	// 	{
+	// 		immediate: true
+	// 	}
+	// )
 
 	// console.log('parent values', rootValues)
 	// console.log('instance', instance?.parent?.type?.__name, instance?.parent)

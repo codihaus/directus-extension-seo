@@ -250,7 +250,7 @@ const saveAdvancedData = async() => {
                 item.value = response?.data?.data
             }
             console.log('settings.value', settings.value)
-            // settings.value = {}
+            settings.value = {}
             notify.add({
                 title: 'Saved!'
             })

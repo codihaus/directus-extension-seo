@@ -612,7 +612,11 @@ function useItem() {
 	watch(
 		() => props.primaryKey,
 		(isActive) => {
-			if (props.primaryKey !== '+') fetchItem();
+			if (props.primaryKey !== '+') {
+				fetchItem();
+			} else {
+				initialValues.value = {}
+			}
 		},
 		{ immediate: true },
 	);
