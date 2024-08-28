@@ -1,6 +1,48 @@
 # Changelog
 
 
+## v1.5.11
+
+[compare changes](https://github.com/codihaus/directus-extension-seo/compare/v1.5.0...v1.5.11)
+
+### 🩹 Fixes
+
+- Detail save ([1ffb6a0](https://github.com/codihaus/directus-extension-seo/commit/1ffb6a0))
+- Active translation collection ([eea1ff1](https://github.com/codihaus/directus-extension-seo/commit/eea1ff1))
+- **analyzer:** Save keywords ([f199d8f](https://github.com/codihaus/directus-extension-seo/commit/f199d8f))
+- Toggle seo detail interface ([cbf6591](https://github.com/codihaus/directus-extension-seo/commit/cbf6591))
+- Setup wizard ([ea3a0a0](https://github.com/codihaus/directus-extension-seo/commit/ea3a0a0))
+- Setup wizard ([ce1c52e](https://github.com/codihaus/directus-extension-seo/commit/ce1c52e))
+- Save setting error ([60bb2e9](https://github.com/codihaus/directus-extension-seo/commit/60bb2e9))
+- Map field initial values ([8b84e7b](https://github.com/codihaus/directus-extension-seo/commit/8b84e7b))
+- Setup wizard ([5ee5941](https://github.com/codihaus/directus-extension-seo/commit/5ee5941))
+- Active collection ([194dd96](https://github.com/codihaus/directus-extension-seo/commit/194dd96))
+- Log relation ([9bb3853](https://github.com/codihaus/directus-extension-seo/commit/9bb3853))
+- Log relation ([f056b11](https://github.com/codihaus/directus-extension-seo/commit/f056b11))
+- Add log ([6a8fd90](https://github.com/codihaus/directus-extension-seo/commit/6a8fd90))
+- Remove image_share field ([d3010ac](https://github.com/codihaus/directus-extension-seo/commit/d3010ac))
+- Active collection ([9fa7df2](https://github.com/codihaus/directus-extension-seo/commit/9fa7df2))
+- Styling ([c4d3053](https://github.com/codihaus/directus-extension-seo/commit/c4d3053))
+- Save seo_detail ([765109b](https://github.com/codihaus/directus-extension-seo/commit/765109b))
+
+### 🏡 Chore
+
+- New release 1.5.0 ([2f73af9](https://github.com/codihaus/directus-extension-seo/commit/2f73af9))
+- Bump 1.5.1 ([d48b4c1](https://github.com/codihaus/directus-extension-seo/commit/d48b4c1))
+- Bump 1.5.2 ([d56a9b6](https://github.com/codihaus/directus-extension-seo/commit/d56a9b6))
+- 1.5.3 ([d17736c](https://github.com/codihaus/directus-extension-seo/commit/d17736c))
+- Bump 1/5/4 ([3b2af58](https://github.com/codihaus/directus-extension-seo/commit/3b2af58))
+- Bump 1.5.5 ([9c2d5b6](https://github.com/codihaus/directus-extension-seo/commit/9c2d5b6))
+- Bump 1.5.6 ([a615eb3](https://github.com/codihaus/directus-extension-seo/commit/a615eb3))
+- Bump 1.5.7 ([47716f2](https://github.com/codihaus/directus-extension-seo/commit/47716f2))
+- Bump 1.5.8 ([b814fe8](https://github.com/codihaus/directus-extension-seo/commit/b814fe8))
+- Bump 1.5.9 ([23ff580](https://github.com/codihaus/directus-extension-seo/commit/23ff580))
+- Bump 1.5.10 ([c3bb45c](https://github.com/codihaus/directus-extension-seo/commit/c3bb45c))
+
+### ❤️ Contributors
+
+- CodiHaus <contact@codihaus.com>
+
 ## v1.5.10
 
 [compare changes](https://github.com/codihaus/directus-extension-seo/compare/v1.5.0...v1.5.10)
